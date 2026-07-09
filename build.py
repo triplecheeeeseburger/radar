@@ -36,7 +36,9 @@ section:last-child { border-bottom: none; }
 .masthead { padding-top: 140px; }
 .hero-name { font-family: var(--serif); font-size: clamp(34px, 4.6vw, 52px); font-weight: 700; line-height: 1.05; letter-spacing: -0.025em; margin-bottom: 10px; animation: fadeUp 0.6s ease both; }
 .hero-title { font-family: var(--serif); font-style: italic; font-size: 15px; color: var(--gray); line-height: 1.6; max-width: 640px; animation: fadeUp 0.6s 0.09s ease both; }
-.week-label { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); margin-top: 26px; animation: fadeUp 0.6s 0.15s ease both; }
+.week-label { font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--black); animation: fadeUp 0.6s ease both; }
+.tldr-label { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); margin-top: 40px; animation: fadeUp 0.6s 0.09s ease both; }
+.tldr { font-family: var(--serif); font-size: 14.5px; line-height: 1.85; color: #2d2d2d; max-width: 720px; margin-top: 14px; animation: fadeUp 0.6s 0.15s ease both; }
 .item-list { display: flex; flex-direction: column; }
 .entry { display: grid; grid-template-columns: 34px 1fr auto; align-items: baseline; gap: 18px; padding: 17px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; transition: opacity 0.16s; }
 .entry:first-child { border-top: 1px solid var(--rule); }
@@ -142,10 +144,11 @@ def render_week_body(week_iso, entries, all_by_id, is_current):
     entries = sorted(entries, key=lambda e: (e.get("score") is None, -(e.get("score") or 0)))
     rows = "\n".join(render_entry(e, i + 1, all_by_id) for i, e in enumerate(entries))
     label = "This Week" if is_current else "Archived Week"
+    tldr = DATA.get("weeks", {}).get(week_iso, {}).get("tldr", "")
+    tldr_html = (f'\n  <p class="tldr-label">Executive summary</p>'
+                 f'\n  <p class="tldr">{esc(tldr)}</p>') if tldr else ""
     return f"""<section class="masthead">
-  <h1 class="hero-name">{esc(SITE['title'])}</h1>
-  <p class="hero-title">{esc(SITE['subtitle'])}</p>
-  <p class="week-label">{esc(label)} — {esc(fmt_week(week_iso))} · {len(entries)} signals</p>
+  <p class="week-label">{esc(label)} — {esc(fmt_week(week_iso))} · {len(entries)} signals</p>{tldr_html}
 </section>
 <section>
   <p class="section-label">Ranked by weight — score reflects relevance, novelty and likely impact</p>
