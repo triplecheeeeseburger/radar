@@ -8,7 +8,7 @@
   },
   "weeks": {
     "2026-07-10": {
-      "tldr": "The agent platform war moved into the browser this week. Apple put an MCP server inside Safari, Opera cut the token cost of driving a page by two-thirds, and startup Aside published benchmarks claiming its browser agent beats Fable — while Olivia Moore argued the category still needs a 100x feature now that general-purpose agents can drive any browser. Underneath it all, Cloudflare started building the payment rail for that future: machine-payable pages, APIs and MCP tools settled in stablecoins over x402. Anthropic extended Fable 5 access through July 12 under visible community pressure — complete with a grief counter at dayswithoutfable.com. Two smaller signals: devtool onboarding is collapsing into a single agent prompt, and the viral 'it was memory' Cognee post is paid promotion with unverified numbers — share it with that caveat."
+      "tldr": "The agent platform war moved into the browser this week. Apple put an MCP server inside Safari, Opera cut the token cost of driving a page by two-thirds, and startup Aside published benchmarks claiming its browser agent beats Fable — while Olivia Moore argued the category still needs a 100x feature now that general-purpose agents can drive any browser. Underneath it all, Cloudflare started building the payment rail for that future: machine-payable pages, APIs and MCP tools settled in stablecoins over x402. Anthropic extended Fable 5 access through July 12 under visible community pressure — complete with a grief counter at dayswithoutfable.com — and then reset everyone's 5-hour and weekly rate limits, a capacity goodwill gesture in a week defined by session-limit anxiety. Two smaller signals: devtool onboarding is collapsing into a single agent prompt, and the viral 'it was memory' Cognee post is paid promotion with unverified numbers — share it with that caveat."
     }
   },
   "entries": [
@@ -101,6 +101,21 @@
       "status": "curated",
       "blurb": "Why it matters: 21.5M views and 5.7K replies on a one-line access notice — demand for the Mythos-class tier is visibly outstripping Anthropic's willingness to serve it permanently. Watch what happens July 12; the community reaction (see the counter site below) is its own signal.",
       "related": ["days-without-fable"]
+    },
+    {
+      "id": "claude-rate-limit-reset",
+      "url": "https://x.com/ClaudeDevs/status/2075279141352706215",
+      "title": "Anthropic resets 5-hour and weekly rate limits for all users",
+      "author": "@ClaudeDevs",
+      "source": "X",
+      "added": "2026-07-09",
+      "posted": "2026-07-09",
+      "week": "2026-07-10",
+      "topics": ["ai", "frontier models"],
+      "score": 6.4,
+      "status": "curated",
+      "blurb": "Why it matters: rate limits are the scarce resource of the Fable frenzy — a global reset days before the July 12 access deadline reads as both goodwill and a capacity signal. Session-limit anxiety is real enough that vendors now treat limit resets as announcements (2.1M views) and token efficiency as a product feature (see Opera below).",
+      "related": ["fable-access-extended", "opera-compact-snapshots"]
     },
     {
       "id": "teddarific-agent-dx",
