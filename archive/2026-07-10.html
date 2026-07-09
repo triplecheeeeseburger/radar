@@ -29,7 +29,9 @@ section:last-child { border-bottom: none; }
 .masthead { padding-top: 140px; }
 .hero-name { font-family: var(--serif); font-size: clamp(34px, 4.6vw, 52px); font-weight: 700; line-height: 1.05; letter-spacing: -0.025em; margin-bottom: 10px; animation: fadeUp 0.6s ease both; }
 .hero-title { font-family: var(--serif); font-style: italic; font-size: 15px; color: var(--gray); line-height: 1.6; max-width: 640px; animation: fadeUp 0.6s 0.09s ease both; }
-.week-label { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); margin-top: 26px; animation: fadeUp 0.6s 0.15s ease both; }
+.week-label { font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--black); animation: fadeUp 0.6s ease both; }
+.tldr-label { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); margin-top: 40px; animation: fadeUp 0.6s 0.09s ease both; }
+.tldr { font-family: var(--serif); font-size: 14.5px; line-height: 1.85; color: #2d2d2d; max-width: 720px; margin-top: 14px; animation: fadeUp 0.6s 0.15s ease both; }
 .item-list { display: flex; flex-direction: column; }
 .entry { display: grid; grid-template-columns: 34px 1fr auto; align-items: baseline; gap: 18px; padding: 17px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; transition: opacity 0.16s; }
 .entry:first-child { border-top: 1px solid var(--rule); }
@@ -73,9 +75,9 @@ footer a { color: inherit; }
 </nav>
 <main>
 <section class="masthead">
-  <h1 class="hero-name">Dan&#x27;s Radar</h1>
-  <p class="hero-title">A weekly signal feed on innovation, AI, frontier models, web dev, browsers, cybersecurity and agentic workflows — curated by Dan Berte.</p>
   <p class="week-label">This Week — Week ending July 10, 2026 · 10 signals</p>
+  <p class="tldr-label">Executive summary</p>
+  <p class="tldr">The agent platform war moved into the browser this week. Apple put an MCP server inside Safari, Opera cut the token cost of driving a page by two-thirds, and startup Aside published benchmarks claiming its browser agent beats Fable — while Olivia Moore argued the category still needs a 100x feature now that general-purpose agents can drive any browser. Underneath it all, Cloudflare started building the payment rail for that future: machine-payable pages, APIs and MCP tools settled in stablecoins over x402. Anthropic extended Fable 5 access through July 12 under visible community pressure — complete with a grief counter at dayswithoutfable.com. Two smaller signals: devtool onboarding is collapsing into a single agent prompt, and the viral &#x27;it was memory&#x27; Cognee post is paid promotion with unverified numbers — share it with that caveat.</p>
 </section>
 <section>
   <p class="section-label">Ranked by weight — score reflects relevance, novelty and likely impact</p>
@@ -83,9 +85,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://x.com/Cloudflare/status/2072311802285723953" target="_blank" rel="noopener">
   <span class="rank">01</span>
   <span>
-    <span class="entry-title">Cloudflare opens the Monetization Gateway waitlist: charge for any page, dataset, API or MCP tool, settled in stablecoins over x402</span>
+    <span class="entry-title">Cloudflare: machine payments for any page, API or MCP tool, in stablecoins via x402</span>
     <span class="entry-blurb">Why it matters: this is plumbing for an agent-native web economy — machine-payable pages and tools at CDN scale. If agents become the primary consumers of APIs and content, per-request stablecoin settlement could replace both ads and API-key billing. 5.9M views and climbing.</span>
-    <span class="entry-topics"><span class="topic-pill">agentic workflows</span><span class="topic-pill">web</span><span class="topic-pill">innovation</span></span><span class="related-note">↔ overlaps: The new devtool onboarding funnel is two steps: get an API k</span>
+    <span class="entry-topics"><span class="topic-pill">agentic workflows</span><span class="topic-pill">web</span><span class="topic-pill">innovation</span></span><span class="related-note">↔ overlaps: Devtool onboarding collapses to: API key + one agent prompt</span>
   </span>
   <span class="entry-meta">
     <span class="src">X · @Cloudflare · Wed</span>
@@ -95,9 +97,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://daringfireball.net/linked/2026/07/02/safari-mcp" target="_blank" rel="noopener">
   <span class="rank">02</span>
   <span>
-    <span class="entry-title">Safari ships an MCP server in Technology Preview 247 — agents get DOM, network requests, screenshots and console access</span>
+    <span class="entry-title">Safari ships an MCP server</span>
     <span class="entry-blurb">Why it matters: Apple embracing Anthropic&#x27;s open protocol makes agent-driven debugging a first-party browser feature, and Gruber&#x27;s point stands — MCP is now the de facto interop layer across Claude, Gemini CLI, Cursor and Copilot. Browser vendors are competing on agent experience.</span>
-    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">web dev</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Opera&#x27;s browser CLI compresses agent page snapshots 36%, com</span>
+    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">web dev</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Opera cuts browser-agent input tokens by 66%</span>
   </span>
   <span class="entry-meta">
     <span class="src">Blog · @gruber → webkit.org · Thu</span>
@@ -107,9 +109,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://x.com/omooretweets/status/2073838528585138401" target="_blank" rel="noopener">
   <span class="rank">03</span>
   <span>
-    <span class="entry-title">AI browsers aren&#x27;t dead, but general-purpose agents eroded their core value prop — the category now needs a 100x killer feature</span>
+    <span class="entry-title">AI browsers need a 100x killer feature to survive</span>
     <span class="entry-blurb">Why it matters: an early adopter&#x27;s post-mortem-in-progress on the agentic browser wave — once ChatGPT/Claude agents got good at driving any browser, a dedicated AI browser needed more than &#x27;has an agent&#x27;. High switching costs cut both ways; frames this week&#x27;s Aside and Safari news.</span>
-    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">ai</span></span><span class="related-note">↔ overlaps: Aside publishes its receipts: how a startup browser agent cl · Safari ships an MCP server in Technology Preview 247 — agent</span>
+    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">ai</span></span><span class="related-note">↔ overlaps: Aside claims SOTA agentic browsing, beating Fable — and show · Safari ships an MCP server</span>
   </span>
   <span class="entry-meta">
     <span class="src">X · @omooretweets · Sun</span>
@@ -119,9 +121,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://www.operaneon.com/news/token-efficient-browser-snapshots-for-opera-browser-cli" target="_blank" rel="noopener">
   <span class="rank">04</span>
   <span>
-    <span class="entry-title">Opera&#x27;s browser CLI compresses agent page snapshots 36%, compounding to 66% fewer input tokens per session</span>
+    <span class="entry-title">Opera cuts browser-agent input tokens by 66%</span>
     <span class="entry-blurb">Why it matters: accessibility-tree snapshots are the hidden token tax of browser agents (100k+ on dense pages, re-taken every step). Compression on top of the AXI spec directly stretches session limits — the current bottleneck for anyone running agents on metered plans. Whitepaper included.</span>
-    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Safari ships an MCP server in Technology Preview 247 — agent · Aside publishes its receipts: how a startup browser agent cl</span>
+    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Safari ships an MCP server · Aside claims SOTA agentic browsing, beating Fable — and show</span>
   </span>
   <span class="entry-meta">
     <span class="src">Blog · Opera Neon · Wed</span>
@@ -131,9 +133,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://x.com/hyojun_at/status/2070234507995910413" target="_blank" rel="noopener">
   <span class="rank">05</span>
   <span>
-    <span class="entry-title">Aside publishes its receipts: how a startup browser agent claims SOTA agentic-browsing benchmarks, beating Fable</span>
+    <span class="entry-title">Aside claims SOTA agentic browsing, beating Fable — and shows receipts</span>
     <span class="entry-blurb">Why it matters: after the internet called their benchmark claims &#x27;trust me bro&#x27;, the Aside team published methodology. A small team out-benchmarking a frontier lab on browsing (if it holds) says the agent layer above the model is where browser wins now come from. 200K views.</span>
-    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">frontier models</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Hands-on with Aside: autonomy beyond other browsers, sign in · AI browsers aren&#x27;t dead, but general-purpose agents eroded t</span>
+    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">frontier models</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Aside wins an Arc switcher — BYO Claude/ChatGPT account is t · AI browsers need a 100x killer feature to survive</span>
   </span>
   <span class="entry-meta">
     <span class="src">X · @hyojun_at · Thu</span>
@@ -143,9 +145,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://x.com/claudeai/status/2074548242386178258" target="_blank" rel="noopener">
   <span class="rank">06</span>
   <span>
-    <span class="entry-title">Anthropic extends Claude Fable 5 access on all paid plans through July 12</span>
+    <span class="entry-title">Claude Fable 5 access extended through July 12</span>
     <span class="entry-blurb">Why it matters: 21.5M views and 5.7K replies on a one-line access notice — demand for the Mythos-class tier is visibly outstripping Anthropic&#x27;s willingness to serve it permanently. Watch what happens July 12; the community reaction (see the counter site below) is its own signal.</span>
-    <span class="entry-topics"><span class="topic-pill">frontier models</span><span class="topic-pill">ai</span></span><span class="related-note">↔ overlaps: dayswithoutfable.com — a live counter of days since Fable &#x27;w</span>
+    <span class="entry-topics"><span class="topic-pill">frontier models</span><span class="topic-pill">ai</span></span><span class="related-note">↔ overlaps: dayswithoutfable.com: a grief counter for a deprecated model</span>
   </span>
   <span class="entry-meta">
     <span class="src">X · @claudeai · Tue</span>
@@ -155,9 +157,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://x.com/Teddarific/status/2074591521505243340" target="_blank" rel="noopener">
   <span class="rank">07</span>
   <span>
-    <span class="entry-title">The new devtool onboarding funnel is two steps: get an API key, then tell your agent to instrument the tool</span>
+    <span class="entry-title">Devtool onboarding collapses to: API key + one agent prompt</span>
     <span class="entry-blurb">Why it matters: quietly radical DX claim — docs, quickstarts and SDK ergonomics collapse into &#x27;does the agent one-shot the integration?&#x27;. Devtool vendors optimizing for human onboarding are optimizing the wrong funnel.</span>
-    <span class="entry-topics"><span class="topic-pill">web dev</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Cloudflare opens the Monetization Gateway waitlist: charge f</span>
+    <span class="entry-topics"><span class="topic-pill">web dev</span><span class="topic-pill">agentic workflows</span></span><span class="related-note">↔ overlaps: Cloudflare: machine payments for any page, API or MCP tool, </span>
   </span>
   <span class="entry-meta">
     <span class="src">X · @Teddarific · Tue</span>
@@ -167,9 +169,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://x.com/thelifeofrishi/status/2069587284014309681" target="_blank" rel="noopener">
   <span class="rank">08</span>
   <span>
-    <span class="entry-title">Hands-on with Aside: autonomy beyond other browsers, sign in with your Claude/ChatGPT account, Arc aesthetics on Chromium</span>
+    <span class="entry-title">Aside wins an Arc switcher — BYO Claude/ChatGPT account is the unlock</span>
     <span class="entry-blurb">Why it matters: the BYO-subscription pattern (connect your existing Claude/ChatGPT account instead of paying the browser vendor for inference) may be the adoption unlock for AI browsers — it kills the double-subscription objection Olivia Moore&#x27;s thread implies.</span>
-    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">ai</span></span><span class="related-note">↔ overlaps: Aside publishes its receipts: how a startup browser agent cl · AI browsers aren&#x27;t dead, but general-purpose agents eroded t</span>
+    <span class="entry-topics"><span class="topic-pill">browsers</span><span class="topic-pill">ai</span></span><span class="related-note">↔ overlaps: Aside claims SOTA agentic browsing, beating Fable — and show · AI browsers need a 100x killer feature to survive</span>
   </span>
   <span class="entry-meta">
     <span class="src">X · @thelifeofrishi · Wed</span>
@@ -179,9 +181,9 @@ footer a { color: inherit; }
 <a class="entry" href="https://dayswithoutfable.com/" target="_blank" rel="noopener">
   <span class="rank">09</span>
   <span>
-    <span class="entry-title">dayswithoutfable.com — a live counter of days since Fable &#x27;went away&#x27;</span>
+    <span class="entry-title">dayswithoutfable.com: a grief counter for a deprecated model</span>
     <span class="entry-blurb">Why it matters: a single-serving joke site as a cultural artifact — users now grieve model deprecations like product recalls. Attachment to specific model checkpoints (not vendors) is a real switching-cost force nobody priced in. Pairs with Anthropic&#x27;s extension announcement.</span>
-    <span class="entry-topics"><span class="topic-pill">ai</span><span class="topic-pill">culture</span></span><span class="related-note">↔ overlaps: Anthropic extends Claude Fable 5 access on all paid plans th</span>
+    <span class="entry-topics"><span class="topic-pill">ai</span><span class="topic-pill">culture</span></span><span class="related-note">↔ overlaps: Claude Fable 5 access extended through July 12</span>
   </span>
   <span class="entry-meta">
     <span class="src">Web · @paularambles · Thu</span>
@@ -191,7 +193,7 @@ footer a { color: inherit; }
 <a class="entry" href="https://x.com/Scobleizer/status/2070530044728930456" target="_blank" rel="noopener">
   <span class="rank">10</span>
   <span>
-    <span class="entry-title">&#x27;It was memory&#x27;: viral framing of Cognee v1.0&#x27;s 100-billion-token-context claims — which carry a community note and a paid-partnership tag</span>
+    <span class="entry-title">&#x27;It was memory&#x27;: viral Cognee hype — paid, and community-noted</span>
     <span class="entry-blurb">Weighted down deliberately: the underlying claims (145% better retrieval than Opus 4.8/GPT-5.5, 100B-token window, 6.9x cheaper) have no published benchmarks per the community note, and the post is a paid partnership. The kernel of truth — memory is the frontier after raw capability — is real; the numbers aren&#x27;t verified. Share with that caveat.</span>
     <span class="entry-topics"><span class="topic-pill">ai</span><span class="topic-pill">agentic workflows</span></span>
   </span>
