@@ -1,0 +1,74 @@
+{
+    "site": {
+          "title": "Dan's Radar",
+          "subtitle": "A weekly signal feed on innovation, AI, frontier models, web dev, browsers, cybersecurity and agentic workflows — curated by Dan Berte.",
+          "url": "https://radar.danberte.com",
+          "author": "Dan Berte",
+          "week_cut_day": "Friday"
+    },
+    "entries": [
+          {
+                  "id": "2026-07-05-omoore-thread",
+                  "url": "https://x.com/omooretweets/status/2073838528585138401",
+                  "title": "[Pending content pull] X thread — summary of the tweet's argument goes here, author stays in the meta line",
+                  "author": "@omooretweets",
+                  "source": "X",
+                  "added": "2026-07-09",
+                  "posted": "2026-07-05",
+                  "week": "2026-07-10",
+                  "topics": ["ai", "agentic workflows"],
+                  "score": null,
+                  "status": "pending",
+                  "blurb": "Pending curation — paste the thread text (or connect the Chrome extension) and I'll summarize, score, and slot it against related threads.",
+                  "related": []
+          },
+          {
+                  "id": "sample-frontier-eval",
+                  "url": "https://example.com/sample-1",
+                  "title": "Frontier lab publishes new agentic-coding eval results",
+                  "author": "@example",
+                  "source": "X",
+                  "added": "2026-07-06",
+                  "posted": "2026-07-06",
+                  "week": "2026-07-10",
+                  "topics": ["frontier models", "agentic workflows"],
+                  "score": 9.1,
+                  "status": "curated",
+                  "sample": true,
+                  "blurb": "Why it matters: benchmark deltas like this shift which model teams standardize on for agent stacks; expect procurement questions within the quarter.",
+                  "related": ["sample-browser-agent"]
+          },
+          {
+                  "id": "sample-browser-agent",
+                  "url": "https://example.com/sample-2",
+                  "title": "Chromium ships native agent-permission surface behind a flag",
+                  "author": "@example",
+                  "source": "X",
+                  "added": "2026-07-07",
+                  "posted": "2026-07-07",
+                  "week": "2026-07-10",
+                  "topics": ["browsers", "agentic workflows"],
+                  "score": 8.4,
+                  "status": "curated",
+                  "sample": true,
+                  "blurb": "Why it matters: browsers becoming the OS for agents makes permission UX the new security boundary — directly relevant to IoT-style consent failures we've seen before.",
+                  "related": ["sample-frontier-eval"]
+          },
+          {
+                  "id": "sample-supplychain",
+                  "url": "https://example.com/sample-3",
+                  "title": "npm supply-chain compromise hits popular build plugin",
+                  "author": "@example",
+                  "source": "X",
+                  "added": "2026-07-08",
+                  "posted": "2026-07-08",
+                  "week": "2026-07-10",
+                  "topics": ["cybersec", "web dev"],
+                  "score": 7.2,
+                  "status": "curated",
+                  "sample": true,
+                  "blurb": "Why it matters: third incident this quarter in the same dependency class; teams vibe-coding with agents inherit these transitively and rarely audit lockfiles.",
+                  "related": []
+          }
+    ]
+}
