@@ -6,11 +6,16 @@
     "author": "Dan Berte",
     "week_cut_day": "Friday"
   },
+  "weeks": {
+    "2026-07-10": {
+      "tldr": "The agent platform war moved into the browser this week. Apple put an MCP server inside Safari, Opera cut the token cost of driving a page by two-thirds, and startup Aside published benchmarks claiming its browser agent beats Fable — while Olivia Moore argued the category still needs a 100x feature now that general-purpose agents can drive any browser. Underneath it all, Cloudflare started building the payment rail for that future: machine-payable pages, APIs and MCP tools settled in stablecoins over x402. Anthropic extended Fable 5 access through July 12 under visible community pressure — complete with a grief counter at dayswithoutfable.com. Two smaller signals: devtool onboarding is collapsing into a single agent prompt, and the viral 'it was memory' Cognee post is paid promotion with unverified numbers — share it with that caveat."
+    }
+  },
   "entries": [
     {
       "id": "cloudflare-x402-gateway",
       "url": "https://x.com/Cloudflare/status/2072311802285723953",
-      "title": "Cloudflare opens the Monetization Gateway waitlist: charge for any page, dataset, API or MCP tool, settled in stablecoins over x402",
+      "title": "Cloudflare: machine payments for any page, API or MCP tool, in stablecoins via x402",
       "author": "@Cloudflare",
       "source": "X",
       "added": "2026-07-09",
@@ -25,7 +30,7 @@
     {
       "id": "safari-mcp-server",
       "url": "https://daringfireball.net/linked/2026/07/02/safari-mcp",
-      "title": "Safari ships an MCP server in Technology Preview 247 — agents get DOM, network requests, screenshots and console access",
+      "title": "Safari ships an MCP server",
       "author": "@gruber → webkit.org",
       "source": "Blog",
       "added": "2026-07-09",
@@ -40,7 +45,7 @@
     {
       "id": "2026-07-05-omoore-thread",
       "url": "https://x.com/omooretweets/status/2073838528585138401",
-      "title": "AI browsers aren't dead, but general-purpose agents eroded their core value prop — the category now needs a 100x killer feature",
+      "title": "AI browsers need a 100x killer feature to survive",
       "author": "@omooretweets",
       "source": "X",
       "added": "2026-07-09",
@@ -55,7 +60,7 @@
     {
       "id": "opera-compact-snapshots",
       "url": "https://www.operaneon.com/news/token-efficient-browser-snapshots-for-opera-browser-cli",
-      "title": "Opera's browser CLI compresses agent page snapshots 36%, compounding to 66% fewer input tokens per session",
+      "title": "Opera cuts browser-agent input tokens by 66%",
       "author": "Opera Neon",
       "source": "Blog",
       "added": "2026-07-09",
@@ -70,7 +75,7 @@
     {
       "id": "aside-sota-claim",
       "url": "https://x.com/hyojun_at/status/2070234507995910413",
-      "title": "Aside publishes its receipts: how a startup browser agent claims SOTA agentic-browsing benchmarks, beating Fable",
+      "title": "Aside claims SOTA agentic browsing, beating Fable — and shows receipts",
       "author": "@hyojun_at",
       "source": "X",
       "added": "2026-07-09",
@@ -85,7 +90,7 @@
     {
       "id": "fable-access-extended",
       "url": "https://x.com/claudeai/status/2074548242386178258",
-      "title": "Anthropic extends Claude Fable 5 access on all paid plans through July 12",
+      "title": "Claude Fable 5 access extended through July 12",
       "author": "@claudeai",
       "source": "X",
       "added": "2026-07-09",
@@ -100,7 +105,7 @@
     {
       "id": "teddarific-agent-dx",
       "url": "https://x.com/Teddarific/status/2074591521505243340",
-      "title": "The new devtool onboarding funnel is two steps: get an API key, then tell your agent to instrument the tool",
+      "title": "Devtool onboarding collapses to: API key + one agent prompt",
       "author": "@Teddarific",
       "source": "X",
       "added": "2026-07-09",
@@ -115,7 +120,7 @@
     {
       "id": "aside-arc-switcher",
       "url": "https://x.com/thelifeofrishi/status/2069587284014309681",
-      "title": "Hands-on with Aside: autonomy beyond other browsers, sign in with your Claude/ChatGPT account, Arc aesthetics on Chromium",
+      "title": "Aside wins an Arc switcher — BYO Claude/ChatGPT account is the unlock",
       "author": "@thelifeofrishi",
       "source": "X",
       "added": "2026-07-09",
@@ -130,7 +135,7 @@
     {
       "id": "days-without-fable",
       "url": "https://dayswithoutfable.com/",
-      "title": "dayswithoutfable.com — a live counter of days since Fable 'went away'",
+      "title": "dayswithoutfable.com: a grief counter for a deprecated model",
       "author": "@paularambles",
       "source": "Web",
       "added": "2026-07-09",
@@ -145,7 +150,7 @@
     {
       "id": "scoble-cognee-memory",
       "url": "https://x.com/Scobleizer/status/2070530044728930456",
-      "title": "'It was memory': viral framing of Cognee v1.0's 100-billion-token-context claims — which carry a community note and a paid-partnership tag",
+      "title": "'It was memory': viral Cognee hype — paid, and community-noted",
       "author": "@Scobleizer",
       "source": "X",
       "added": "2026-07-09",
