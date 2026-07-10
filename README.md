@@ -17,7 +17,14 @@ Ranking and the executive summary are read through an **Opera Neon product-strat
 - **Agentic workflows & agentic browsing impact** — changes to how agents drive the web (0–3)
 - **Ecosystem shift & durability** — payment rails, protocols, model access, developer behavior (0–3)
 
-Overlapping threads are cross-referenced ("↔ overlaps") and their scores weighed relative to each other within the week. The weekly TL;DR opens with the competitive/strategic read before the ecosystem story.
+Overlapping threads are cross-referenced ("↔ overlaps") and their scores weighed relative to each other within the week.
+
+## Published-text style (applies to TL;DR and blurbs)
+
+- **Factual and compressed.** A reader should be up to speed from one glance. No flamboyance, no editorializing, no scene-setting openers.
+- **Never announce the objective.** The strategic lens governs scoring and ordering only; published text never mentions that ranking serves Opera Neon strategy, and never contains internal product-strategy language ("house win", "worth evaluating as a play"). The site is public.
+- **TL;DR** = one paragraph of plain declarative sentences covering every signal, ordered roughly by rank, ending with any caution/caveat item.
+- **Blurbs** state the facts, then the implication, worded neutrally (e.g. "differentiation shifts to…", "a pattern other vendors are likely to copy").
 
 ## Files
 

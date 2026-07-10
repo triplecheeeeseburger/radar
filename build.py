@@ -151,7 +151,7 @@ def render_week_body(week_iso, entries, all_by_id, is_current):
   <p class="week-label">{esc(label)} — {esc(fmt_week(week_iso))} · {len(entries)} signals</p>{tldr_html}
 </section>
 <section>
-  <p class="section-label">Ranked by weight — score reflects relevance, novelty and likely impact</p>
+  <p class="section-label">Ranked by impact on agentic workflows, browsers and the wider ecosystem</p>
   <div class="item-list">
 {rows}
   </div>

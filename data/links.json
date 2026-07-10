@@ -8,7 +8,7 @@
   },
   "weeks": {
     "2026-07-10": {
-      "tldr": "Category earthquake, read through the Opera Neon lens: OpenAI killed Atlas nine months in — declaring the browser 'a feature, not the destination' — and scattered its agentic browsing across the ChatGPT desktop app, a Chrome extension, and a server-side cloud browser, the same week Apple shipped an MCP server inside Safari. The standalone-AI-browser field is thinning exactly as Olivia Moore's 100x-feature thesis predicted, while startup Aside runs the other way: published SOTA agentic-browsing claims and Arc switchers won via bring-your-own Claude/ChatGPT subscriptions. On the benefit side, Opera's own snapshot compression (66% fewer input tokens) lands squarely on the week's economic theme — session limits — echoed by Anthropic's global rate-limit reset and the Fable 5 extension through July 12, grief counter included. Ecosystem-wise, Cloudflare's x402 gateway sketches the machine-payments web browsers will need to transact in, and devtool onboarding is collapsing into a single agent prompt. Deliberately weighted down: the paid, community-noted Cognee 'it was memory' post."
+      "tldr": "OpenAI is shutting down Atlas on August 9, nine months after launch, moving agentic browsing into its ChatGPT desktop app, a Chrome extension, and a hosted cloud browser. Apple shipped an MCP server in Safari Technology Preview 247, giving agents DOM, network, console, and screenshot access. Aside published the methodology behind its claimed state-of-the-art agentic-browsing benchmarks and is drawing Arc switchers with bring-your-own Claude/ChatGPT accounts; Olivia Moore argues standalone AI browsers now need a 100x feature to justify switching costs. Opera's browser CLI cut agent input tokens by 66% via compressed page snapshots. Uber reports 70% of pull requests are agent-attributed and is extending agents into finance, legal, and operations via two-week engineer-expert pods. Anthropic reset all 5-hour and weekly rate limits and extended Fable 5 access through July 12. Cloudflare opened the waitlist for x402 machine payments on any page, API, or MCP tool. One caution: the viral Cognee 'memory' post is a paid partnership with unverified claims."
     }
   },
   "entries": [
@@ -21,11 +21,17 @@
       "added": "2026-07-09",
       "posted": "2026-07-01",
       "week": "2026-07-10",
-      "topics": ["agentic workflows", "web", "innovation"],
+      "topics": [
+        "agentic workflows",
+        "web",
+        "innovation"
+      ],
       "score": 8.4,
       "status": "curated",
-      "blurb": "Why it matters: plumbing for an agent-native web economy — machine-payable pages, APIs and MCP tools at CDN scale. Strategic read for Neon: browsers that speak x402 natively become the agent's wallet; if per-request settlement replaces ads and API keys, the browser is the natural checkout layer. 5.9M views.",
-      "related": ["teddarific-agent-dx"]
+      "blurb": "Payment plumbing for an agent-native web: any page, dataset, API, or MCP tool behind Cloudflare can charge per request, settled in stablecoins over the open x402 protocol. If per-request settlement takes hold alongside ads and API keys, clients that transact natively — including browsers — become the checkout layer for agents. 5.9M views.",
+      "related": [
+        "teddarific-agent-dx"
+      ]
     },
     {
       "id": "openai-kills-atlas",
@@ -36,11 +42,19 @@
       "added": "2026-07-09",
       "posted": "2026-07-09",
       "week": "2026-07-10",
-      "topics": ["browsers", "ai", "agentic workflows"],
+      "topics": [
+        "browsers",
+        "ai",
+        "agentic workflows"
+      ],
       "score": 9.4,
       "status": "curated",
-      "blurb": "The week's defining strategic signal for Neon: the category's biggest entrant exits standalone AI browsers (Atlas sunsets August 9, nine months after launch) and redistributes agentic browsing into the ChatGPT desktop app, a Chrome extension, and a server-side cloud browser. Read it both ways — a giant leaves Neon's lane, and the strongest player just declared the lane a detour: it now bets the agent workspace, not the browser shell, is where this war is won. Confirms Olivia Moore's 100x-feature thesis within the same week; part of Fidji Simo's 'cut the side quests' consolidation that also killed Sora.",
-      "related": ["2026-07-05-omoore-thread", "safari-mcp-server", "aside-sota-claim"]
+      "blurb": "The category's biggest entrant exits standalone AI browsers: Atlas sunsets August 9, nine months after launch, with its agentic browsing redistributed into the ChatGPT desktop app, a Chrome extension, and a server-side cloud browser. OpenAI's stated conclusion — the browser is a feature, not the destination — cuts both ways for the remaining players: one fewer giant in the category, and the strongest player betting the category itself is a detour. Part of the same consolidation that shut down Sora.",
+      "related": [
+        "2026-07-05-omoore-thread",
+        "safari-mcp-server",
+        "aside-sota-claim"
+      ]
     },
     {
       "id": "safari-mcp-server",
@@ -51,11 +65,18 @@
       "added": "2026-07-09",
       "posted": "2026-07-02",
       "week": "2026-07-10",
-      "topics": ["browsers", "web dev", "agentic workflows"],
+      "topics": [
+        "browsers",
+        "web dev",
+        "agentic workflows"
+      ],
       "score": 9.2,
       "status": "curated",
-      "blurb": "Sharpest competitive signal of the week: Apple making agent access a first-party Safari feature (DOM, network, console, screenshots over MCP) commoditizes 'has agent hooks'. For Neon the moat shifts to agent UX, autonomy and token efficiency — and MCP is now confirmed as the interop layer across Claude, Gemini CLI, Cursor and Copilot.",
-      "related": ["opera-compact-snapshots", "omoore-ai-browsers"]
+      "blurb": "Apple made agent access a first-party Safari feature: Technology Preview 247 exposes DOM, network requests, console, and screenshots over MCP. That commoditizes basic agent hooks — differentiation among agentic browsers shifts to agent UX, autonomy, and token efficiency — and confirms MCP as the interop layer across Claude, Gemini CLI, Cursor, and Copilot.",
+      "related": [
+        "opera-compact-snapshots",
+        "omoore-ai-browsers"
+      ]
     },
     {
       "id": "2026-07-05-omoore-thread",
@@ -66,11 +87,17 @@
       "added": "2026-07-09",
       "posted": "2026-07-05",
       "week": "2026-07-10",
-      "topics": ["browsers", "ai"],
+      "topics": [
+        "browsers",
+        "ai"
+      ],
       "score": 8.2,
       "status": "curated",
       "blurb": "Why it matters: an early adopter's post-mortem-in-progress on the agentic browser wave — once ChatGPT/Claude agents got good at driving any browser, a dedicated AI browser needed more than 'has an agent'. High switching costs cut both ways; frames this week's Aside and Safari news.",
-      "related": ["aside-sota-claim", "safari-mcp-server"]
+      "related": [
+        "aside-sota-claim",
+        "safari-mcp-server"
+      ]
     },
     {
       "id": "opera-compact-snapshots",
@@ -81,11 +108,17 @@
       "added": "2026-07-09",
       "posted": "2026-07-01",
       "week": "2026-07-10",
-      "topics": ["browsers", "agentic workflows"],
+      "topics": [
+        "browsers",
+        "agentic workflows"
+      ],
       "score": 8.8,
       "status": "curated",
-      "blurb": "House win, and the week's clearest Neon benefit: snapshot compression on the AXI spec (36% smaller, 66% fewer input tokens) attacks the real bottleneck of browser agents — session-limit economics. With Anthropic resetting rate limits the same week, token efficiency is now a legible product differentiator; the whitepaper gives it receipts.",
-      "related": ["safari-mcp-server", "aside-sota-claim"]
+      "blurb": "Snapshot compression built on the AXI spec: 36% smaller snapshots compounding to 66% fewer input tokens per session. Accessibility-tree snapshots are the main token cost of browser agents (100k+ on dense pages, re-taken every step), so this directly stretches session limits — the binding constraint for agents on metered plans. Benchmarks published in an accompanying whitepaper.",
+      "related": [
+        "safari-mcp-server",
+        "aside-sota-claim"
+      ]
     },
     {
       "id": "aside-sota-claim",
@@ -96,11 +129,18 @@
       "added": "2026-07-09",
       "posted": "2026-06-25",
       "week": "2026-07-10",
-      "topics": ["browsers", "frontier models", "agentic workflows"],
+      "topics": [
+        "browsers",
+        "frontier models",
+        "agentic workflows"
+      ],
       "score": 8.6,
       "status": "curated",
-      "blurb": "Direct competitor threat: after 'trust me bro' pushback, Aside published methodology for its SOTA agentic-browsing claims. If the numbers hold, a startup out-benchmarking frontier labs says browser wins come from the agent layer above the model — exactly the layer Neon competes on. Worth a technical read of their harness. 200K views.",
-      "related": ["aside-arc-switcher", "2026-07-05-omoore-thread"]
+      "blurb": "After 'trust me bro' pushback, Aside published the methodology behind its claimed SOTA agentic-browsing benchmarks. If the numbers hold, a startup out-benchmarking frontier labs indicates browser-agent performance is won at the agent layer above the model. The test harness is worth a technical read. 200K views.",
+      "related": [
+        "aside-arc-switcher",
+        "2026-07-05-omoore-thread"
+      ]
     },
     {
       "id": "fable-access-extended",
@@ -111,11 +151,16 @@
       "added": "2026-07-09",
       "posted": "2026-07-07",
       "week": "2026-07-10",
-      "topics": ["frontier models", "ai"],
+      "topics": [
+        "frontier models",
+        "ai"
+      ],
       "score": 5.9,
       "status": "curated",
       "blurb": "Why it matters: 21.5M views and 5.7K replies on a one-line access notice — demand for the Mythos-class tier is visibly outstripping Anthropic's willingness to serve it permanently. Watch what happens July 12; the community reaction (see the counter site below) is its own signal.",
-      "related": ["days-without-fable"]
+      "related": [
+        "days-without-fable"
+      ]
     },
     {
       "id": "claude-rate-limit-reset",
@@ -126,11 +171,37 @@
       "added": "2026-07-09",
       "posted": "2026-07-09",
       "week": "2026-07-10",
-      "topics": ["ai", "frontier models"],
+      "topics": [
+        "ai",
+        "frontier models"
+      ],
       "score": 6.3,
       "status": "curated",
-      "blurb": "Why it matters: rate limits are the scarce resource of the Fable frenzy — a global reset days before the July 12 access deadline reads as both goodwill and a capacity signal. For Neon it validates the thesis behind the CLI's token-efficiency work: session economics are now a first-order concern for anyone running browser agents (2.1M views on a limits announcement).",
-      "related": ["fable-access-extended", "opera-compact-snapshots"]
+      "blurb": "A global reset of 5-hour and weekly limits, days before the July 12 Fable access deadline — read as both goodwill and a capacity signal. That a limits announcement drew 2.1M views shows session economics are now a first-order concern for anyone running agents; it also explains why token efficiency is emerging as a product feature (see Opera's snapshot compression).",
+      "related": [
+        "fable-access-extended",
+        "opera-compact-snapshots"
+      ]
+    },
+    {
+      "id": "uber-agentic-pods",
+      "url": "https://x.com/praveenTweets/status/2074605343439810922",
+      "title": "Uber: 70% of PRs are agent-attributed; 'Agentic Pods' extend agents to finance, legal, ops",
+      "author": "@praveenTweets",
+      "source": "X",
+      "added": "2026-07-09",
+      "posted": "2026-07-07",
+      "week": "2026-07-10",
+      "topics": [
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7.2,
+      "status": "curated",
+      "blurb": "Enterprise adoption datapoint with unusual specificity: 99% of Uber engineers use AI tools, 70%+ of pull requests are attributed to agents, 2,500+ internal agent skills. Two-week engineer-plus-domain-expert pods shipped 16 business-function automations in two months (capital allocation: 15 hours to 30 minutes; financial pacing reports: 2 days to 10 minutes). The transferable claim: the workflow, not the task, is the unit of automation. 1.2M views.",
+      "related": [
+        "teddarific-agent-dx"
+      ]
     },
     {
       "id": "teddarific-agent-dx",
@@ -141,11 +212,16 @@
       "added": "2026-07-09",
       "posted": "2026-07-07",
       "week": "2026-07-10",
-      "topics": ["web dev", "agentic workflows"],
+      "topics": [
+        "web dev",
+        "agentic workflows"
+      ],
       "score": 5.7,
       "status": "curated",
       "blurb": "Why it matters: quietly radical DX claim — docs, quickstarts and SDK ergonomics collapse into 'does the agent one-shot the integration?'. Devtool vendors optimizing for human onboarding are optimizing the wrong funnel.",
-      "related": ["cloudflare-x402-gateway"]
+      "related": [
+        "cloudflare-x402-gateway"
+      ]
     },
     {
       "id": "aside-arc-switcher",
@@ -156,11 +232,17 @@
       "added": "2026-07-09",
       "posted": "2026-06-24",
       "week": "2026-07-10",
-      "topics": ["browsers", "ai"],
-      "score": 7.0,
+      "topics": [
+        "browsers",
+        "ai"
+      ],
+      "score": 7,
       "status": "curated",
-      "blurb": "Competitor adoption signal: Aside converting Arc power users. The strategic detail is the BYO-subscription pattern — connect your existing Claude/ChatGPT account instead of paying the browser vendor for inference. It kills the double-subscription objection; worth evaluating as a Neon pricing/onboarding play.",
-      "related": ["aside-sota-claim", "2026-07-05-omoore-thread"]
+      "blurb": "An Arc power user's switching review. The notable detail is the bring-your-own-subscription pattern — connecting an existing Claude/ChatGPT account instead of paying the browser vendor for inference — which removes the double-subscription objection to AI browsers. A pattern other browser vendors are likely to copy.",
+      "related": [
+        "aside-sota-claim",
+        "2026-07-05-omoore-thread"
+      ]
     },
     {
       "id": "days-without-fable",
@@ -171,11 +253,16 @@
       "added": "2026-07-09",
       "posted": "2026-07-09",
       "week": "2026-07-10",
-      "topics": ["ai", "culture"],
+      "topics": [
+        "ai",
+        "culture"
+      ],
       "score": 4.3,
       "status": "curated",
       "blurb": "Why it matters: a single-serving joke site as a cultural artifact — users now grieve model deprecations like product recalls. Attachment to specific model checkpoints (not vendors) is a real switching-cost force nobody priced in. Pairs with Anthropic's extension announcement.",
-      "related": ["fable-access-extended"]
+      "related": [
+        "fable-access-extended"
+      ]
     },
     {
       "id": "scoble-cognee-memory",
@@ -186,7 +273,10 @@
       "added": "2026-07-09",
       "posted": "2026-06-26",
       "week": "2026-07-10",
-      "topics": ["ai", "agentic workflows"],
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
       "score": 3.4,
       "status": "curated",
       "blurb": "Weighted down deliberately: the underlying claims (145% better retrieval than Opus 4.8/GPT-5.5, 100B-token window, 6.9x cheaper) have no published benchmarks per the community note, and the post is a paid partnership. The kernel of truth — memory is the frontier after raw capability — is real; the numbers aren't verified. Share with that caveat.",
