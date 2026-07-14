@@ -23,7 +23,7 @@ Overlapping threads are cross-referenced ("↔ overlaps") and their scores weigh
 
 - **Factual and compressed.** A reader should be up to speed from one glance. No flamboyance, no editorializing, no scene-setting openers.
 - **Never announce the objective.** The strategic lens governs scoring and ordering only; published text never mentions that ranking serves Opera Neon strategy, and never contains internal product-strategy language ("house win", "worth evaluating as a play"). The site is public.
-- **TL;DR** = one paragraph of plain declarative sentences covering every signal, ordered roughly by rank, ending with any caution/caveat item.
+- **TL;DR** = one paragraph of plain declarative sentences covering every signal, ordered roughly by rank, ending with any caution/caveat item. Target under ~120 words — written for a decision-maker in a rush; keep only what a reader needs to understand and act on each signal.
 - **Blurbs** state the facts, then the implication, worded neutrally (e.g. "differentiation shifts to…", "a pattern other vendors are likely to copy").
 
 ## Files
