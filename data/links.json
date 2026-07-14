@@ -11,7 +11,7 @@
       "tldr": "OpenAI is shutting down Atlas on August 9, nine months after launch, moving agentic browsing into its ChatGPT desktop app, a Chrome extension, and a hosted cloud browser. Apple shipped an MCP server in Safari Technology Preview 247, giving agents DOM, network, console, and screenshot access. Aside published the methodology behind its claimed state-of-the-art agentic-browsing benchmarks and is drawing Arc switchers with bring-your-own Claude/ChatGPT accounts; Olivia Moore argues standalone AI browsers now need a 100x feature to justify switching costs. Opera's browser CLI cut agent input tokens by 66% via compressed page snapshots. Uber reports 70% of pull requests are agent-attributed and is extending agents into finance, legal, and operations via two-week engineer-expert pods. Anthropic reset all 5-hour and weekly rate limits and extended Fable 5 access through July 12. Cloudflare opened the waitlist for x402 machine payments on any page, API, or MCP tool. One caution: the viral Cognee 'memory' post is a paid partnership with unverified claims."
     },
     "2026-07-17": {
-      "tldr": "OpenAI's new desktop app merges Chat, Work, and Codex; new agent features ship only there, making it the consolidation point for OpenAI's agent surface after Atlas's August 9 shutdown. Apple sued OpenAI over trade-secret theft in its hardware hiring — an ex-engineer allegedly kept internal file access after joining — which bears on how fast OpenAI's device effort can move. Apple is also reported to be planning an M7 Ultra chip with 1.5TB of unified memory, enough to run frontier-class models on-device; unconfirmed, and DRAM supply is the constraint. Caution: xAI's Grok Build CLI reportedly uploaded entire repos, secrets included, to a cloud bucket with an ineffective opt-out; xAI has not confirmed the report or addressed retention."
+      "tldr": "OpenAI's new desktop app merges Chat, Work, and Codex; new agent features ship only there — the consolidation point for OpenAI's agent surface after Atlas's August 9 shutdown. Apple sued OpenAI over trade-secret theft in its hardware hiring, which bears on how fast OpenAI's device effort can move; Apple is separately reported to be planning an M7 Ultra chip with 1.5TB of unified memory, enough to run frontier-class models on-device — unconfirmed, with DRAM supply the constraint. Two cautions, both researcher-reported and unconfirmed by the vendors: xAI's Grok Build CLI uploaded entire repos, secrets included, to a cloud bucket with an ineffective opt-out; and a Claude Code side channel reportedly bypassed Fable 5's cyber safeguards, though overtly malicious requests were still refused."
     }
   },
   "entries": [
@@ -302,7 +302,9 @@
       "score": 7.9,
       "status": "curated",
       "blurb": "xAI's Grok Build CLI reportedly uploaded whole Git repositories — private code and unredacted secrets included — to a grok-code-session-traces cloud bucket; a 12 GB test repo sent 5.1 GB upstream where the task needed 192 KB, and the improve-the-model opt-out did not stop the uploads. The behavior stopped via a hidden server-side flag a day after a researcher's wire-level analysis; xAI has published no advisory and hasn't addressed scope, retention, or deletion, and has not confirmed the report. What agent tooling actually sends over the wire is becoming a due-diligence item separate from what the settings page says.",
-      "related": []
+      "related": [
+        "claude-btw-side-channel"
+      ]
     },
     {
       "id": "chatgpt-desktop-unified",
@@ -360,6 +362,27 @@
       "status": "curated",
       "blurb": "Report, unconfirmed by Apple: an M7 Ultra supporting up to 1.5TB of unified memory — more than double the M3 Ultra's ceiling — shared directly by CPU, GPU, and Neural Engine. For scale, eight Nvidia B200 server GPUs carry 1.44TB of HBM3e combined. If it ships, top Macs could run frontier-class models entirely on-device, pulling local inference into server territory. DRAM price and supply are the deciding constraints — Apple already pulled its 128GB Mac Studio amid shortages.",
       "related": []
+    },
+    {
+      "id": "claude-btw-side-channel",
+      "url": "https://x.com/IntCyberDigest/status/2077151915721261561",
+      "title": "Report: Claude Code side channel bypasses Fable 5's cyber safeguards",
+      "author": "@IntCyberDigest",
+      "source": "X",
+      "added": "2026-07-14",
+      "posted": "2026-07-14",
+      "week": "2026-07-17",
+      "topics": [
+        "cybersec",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Researcher-reported, unconfirmed by Anthropic: security requests refused in Claude Code's main conversation were answered through its /btw side channel, and the output could reportedly be forked into a tool-enabled session where the safeguard kept prompting but no longer stopped the session. Overtly malicious requests were still refused — an enforcement-consistency gap across session layers, not a universal jailbreak. Alongside Grok's CLI exfiltration the same week, safety enforcement in agent harnesses — not just models — is emerging as the weak layer.",
+      "related": [
+        "grok-build-cli-exfiltration"
+      ]
     }
   ]
 }
