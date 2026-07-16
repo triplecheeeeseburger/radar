@@ -158,6 +158,11 @@ def render_week_body(week_iso, entries, all_by_id, is_current):
   </div>
 </section>"""
 
+def xml_esc(s):
+    # XML element text: escape only the XML specials; leave apostrophes and
+    # quotes literal (html.escape's &#x27; breaks some strict RSS parsers).
+    return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
 def rfc822(date_iso):
     d = datetime.date.fromisoformat(date_iso)
     return d.strftime("%a, %d %b %Y 12:00:00 +0000")
@@ -188,21 +193,24 @@ def build_feed(entries):
         })
     items.sort(key=lambda i: i["date"], reverse=True)
     items = items[:60]
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     parts = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0"><channel>',
-        f"<title>{esc(SITE['title'])}</title>",
-        f"<link>{esc(SITE['url'])}</link>",
-        f"<description>{esc(SITE['subtitle'])}</description>",
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>',
+        f"<title>{xml_esc(SITE['title'])}</title>",
+        f"<link>{xml_esc(SITE['url'])}</link>",
+        f"<description>{xml_esc(SITE['subtitle'])}</description>",
         "<language>en-us</language>",
+        f"<lastBuildDate>{now}</lastBuildDate>",
+        f'<atom:link href="{xml_esc(SITE["url"])}/feed.xml" rel="self" type="application/rss+xml" />',
     ]
     for i in items:
-        cats = "".join(f"<category>{esc(c)}</category>" for c in i["cats"])
+        cats = "".join(f"<category>{xml_esc(c)}</category>" for c in i["cats"])
         parts.append(
-            f"<item><title>{esc(i['title'])}</title><link>{esc(i['link'])}</link>"
-            f'<guid isPermaLink="false">{esc(i["guid"])}</guid>'
+            f"<item><title>{xml_esc(i['title'])}</title><link>{xml_esc(i['link'])}</link>"
+            f'<guid isPermaLink="false">{xml_esc(i["guid"])}</guid>'
             f"<pubDate>{rfc822(i['date'])}</pubDate>{cats}"
-            f"<description>{esc(i['desc'])}</description></item>"
+            f"<description>{xml_esc(i['desc'])}</description></item>"
         )
     parts.append("</channel></rss>")
     (ROOT / "feed.xml").write_text("\n".join(parts))
