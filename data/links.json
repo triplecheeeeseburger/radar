@@ -11,7 +11,7 @@
       "tldr": "OpenAI is shutting down Atlas on August 9, nine months after launch, moving agentic browsing into its ChatGPT desktop app, a Chrome extension, and a hosted cloud browser. Apple shipped an MCP server in Safari Technology Preview 247, giving agents DOM, network, console, and screenshot access. Aside published the methodology behind its claimed state-of-the-art agentic-browsing benchmarks and is drawing Arc switchers with bring-your-own Claude/ChatGPT accounts; Olivia Moore argues standalone AI browsers now need a 100x feature to justify switching costs. Opera's browser CLI cut agent input tokens by 66% via compressed page snapshots. Uber reports 70% of pull requests are agent-attributed and is extending agents into finance, legal, and operations via two-week engineer-expert pods. Anthropic reset all 5-hour and weekly rate limits and extended Fable 5 access through July 12. Cloudflare opened the waitlist for x402 machine payments on any page, API, or MCP tool. One caution: the viral Cognee 'memory' post is a paid partnership with unverified claims."
     },
     "2026-07-17": {
-      "tldr": "OpenAI's new desktop app merges Chat, Work, and Codex; new agent features ship only there — its post-Atlas agent surface. PrismML released Bonsai 27B (Apache 2.0), the first 27B-class model to run on a phone at 90–95% of full-precision quality, strengthening local agent loops; a reported Apple M7 Ultra with 1.5TB unified memory points the same direction, unconfirmed. Apple sued OpenAI over trade-secret theft in its hardware hiring. Security, all researcher-reported and none vendor-confirmed: xAI's Grok Build CLI uploaded entire repos, secrets included, with an ineffective opt-out; Mindgard is fully disclosing a Cursor vulnerability after 200 days without a fix; and a Claude Code side channel reportedly bypassed Fable 5's cyber safeguards."
+      "tldr": "OpenAI's new desktop app merges Chat, Work, and Codex; new agent features ship only there — its post-Atlas agent surface. PrismML released Bonsai 27B, the first 27B-class model to run on a phone at 90–95% of full precision; a reported Apple M7 Ultra with 1.5TB unified memory points the same on-device direction, unconfirmed. Apple sued OpenAI over trade-secret theft in its hardware hiring. Linq shipped Agent Pay: agents take payments inside iMessage with FaceID, no browser step. Security, all researcher-reported, none vendor-confirmed: xAI's Grok Build CLI uploaded entire repos, secrets included, with an ineffective opt-out; Mindgard is disclosing a Cursor vulnerability after 200 days without a fix; and a Claude Code side channel bypassed Fable 5's cyber safeguards."
     }
   },
   "entries": [
@@ -427,6 +427,27 @@
       "related": [
         "grok-build-cli-exfiltration",
         "claude-btw-side-channel"
+      ]
+    },
+    {
+      "id": "linq-agent-pay",
+      "url": "https://x.com/thelinqapp/status/2077413925256077319",
+      "title": "Linq's Agent Pay: agents take payments inside iMessage — no browser step",
+      "author": "@thelinqapp",
+      "source": "X",
+      "added": "2026-07-15",
+      "posted": "2026-07-15",
+      "week": "2026-07-17",
+      "topics": [
+        "agentic workflows",
+        "innovation",
+        "web"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Agents on Linq can now send payment requests that complete inside iMessage with FaceID — explicitly no browser step. One small vendor, but a pointed pattern: agent commerce settling in the conversation surface rather than a web checkout, the opposite direction from x402-style machine payments on the open web. Each transactional job that moves into chat is one the browser no longer owns. 222K views.",
+      "related": [
+        "cloudflare-x402-gateway"
       ]
     }
   ]
