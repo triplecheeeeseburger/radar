@@ -94,6 +94,7 @@ def page(title, body, depth=0):
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(SITE['subtitle'])}" />
+<link rel="alternate" type="application/rss+xml" title="{esc(SITE['title'])}" href="{esc(SITE['url'])}/feed.xml" />
 {FONTS}
 <style>{CSS}</style>
 </head>
@@ -109,7 +110,7 @@ def page(title, body, depth=0):
 <main>
 {body}
 </main>
-<footer>© {datetime.date.today().year} {esc(SITE['author'])} &nbsp;·&nbsp; curated weekly &nbsp;·&nbsp; <a href="https://danberte.com">danberte.com</a></footer>
+<footer>© {datetime.date.today().year} {esc(SITE['author'])} &nbsp;·&nbsp; curated weekly &nbsp;·&nbsp; <a href="https://danberte.com">danberte.com</a> &nbsp;·&nbsp; <a href="{esc(SITE['url'])}/feed.xml">RSS</a></footer>
 </body>
 </html>"""
 
@@ -157,6 +158,55 @@ def render_week_body(week_iso, entries, all_by_id, is_current):
   </div>
 </section>"""
 
+def rfc822(date_iso):
+    d = datetime.date.fromisoformat(date_iso)
+    return d.strftime("%a, %d %b %Y 12:00:00 +0000")
+
+def build_feed(entries):
+    items = []
+    for wk, meta in (DATA.get("weeks") or {}).items():
+        if meta.get("tldr"):
+            items.append({
+                "title": f"Executive summary — {fmt_week(wk)}",
+                "link": f"{SITE['url']}/archive/{wk}.html",
+                "guid": f"{SITE['url']}/archive/{wk}.html",
+                "date": wk,
+                "desc": meta["tldr"],
+                "cats": ["executive summary"],
+            })
+    for e in entries:
+        if e.get("status") == "pending":
+            continue
+        score = f"Score {e['score']:.1f} — " if e.get("score") is not None else ""
+        items.append({
+            "title": e["title"],
+            "link": e["url"],
+            "guid": f"{SITE['url']}/archive/{e['week']}.html#{e['id']}",
+            "date": e.get("added") or e.get("posted"),
+            "desc": score + e.get("blurb", ""),
+            "cats": e.get("topics", []),
+        })
+    items.sort(key=lambda i: i["date"], reverse=True)
+    items = items[:60]
+    parts = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0"><channel>',
+        f"<title>{esc(SITE['title'])}</title>",
+        f"<link>{esc(SITE['url'])}</link>",
+        f"<description>{esc(SITE['subtitle'])}</description>",
+        "<language>en-us</language>",
+    ]
+    for i in items:
+        cats = "".join(f"<category>{esc(c)}</category>" for c in i["cats"])
+        parts.append(
+            f"<item><title>{esc(i['title'])}</title><link>{esc(i['link'])}</link>"
+            f'<guid isPermaLink="false">{esc(i["guid"])}</guid>'
+            f"<pubDate>{rfc822(i['date'])}</pubDate>{cats}"
+            f"<description>{esc(i['desc'])}</description></item>"
+        )
+    parts.append("</channel></rss>")
+    (ROOT / "feed.xml").write_text("\n".join(parts))
+
 def main():
     entries = DATA["entries"]
     all_by_id = {e["id"]: e for e in entries}
@@ -201,7 +251,8 @@ def main():
   </div>
 </section>"""
     (ROOT / "archive" / "index.html").write_text(page(f"{SITE['title']} — Archive", body, depth=1))
-    print(f"Built: index.html, archive/index.html, {len(ordered)} week page(s). Current week: {current}")
+    build_feed(entries)
+    print(f"Built: index.html, archive/index.html, feed.xml, {len(ordered)} week page(s). Current week: {current}")
 
 if __name__ == "__main__":
     main()
