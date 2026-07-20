@@ -4,7 +4,7 @@
     "subtitle": "A weekly signal feed on innovation, AI, frontier models, web dev, browsers, cybersecurity and agentic workflows — curated by Dan Berte.",
     "url": "https://radar.danberte.com",
     "author": "Dan Berte",
-    "week_cut_day": "Friday"
+    "week_cut_day": "Monday"
   },
   "weeks": {
     "2026-07-10": {
@@ -13,8 +13,8 @@
     "2026-07-17": {
       "tldr": "OpenAI's desktop app merges Chat, Work, and Codex, with exclusive agent features. Grok Build CLI uploaded entire repos, secrets included, via an ineffective opt-out — researcher-reported, unconfirmed by xAI. PrismML's Bonsai 27B is the first 27B-class model to run on-phone at near-full precision. Moonshot's Kimi K3 matches Opus 4.8 and GPT-5.5 and tops agentic benchmarks; open weights planned, unreleased. Apple sued OpenAI over trade-secret theft in hardware hiring. Unabyss launched a paid MCP layer syncing 20+ sources into agents; usage claims unverified. Mindgard is disclosing a 200-day-old unpatched Cursor vulnerability. A reported Claude Code side channel bypassed Fable 5's cyber safeguards. Linq's Agent Pay moves payments into iMessage via FaceID, skipping the browser. Apple may ship a 1.5TB-memory M7 Ultra for local AI — unconfirmed."
     },
-    "2026-07-24": {
-      "tldr": "A Codex CLI logging bug burned a year of SSD lifespan in weeks; OpenAI's fix is still partial. Survey data put paid AI subscriptions at just 2.2% of U.S. households."
+    "2026-07-20": {
+      "tldr": "A Codex CLI logging bug burned a year of SSD lifespan in weeks; OpenAI's fix is still partial. Baidu open-sourced Unlimited-OCR, a locally-run model that reads 40-page documents in one shot with tables and reading order preserved. China's president used his first in-person World AI Conference appearance to pitch AI as shared infrastructure — training slots, disaster-warning access, and a new international AI cooperation body headquartered in Shanghai. Survey data put paid AI subscriptions at just 2.2% of U.S. households."
     }
   },
   "entries": [
@@ -499,7 +499,7 @@
       "source": "X",
       "added": "2026-07-19",
       "posted": "2026-07-19",
-      "week": "2026-07-24",
+      "week": "2026-07-20",
       "topics": [
         "agentic workflows",
         "cybersecurity",
@@ -518,7 +518,7 @@
       "source": "X",
       "added": "2026-07-19",
       "posted": "2026-07-18",
-      "week": "2026-07-24",
+      "week": "2026-07-20",
       "topics": [
         "ai",
         "innovation"
@@ -526,6 +526,45 @@
       "score": 5.6,
       "status": "curated",
       "blurb": "Compiled survey figures on U.S. AI adoption: 2.2% of households pay for an AI subscription, 1% of adults pay for Claude specifically, 6% use Claude at all, 4% use a chatbot almost constantly, and 4.5% have ever had an agent complete a task for them. A reminder that paid AI usage — agentic or otherwise — is still a small fraction of the population.",
+      "related": []
+    },
+    {
+      "id": "baidu-unlimited-ocr",
+      "url": "https://x.com/VaibhavSisinty/status/2079000862962417996",
+      "title": "Baidu open-sources Unlimited-OCR: reads 40-page documents in one shot, runs locally",
+      "author": "@VaibhavSisinty",
+      "source": "X",
+      "added": "2026-07-20",
+      "posted": "2026-07-20",
+      "week": "2026-07-20",
+      "topics": [
+        "ai",
+        "frontier models",
+        "innovation"
+      ],
+      "score": 6.6,
+      "status": "curated",
+      "blurb": "Baidu open-sourced Unlimited-OCR, a 3B-parameter model (500M active) that processes an entire document in one pass instead of page by page, preserving tables, formulas, and reading order across a 32K context window. Scores 93% on the standard benchmark (+6 over baseline), runs 100% locally, and outputs structured Markdown — unlike Textract, Cloud Vision, or Document Intelligence, which charge per page. 2.1M Hugging Face downloads last month.",
+      "take": "I can imagine a workflow for archivists, academia, other researchers and law, GTM work benefitting from this if added to Neon",
+      "related": []
+    },
+    {
+      "id": "xi-jinping-waic-ai-infrastructure",
+      "url": "https://x.com/alex_verem/status/2078709919453434349",
+      "title": "China's president frames AI as global infrastructure in first in-person WAIC keynote",
+      "author": "@alex_verem",
+      "source": "X",
+      "added": "2026-07-20",
+      "posted": "2026-07-19",
+      "week": "2026-07-20",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 6.2,
+      "status": "curated",
+      "blurb": "In his first in-person World AI Conference appearance, China's president pitched AI as shared infrastructure: 5,000 AI training slots for developing nations, weather-warning AI access for 30 countries, and a reaffirmed commitment to open source. A day earlier, 29 countries signed the charter for a new World AI Cooperation Organization headquartered in Shanghai.",
+      "take": "China positioning for AI as infrastructure for the world",
       "related": []
     }
   ]
