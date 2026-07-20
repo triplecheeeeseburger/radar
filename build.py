@@ -46,6 +46,8 @@ section:last-child { border-bottom: none; }
 .rank { font-family: var(--mono); font-size: 12px; color: var(--mid); }
 .entry-title { font-family: var(--serif); font-size: 15px; line-height: 1.5; }
 .entry-blurb { display: block; font-size: 12.5px; color: var(--gray); font-style: italic; margin-top: 5px; line-height: 1.65; font-family: var(--sans); }
+.entry-take { display: block; font-size: 12.5px; color: var(--black); margin-top: 6px; line-height: 1.65; font-family: var(--sans); }
+.take-label { font-weight: 600; text-transform: uppercase; font-size: 10px; letter-spacing: 0.06em; color: var(--mid); margin-right: 6px; }
 .entry-topics { display: block; margin-top: 7px; }
 .topic-pill { display: inline-block; font-size: 9.5px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray); border: 1px solid var(--rule); border-radius: 3px; padding: 2px 7px; margin-right: 5px; background: #fafafa; }
 .topic-pill.sample { color: #b06000; border-color: #e1dcc4; background: #fdf6ea; }
@@ -80,7 +82,7 @@ def esc(s): return html.escape(str(s), quote=True)
 
 def fmt_week(week_iso):
     d = datetime.date.fromisoformat(week_iso)
-    return "Week ending " + d.strftime("%B %-d, %Y")
+    return "Week of " + d.strftime("%B %-d, %Y")
 
 def weekday(date_iso):
     return datetime.date.fromisoformat(date_iso).strftime("%a")
@@ -128,11 +130,13 @@ def render_entry(e, rank, all_by_id):
     else:
         score = f'<span class="score">{e["score"]:.1f}</span>'
     posted = e.get("posted") or e.get("added")
+    take = f'<span class="entry-take"><span class="take-label">Dan\'s take</span>{esc(e["take"])}</span>' if e.get("take") else ""
     return f"""<a class="entry" href="{esc(e['url'])}" target="_blank" rel="noopener">
   <span class="rank">{rank:02d}</span>
   <span>
     <span class="entry-title">{esc(e['title'])}</span>
     <span class="entry-blurb">{esc(e['blurb'])}</span>
+    {take}
     <span class="entry-topics">{topics}</span>{rel}
   </span>
   <span class="entry-meta">
