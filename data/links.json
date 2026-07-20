@@ -14,7 +14,7 @@
       "tldr": "OpenAI's desktop app merges Chat, Work, and Codex, with exclusive agent features. Grok Build CLI uploaded entire repos, secrets included, via an ineffective opt-out — researcher-reported, unconfirmed by xAI. PrismML's Bonsai 27B is the first 27B-class model to run on-phone at near-full precision. Moonshot's Kimi K3 matches Opus 4.8 and GPT-5.5 and tops agentic benchmarks; open weights planned, unreleased. Apple sued OpenAI over trade-secret theft in hardware hiring. Unabyss launched a paid MCP layer syncing 20+ sources into agents; usage claims unverified. Mindgard is disclosing a 200-day-old unpatched Cursor vulnerability. A reported Claude Code side channel bypassed Fable 5's cyber safeguards. Linq's Agent Pay moves payments into iMessage via FaceID, skipping the browser. Apple may ship a 1.5TB-memory M7 Ultra for local AI — unconfirmed."
     },
     "2026-07-24": {
-      "tldr": ""
+      "tldr": "A Codex CLI logging bug burned a year of SSD lifespan in weeks; OpenAI's fix is still partial. Survey data put paid AI subscriptions at just 2.2% of U.S. households."
     }
   },
   "entries": [
@@ -489,6 +489,43 @@
       "score": 6.3,
       "status": "curated",
       "blurb": "A subscription MCP connector ($13–79/mo) that pulls context from Slack, Gmail, Notion, GitHub, X, LinkedIn, calendars and 20+ other sources into one structured, continuously updated profile, then serves it over MCP to Claude, ChatGPT, Cursor and other compatible clients so the same context follows a user across tools. Self-reports 450,000+ synced items; usage claims are unverified.",
+      "related": []
+    },
+    {
+      "id": "codex-ssd-logger-bug",
+      "url": "https://x.com/0x_kaize/status/2078872972245225586",
+      "title": "Codex CLI logging bug burns a year of SSD lifespan in weeks",
+      "author": "@0x_kaize",
+      "source": "X",
+      "added": "2026-07-19",
+      "posted": "2026-07-19",
+      "week": "2026-07-24",
+      "topics": [
+        "agentic workflows",
+        "cybersecurity",
+        "ai"
+      ],
+      "score": 7.3,
+      "status": "curated",
+      "blurb": "An unopted-in TRACE-level SQLite logger in OpenAI's Codex CLI writes continuously to ~/.codex/logs_2.sqlite; one developer measured 37 TB written in 21 days, ~640 TB/year against a typical 600 TBW SSD rating. OpenAI shipped fixes cutting writes ~85% in 0.142.x, with a third fix still in 0.143.0 alpha; user reports of drive wear and failures continue. A software bug in an agentic coding tool causing physical hardware damage.",
+      "related": []
+    },
+    {
+      "id": "ai-subscription-adoption-stat",
+      "url": "https://x.com/itsolelehmann/status/2078324553965764610",
+      "title": "Survey data: only 2.2% of U.S. households pay for an AI subscription",
+      "author": "@itsolelehmann",
+      "source": "X",
+      "added": "2026-07-19",
+      "posted": "2026-07-18",
+      "week": "2026-07-24",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5.6,
+      "status": "curated",
+      "blurb": "Compiled survey figures on U.S. AI adoption: 2.2% of households pay for an AI subscription, 1% of adults pay for Claude specifically, 6% use Claude at all, 4% use a chatbot almost constantly, and 4.5% have ever had an agent complete a task for them. A reminder that paid AI usage — agentic or otherwise — is still a small fraction of the population.",
       "related": []
     }
   ]
