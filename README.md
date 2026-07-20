@@ -7,7 +7,7 @@ Weekly curated signal feed (AI, frontier models, web dev, browsers, cybersec, ag
 1. **Ingest** — Paste links (X threads, articles) into a Cowork chat with Claude, anytime.
 2. **Curate** — Claude pulls the content (via your Chrome extension for X, since X blocks server-side fetches; or you paste the thread text), then writes a "why it matters" blurb, scores it, tags topics, and cross-links overlapping threads.
 3. **Publish** — Claude updates `data/links.json` and commits via the GitHub API; Actions rebuilds and deploys Pages automatically.
-4. **Archive** — Weeks cut Friday PM. Every week gets a permanent page under `/archive/`; `index.html` always shows the current week.
+4. **Archive** — Weeks run Monday–Sunday; cut Monday AM. Every week gets a permanent page under `/archive/`; `index.html` always shows the current week.
 
 ## Scoring rubric (0–10) — strategic lens
 
@@ -25,6 +25,7 @@ Overlapping threads are cross-referenced ("↔ overlaps") and their scores weigh
 - **Never announce the objective.** The strategic lens governs scoring and ordering only; published text never mentions that ranking serves Opera Neon strategy, and never contains internal product-strategy language ("house win", "worth evaluating as a play"). The site is public.
 - **TL;DR** = one paragraph of plain declarative sentences covering every signal, ordered roughly by rank, ending with any caution/caveat item. Target under ~120 words — written for a decision-maker in a rush; keep only what a reader needs to understand and act on each signal.
 - **Blurbs** state the facts, then the implication, worded neutrally (e.g. "differentiation shifts to…", "a pattern other vendors are likely to copy").
+- **Dan's take** (optional, per entry) is personal commentary, kept separate from the blurb and visually labeled as opinion. Unlike the TL;DR/blurb, it may reference Opera Neon or product strategy directly — the neutrality rule above applies only to the factual summary, not to Dan's own stated opinion.
 
 ## Files
 
@@ -45,11 +46,12 @@ The **title is a summary of what the tweet/thread actually says** (its core clai
   "url": "https://x.com/...",
   "title": "…", "author": "@handle", "source": "X",
   "added": "2026-07-09", "posted": "2026-07-05",
-  "week": "2026-07-10",            // Friday cut date of its week
+  "week": "2026-07-10",            // Monday of its week (weeks run Mon–Sun)
   "topics": ["ai", "browsers"],
   "score": 8.4,                     // null while pending
   "status": "curated",              // or "pending"
   "blurb": "Why it matters: …",
+  "take": "Dan's personal commentary — optional, may mention Neon/strategy directly",
   "related": ["other-entry-id"]
 }
 ```
