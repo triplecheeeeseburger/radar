@@ -14,7 +14,7 @@
       "tldr": "OpenAI's desktop app merges Chat, Work, and Codex, with exclusive agent features. Grok Build CLI uploaded entire repos, secrets included, via an ineffective opt-out — researcher-reported, unconfirmed by xAI. PrismML's Bonsai 27B is the first 27B-class model to run on-phone at near-full precision. Moonshot's Kimi K3 matches Opus 4.8 and GPT-5.5 and tops agentic benchmarks; open weights planned, unreleased. Apple sued OpenAI over trade-secret theft in hardware hiring. Unabyss launched a paid MCP layer syncing 20+ sources into agents; usage claims unverified. Mindgard is disclosing a 200-day-old unpatched Cursor vulnerability. A reported Claude Code side channel bypassed Fable 5's cyber safeguards. Linq's Agent Pay moves payments into iMessage via FaceID, skipping the browser. Apple may ship a 1.5TB-memory M7 Ultra for local AI — unconfirmed."
     },
     "2026-07-20": {
-      "tldr": "A Codex CLI logging bug burned a year of SSD lifespan in weeks; OpenAI's fix is still partial. Baidu open-sourced Unlimited-OCR, a locally-run model that reads 40-page documents in one shot with tables and reading order preserved. China's president used his first in-person World AI Conference appearance to pitch AI as shared infrastructure — training slots, disaster-warning access, and a new international AI cooperation body headquartered in Shanghai. Survey data put paid AI subscriptions at just 2.2% of U.S. households."
+      "tldr": "A Codex CLI logging bug burned a year of SSD lifespan in weeks; OpenAI's fix is still partial. The Trump administration is reportedly weighing an executive order restricting Chinese open-source AI models, with Kimi K3 reigniting the debate; the White House denies it. Baidu open-sourced Unlimited-OCR, a locally-run model that reads 40-page documents in one shot with tables and reading order preserved. China's president used his first in-person World AI Conference appearance to pitch AI as shared infrastructure — training slots, disaster-warning access, and a new international AI cooperation body headquartered in Shanghai. Survey data put paid AI subscriptions at just 2.2% of U.S. households."
     }
   },
   "entries": [
@@ -566,6 +566,27 @@
       "blurb": "In his first in-person World AI Conference appearance, China's president pitched AI as shared infrastructure: 5,000 AI training slots for developing nations, weather-warning AI access for 30 countries, and a reaffirmed commitment to open source. A day earlier, 29 countries signed the charter for a new World AI Cooperation Organization headquartered in Shanghai.",
       "take": "China positioning for AI as infrastructure for the world",
       "related": []
+    },
+    {
+      "id": "us-considers-banning-chinese-open-models",
+      "url": "https://x.com/AndrewCurran_/status/2079202168448659764",
+      "title": "Report: White House weighing a ban on Chinese open-source AI models",
+      "author": "@AndrewCurran_",
+      "source": "X",
+      "added": "2026-07-20",
+      "posted": "2026-07-20",
+      "week": "2026-07-20",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "Axios reports the Trump administration is considering an executive order — and other measures — to restrict Chinese open-source models in the US, with Kimi K3's release reigniting the debate; Commerce is also said to be weighing adding Chinese AI labs to the Entity List. Scope is unclear (Chinese models specifically vs. open-source AI broadly), and the White House has denied the reports.",
+      "related": [
+        "xi-jinping-waic-ai-infrastructure",
+        "kimi-k3-benchmarks"
+      ]
     }
   ]
 }
