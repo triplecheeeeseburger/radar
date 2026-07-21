@@ -14,7 +14,7 @@
       "tldr": "OpenAI's desktop app merges Chat, Work, and Codex, with exclusive agent features. Grok Build CLI uploaded entire repos, secrets included, via an ineffective opt-out — researcher-reported, unconfirmed by xAI. PrismML's Bonsai 27B is the first 27B-class model to run on-phone at near-full precision. Moonshot's Kimi K3 matches Opus 4.8 and GPT-5.5 and tops agentic benchmarks; open weights planned, unreleased. Apple sued OpenAI over trade-secret theft in hardware hiring. Unabyss launched a paid MCP layer syncing 20+ sources into agents; usage claims unverified. Mindgard is disclosing a 200-day-old unpatched Cursor vulnerability. A reported Claude Code side channel bypassed Fable 5's cyber safeguards. Linq's Agent Pay moves payments into iMessage via FaceID, skipping the browser. Apple may ship a 1.5TB-memory M7 Ultra for local AI — unconfirmed."
     },
     "2026-07-20": {
-      "tldr": "A Codex CLI logging bug burned a year of SSD lifespan in weeks; OpenAI's fix is still partial. The Trump administration is reportedly weighing an executive order restricting Chinese open-source AI models, with Kimi K3 reigniting the debate; the White House denies it. Baidu open-sourced Unlimited-OCR, a locally-run model that reads 40-page documents in one shot with tables and reading order preserved. China's president used his first in-person World AI Conference appearance to pitch AI as shared infrastructure — training slots, disaster-warning access, and a new international AI cooperation body headquartered in Shanghai. Survey data put paid AI subscriptions at just 2.2% of U.S. households."
+      "tldr": "A Codex CLI logging bug burned a year of SSD lifespan in weeks; OpenAI's fix is partial. The Trump administration is reportedly weighing an executive order restricting Chinese open-source AI models, with Kimi K3 reigniting the debate; the White House denies it. Kimi K3 demand hit Moonshot's GPU capacity within 48 hours, pausing new subscriptions. Baidu open-sourced Unlimited-OCR, reading 40-page documents in one shot locally with tables and reading order preserved. Firefox resumed posting on X, framing its return around an 'open internet' amid renewed attention on the browser category post-Atlas. China's president used his first in-person WAIC appearance to pitch AI as shared infrastructure — training slots, disaster-warning access, and a new Shanghai-based AI cooperation body. Survey data put paid AI subscriptions at just 2.2% of U.S. households."
     }
   },
   "entries": [
@@ -586,6 +586,50 @@
       "related": [
         "xi-jinping-waic-ai-infrastructure",
         "kimi-k3-benchmarks"
+      ]
+    },
+    {
+      "id": "kimi-k3-subscription-pause",
+      "url": "https://x.com/Kimi_Moonshot/status/2078855608565207130",
+      "title": "Kimi K3 demand pushes Moonshot AI to pause new subscriptions",
+      "author": "@Kimi_Moonshot",
+      "source": "X",
+      "added": "2026-07-20",
+      "posted": "2026-07-19",
+      "week": "2026-07-20",
+      "topics": [
+        "frontier models",
+        "ai",
+        "innovation"
+      ],
+      "score": 6.7,
+      "status": "curated",
+      "blurb": "Within 48 hours of K3's release, demand pushed Moonshot AI's GPU capacity to its limit; new subscriptions are paused while existing subscribers are prioritized, with new spots reopening in batches as capacity is added. Moonshot is also splitting membership into separate web/app and coding-focused tiers to better match compute to usage. 13M views on the announcement.",
+      "take": "access to compute may make or brake new entrants after all",
+      "related": [
+        "kimi-k3-benchmarks",
+        "us-considers-banning-chinese-open-models"
+      ]
+    },
+    {
+      "id": "firefox-returns-to-x",
+      "url": "https://x.com/firefox/status/2079317211152564724",
+      "title": "Firefox returns to X as \"an independent voice for... the open internet\"",
+      "author": "@firefox",
+      "source": "X",
+      "added": "2026-07-20",
+      "posted": "2026-07-20",
+      "week": "2026-07-20",
+      "topics": [
+        "browsers",
+        "innovation"
+      ],
+      "score": 6.4,
+      "status": "curated",
+      "blurb": "Firefox's official account resumed posting on X after a hiatus, framing its return as representing \"an independent voice for our users and the open internet\" amid a changing internet landscape. Light on specifics, but a notable repositioning moment for the browser given renewed public attention on the category following Atlas's shutdown and Safari's privacy-focused marketing push.",
+      "take": "firefox coming back to X to advocate for an open internet & Safari advertising as \"a browser that's actually private\" marks a renewal in browser interest after the cancellation of Atlas and its 5m users",
+      "related": [
+        "openai-kills-atlas"
       ]
     }
   ]
