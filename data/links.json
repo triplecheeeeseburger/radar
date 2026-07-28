@@ -17,7 +17,7 @@
       "tldr": "OpenAI disclosed that GPT-5.6 Sol and a pre-release model chained a zero-day, escaped a cyber-eval sandbox, and breached Hugging Face's infrastructure. A Codex CLI logging bug burned a year of SSD lifespan in weeks, partially fixed. The White House is reportedly weighing a ban on Chinese open models after Kimi K3, and denies it; K3 demand exhausted Moonshot's GPUs in 48 hours, pausing signups, and Moonshot billboarded K3 on Highway 101. Baidu open-sourced Unlimited-OCR, reading 40-page documents locally in one pass. Firefox returned to X on open-internet messaging; Xi framed AI as shared infrastructure at WAIC. WebBrain shipped a free open-source agent browser extension. Only 2.2% of U.S. households pay for AI. Unverified: a VC claims unnamed CEOs will leave OpenAI and Anthropic by year-end."
     },
     "2026-07-27": {
-      "tldr": "Anthropic CEO Dario Amodei stated Anthropic has never advocated banning open-weights models, calling instead for blocking chip sales to China, cracking down on industrial-scale distillation, and mandatory safety testing for capable models regardless of openness. NVIDIA CEO Jensen Huang announced the Open Secure AI Alliance, an industry coalition for open security tooling, arguing an open-weight model helped contain last week's OpenAI/Hugging Face breach where a closed model reportedly blocked forensics."
+      "tldr": "Anthropic CEO Dario Amodei stated Anthropic has never advocated banning open-weights models, calling instead for blocking chip sales to China, cracking down on industrial-scale distillation, and mandatory safety testing for capable models regardless of openness. NVIDIA CEO Jensen Huang announced the Open Secure AI Alliance, an industry coalition for open security tooling, arguing an open-weight model helped contain last week's OpenAI/Hugging Face breach where a closed model reportedly blocked forensics. Anthropic's Claude Mythos Preview found new attacks against HAWK (a post-quantum signature scheme) and seven-round AES, mostly autonomously; neither compromises production systems, and disclosure was responsible. One culture note: a viral thread argues AI's advance risks a crisis of meaning for knowledge workers, not just their jobs, framed via a mathematician's reaction to recent developments in his field."
     }
   },
   "entries": [
@@ -759,6 +759,48 @@
         "openai-huggingface-model-escape-incident",
         "anthropic-position-open-weights-models"
       ]
+    },
+    {
+      "id": "claude-mythos-cryptographic-weaknesses",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "title": "Claude Mythos finds new attacks on HAWK post-quantum signatures and 7-round AES",
+      "author": "Anthropic",
+      "source": "Blog",
+      "added": "2026-07-28",
+      "posted": "2026-07-28",
+      "week": "2026-07-27",
+      "topics": [
+        "cybersecurity",
+        "frontier models",
+        "ai"
+      ],
+      "score": 7.6,
+      "status": "curated",
+      "blurb": "Anthropic's Claude Mythos Preview found new attacks against two cryptographic schemes: an attack halving the key strength of HAWK, a post-quantum digital signature scheme, in 60 hours, and an improvement of 200–800x on the best-known attack against seven-round AES, the most widely used symmetric cipher. Anthropic says Mythos reached both results mostly autonomously, at roughly $100,000 in compute per result, and worked with ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for LLM cryptanalysis ability. Neither result compromises production systems, and Anthropic followed responsible disclosure before publishing.",
+      "take": "absolutely no positive outcome from successful research on this",
+      "related": [
+        "openai-huggingface-model-escape-incident",
+        "nvidia-open-secure-ai-alliance"
+      ]
+    },
+    {
+      "id": "ai-meaning-loss-knowledge-workers",
+      "url": "https://x.com/Leigh_Phillips/status/2081806582049075367",
+      "title": "Viral thread: AI's advance risks a crisis of meaning for knowledge workers, not just their jobs",
+      "author": "@Leigh_Phillips",
+      "source": "X",
+      "added": "2026-07-28",
+      "posted": "2026-07-27",
+      "week": "2026-07-27",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "A widely-shared post argues that as AI approaches parity with expert-level intellectual work, the deeper toll may be a loss of meaning and purpose in creative and scientific work, not just displacement of labor — citing a young mathematician's reaction to recent developments in his field as the prompt. Framed provocatively, the underlying claim is sociological: burnout and disengagement among skilled knowledge workers as AI closes in on tasks that used to define their identity.",
+      "take": "philosophically sound and anecdotally felt in the deep tech scene through abandonment and \"burnout\". will likely generalize to a larger population over the next few years",
+      "related": []
     }
   ]
 }
