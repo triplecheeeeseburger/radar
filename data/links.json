@@ -690,7 +690,8 @@
       "score": 6.1,
       "status": "curated",
       "blurb": "WebBrain is a free, open-source browser extension that adds agentic capabilities to any browser: pick your own LLM, automate workflows, and keep data local with no telemetry or tracking. An early-stage, low-traction post (23K views) but a clean example of the bring-your-own-model, privacy-first approach to agentic browsing as a bolt-on rather than a dedicated browser.",
-      "related": []
+      "related": [],
+      "take": "new open source AI browser agent positioned as a daily browsing AI assistant with a privacy/security pitch"
     },
     {
       "id": "kimi-open-model-billboard-silicon-valley",
