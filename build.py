@@ -10,6 +10,9 @@ Design system mirrors danberte.com (Libre Baskerville + DM Sans,
 hairline rules, item-row lists). No dependencies beyond stdlib.
 """
 import json, html, datetime, pathlib, collections
+from zoneinfo import ZoneInfo
+
+SITE_TZ = ZoneInfo("America/Los_Angeles")  # radar.danberte.com runs on SF-local weeks
 
 ROOT = pathlib.Path(__file__).parent
 DATA = json.loads((ROOT / "data" / "links.json").read_text())
@@ -229,7 +232,7 @@ def main():
     # Current week is derived from today's date, not from the latest signal --
     # weeks run Monday-Sunday, so this is always this week's Monday, even
     # before any signal has been curated for it.
-    today = datetime.date.today()
+    today = datetime.datetime.now(SITE_TZ).date()
     current = (today - datetime.timedelta(days=today.weekday())).isoformat()
     if current not in weeks:
         weeks[current] = []
