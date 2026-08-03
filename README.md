@@ -6,7 +6,7 @@ Weekly curated signal feed (AI, frontier models, web dev, browsers, cybersec, ag
 
 1. **Ingest** — Paste links (X threads, articles) into a Cowork chat with Claude, anytime.
 2. **Curate** — Claude pulls the content (via your Chrome extension for X, since X blocks server-side fetches; or you paste the thread text), then writes a "why it matters" blurb, scores it, tags topics, and cross-links overlapping threads.
-3. **Publish** — Claude updates `data/links.json` and commits via the GitHub API; Actions rebuilds and deploys Pages automatically.
+3. **Publish** — Claude updates `data/links.json` and commits via the GitHub API; Actions rebuilds and deploys Pages automatically. `week` is always the Monday of the week the signal is ADDED, regardless of when the underlying story happened — a signal curated today belongs on today's page, not retroactively filed under whichever week the news broke.
 4. **Archive** — Weeks run Monday–Sunday; cut Monday AM. Every week gets a permanent page under `/archive/`; `index.html` always shows the current week.
 
 ## Scoring rubric (0–10) — strategic lens
@@ -46,7 +46,7 @@ The **title is a summary of what the tweet/thread actually says** (its core clai
   "url": "https://x.com/...",
   "title": "…", "author": "@handle", "source": "X",
   "added": "2026-07-09", "posted": "2026-07-05",
-  "week": "2026-07-10",            // Monday of its week (weeks run Mon–Sun)
+  "week": "2026-07-10",            // Monday of the week it was ADDED/published (not the event date) — always the current week at curation time, so it shows on the front page, not buried in the archive
   "topics": ["ai", "browsers"],
   "score": 8.4,                     // null while pending
   "status": "curated",              // or "pending"
