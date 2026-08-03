@@ -225,8 +225,16 @@ def main():
     weeks = collections.defaultdict(list)
     for e in entries:
         weeks[e["week"]].append(e)
+
+    # Current week is derived from today's date, not from the latest signal --
+    # weeks run Monday-Sunday, so this is always this week's Monday, even
+    # before any signal has been curated for it.
+    today = datetime.date.today()
+    current = (today - datetime.timedelta(days=today.weekday())).isoformat()
+    if current not in weeks:
+        weeks[current] = []
+
     ordered = sorted(weeks.keys(), reverse=True)
-    current = ordered[0]
 
     (ROOT / "archive").mkdir(exist_ok=True)
 
@@ -245,8 +253,11 @@ def main():
     rows = []
     for wk in ordered:
         es = weeks[wk]
-        top = max(es, key=lambda e: e.get("score") or 0)
-        note = f'<span class="week-note">Top signal: {esc(top["title"][:80])}</span>' if top.get("score") else ""
+        if es:
+            top = max(es, key=lambda e: e.get("score") or 0)
+            note = f'<span class="week-note">Top signal: {esc(top["title"][:80])}</span>' if top.get("score") else ""
+        else:
+            note = '<span class="week-note">No signals yet</span>'
         cur = " · current" if wk == current else ""
         rows.append(f"""<a class="week-row" href="{wk}.html">
   <span class="week-title">{esc(fmt_week(wk))}{note}</span>
