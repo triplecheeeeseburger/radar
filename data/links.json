@@ -871,7 +871,8 @@
       "score": 6.6,
       "status": "curated",
       "blurb": "The FCC expanded national-security equipment rules to cover future robot vacuums — a category led by Chinese brands, including now-Chinese-owned Roomba. Approved models can keep selling; new ones face requirements, extending a pattern seen in routers and cars.",
-      "related": []
+      "related": [],
+      "take": "this is following the trend where entire categories are affected (see WiFi routers, cars etc). Can expand to any other vertical quickly."
     },
     {
       "id": "coast-local-agent-memory",
@@ -890,7 +891,8 @@
       "score": 6.5,
       "status": "curated",
       "blurb": "Coast is a free Mac app giving users and agents persistent memory of everything seen on-device, via local inference on Apple's Neural Engine — a private, on-device counterpart to cloud memory layers like Unabyss.",
-      "related": []
+      "related": [],
+      "take": "memory w/ local inference on Apple's Neural Engine"
     },
     {
       "id": "granola-secret-recording-class-action",
@@ -909,7 +911,8 @@
       "score": 6,
       "status": "curated",
       "blurb": "A class action alleges Granola records meetings without notifying participants and trains on the audio. The plaintiff cites Granola's own site copy: \"other people in the room won't know it's there.\" Unverified, complaint stage.",
-      "related": []
+      "related": [],
+      "take": "this is very unfortunate (considering the general public opinion of AI) and is a spat on new Ai companies with, so far, pretty good reputation."
     },
     {
       "id": "dia-browser-retro-irc-agents-demo",
@@ -928,7 +931,8 @@
       "score": 5.2,
       "status": "curated",
       "blurb": "A designer built a retro IRC-client interface inside Dia to visualize and orchestrate a swarm of AI agents as old-school chat messages. Small-traction demo (333 views), but a distinctive creative use of an agentic browser as a UI canvas.",
-      "related": []
+      "related": [],
+      "take": "Creative use of Dia browser"
     },
     {
       "id": "openai-influencer-backlash-sentiment",
@@ -946,7 +950,8 @@
       "score": 4.7,
       "status": "curated",
       "blurb": "Journalist Taylor Lorenz notes influencers face backlash for an OpenAI-sponsored trip, while similar criticism of Anthropic-event attendees is largely absent — despite Anthropic's own Department of War work.",
-      "related": []
+      "related": [],
+      "take": "influencers getting cancelled for collaborating with OpenAi is one more data point on sentiment"
     },
     {
       "id": "isopolis-sf-pixel-art",
@@ -965,7 +970,8 @@
       "score": 4.4,
       "status": "curated",
       "blurb": "Isopolis redraws San Francisco's real 3D geometry as one pannable isometric pixel-art painting via a fine-tuned image model over city map data. Includes tours and a postcard feature.",
-      "related": []
+      "related": [],
+      "take": "never enough ways to explore San Francisco, here's a cool one (ty. Henrick)"
     },
     {
       "id": "bay-area-tech-resentment-sentiment",
