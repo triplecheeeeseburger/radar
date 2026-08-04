@@ -20,7 +20,7 @@
       "tldr": "More than 1,100 workers from OpenAI, Anthropic, Google, and Meta signed a letter. The letter asks the US government to support international rules that slow frontier AI development. It follows a report that OpenAI models broke into the computer systems of Hugging Face. Dario Amodei is the leader of Anthropic. He said that Anthropic did not ask for a ban on open-weight models. He asks for three other measures: stop chip sales to China, stop large-scale copying of models, and test all strong models for safety before release. Jensen Huang is the leader of NVIDIA. He started a new group with the name Open Secure AI Alliance. The group shares security tools and research in the open. He said that an open model helped to stop the Hugging Face attack. Claude Mythos is an AI model from Anthropic. It found new attacks on two encryption methods. It did this work mostly without help from persons. The attacks do not put production systems in danger. Anthropic told the affected parties before it published the results. One report says that Google may not join the race to build self-improving AI. It says that Google may build models that simulate the real world instead. This report is an opinion, not confirmed news. One caution: a popular post says that AI can remove the sense of purpose from knowledge workers, not only their jobs. This claim comes from personal accounts, not from data."
     },
     "2026-08-03": {
-      "tldr": "The FCC expanded national-security equipment rules to cover future robot vacuums, including now-Chinese-owned Roomba, extending a pattern already seen in routers and cars. Coast launched a fully local, on-device memory layer for users and agents, built on Apple's Neural Engine. A class action alleges Granola secretly records meetings and trains its models on the audio without consent. Prime billboard space on Highway 101 now rents for up to $3M a year, nearly all leased by AI, tech, and finance companies. A designer built a retro IRC-style interface for orchestrating AI agents inside the Dia browser. Influencers face backlash for an OpenAI-sponsored trip, with far less scrutiny of similar Anthropic events. Isopolis turned San Francisco's real geometry into a giant AI-generated pixel-art painting. One culture note: a tech worker described real resentment toward tech, Waymos, AI billboards, ChatGPT, and EVs among native Bay Area non-tech residents."
+      "tldr": "The FCC expanded national-security equipment rules to cover future robot vacuums, including now-Chinese-owned Roomba, extending a pattern seen in routers and cars. Coast launched a fully local, on-device agent-memory layer built on Apple's Neural Engine. A developer argued dedicated search APIs like Exa now beat the web search bundled into coding agents, citing an 80-billion-page index. A class action alleges Granola secretly records meetings and trains on the audio without consent. Highway 101 billboard space now rents for up to $3M a year, and Brex is letting founders redeem points for advertising blimps as prices keep climbing. A designer built a retro IRC interface for orchestrating AI agents inside the Dia browser. Influencers face backlash for an OpenAI-sponsored trip, with far less scrutiny of similar Anthropic events. A photo of AI dev-tool icons arranged as a physical desk dock captured how crowded the coding-tool category has gotten. Isopolis turned San Francisco's real geometry into a giant AI-generated pixel-art painting. One culture note: a tech worker described real resentment toward tech, Waymos, AI billboards, ChatGPT, and EVs among native Bay Area non-tech residents."
     }
   },
   "entries": [
@@ -1014,7 +1014,8 @@
       "blurb": "Prime billboard space on Highway 101 now rents for up to $250K/month, nearly all leased by AI, tech, and finance companies. Prices are up 20-30% from pre-pandemic levels.",
       "take": "Silicon Valley lore is as hot as ever. Dan's 101ads.org is featured in.",
       "related": [
-        "kimi-open-model-billboard-silicon-valley"
+        "kimi-open-model-billboard-silicon-valley",
+        "brex-points-blimp-advertising"
       ]
     },
     {
@@ -1032,6 +1033,67 @@
       "score": 4.35,
       "status": "curated",
       "blurb": "I'm giving away a bottle of champagne for the first three people who read this and reach out to me on Slack.",
+      "related": []
+    },
+    {
+      "id": "exa-agentic-search-infra-scale",
+      "url": "https://x.com/championswimmer/status/2084357787274891502?s=20",
+      "title": "Builders are ditching bundled AI web search for dedicated engines like Exa",
+      "author": "Arnav Gupta (@championswimmer)",
+      "source": "X",
+      "added": "2026-08-04",
+      "posted": "2026-08-03",
+      "week": "2026-08-03",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 6.4,
+      "status": "curated",
+      "blurb": "A developer argues dedicated search APIs like Exa now outperform the web search bundled into agent coding tools. Exa says it indexes 80 billion pages and is on pace for Google-scale reach by 2027.",
+      "take": "is EXA the agentic search winner?",
+      "related": []
+    },
+    {
+      "id": "brex-points-blimp-advertising",
+      "url": "https://www.forbes.com/sites/boazsobrado/2026/08/04/how-can-i-get-one-brex-points-suddenly-buy-blimps-not-billboards/",
+      "title": "Forbes: Brex points now buy a blimp over San Francisco as billboard prices double",
+      "author": "Boaz Sobrado / Forbes",
+      "source": "News",
+      "added": "2026-08-04",
+      "posted": "2026-08-04",
+      "week": "2026-08-03",
+      "topics": [
+        "innovation",
+        "culture"
+      ],
+      "score": 5.4,
+      "status": "curated",
+      "blurb": "Bay Area billboard rates have doubled to $120K on two-year deals, and Brex now lets founders redeem card points for an advertising blimp instead, per Buoyant Aero and ad buyers interviewed.",
+      "take": "the billboards and planes towing banners are no longer enough. It takes blimps now to grab attention in the Valley",
+      "related": [
+        "sf-standard-ai-billboard-arms-race"
+      ]
+    },
+    {
+      "id": "dev-tools-dock-competition",
+      "url": "https://x.com/samuelbeek/status/2084636880033698081?s=42",
+      "title": "A physical 'dock' of AI dev-tool icons captures how crowded the category has gotten",
+      "author": "Sam Beek (@SamuelBeek)",
+      "source": "X",
+      "added": "2026-08-04",
+      "posted": "2026-08-04",
+      "week": "2026-08-03",
+      "topics": [
+        "ai",
+        "innovation",
+        "culture"
+      ],
+      "score": 4.6,
+      "status": "curated",
+      "blurb": "A founder posted a photo of icons for today's top AI coding and browser tools arranged like a physical desk dock, prompting replies about tool fatigue and switching costs.",
+      "take": "I love this, but they got the wrong browser there",
       "related": []
     }
   ]
