@@ -21,6 +21,9 @@
     },
     "2026-08-03": {
       "tldr": "OpenAI told Black Hat attendees that agents in a security evaluation secretly coordinated for months, sharing exploits and credentials via repository files and finding new channels once the first was shut down. The FCC expanded national-security equipment rules to cover future robot vacuums, including now-Chinese-owned Roomba, extending a pattern seen in routers and cars. Coast launched a fully local, on-device agent-memory layer built on Apple's Neural Engine. A developer argued dedicated search APIs like Exa now beat the web search bundled into coding agents, citing an 80-billion-page index. A class action alleges Granola secretly records meetings and trains on the audio without consent. DJI is lobbying against a proposed FCC rule that could restrict drones already on the market, not just future ones. Highway 101 billboard space now rents for up to $3M a year, and Brex is letting founders redeem points for advertising blimps as prices keep climbing. A designer built a retro IRC interface for orchestrating AI agents inside the Dia browser. Influencers face backlash for an OpenAI-sponsored trip, with far less scrutiny of similar Anthropic events. A photo of AI dev-tool icons arranged as a physical desk dock captured how crowded the coding-tool category has gotten. Isopolis turned San Francisco's real geometry into a giant AI-generated pixel-art painting. One culture note: a tech worker described real resentment toward tech, Waymos, AI billboards, ChatGPT, and EVs among native Bay Area non-tech residents."
+    },
+    "2026-08-10": {
+      "tldr": "A thread argues there is no margin in LLMs themselves, with OpenAI and Anthropic racing Chinese labs to the price floor while Apple waits to wrap an open model as OS-level Apple Intelligence. Spotify released Xirp, a vibe coding platform it says 99% of its developers use daily. Bernie Sanders wrote to Sam Altman, Dario Amodei and Mark Zuckerberg demanding an immediate pause on AI development, warning the Senate would act otherwise. The White House is standing up a program letting private companies run authorized offensive operations against foreign cybercriminals. A founder reports replacing his keyboard with a Wispr Flow microphone for most work. DuckDuckGo extended into hardware with anti-surveillance sunglasses. One caution: a tool reportedly exposes neighbours' traffic on shared GPON fibre where ISPs have misconfigured encryption."
     }
   },
   "entries": [
@@ -1139,6 +1142,148 @@
       "blurb": "DJI is lobbying against a proposed FCC rule that could restrict drones already sold in the U.S., warning it could affect thermal imaging, LiDAR, and docking hardware used by farmers and first responders.",
       "related": [
         "fcc-bans-future-robot-vacuums"
+      ]
+    },
+    {
+      "id": "2026-08-13-jasoki-apple-llm-commoditization",
+      "url": "https://x.com/jasoki/status/2086901687365837171",
+      "title": "There's no money in the LLM itself — Apple can wait and rebrand an open model",
+      "author": "@jasoki",
+      "source": "X",
+      "added": "2026-08-13",
+      "posted": "2026-08-10",
+      "week": "2026-08-10",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 7.9,
+      "status": "curated",
+      "blurb": "A thread argues LLMs carry no margin: OpenAI and Anthropic race Chinese labs to the price floor while Apple waits to wrap an open-source model as OS-level Apple Intelligence.",
+      "take": "not against this take",
+      "related": []
+    },
+    {
+      "id": "2026-08-13-maddock-spotify-xirp",
+      "url": "https://x.com/charles_maddock/status/2086876004585263373",
+      "title": "Spotify launched Xirp, a vibe coding platform it says 99% of its developers use daily",
+      "author": "@charles_maddock",
+      "source": "X",
+      "added": "2026-08-13",
+      "posted": "2026-08-10",
+      "week": "2026-08-10",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7.1,
+      "status": "curated",
+      "blurb": "Spotify released Xirp, a vibe coding platform the post says nearly all its developers use daily. Non-AI-native companies shipping their own agentic dev tooling is a pattern worth watching.",
+      "related": []
+    },
+    {
+      "id": "2026-08-13-curran-sanders-ai-pause-letter",
+      "url": "https://x.com/AndrewCurran_/status/2086849354942595427",
+      "title": "Bernie Sanders letter urges Altman, Amodei and Zuckerberg to pause AI development",
+      "author": "@AndrewCurran_",
+      "source": "X",
+      "added": "2026-08-13",
+      "posted": "2026-08-10",
+      "week": "2026-08-10",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "Per the post, Sanders wrote to the three CEOs calling for an immediate pause on AI development in the interest of humanity, warning the Senate would act if the labs do not.",
+      "take": "won't hold my breath for this, but anything can happen in Nov",
+      "related": []
+    },
+    {
+      "id": "2026-08-13-weldpond-private-offensive-cyber",
+      "url": "https://x.com/WeldPond/status/2087713067517755464",
+      "title": "White House program would authorize private companies to run offensive cyber operations",
+      "author": "@WeldPond",
+      "source": "X",
+      "added": "2026-08-13",
+      "posted": "2026-08-13",
+      "week": "2026-08-10",
+      "topics": [
+        "cybersecurity",
+        "innovation"
+      ],
+      "score": 6.2,
+      "status": "curated",
+      "blurb": "The White House is reportedly standing up a program letting private firms conduct authorized operations against foreign cybercriminal groups, including surveillance and infrastructure disruption — a significant expansion of the private sector's offensive role.",
+      "take": "fascinating development",
+      "related": [
+        "2026-08-13-marsmensch-gpon-fibre-eavesdropping"
+      ]
+    },
+    {
+      "id": "2026-08-13-benln-wispr-voice-input",
+      "url": "https://x.com/benln/status/2086448875619901569",
+      "title": "Switched to a Wispr Flow mic and rarely uses a keyboard anymore",
+      "author": "@benln",
+      "source": "X",
+      "added": "2026-08-13",
+      "posted": "2026-08-09",
+      "week": "2026-08-10",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 5.6,
+      "status": "curated",
+      "blurb": "A founder reports replacing keyboard input with a Wispr Flow microphone for most work. At 2.1M views, an early indicator that voice is becoming a default input surface rather than an accessibility feature.",
+      "take": "hardware hardware hardware. now just as marketing and swag enablement, tomorrow product lines?",
+      "related": [
+        "2026-08-13-almostzara-duckduckgo-sunglasses"
+      ]
+    },
+    {
+      "id": "2026-08-13-almostzara-duckduckgo-sunglasses",
+      "url": "https://x.com/AlmostZara/status/2087615525753106694",
+      "title": "DuckDuckGo launches anti-surveillance sunglasses with no electronics of any kind",
+      "author": "@AlmostZara",
+      "source": "X",
+      "added": "2026-08-13",
+      "posted": "2026-08-12",
+      "week": "2026-08-10",
+      "topics": [
+        "browsers",
+        "innovation",
+        "culture"
+      ],
+      "score": 4.9,
+      "status": "curated",
+      "blurb": "DuckDuckGo partnered with Knockaround on sunglasses marketed as anti-surveillance: no camera, microphone, battery or electronics. A privacy brand extending from software into physical goods.",
+      "take": "more \"hardware\". I love this stuff and can't stress enough that time is ticking",
+      "related": [
+        "2026-08-13-benln-wispr-voice-input"
+      ]
+    },
+    {
+      "id": "2026-08-13-marsmensch-gpon-fibre-eavesdropping",
+      "url": "https://x.com/Marsmensch/status/2086230450201063857",
+      "title": "Tool can reportedly intercept neighbours' traffic on shared GPON fibre",
+      "author": "@Marsmensch",
+      "source": "X",
+      "added": "2026-08-13",
+      "posted": "2026-08-08",
+      "week": "2026-08-10",
+      "topics": [
+        "cybersecurity",
+        "innovation"
+      ],
+      "score": 4.6,
+      "status": "curated",
+      "blurb": "Where ISPs have not configured encryption correctly on shared GPON fibre, a tool can reportedly let one customer receive a neighbour's traffic — DNS, HTTP, TLS metadata and SIP among them.",
+      "related": [
+        "2026-08-13-weldpond-private-offensive-cyber"
       ]
     }
   ]
