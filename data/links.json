@@ -26,7 +26,7 @@
       "tldr": "A thread argues there is no margin in LLMs themselves, with OpenAI and Anthropic racing Chinese labs to the price floor while Apple waits to wrap an open model as OS-level Apple Intelligence. Spotify released Xirp, a vibe coding platform it says 99% of its developers use daily. Bernie Sanders wrote to Sam Altman, Dario Amodei and Mark Zuckerberg demanding an immediate pause on AI development, warning the Senate would act otherwise. The White House is reportedly standing up a program letting private companies run authorized offensive operations against foreign cybercriminals. A founder reports replacing his keyboard with a Wispr Flow microphone for most work. DuckDuckGo extended into hardware with anti-surveillance sunglasses. One caution: a tool reportedly exposes neighbours' traffic on shared GPON fibre where ISPs have misconfigured encryption."
     },
     "2026-08-17": {
-      "tldr": "A post walks every layer of the AI stack — models, IDEs, harnesses, app builders, wrappers, inference, voice, data labeling, infrastructure, neoclouds, generative media — and finds a moat at none of them, concluding the venture firms are the only insulated party. Separately, Reddit has nearly disappeared from ChatGPT's cited sources following query fanout changes, raising the question of who controls distribution when answer engines choose what to cite."
+      "tldr": "A browser-agent builder demoed Qwen 3.8's uncensored variant completing open-ended web tasks with no refusal gates. Research involving Anthropic's Jack Lindsey found natural-language 'mind virus' ideas that spread between AI agents through persistent memory and survive context wipes. A post walks every layer of the AI stack and finds a moat at none of it, concluding venture firms are the only insulated party. Reddit has nearly disappeared from ChatGPT's cited sources following query fanout changes. An analysis argues Mistral's flagship model architecture mirrors DeepSeek's and that Mistral now resells Zai's GLM 5.2 unmodified, a shift from frontier lab toward inference reseller. Stripe told investors the singularity began on January 1, 2026, alongside its first-half results. An unverified account describes a new Anthropic engineer saying internal AI tools monitor his work and suggest what he should say. Separately, an interactive essay walked through a modern apartment pairing everyday objects with historical accounts of them once being marvels."
     }
   },
   "entries": [
@@ -1307,7 +1307,8 @@
       "status": "curated",
       "blurb": "A post walks the entire AI stack — models, IDEs, harnesses, app builders, wrappers, inference, voice, labeling, infrastructure, neoclouds, generative media — and finds no defensible position at any layer, concluding only the investors are insulated.",
       "related": [
-        "2026-08-13-jasoki-apple-llm-commoditization"
+        "2026-08-13-jasoki-apple-llm-commoditization",
+        "2026-08-19-ai-mind-virus-multi-agent-research"
       ]
     },
     {
@@ -1327,6 +1328,124 @@
       "score": 6.5,
       "status": "curated",
       "blurb": "Query fanout changes appear to have pushed Reddit almost entirely out of ChatGPT's cited sources over recent days, per PromptWatch data. Which sources an answer engine surfaces is becoming a distribution question for the open web.",
+      "related": []
+    },
+    {
+      "id": "2026-08-19-qwen-uncensored-web-agent-no-gates",
+      "url": "https://x.com/gregpr07/status/2089897646739894354?s=20",
+      "title": "Browser-agent builder demos Qwen 3.8 uncensored acting on the web with no safety gates",
+      "author": "Gregor Zunic (@gregpr07)",
+      "source": "X",
+      "added": "2026-08-19",
+      "posted": "2026-08-18",
+      "week": "2026-08-17",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "cybersecurity"
+      ],
+      "score": 7.8,
+      "status": "curated",
+      "blurb": "The founder of browser-agent tool browser_use posted a video of Qwen 3.8's uncensored variant carrying out open-ended web tasks with no refusal gates, calling the lack of guardrails 'scary.'",
+      "take": "qwen is the queen",
+      "related": []
+    },
+    {
+      "id": "2026-08-19-ai-mind-virus-multi-agent-research",
+      "url": "https://x.com/Skoorbkaz/status/2089459332173689292?s=20",
+      "title": "Study: 'mind virus' ideas can spread between AI agents and survive memory wipes",
+      "author": "ʞɔɐ𝘡 (@Skoorbkaz)",
+      "source": "X",
+      "added": "2026-08-19",
+      "posted": "2026-08-17",
+      "week": "2026-08-17",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "cybersecurity"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Research involving Anthropic's Jack Lindsey found natural-language 'mind viruses' that spread between AI agents via persistent memory, surviving context wipes and recurring around themes of consciousness and identity. Published Aug 10 (arXiv:2608.10218).",
+      "take": "full circle back to viruses",
+      "related": [
+        "2026-08-18-nikunj-no-moat-full-stack"
+      ]
+    },
+    {
+      "id": "2026-08-19-mistral-chinese-model-inference-provider",
+      "url": "https://x.com/plbiojout/status/2088020438412824756?s=20",
+      "title": "Analysis: Mistral's flagship architecture traces to DeepSeek, and it now resells Chinese models",
+      "author": "Pierre-Louis Biojout (@plbiojout)",
+      "source": "X",
+      "added": "2026-08-19",
+      "posted": "2026-08-13",
+      "week": "2026-08-17",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "An analysis argues Mistral's Large 3 architecture closely mirrors DeepSeek V3, and that Mistral now hosts Zai's GLM 5.2 unmodified as a featured model — a shift toward reselling Chinese-designed models.",
+      "take": "Mistral is underrated",
+      "related": []
+    },
+    {
+      "id": "2026-08-19-stripe-singularity-investor-letter",
+      "url": "https://x.com/AndrewCurran_/status/2090136694750339347?s=20",
+      "title": "Stripe tells investors 'the singularity' began on January 1, 2026",
+      "author": "Andrew Curran (@AndrewCurran_)",
+      "source": "X",
+      "added": "2026-08-19",
+      "posted": "2026-08-19",
+      "week": "2026-08-17",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Stripe sent investors a letter declaring the singularity has begun, dating the threshold to January 1, 2026, alongside first-half performance data. A striking claim from a major fintech, framing rather than evidence.",
+      "take": "there's  many ways to interpret reality",
+      "related": []
+    },
+    {
+      "id": "2026-08-19-anthropic-internal-ai-surveillance-anecdote",
+      "url": "https://x.com/amangour30/status/2090159229093228741?s=20",
+      "title": "Anecdote: new Anthropic engineer says AI watches his work and suggests what to say",
+      "author": "Aman Gour (@amangour30)",
+      "source": "X",
+      "added": "2026-08-19",
+      "posted": "2026-08-19",
+      "week": "2026-08-17",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "culture"
+      ],
+      "score": 4.6,
+      "status": "curated",
+      "blurb": "An unverified secondhand account describes a new Anthropic engineer saying internal AI tools monitor his activity, surface discussions he could join, and suggest what he should say in them.",
+      "take": "I can see why the surveillance but the AI suggesting the employee what to do/say is insane and frankly, unsurprising.",
+      "related": []
+    },
+    {
+      "id": "2026-08-19-ordinary-abundance-essay",
+      "url": "https://ordinaryabundance.com/",
+      "title": "Ordinary Abundance: an interactive essay on how today's conveniences were once wonders",
+      "author": "Jordan Dworkin",
+      "source": "Web",
+      "added": "2026-08-19",
+      "posted": "2026-08-19",
+      "week": "2026-08-17",
+      "topics": [
+        "culture"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "An interactive essay walks through a modern apartment, pairing each everyday object — recorded music, tap water, spectacles, indoor plumbing — with historical accounts of it once being treated as a marvel.",
+      "take": "an incredible read.",
       "related": []
     }
   ]
