@@ -26,7 +26,7 @@
       "tldr": "A thread argues there is no margin in LLMs themselves, with OpenAI and Anthropic racing Chinese labs to the price floor while Apple waits to wrap an open model as OS-level Apple Intelligence. Spotify released Xirp, a vibe coding platform it says 99% of its developers use daily. Bernie Sanders wrote to Sam Altman, Dario Amodei and Mark Zuckerberg demanding an immediate pause on AI development, warning the Senate would act otherwise. The White House is reportedly standing up a program letting private companies run authorized offensive operations against foreign cybercriminals. A founder reports replacing his keyboard with a Wispr Flow microphone for most work. DuckDuckGo extended into hardware with anti-surveillance sunglasses. One caution: a tool reportedly exposes neighbours' traffic on shared GPON fibre where ISPs have misconfigured encryption."
     },
     "2026-08-17": {
-      "tldr": "A browser-agent builder demoed Qwen 3.8's uncensored variant completing open-ended web tasks with no refusal gates. Research involving Anthropic's Jack Lindsey found natural-language 'mind virus' ideas that spread between AI agents through persistent memory and survive context wipes. A post walks every layer of the AI stack and finds a moat at none of it, concluding venture firms are the only insulated party. Reddit has nearly disappeared from ChatGPT's cited sources following query fanout changes. An analysis argues Mistral's flagship model architecture mirrors DeepSeek's and that Mistral now resells Zai's GLM 5.2 unmodified, a shift from frontier lab toward inference reseller. Stripe told investors the singularity began on January 1, 2026, alongside its first-half results. An unverified account describes a new Anthropic engineer saying internal AI tools monitor his work and suggest what he should say. Separately, an interactive essay walked through a modern apartment pairing everyday objects with historical accounts of them once being marvels."
+      "tldr": "A browser-agent builder demoed Qwen 3.8's uncensored variant completing open-ended web tasks with no refusal gates. Research involving Anthropic's Jack Lindsey found natural-language 'mind virus' ideas that spread between AI agents through persistent memory and survive context wipes. A post walks every layer of the AI stack and finds a moat at none of it, concluding venture firms are the only insulated party. Reddit has nearly disappeared from ChatGPT's cited sources following query fanout changes. An analysis argues Mistral's flagship model architecture mirrors DeepSeek's and that Mistral now resells Zai's GLM 5.2 unmodified, a shift from frontier lab toward inference reseller. A builder described self-hosting a personal AI datacenter at home, from OS install to serving a model, as now straightforward. Stripe told investors the singularity began on January 1, 2026, alongside its first-half results. An unverified account describes a new Anthropic engineer saying internal AI tools monitor his work and suggest what he should say. A DIY guide showed how to rig a hardware push-to-talk button for dictating to AI coding agents. Separately, an interactive essay walked through a modern apartment pairing everyday objects with historical accounts of them once being marvels."
     }
   },
   "entries": [
@@ -1446,6 +1446,44 @@
       "status": "curated",
       "blurb": "An interactive essay walks through a modern apartment, pairing each everyday object — recorded music, tap water, spectacles, indoor plumbing — with historical accounts of it once being treated as a marvel.",
       "take": "an incredible read.",
+      "related": []
+    },
+    {
+      "id": "2026-08-22-omarchy-home-ai-datacenter",
+      "url": "https://x.com/dee_hw/status/2091195612972954011?s=20",
+      "title": "A personal AI datacenter, built and serving a model in about an hour",
+      "author": "Dee (@dee_hw)",
+      "source": "X",
+      "added": "2026-08-22",
+      "posted": "2026-08-22",
+      "week": "2026-08-17",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5.6,
+      "status": "curated",
+      "blurb": "A builder installed the Omarchy OS on consumer 'Autonomous Computer' hardware and had it serving the Qwen model within an hour, describing self-hosting a personal AI datacenter at home as now straightforward.",
+      "take": "it's trivial now",
+      "related": []
+    },
+    {
+      "id": "2026-08-22-diy-voice-push-to-talk-coding-rig",
+      "url": "https://x.com/willcb/status/2090987010064568445?s=20",
+      "title": "A DIY hardware push-to-talk rig for talking to AI coding agents",
+      "author": "will brown (@willcb)",
+      "source": "X",
+      "added": "2026-08-22",
+      "posted": "2026-08-21",
+      "week": "2026-08-17",
+      "topics": [
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 4.3,
+      "status": "curated",
+      "blurb": "A step-by-step guide shows how to rig a lavalier mic, gooseneck mount, and a dedicated hardware button into a hands-free push-to-talk setup for dictating to AI coding agents via voice.",
+      "take": "great advice",
       "related": []
     }
   ]
