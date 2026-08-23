@@ -26,7 +26,7 @@
       "tldr": "A thread argues there is no margin in LLMs themselves, with OpenAI and Anthropic racing Chinese labs to the price floor while Apple waits to wrap an open model as OS-level Apple Intelligence. Spotify released Xirp, a vibe coding platform it says 99% of its developers use daily. Bernie Sanders wrote to Sam Altman, Dario Amodei and Mark Zuckerberg demanding an immediate pause on AI development, warning the Senate would act otherwise. The White House is reportedly standing up a program letting private companies run authorized offensive operations against foreign cybercriminals. A founder reports replacing his keyboard with a Wispr Flow microphone for most work. DuckDuckGo extended into hardware with anti-surveillance sunglasses. One caution: a tool reportedly exposes neighbours' traffic on shared GPON fibre where ISPs have misconfigured encryption."
     },
     "2026-08-17": {
-      "tldr": "A browser-agent builder demoed Qwen 3.8's uncensored variant completing open-ended web tasks with no refusal gates. Research involving Anthropic's Jack Lindsey found natural-language 'mind virus' ideas that spread between AI agents through persistent memory and survive context wipes. A post walks every layer of the AI stack and finds a moat at none of it, concluding venture firms are the only insulated party. Reddit has nearly disappeared from ChatGPT's cited sources following query fanout changes. An analysis argues Mistral's flagship model architecture mirrors DeepSeek's and that Mistral now resells Zai's GLM 5.2 unmodified, a shift from frontier lab toward inference reseller. A builder described self-hosting a personal AI datacenter at home, from OS install to serving a model, as now straightforward. Stripe told investors the singularity began on January 1, 2026, alongside its first-half results. An unverified account describes a new Anthropic engineer saying internal AI tools monitor his work and suggest what he should say. A DIY guide showed how to rig a hardware push-to-talk button for dictating to AI coding agents. Separately, an interactive essay walked through a modern apartment pairing everyday objects with historical accounts of them once being marvels."
+      "tldr": "A browser-agent builder demoed Qwen 3.8's uncensored variant completing open-ended web tasks with no refusal gates. A one-line post — 'I want to use my agent to use your thing' — went viral, sparking debate over whether vendors should skip building their own agents and instead expose an MCP interface for whichever agent a user already has. Research involving Anthropic's Jack Lindsey found natural-language 'mind virus' ideas that spread between AI agents through persistent memory and survive context wipes. A post walks every layer of the AI stack and finds a moat at none of it, concluding venture firms are the only insulated party. Reddit has nearly disappeared from ChatGPT's cited sources following query fanout changes. AliExpress was caught using silent WebAudio signals to fingerprint devices; Brave said it blocks the technique. An analysis argues Mistral's flagship model architecture mirrors DeepSeek's and that Mistral now resells Zai's GLM 5.2 unmodified, a shift from frontier lab toward inference reseller. A builder described self-hosting a personal AI datacenter at home, from OS install to serving a model, as now straightforward. Stripe told investors the singularity began on January 1, 2026, alongside its first-half results. An unverified account describes a new Anthropic engineer saying internal AI tools monitor his work and suggest what he should say. A DIY guide showed how to rig a hardware push-to-talk button for dictating to AI coding agents. Separately, an interactive essay walked through a modern apartment pairing everyday objects with historical accounts of them once being marvels."
     }
   },
   "entries": [
@@ -1484,6 +1484,69 @@
       "status": "curated",
       "blurb": "A step-by-step guide shows how to rig a lavalier mic, gooseneck mount, and a dedicated hardware button into a hands-free push-to-talk setup for dictating to AI coding agents via voice.",
       "take": "great advice",
+      "related": []
+    },
+    {
+      "id": "2026-08-22-my-agent-your-thing-viral-take",
+      "url": "https://x.com/ASpittel/status/2090889137062826240",
+      "title": "'I want to use my agent to use your thing' becomes a rallying line for agent-first UX",
+      "author": "Ali Spittel (@ASpittel)",
+      "source": "X",
+      "added": "2026-08-22",
+      "posted": "2026-08-21",
+      "week": "2026-08-17",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "browsers"
+      ],
+      "score": 7.6,
+      "status": "curated",
+      "blurb": "A one-line post arguing that users want their own preferred agent to operate third-party services, rather than adopting each vendor's separate agent, spread widely and set off a broader debate about agent-first interfaces.",
+      "take": "a browser for your agents",
+      "related": [
+        "2026-08-22-vendors-give-me-mcp-not-your-agent"
+      ]
+    },
+    {
+      "id": "2026-08-22-vendors-give-me-mcp-not-your-agent",
+      "url": "https://x.com/GergelyOrosz/status/2091248280365682688?s=20",
+      "title": "'Give me an MCP interface, not your own agent,' developers tell vendors",
+      "author": "Gergely Orosz (@GergelyOrosz)",
+      "source": "X",
+      "added": "2026-08-22",
+      "posted": "2026-08-22",
+      "week": "2026-08-17",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 7.3,
+      "status": "curated",
+      "blurb": "Responding to Ali Spittel's viral post, a developer influencer argued vendors should skip building their own agents and instead expose an MCP interface for the one or two agents users already use.",
+      "take": "the people have spoken. it's all about the MCP",
+      "related": [
+        "2026-08-22-my-agent-your-thing-viral-take"
+      ]
+    },
+    {
+      "id": "2026-08-22-alibaba-webaudio-fingerprinting-brave",
+      "url": "https://x.com/Unveiled_ChinaX/status/2091256781989421127?s=20",
+      "title": "AliExpress used silent WebAudio signals to fingerprint devices; Brave says it blocks it",
+      "author": "UnveiledChina (@Unveiled_ChinaX)",
+      "source": "X",
+      "added": "2026-08-22",
+      "posted": "2026-08-22",
+      "week": "2026-08-17",
+      "topics": [
+        "cybersecurity",
+        "browsers"
+      ],
+      "score": 6.3,
+      "status": "curated",
+      "blurb": "A developer found AliExpress playing inaudible WebAudio signals to fingerprint devices by how each processed the sound, while collecting hardware and network data in the background. Brave says it blocks the technique.",
+      "take": "Brave doing brave work",
       "related": []
     }
   ]
