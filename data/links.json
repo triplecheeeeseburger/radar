@@ -27,6 +27,9 @@
     },
     "2026-08-17": {
       "tldr": "A browser-agent builder demoed Qwen 3.8’s uncensored variant running open-ended web tasks with no refusal gates. A one-line post — “I want to use my agent to use your thing” — spread widely, with developers asking vendors for MCP interfaces rather than in-house agents; differentiation shifts to what a service exposes. Research involving Anthropic’s Jack Lindsey found ideas that spread between agents through memory and survive context wipes. A survey of the AI stack finds no moat at any layer except venture firms. Reddit has nearly disappeared from ChatGPT’s cited sources after query fanout changes. AliExpress used silent WebAudio signals to fingerprint devices; Brave says it blocks the technique. An analysis traces Mistral’s flagship architecture to DeepSeek and says it now resells Zai’s GLM 5.2 unmodified. Self-hosting a personal AI datacenter now takes about an hour. Stripe told investors the singularity began January 1, 2026. A DIY guide rigs a hardware push-to-talk button for coding agents; an interactive essay recasts everyday objects as former marvels. An unverified anecdote claims internal AI tools at Anthropic watch a new engineer’s work and suggest what to say."
+    },
+    "2026-08-24": {
+      "tldr": "OpenAI rolled out ChatGPT Work's biggest agent upgrade yet: it can now log into websites without ever seeing usernames or passwords, and complete dozens of real-world tasks end to end, from booking appointments to filing paperwork. Alongside it, OpenAI added WebMCP support to the ChatGPT in-app browser and launched a $35K hackathon with Chromium, Cloudflare, Shopify, Vercel, Render, and Netlify to push sites toward becoming agent-native. Commentary framed WebMCP as the next stage after SEO and answer-engine optimization, letting agents act on a page instead of guessing at it, and framed ChatGPT Work's new browser, persistent login, and cloud compute as an always-on personal agent. Separately, a developer wrapped Codex agents in a visual 'office' interface instead of a chat window, and a popular YouTuber's AI-model roundup carried a sponsorship from agent-browser infrastructure startup Browserbase."
     }
   },
   "entries": [
@@ -1547,6 +1550,134 @@
       "status": "curated",
       "blurb": "A developer found AliExpress playing inaudible WebAudio signals to fingerprint devices by how each processed the sound, while collecting hardware and network data in the background. Brave says it blocks the technique.",
       "take": "Brave doing brave work",
+      "related": []
+    },
+    {
+      "id": "2026-08-27-chatgpt-work-browser-login-agent",
+      "url": "https://x.com/ChatGPT/status/2092366554965107164?s=20",
+      "title": "ChatGPT Work can now log into websites and complete real-world tasks end to end",
+      "author": "ChatGPT (@ChatGPT)",
+      "source": "X",
+      "added": "2026-08-27",
+      "posted": "2026-08-25",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 8.8,
+      "status": "curated",
+      "blurb": "OpenAI says ChatGPT Work can now sign into websites on web and mobile without ever seeing the username or password, and listed dozens of end-to-end tasks it can complete: booking appointments, filing paperwork, comparing policies, and more.",
+      "take": "the damn agentic browser",
+      "related": [
+        "2026-08-27-openai-webmcp-hackathon-chatgpt-browser",
+        "2026-08-27-chatgpt-work-persistent-auth-breakdown"
+      ]
+    },
+    {
+      "id": "2026-08-27-openai-webmcp-hackathon-chatgpt-browser",
+      "url": "https://x.com/JamesZmSun/status/2092350632833520035?s=20",
+      "title": "OpenAI adds WebMCP support to the ChatGPT in-app browser, launches a $35K hackathon",
+      "author": "James Sun (@JamesZmSun)",
+      "source": "X",
+      "added": "2026-08-27",
+      "posted": "2026-08-25",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "OpenAI announced WebMCP support in the ChatGPT desktop in-app browser and a 10-day hackathon with Chromium, Cloudflare, Shopify, Vercel, Render, and Netlify to push developers toward agent-native websites.",
+      "take": "insane featurelist. everything that Neon wanted to be",
+      "related": [
+        "2026-08-27-chatgpt-work-browser-login-agent",
+        "2026-08-27-webmcp-billions-through-agents"
+      ]
+    },
+    {
+      "id": "2026-08-27-chatgpt-work-persistent-auth-breakdown",
+      "url": "https://x.com/nickbaumann_/status/2092394872896708657",
+      "title": "Breakdown: ChatGPT Work now ships its own browser, compute, and persistent auth",
+      "author": "Nick (@nickbaumann_)",
+      "source": "X",
+      "added": "2026-08-27",
+      "posted": "2026-08-25",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 7.9,
+      "status": "curated",
+      "blurb": "A developer lists ChatGPT Work's new primitives: its own browser with persistent login sessions, a 16GB/9-core cloud computer, plugins into other apps, and the latest model with Codex-style context compaction, calling it an always-on personal agent.",
+      "take": "best in class persistent auth",
+      "related": [
+        "2026-08-27-chatgpt-work-browser-login-agent"
+      ]
+    },
+    {
+      "id": "2026-08-27-webmcp-billions-through-agents",
+      "url": "https://x.com/gregisenberg/status/2092699140803211682?s=20",
+      "title": "WebMCP explained: websites get 'agent buttons' instead of pages agents have to guess at",
+      "author": "Greg Isenberg (@gregisenberg)",
+      "source": "X",
+      "added": "2026-08-27",
+      "posted": "2026-08-26",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7.4,
+      "status": "curated",
+      "blurb": "A breakdown of WebMCP, the new Microsoft/Google-backed standard letting sites expose direct actions like search, book, and buy to agents instead of having them screenshot and guess, framed as the stage after SEO and answer-engine optimization.",
+      "take": "billions of dollars are about to move through agents",
+      "related": [
+        "2026-08-27-openai-webmcp-hackathon-chatgpt-browser"
+      ]
+    },
+    {
+      "id": "2026-08-27-codex-agent-office-gui-wrapper",
+      "url": "https://x.com/davidfromkansas/status/2092245009810493916?s=20",
+      "title": "A builder wraps Codex agents in a visual 'office' interface instead of a chat window",
+      "author": "david lietjauw (@davidfromkansas)",
+      "source": "X",
+      "added": "2026-08-27",
+      "posted": "2026-08-25",
+      "week": "2026-08-24",
+      "topics": [
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 5.2,
+      "status": "curated",
+      "blurb": "A developer built a visual interface wrapping the ChatGPT desktop app's Codex agents as characters that move through a virtual office and drop finished work in a mailbox, instead of watching them through plain chat.",
+      "take": "going back to GUI",
+      "related": []
+    },
+    {
+      "id": "2026-08-27-browserbase-theo-video-sponsorship",
+      "url": "https://youtu.be/06BvFMW8Ng8?is=g3EudjuPs_hWxym4",
+      "title": "Browserbase sponsors Theo's AI-model ranking video, a sign of growing agent-infra ad budgets",
+      "author": "Theo (t3.gg)",
+      "source": "Web",
+      "added": "2026-08-27",
+      "posted": "2026-08-26",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 4.8,
+      "status": "curated",
+      "blurb": "Popular AI/dev YouTuber Theo (t3.gg) published a video ranking current frontier AI models, sponsored by Browserbase, a sign of growing marketing budgets and mainstream reach for agent-browser infrastructure startups.",
+      "take": "Browserbase ad.",
       "related": []
     }
   ]
