@@ -43,9 +43,8 @@ section:last-child { border-bottom: none; }
 .tldr-label { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); margin-top: 40px; animation: fadeUp 0.6s 0.09s ease both; }
 .tldr { font-family: var(--serif); font-size: 14.5px; line-height: 1.85; color: #2d2d2d; max-width: 720px; margin-top: 14px; animation: fadeUp 0.6s 0.15s ease both; }
 .item-list { display: flex; flex-direction: column; }
-.entry { display: grid; grid-template-columns: 34px 1fr auto; align-items: baseline; gap: 18px; padding: 17px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; transition: opacity 0.16s; }
+.entry { display: grid; grid-template-columns: 34px 1fr auto; align-items: baseline; gap: 18px; padding: 17px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; }
 .entry:first-child { border-top: 1px solid var(--rule); }
-.entry:hover { opacity: 0.45; }
 .rank { font-family: var(--mono); font-size: 12px; color: var(--mid); }
 .entry-title { font-family: var(--serif); font-size: 15px; line-height: 1.5; }
 .entry-blurb { display: block; font-size: 12.5px; color: var(--gray); font-style: italic; margin-top: 5px; line-height: 1.65; font-family: var(--sans); }
@@ -59,9 +58,8 @@ section:last-child { border-bottom: none; }
 .score { display: block; font-family: var(--mono); font-size: 13px; color: var(--black); margin-top: 4px; }
 .score.pending { color: var(--mid); }
 .related-note { display: block; font-size: 11px; color: var(--mid); margin-top: 5px; }
-.week-row { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; transition: opacity 0.16s; }
+.week-row { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; }
 .week-row:first-child { border-top: 1px solid var(--rule); }
-.week-row:hover { opacity: 0.45; }
 .week-title { font-family: var(--serif); font-size: 14px; }
 .week-note { display: block; font-size: 11.5px; color: var(--gray); font-style: italic; margin-top: 2px; }
 .week-meta { font-size: 11px; color: var(--mid); white-space: nowrap; }
