@@ -29,7 +29,7 @@
       "tldr": "A browser-agent builder demoed Qwen 3.8’s uncensored variant running open-ended web tasks with no refusal gates. A one-line post — “I want to use my agent to use your thing” — spread widely, with developers asking vendors for MCP interfaces rather than in-house agents; differentiation shifts to what a service exposes. Research involving Anthropic’s Jack Lindsey found ideas that spread between agents through memory and survive context wipes. A survey of the AI stack finds no moat at any layer except venture firms. Reddit has nearly disappeared from ChatGPT’s cited sources after query fanout changes. AliExpress used silent WebAudio signals to fingerprint devices; Brave says it blocks the technique. An analysis traces Mistral’s flagship architecture to DeepSeek and says it now resells Zai’s GLM 5.2 unmodified. Self-hosting a personal AI datacenter now takes about an hour. Stripe told investors the singularity began January 1, 2026. A DIY guide rigs a hardware push-to-talk button for coding agents; an interactive essay recasts everyday objects as former marvels. An unverified anecdote claims internal AI tools at Anthropic watch a new engineer’s work and suggest what to say."
     },
     "2026-08-24": {
-      "tldr": "OpenAI rolled out ChatGPT Work's biggest agent upgrade yet: it can now log into websites without ever seeing usernames or passwords, and complete dozens of real-world tasks end to end, from booking appointments to filing paperwork. Alongside it, OpenAI added WebMCP support to the ChatGPT in-app browser and launched a $35K hackathon with Chromium, Cloudflare, Shopify, Vercel, Render, and Netlify to push sites toward becoming agent-native. Commentary framed WebMCP as the next stage after SEO and answer-engine optimization, letting agents act on a page instead of guessing at it, and framed ChatGPT Work's new browser, persistent login, and cloud compute as an always-on personal agent. Separately, a developer wrapped Codex agents in a visual 'office' interface instead of a chat window, and a popular YouTuber's AI-model roundup carried a sponsorship from agent-browser infrastructure startup Browserbase."
+      "tldr": "OpenAI shipped ChatGPT Work's biggest agent upgrade yet, letting it log into websites without ever seeing usernames or passwords and complete dozens of real-world tasks end to end. Alongside it, OpenAI added WebMCP support to its in-app browser and opened a hackathon with Chrome, Cloudflare, Vercel, Shopify, Netlify, and MCP-B's creator judging, offering $3,000 and a year of ChatGPT Pro to the top 10 submissions. Commentary framed the new browser and persistent login as an always-on personal agent and WebMCP as the stage after SEO, letting agents act on a page instead of guessing at it. A firsthand account pushed back hard, describing the new login flow breaking mid-signup and rejecting valid credentials on retry. Separately, a startup began offering agents free web search and page-fetching, undercutting paid tools like Exa, Tavily, and SerpAPI. A product reviewer said new AI tools now need to work inside ChatGPT or Grok to get his attention, rather than requiring a new login. South Korea said it will give its whole population free access to generative AI, calling it a public utility. A developer wrapped Codex agents in a visual 'office' interface, and a popular YouTuber's AI-model roundup carried a Browserbase sponsorship. Apple's marketing for the new Mac mini leaned on 'agentic AI workflows' as a selling point. Separately, AI-text detector Pangram continued drawing praise as a likely default trust tool."
     }
   },
   "entries": [
@@ -1066,7 +1066,9 @@
       "status": "curated",
       "blurb": "A developer argues dedicated search APIs like Exa now outperform the web search bundled into agent coding tools. Exa says it indexes 80 billion pages and is on pace for Google-scale reach by 2027.",
       "take": "is EXA the agentic search winner?",
-      "related": []
+      "related": [
+        "2026-08-28-free-agent-web-search-tinyfish"
+      ]
     },
     {
       "id": "brex-points-blimp-advertising",
@@ -1508,7 +1510,8 @@
       "blurb": "A one-line post arguing that users want their own preferred agent to operate third-party services, rather than adopting each vendor's separate agent, spread widely and set off a broader debate about agent-first interfaces.",
       "take": "a browser for your agents",
       "related": [
-        "2026-08-22-vendors-give-me-mcp-not-your-agent"
+        "2026-08-22-vendors-give-me-mcp-not-your-agent",
+        "2026-08-28-ai-harness-lockin-new-products"
       ]
     },
     {
@@ -1572,7 +1575,8 @@
       "take": "the damn agentic browser",
       "related": [
         "2026-08-27-openai-webmcp-hackathon-chatgpt-browser",
-        "2026-08-27-chatgpt-work-persistent-auth-breakdown"
+        "2026-08-27-chatgpt-work-persistent-auth-breakdown",
+        "2026-08-28-chatgpt-work-auth-failure-firsthand"
       ]
     },
     {
@@ -1595,7 +1599,8 @@
       "take": "insane featurelist. everything that Neon wanted to be",
       "related": [
         "2026-08-27-chatgpt-work-browser-login-agent",
-        "2026-08-27-webmcp-billions-through-agents"
+        "2026-08-27-webmcp-billions-through-agents",
+        "2026-08-28-openai-webmcp-challenge-official-page"
       ]
     },
     {
@@ -1617,7 +1622,8 @@
       "blurb": "A developer lists ChatGPT Work's new primitives: its own browser with persistent login sessions, a 16GB/9-core cloud computer, plugins into other apps, and the latest model with Codex-style context compaction, calling it an always-on personal agent.",
       "take": "best in class persistent auth",
       "related": [
-        "2026-08-27-chatgpt-work-browser-login-agent"
+        "2026-08-27-chatgpt-work-browser-login-agent",
+        "2026-08-28-chatgpt-work-auth-failure-firsthand"
       ]
     },
     {
@@ -1678,6 +1684,156 @@
       "status": "curated",
       "blurb": "Popular AI/dev YouTuber Theo (t3.gg) published a video ranking current frontier AI models, sponsored by Browserbase, a sign of growing marketing budgets and mainstream reach for agent-browser infrastructure startups.",
       "take": "Browserbase ad.",
+      "related": []
+    },
+    {
+      "id": "2026-08-28-apple-mac-mini-agentic-ai-marketing",
+      "url": "https://www.apple.com/mac-mini/",
+      "title": "Apple markets the new Mac mini as an 'agentic AI workflows' machine",
+      "author": "Apple",
+      "source": "Web",
+      "added": "2026-08-28",
+      "posted": "2026-08-28",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Apple's marketing email for the new Mac mini, powered by M6 and M5 Pro chips, describes it as a personal AI powerhouse built to handle 'agentic AI workflows' alongside daily productivity, a phrase now appearing in mainstream hardware marketing.",
+      "take": "new mac mini pitched as agentic workflow computer in their mkt email. unsurprising",
+      "related": []
+    },
+    {
+      "id": "2026-08-28-openai-webmcp-challenge-official-page",
+      "url": "https://openai.com/webmcp-challenge/",
+      "title": "OpenAI's official WebMCP Challenge page: 'Make the web work with agents'",
+      "author": "OpenAI",
+      "source": "Web",
+      "added": "2026-08-28",
+      "posted": "2026-08-25",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 7.6,
+      "status": "curated",
+      "blurb": "OpenAI's official WebMCP Challenge page confirms judges from Chrome, Cloudflare, Vercel, Shopify, Netlify, and MCP-B's creator, plus $3,000 cash and a year of ChatGPT Pro for the top 10 submissions building agent-native apps.",
+      "take": "OAI hosting a WebMCP challenge/hackaton with the tagline \"Make the web work with agents\" and with judges from Chrome, Vercel, Cloudflare etc",
+      "related": [
+        "2026-08-27-openai-webmcp-hackathon-chatgpt-browser"
+      ]
+    },
+    {
+      "id": "2026-08-28-chatgpt-work-auth-failure-firsthand",
+      "url": "https://x.com/paularambles/status/2093126079066370397?s=20",
+      "title": "Firsthand account: ChatGPT Work's website login flow breaks down in practice",
+      "author": "\"paula\" (@paularambles)",
+      "source": "X",
+      "added": "2026-08-28",
+      "posted": "2026-08-27",
+      "week": "2026-08-24",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "cybersecurity"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "A user describes ChatGPT Work's new website sign-in flow breaking mid-process, then rejecting Apple ID credentials on retry, concluding she spent longer fighting the login than the task itself would have taken to do by hand.",
+      "take": "auth for agents is a pain and nobody seems to want to take the bull by the horns",
+      "related": [
+        "2026-08-27-chatgpt-work-browser-login-agent",
+        "2026-08-27-chatgpt-work-persistent-auth-breakdown"
+      ]
+    },
+    {
+      "id": "2026-08-28-free-agent-web-search-tinyfish",
+      "url": "https://x.com/shengkunye/status/2093050916953903451?s=20",
+      "title": "A startup offers free agent web search and fetch, undercutting Exa, Tavily, and SerpAPI",
+      "author": "Shengkun Ye (@shengkunye)",
+      "source": "X",
+      "added": "2026-08-28",
+      "posted": "2026-08-27",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "A new tool built on Tiny_Fish and Monid infrastructure offers agents free web search and page-fetching, undercutting paid competitors like Exa, Tavily, and SerpAPI that charge roughly $7 per 1,000 searches.",
+      "take": "fuck browsers",
+      "related": [
+        "exa-agentic-search-infra-scale"
+      ]
+    },
+    {
+      "id": "2026-08-28-ai-harness-lockin-new-products",
+      "url": "https://x.com/petergyang/status/2093126719888916616?s=20",
+      "title": "A product tester says new AI tools now need to work inside ChatGPT or Grok, not as standalone sites",
+      "author": "Peter Yang (@petergyang)",
+      "source": "X",
+      "added": "2026-08-28",
+      "posted": "2026-08-27",
+      "week": "2026-08-24",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "browsers"
+      ],
+      "score": 6.6,
+      "status": "curated",
+      "blurb": "A product reviewer says he now mostly ignores new AI tools that require a separate login, preferring ones that work inside ChatGPT or Grok where his context already lives, and expects this preference to spread beyond early adopters.",
+      "take": "from a tweet below - \"will we need Chrome, Safari and other browsers in the near term?\"",
+      "related": [
+        "2026-08-22-my-agent-your-thing-viral-take",
+        "2026-08-22-vendors-give-me-mcp-not-your-agent"
+      ]
+    },
+    {
+      "id": "2026-08-28-south-korea-free-ai-public-utility",
+      "url": "https://x.com/etnshow/status/2093266630428041378?s=20",
+      "title": "South Korea plans free generative AI access for its entire population",
+      "author": "etn. (@etnshow)",
+      "source": "X",
+      "added": "2026-08-28",
+      "posted": "2026-08-28",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "culture",
+        "innovation"
+      ],
+      "score": 6.2,
+      "status": "curated",
+      "blurb": "South Korea plans to give its whole population free access to generative AI services, per the Wall Street Journal, described as the first major state-led effort to treat AI access like a public utility.",
+      "take": "legit",
+      "related": []
+    },
+    {
+      "id": "2026-08-28-pangram-ai-detector-praise",
+      "url": "https://www.pangram.com/",
+      "title": "AI detector Pangram draws consistent praise as a likely default trust tool",
+      "author": "Pangram",
+      "source": "Web",
+      "added": "2026-08-28",
+      "posted": "2026-08-28",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "culture",
+        "innovation"
+      ],
+      "score": 4.6,
+      "status": "curated",
+      "blurb": "Pangram, an AI-text and AI-image detector benchmarked at 99%+ accuracy by University of Chicago and Maryland researchers, is used by Substack, Quora, and NewsGuard and ships Chrome/Firefox extensions and an API, priced from $20/month.",
+      "take": "this gets a lot of praise in my circle. I'm yet to try it but seems like a future fixture, despite the $20/mo",
       "related": []
     }
   ]
