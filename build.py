@@ -97,6 +97,7 @@ def page(title, body, depth=0):
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(SITE['subtitle'])}" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%230d0d0d%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%234a4a4a%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2214%22%20fill%3D%22none%22%20stroke%3D%22%234a4a4a%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M32%2032%20L32%208%20A24%2024%200%200%201%2056%2032%20Z%22%20fill%3D%22%23e8e8e8%22%20opacity%3D%220.85%22%2F%3E%3Ccircle%20cx%3D%2244%22%20cy%3D%2218%22%20r%3D%222.5%22%20fill%3D%22%23ffffff%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%222.5%22%20fill%3D%22%23e8e8e8%22%2F%3E%3C%2Fsvg%3E" />
 <link rel="alternate" type="application/rss+xml" title="{esc(SITE['title'])}" href="{esc(SITE['url'])}/feed.xml" />
 {FONTS}
 <style>{CSS}</style>
