@@ -29,7 +29,10 @@
       "tldr": "A browser-agent builder demoed Qwen 3.8’s uncensored variant running open-ended web tasks with no refusal gates. A one-line post — “I want to use my agent to use your thing” — spread widely, with developers asking vendors for MCP interfaces rather than in-house agents; differentiation shifts to what a service exposes. Research involving Anthropic’s Jack Lindsey found ideas that spread between agents through memory and survive context wipes. A survey of the AI stack finds no moat at any layer except venture firms. Reddit has nearly disappeared from ChatGPT’s cited sources after query fanout changes. AliExpress used silent WebAudio signals to fingerprint devices; Brave says it blocks the technique. An analysis traces Mistral’s flagship architecture to DeepSeek and says it now resells Zai’s GLM 5.2 unmodified. Self-hosting a personal AI datacenter now takes about an hour. Stripe told investors the singularity began January 1, 2026. A DIY guide rigs a hardware push-to-talk button for coding agents; an interactive essay recasts everyday objects as former marvels. An unverified anecdote claims internal AI tools at Anthropic watch a new engineer’s work and suggest what to say."
     },
     "2026-08-24": {
-      "tldr": "As San Francisco debates whether novocaine is even available anymore, WebMCP is getting hot traction: OpenAI and Anthropic both shipped native browsing agents days apart, and a wave of new tools and papers — a website-to-WebMCP converter, an Apple evaluation-suite paper — followed close behind. One developer argued WebMCP could kill browser automation outright, letting sites expose functions instead of buttons for agents to click. Real-world use is still rough, though: login flows keep breaking, and an unverified report claims OpenAI is quietly testing outcome-based pricing. Beyond browsers, South Korea moved to treat AI access as a public utility, and a pitch for an all-cloud coding agent drew a skeptical \"yeah, no.\" from more than one corner."
+      "tldr": "This week has been more consequential than usual for browsers: OpenAI and Anthropic both shipped native browsing agents days apart, and OpenAI pushed WebMCP as an emerging standard for agent-native sites. However, real-world use is still rough — login flows broke down in testing, and a growing \"my agent, not your agent\" sentiment is pushing vendors toward interoperability over their own interfaces. Beyond browsers, South Korea moved to treat AI access as a public utility, and free agent-search tools began undercutting paid search APIs."
+    },
+    "2026-08-31": {
+      "tldr": "As San Francisco debates whether novocaine is even available anymore, WebMCP is getting hot traction: a wave of new tools and papers landed, from a website-to-WebMCP converter to an Apple evaluation-suite paper, and one developer argued WebMCP could kill browser automation outright by letting sites expose functions instead of buttons. An unverified report claims OpenAI is quietly testing outcome-based pricing, paid only when tasks complete. A pitch for an all-cloud coding agent, replacing local harnesses entirely, drew a skeptical \"yeah, no.\" from more than one corner."
     }
   },
   "entries": [
@@ -1867,7 +1870,7 @@
       "source": "X",
       "added": "2026-08-31",
       "posted": "2026-08-30",
-      "week": "2026-08-24",
+      "week": "2026-08-31",
       "topics": [
         "ai",
         "agentic workflows",
@@ -1887,7 +1890,7 @@
       "source": "X",
       "added": "2026-08-31",
       "posted": "2026-08-30",
-      "week": "2026-08-24",
+      "week": "2026-08-31",
       "topics": [
         "ai",
         "agentic workflows",
@@ -1911,7 +1914,7 @@
       "source": "X",
       "added": "2026-08-31",
       "posted": "2026-08-29",
-      "week": "2026-08-24",
+      "week": "2026-08-31",
       "topics": [
         "ai",
         "agentic workflows",
@@ -1933,7 +1936,7 @@
       "source": "X",
       "added": "2026-08-31",
       "posted": "2026-08-29",
-      "week": "2026-08-24",
+      "week": "2026-08-31",
       "topics": [
         "ai",
         "agentic workflows",
@@ -1955,7 +1958,7 @@
       "source": "X",
       "added": "2026-08-31",
       "posted": "2026-08-30",
-      "week": "2026-08-24",
+      "week": "2026-08-31",
       "topics": [
         "agentic workflows",
         "ai",
@@ -1978,7 +1981,7 @@
       "source": "X",
       "added": "2026-08-31",
       "posted": "2026-08-30",
-      "week": "2026-08-24",
+      "week": "2026-08-31",
       "topics": [
         "ai",
         "browsers",
@@ -1998,7 +2001,7 @@
       "source": "X",
       "added": "2026-08-31",
       "posted": "2026-08-30",
-      "week": "2026-08-24",
+      "week": "2026-08-31",
       "topics": [
         "agentic workflows",
         "innovation"
