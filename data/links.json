@@ -29,7 +29,7 @@
       "tldr": "A browser-agent builder demoed Qwen 3.8’s uncensored variant running open-ended web tasks with no refusal gates. A one-line post — “I want to use my agent to use your thing” — spread widely, with developers asking vendors for MCP interfaces rather than in-house agents; differentiation shifts to what a service exposes. Research involving Anthropic’s Jack Lindsey found ideas that spread between agents through memory and survive context wipes. A survey of the AI stack finds no moat at any layer except venture firms. Reddit has nearly disappeared from ChatGPT’s cited sources after query fanout changes. AliExpress used silent WebAudio signals to fingerprint devices; Brave says it blocks the technique. An analysis traces Mistral’s flagship architecture to DeepSeek and says it now resells Zai’s GLM 5.2 unmodified. Self-hosting a personal AI datacenter now takes about an hour. Stripe told investors the singularity began January 1, 2026. A DIY guide rigs a hardware push-to-talk button for coding agents; an interactive essay recasts everyday objects as former marvels. An unverified anecdote claims internal AI tools at Anthropic watch a new engineer’s work and suggest what to say."
     },
     "2026-08-24": {
-      "tldr": "This week has been more consequential than usual for browsers: OpenAI and Anthropic both shipped native browsing agents days apart, and OpenAI pushed WebMCP as an emerging standard for agent-native sites. However, real-world use is still rough — login flows broke down in testing, and a growing \"my agent, not your agent\" sentiment is pushing vendors toward interoperability over their own interfaces. Beyond browsers, South Korea moved to treat AI access as a public utility, and free agent-search tools began undercutting paid search APIs."
+      "tldr": "As San Francisco debates whether novocaine is even available anymore, WebMCP is getting hot traction: OpenAI and Anthropic both shipped native browsing agents days apart, and a wave of new tools and papers — a website-to-WebMCP converter, an Apple evaluation-suite paper — followed close behind. One developer argued WebMCP could kill browser automation outright, letting sites expose functions instead of buttons for agents to click. Real-world use is still rough, though: login flows keep breaking, and an unverified report claims OpenAI is quietly testing outcome-based pricing. Beyond browsers, South Korea moved to treat AI access as a public utility, and a pitch for an all-cloud coding agent drew a skeptical \"yeah, no.\" from more than one corner."
     }
   },
   "entries": [
@@ -1746,7 +1746,7 @@
       "score": 7,
       "status": "curated",
       "blurb": "A user describes ChatGPT Work's new website sign-in flow breaking mid-process, then rejecting Apple ID credentials on retry, concluding she spent longer fighting the login than the task itself would have taken to do by hand.",
-      "take": "auth for agents is a pain and nobody seems to want to take the bull by the horns",
+      "take": "authenticating agents is a mess and two things can be true at once: 1. Nobody solved it yet & 2. A lot of smart people mush be working on it as we speak. tick tock",
       "related": [
         "2026-08-27-chatgpt-work-browser-login-agent",
         "2026-08-27-chatgpt-work-persistent-auth-breakdown"
@@ -1857,6 +1857,158 @@
       "take": "oh, and I forgot, Anthropic gave Claude a browser. you take one and you take one. everyone gets a browser.",
       "related": [
         "2026-08-27-chatgpt-work-browser-login-agent"
+      ]
+    },
+    {
+      "id": "2026-08-30-openai-outcome-based-pricing-scoop",
+      "url": "https://x.com/choblin29/status/2094137681928388880?s=20",
+      "title": "Report: OpenAI quietly tests outcome-based pricing, paid only when tasks complete",
+      "author": "Choblin (@choblin29)",
+      "source": "X",
+      "added": "2026-08-31",
+      "posted": "2026-08-30",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7.1,
+      "status": "curated",
+      "blurb": "An unverified report says OpenAI has begun offering some major customers pricing tied to completed tasks, like resolved support tickets, rather than token usage, ahead of a rumored GPT-Astra release. Unconfirmed by OpenAI.",
+      "take": "out of the left field. this can change e ve ry thing",
+      "related": []
+    },
+    {
+      "id": "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
+      "url": "https://x.com/nirajshah/status/2094122606735524096?s=20",
+      "title": "'WebMCP might kill browser automation': sites could expose functions instead of buttons",
+      "author": "Niraj (@nirajshah)",
+      "source": "X",
+      "added": "2026-08-31",
+      "posted": "2026-08-30",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 6.9,
+      "status": "curated",
+      "blurb": "A developer argues WebMCP could make years of teaching agents to click through human-designed interfaces unnecessary, since a site can instead expose direct callable functions like book_flight() or checkout().",
+      "take": "who controls the gatekeepers?",
+      "related": [
+        "2026-08-27-openai-webmcp-hackathon-chatgpt-browser",
+        "2026-08-28-openai-webmcp-challenge-official-page",
+        "2026-08-28-webmcp-billions-through-agents"
+      ]
+    },
+    {
+      "id": "2026-08-30-apple-agent-seer-mcp-eval-suite",
+      "url": "https://x.com/omarsar0/status/2093741222443786244?s=20",
+      "title": "Apple paper: turn any MCP spec into an automated agent evaluation suite",
+      "author": "elvis (@omarsar0)",
+      "source": "X",
+      "added": "2026-08-31",
+      "posted": "2026-08-29",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 6.7,
+      "status": "curated",
+      "blurb": "Apple researchers introduced Agent Seer, which generates graded multi-turn test scenarios directly from an MCP server's specification, with no manual examples or live tool access required, tested across seven MCP specs.",
+      "take": "Turning an MCP spec directly into an evaluation suite",
+      "related": [
+        "2026-08-27-openai-webmcp-hackathon-chatgpt-browser"
+      ]
+    },
+    {
+      "id": "2026-08-30-sodium-webmcp-website-converter",
+      "url": "https://x.com/saviomartin/status/2093780571638149523?s=20",
+      "title": "Sodium turns any website into WebMCP tools with a claimed 2-minute setup",
+      "author": "Savio (@saviomartin)",
+      "source": "X",
+      "added": "2026-08-31",
+      "posted": "2026-08-29",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "A new tool called Sodium converts a website's existing features into WebMCP tools for agents to discover and call directly, claiming a 2-minute setup, 2.82x speed gain, and 91x better token efficiency.",
+      "take": "banger stats",
+      "related": [
+        "2026-08-30-webmcp-kills-browser-automation-gatekeepers"
+      ]
+    },
+    {
+      "id": "2026-08-30-openclaw-cloud-multiplayer-coding-agent",
+      "url": "https://x.com/steipete/status/2094290652649636173?s=20",
+      "title": "OpenClaw pitches a shared cloud coding agent as a replacement for local harnesses",
+      "author": "Peter Steinberger (@steipete)",
+      "source": "X",
+      "added": "2026-08-31",
+      "posted": "2026-08-30",
+      "week": "2026-08-24",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 6.4,
+      "status": "curated",
+      "blurb": "OpenClaw's creator says the team has shifted from local coding agents to a shared cloud agent that tracks everyone's work and orchestrates it together, framing local harnesses as increasingly outdated, alongside an OpenClaw 2.0 release.",
+      "take": "yeah, no.",
+      "related": [
+        "2026-08-22-omarchy-home-ai-datacenter",
+        "2026-08-28-ai-harness-lockin-new-products"
+      ]
+    },
+    {
+      "id": "2026-08-30-webmcu-vision-web-tinyml-browser",
+      "url": "https://x.com/Alacritic_Super/status/2094067517304275319?s=10",
+      "title": "An open-source project trains on-device AI models directly from a browser tab",
+      "author": "Praveen Kumar Verma (@Alacritic_Super)",
+      "source": "X",
+      "added": "2026-08-31",
+      "posted": "2026-08-30",
+      "week": "2026-08-24",
+      "topics": [
+        "ai",
+        "browsers",
+        "innovation"
+      ],
+      "score": 4.2,
+      "status": "curated",
+      "blurb": "WebMCU Vision Web lets a browser connect to an ESP32-S3 microcontroller over WebSerial, capture images, train a visual classifier, and export the model back to the device, with no separate toolchain installed.",
+      "take": "yup",
+      "related": []
+    },
+    {
+      "id": "2026-08-30-voice-prompting-reticence-counterpoint",
+      "url": "https://x.com/kevinswiber/status/2094196078749049148?s=20",
+      "title": "A developer explains why he still doesn't use voice prompting for AI coding",
+      "author": "Kevin Swiber (@kevinswiber)",
+      "source": "X",
+      "added": "2026-08-31",
+      "posted": "2026-08-30",
+      "week": "2026-08-24",
+      "topics": [
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "A developer who has never used voice to instruct an AI coding assistant says he prefers typing so he can revise his thinking for clarity, offering a rare counterpoint to the recent push for voice-first agent workflows.",
+      "take": "somebody who doesn't use voice prompting sharing their reticence",
+      "related": [
+        "2026-08-22-diy-voice-push-to-talk-coding-rig"
       ]
     }
   ]
