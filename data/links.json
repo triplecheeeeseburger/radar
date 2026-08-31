@@ -32,7 +32,7 @@
       "tldr": "A more consequential week than usual for browsers: OpenAI and Anthropic shipped native browsing agents days apart, and OpenAI pushed WebMCP as the emerging standard for agent-native sites, backed by a Chromium- and Cloudflare-judged hackathon. Practice lagged the announcements — agent login flows broke down in first-hand testing, and a preference for tools that live inside an existing assistant is pushing vendors toward interoperability over their own front ends. Elsewhere, South Korea moved to treat AI access as a public utility and free agent-search tools began undercutting paid APIs."
     },
     "2026-08-31": {
-      "tldr": "As San Francisco debates whether novocaine is even available anymore, WebMCP is getting hot traction: a wave of new tools and papers landed, from a website-to-WebMCP converter to an Apple evaluation-suite paper, and one developer argued WebMCP could kill browser automation outright by letting sites expose functions instead of buttons. An unverified report claims OpenAI is quietly testing outcome-based pricing, paid only when tasks complete. A pitch for an all-cloud coding agent, replacing local harnesses entirely, drew a skeptical \"yeah, no.\" from more than one corner."
+      "tldr": "As San Francisco debates whether novocaine is even available anymore, WebMCP is getting hot traction: a wave of new tools and papers landed, from a website-to-WebMCP converter to an Apple evaluation-suite paper, and one developer argued WebMCP could kill browser automation outright by letting sites expose functions instead of buttons. A stealth startup, Instinct, is testing an always-on assistant with deep access to a user's apps, screen, audio, and location, raising real privacy and security questions. An unverified report claims OpenAI is quietly testing outcome-based pricing, paid only when tasks complete. A pitch for an all-cloud coding agent, replacing local harnesses entirely, drew a skeptical \"yeah, no.\" from more than one corner."
     }
   },
   "entries": [
@@ -2013,6 +2013,26 @@
       "related": [
         "2026-08-22-diy-voice-push-to-talk-coding-rig"
       ]
+    },
+    {
+      "id": "2026-08-31-instinct-stealth-personal-assistant",
+      "url": "https://instinct.co",
+      "title": "Stealth startup Instinct pitches an always-on personal assistant across your apps and devices",
+      "author": "Instinct",
+      "source": "Web",
+      "added": "2026-08-31",
+      "posted": "2026-08-31",
+      "week": "2026-08-31",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "cybersecurity"
+      ],
+      "score": 7.2,
+      "status": "curated",
+      "blurb": "Instinct describes a personal assistant that connects to a user's email, messaging, screen, audio, and location, texting or calling proactively to handle tasks like following up on threads or booking a ride. Currently private-access only, scaling compute.",
+      "take": "the stealth startup has been in use in private preview by some and I've seen some incredible use cases. privacy and cybersec will be a nightmare throughout the life of this prod",
+      "related": []
     }
   ]
 }
