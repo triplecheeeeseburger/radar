@@ -32,7 +32,7 @@
       "tldr": "A more consequential week than usual for browsers: OpenAI and Anthropic shipped native browsing agents days apart, and OpenAI pushed WebMCP as the emerging standard for agent-native sites, backed by a Chromium- and Cloudflare-judged hackathon. Practice lagged the announcements — agent login flows broke down in first-hand testing, and a preference for tools that live inside an existing assistant is pushing vendors toward interoperability over their own front ends. Elsewhere, South Korea moved to treat AI access as a public utility and free agent-search tools began undercutting paid APIs."
     },
     "2026-08-31": {
-      "tldr": "As San Francisco debates whether novocaine is even available anymore, WebMCP is getting hot traction: a wave of new tools and papers landed, from a website-to-WebMCP converter to an Apple evaluation-suite paper, and one developer argued WebMCP could kill browser automation outright by letting sites expose functions instead of buttons. A stealth startup, Instinct, is testing an always-on assistant with deep access to a user's apps, screen, audio, and location, raising real privacy and security questions. An unverified report claims OpenAI is quietly testing outcome-based pricing, paid only when tasks complete. A pitch for an all-cloud coding agent, replacing local harnesses entirely, drew a skeptical \"yeah, no.\" from more than one corner."
+      "tldr": "As San Francisco debates whether novocaine is even available anymore — per a viral roundup of one week's tech absurdity — WebMCP is getting real traction: a wave of new tools and papers landed, and one developer argued WebMCP could kill browser automation outright by letting sites expose functions instead of buttons. A stealth startup, Instinct, is testing an always-on assistant with deep access to a user's apps, screen, audio, and location, raising real privacy and security questions. An unverified report claims OpenAI is quietly testing outcome-based pricing, paid only when tasks complete. Elsewhere, early testers called Claude Fable 5.1 promising but more verbose, and a pitch for an all-cloud coding agent drew a skeptical \"yeah, no.\" from more than one corner."
     }
   },
   "entries": [
@@ -1838,7 +1838,9 @@
       "status": "curated",
       "blurb": "Pangram, an AI-text and AI-image detector benchmarked at 99%+ accuracy by University of Chicago and Maryland researchers, is used by Substack, Quora, and NewsGuard and ships Chrome/Firefox extensions and an API, priced from $20/month.",
       "take": "this gets a lot of praise in my circle. I'm yet to try it but seems like a future fixture, despite the $20/mo",
-      "related": []
+      "related": [
+        "2026-09-01-claude-fable-5-1-verbosity-watermarking"
+      ]
     },
     {
       "id": "2026-08-28-claude-cowork-built-in-browser-anthropic",
@@ -2033,6 +2035,47 @@
       "blurb": "Instinct describes a personal assistant that connects to a user's email, messaging, screen, audio, and location, texting or calling proactively to handle tasks like following up on threads or booking a ride. Currently private-access only, scaling compute.",
       "take": "the stealth startup has been in use in private preview by some and I've seen some incredible use cases. privacy and cybersec will be a nightmare throughout the life of this prod",
       "related": []
+    },
+    {
+      "id": "2026-09-01-sf-tech-culture-week-roundup",
+      "url": "https://x.com/tech__unicorn/status/2094849195572080801?s=20",
+      "title": "A rapid-fire roundup of one week's SF tech absurdity, from root-canal stunts to Apple succession rumors",
+      "author": "Delia Lazarescu (@tech__unicorn)",
+      "source": "X",
+      "added": "2026-09-01",
+      "posted": "2026-09-01",
+      "week": "2026-08-31",
+      "topics": [
+        "culture",
+        "ai",
+        "innovation"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "A viral roundup strings together a single week of SF tech oddities: a VC's Novocaine-free root canal stunt, AI agents accused of 'building secret civilizations,' a gum-livestreaming toothbrush, and swirling Apple-succession rumors, calling it a sign of the industry's pace.",
+      "take": "\"you need to be unemployed to keep up with AI and tech\"",
+      "related": []
+    },
+    {
+      "id": "2026-09-01-claude-fable-5-1-verbosity-watermarking",
+      "url": "https://x.com/frolic/status/2094889233320153379?s=20",
+      "title": "Early reactions to Claude Fable 5.1 note it's more verbose than its predecessor",
+      "author": "frolic (@frolic)",
+      "source": "X",
+      "added": "2026-09-01",
+      "posted": "2026-09-01",
+      "week": "2026-08-31",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Early testers call Claude Fable 5.1 promising, with one showing a side-by-side reply comparison and calling the model 'even more verbose' than Fable 5, alongside a writing-style diff shifting a passage's framing.",
+      "take": "pretty much. wonder how that watermarking keeps up now",
+      "related": [
+        "2026-08-28-pangram-ai-detector-praise"
+      ]
     }
   ]
 }
