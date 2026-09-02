@@ -42,6 +42,9 @@ section:last-child { border-bottom: none; }
 .week-label { font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--black); animation: fadeUp 0.6s ease both; }
 .tldr-label { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); margin-top: 40px; animation: fadeUp 0.6s 0.09s ease both; }
 .tldr { font-family: var(--serif); font-size: 14.5px; line-height: 1.85; color: #2d2d2d; max-width: 720px; margin-top: 14px; animation: fadeUp 0.6s 0.15s ease both; }
+.md-download { margin-top: 18px; animation: fadeUp 0.6s 0.2s ease both; }
+.md-download a { font-family: var(--sans); font-size: 11px; font-weight: 500; letter-spacing: 0.04em; color: var(--gray); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 2px; transition: color 0.15s ease, border-color 0.15s ease; }
+.md-download a:hover { color: var(--black); border-color: var(--black); }
 .item-list { display: flex; flex-direction: column; }
 .entry { display: grid; grid-template-columns: 34px 1fr auto; align-items: baseline; gap: 18px; padding: 17px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; }
 .entry:first-child { border-top: 1px solid var(--rule); }
@@ -154,8 +157,9 @@ def render_week_body(week_iso, entries, all_by_id, is_current):
     tldr = DATA.get("weeks", {}).get(week_iso, {}).get("tldr", "")
     tldr_html = (f'\n  <p class="tldr-label">Executive summary</p>'
                  f'\n  <p class="tldr">{esc(tldr)}</p>') if tldr else ""
+    md_link_html = f'\n  <p class="md-download"><a href="/archive/{week_iso}.md" download>Download this week (Markdown)</a></p>'
     return f"""<section class="masthead">
-  <p class="week-label">{esc(label)} — {esc(fmt_week(week_iso))} · {len(entries)} signals</p>{tldr_html}
+  <p class="week-label">{esc(label)} — {esc(fmt_week(week_iso))} · {len(entries)} signals</p>{tldr_html}{md_link_html}
 </section>
 <section>
   <p class="section-label">Ranked by impact on agentic workflows, browsers and the wider ecosystem</p>
@@ -163,6 +167,31 @@ def render_week_body(week_iso, entries, all_by_id, is_current):
 {rows}
   </div>
 </section>"""
+
+def render_week_markdown(week_iso, entries):
+    entries = sorted(entries, key=lambda e: (e.get("score") is None, -(e.get("score") or 0)))
+    tldr = DATA.get("weeks", {}).get(week_iso, {}).get("tldr", "")
+    lines = [f"# {SITE['title']} — {fmt_week(week_iso)}", ""]
+    if tldr:
+        lines += ["## Executive summary", "", tldr, ""]
+    lines += [f"## Signals ({len(entries)})", ""]
+    for i, e in enumerate(entries, 1):
+        score = f"{e['score']:.1f}" if e.get("score") is not None else "pending"
+        posted = e.get("posted") or e.get("added")
+        lines.append(f"### {i}. {e['title']} — {score}")
+        lines.append("")
+        lines.append(f"*{e['source']} · {e['author']} · {weekday(posted)}*")
+        lines.append("")
+        lines.append(e["blurb"])
+        if e.get("take"):
+            lines.append("")
+            lines.append(f"> Dan's take: {e['take']}")
+        lines.append("")
+        lines.append(e["url"])
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
 
 def xml_esc(s):
     # XML element text: escape only the XML specials; leave apostrophes and
@@ -245,11 +274,12 @@ def main():
         f"{SITE['title']} — {fmt_week(current)}",
         render_week_body(current, weeks[current], all_by_id, True), depth=0))
 
-    # every week (incl. current) also gets a permanent archive page
+    # every week (incl. current) also gets a permanent archive page + a downloadable Markdown export
     for wk in ordered:
         (ROOT / "archive" / f"{wk}.html").write_text(page(
             f"{SITE['title']} — {fmt_week(wk)}",
             render_week_body(wk, weeks[wk], all_by_id, wk == current), depth=1))
+        (ROOT / "archive" / f"{wk}.md").write_text(render_week_markdown(wk, weeks[wk]))
 
     # archive index
     rows = []
