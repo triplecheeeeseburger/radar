@@ -84,6 +84,12 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com" />\n'
 
 def esc(s): return html.escape(str(s), quote=True)
 
+def bold_md(escaped_text):
+    # Convert **word** markdown-style bold (applied to already-escaped text) into <strong> tags.
+    # Used only for the TL;DR, which may mark a few key hook words for skimmability.
+    import re
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped_text)
+
 def fmt_week(week_iso):
     d = datetime.date.fromisoformat(week_iso)
     return "Week of " + d.strftime("%B %-d, %Y")
@@ -156,7 +162,7 @@ def render_week_body(week_iso, entries, all_by_id, is_current):
     label = "This Week" if is_current else "Archived Week"
     tldr = DATA.get("weeks", {}).get(week_iso, {}).get("tldr", "")
     tldr_html = (f'\n  <p class="tldr-label">Executive summary</p>'
-                 f'\n  <p class="tldr">{esc(tldr)}</p>') if tldr else ""
+                 f'\n  <p class="tldr">{bold_md(esc(tldr))}</p>') if tldr else ""
     md_link_html = f'\n  <p class="md-download"><a href="/archive/{week_iso}.md" download>Download this week (Markdown)</a></p>'
     return f"""<section class="masthead">
   <p class="week-label">{esc(label)} — {esc(fmt_week(week_iso))} · {len(entries)} signals</p>{tldr_html}{md_link_html}
