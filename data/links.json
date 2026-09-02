@@ -2118,6 +2118,26 @@
       "related": [
         "2026-09-02-brave-desktop-benchmark-claim"
       ]
+    },
+    {
+      "id": "2026-09-02-executor-mcp-gateway-artifacts-connectors",
+      "url": "https://x.com/RhysSullivan/status/2095240452471722161?s=20",
+      "title": "Reacting to Artifacts gaining live MCP-connector calls, a developer points to Executor as a general MCP gateway",
+      "author": "Rhys Sullivan (@RhysSullivan)",
+      "source": "X",
+      "added": "2026-09-02",
+      "posted": "2026-09-02",
+      "week": "2026-08-31",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 5.3,
+      "status": "curated",
+      "blurb": "Responding to a post about Artifacts now calling MCP connectors live, without refresh jobs or shared credentials, developer Rhys Sullivan pointed to Executor, an MCP gateway that exposes any connected tool as one callable function for any coding agent.",
+      "take": "getting hard to keep up",
+      "related": []
     }
   ]
 }
