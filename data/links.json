@@ -2138,6 +2138,25 @@
       "blurb": "Responding to a post about Artifacts now calling MCP connectors live, without refresh jobs or shared credentials, developer Rhys Sullivan pointed to Executor, an MCP gateway that exposes any connected tool as one callable function for any coding agent.",
       "take": "getting hard to keep up",
       "related": []
+    },
+    {
+      "id": "2026-09-02-lta-pathfinder-1-sf-sighting",
+      "url": "https://x.com/danberte/status/2095272709785899184?s=20",
+      "title": "LTA Research's Pathfinder 1 rigid airship spotted flying over downtown San Francisco",
+      "author": "Dan Berte (@danberte)",
+      "source": "X",
+      "added": "2026-09-02",
+      "posted": "2026-09-02",
+      "week": "2026-08-31",
+      "topics": [
+        "culture",
+        "innovation"
+      ],
+      "score": 1.5,
+      "status": "curated",
+      "blurb": "LTA Research's Pathfinder 1, a zero-carbon rigid electric airship backed by Google co-founder Sergey Brin, was spotted over downtown San Francisco. At 124.5 meters, it is the largest aircraft in the world by length and volume, the first massive rigid airship to fly since 1939.",
+      "take": "a Pathfinder 1 was seen flying around San Francisco down town on Sep 2. P1 is a modern, rigid electric airship created by LTA Research, a zero-carbon aviation company backed by Google co-founder Sergey Brin. 124.5m long, it is currently the largest aircraft in the world by length and volume, and the first massive rigid airship to fly since 1939.",
+      "related": []
     }
   ]
 }
