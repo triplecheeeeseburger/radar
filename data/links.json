@@ -32,7 +32,7 @@
       "tldr": "A more consequential week than usual for browsers: OpenAI and Anthropic shipped native browsing agents days apart, and OpenAI pushed WebMCP as the emerging standard for agent-native sites, backed by a Chromium- and Cloudflare-judged hackathon. Practice lagged the announcements — agent login flows broke down in first-hand testing, and a preference for tools that live inside an existing assistant is pushing vendors toward interoperability over their own front ends. Elsewhere, South Korea moved to treat AI access as a public utility and free agent-search tools began undercutting paid APIs."
     },
     "2026-08-31": {
-      "tldr": "As San Francisco debates whether novocaine is even available anymore, per a viral roundup of one week's tech absurdity, **WebMCP** is getting real traction, with one developer arguing it could kill browser automation entirely. A stealth startup, **Instinct**, is testing an always-on assistant with deep device access, raising privacy concerns. An unverified report claims OpenAI is testing **outcome-based pricing**, paid only on task completion. Elsewhere, testers called **Fable 5.1** promising but more verbose, an all-cloud coding agent pitch drew a skeptical \"yeah, no.\", and **Brave** claimed a performance edge over Chrome, Edge, and Firefox."
+      "tldr": "As San Francisco debates whether novocaine is even available anymore, per a viral roundup of one week's tech absurdity, **WebMCP** is gaining momentum, from arguments it could kill browser automation to a live demo of an agent controlling an app inside an iframe. A stealth startup, **Instinct**, is testing an always-on assistant with deep device access, raising privacy concerns. An unverified report claims OpenAI is testing **outcome-based pricing**, paid only on task completion. Browser Use added **single-use cards** so web agents can pay without seeing real card details, and Brave claimed a performance edge over Chrome, Edge, and Firefox."
     }
   },
   "entries": [
@@ -1905,7 +1905,8 @@
       "related": [
         "2026-08-27-openai-webmcp-hackathon-chatgpt-browser",
         "2026-08-28-openai-webmcp-challenge-official-page",
-        "2026-08-28-webmcp-billions-through-agents"
+        "2026-08-28-webmcp-billions-through-agents",
+        "2026-09-03-webmcp-paper-iframe-agent-demo"
       ]
     },
     {
@@ -1949,7 +1950,8 @@
       "blurb": "A new tool called Sodium converts a website's existing features into WebMCP tools for agents to discover and call directly, claiming a 2-minute setup, 2.82x speed gain, and 91x better token efficiency.",
       "take": "banger stats",
       "related": [
-        "2026-08-30-webmcp-kills-browser-automation-gatekeepers"
+        "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
+        "2026-09-03-webmcp-paper-iframe-agent-demo"
       ]
     },
     {
@@ -2156,6 +2158,67 @@
       "status": "curated",
       "blurb": "LTA Research's Pathfinder 1, a zero-carbon rigid electric airship backed by Google co-founder Sergey Brin, was spotted over downtown San Francisco. At 124.5 meters, it is the largest aircraft in the world by length and volume, the first massive rigid airship to fly since 1939.",
       "take": "a Pathfinder 1 was seen flying around San Francisco down town on Sep 2. P1 is a modern, rigid electric airship created by LTA Research, a zero-carbon aviation company backed by Google co-founder Sergey Brin. 124.5m long, it is currently the largest aircraft in the world by length and volume, and the first massive rigid airship to fly since 1939.",
+      "related": []
+    },
+    {
+      "id": "2026-09-03-browser-use-link-single-use-cards",
+      "url": "https://x.com/gregpr07/status/2095534668749951017?s=20",
+      "title": "Browser Use lets agents pay with single-use virtual cards instead of real card details",
+      "author": "Gregor Zunic (@gregpr07)",
+      "source": "X",
+      "added": "2026-09-03",
+      "posted": "2026-09-03",
+      "week": "2026-08-31",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Browser Use partnered with Link so its web agents can complete purchases using a single-use virtual card issued at checkout, without ever accessing the user's real card details. The card is disabled immediately after one purchase.",
+      "take": "sure, but.. why not minipay?",
+      "related": []
+    },
+    {
+      "id": "2026-09-03-webmcp-paper-iframe-agent-demo",
+      "url": "https://x.com/RhysSullivan/status/2095426637965971929?s=20",
+      "title": "Demo shows WebMCP letting an external agent control an app running inside an iframe",
+      "author": "Rhys Sullivan (@RhysSullivan)",
+      "source": "X",
+      "added": "2026-09-03",
+      "posted": "2026-09-03",
+      "week": "2026-08-31",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "Developer Stephen Haney demoed an app called Paper running inside an iframe and controlled by an external agent through WebMCP, an example another developer called the first use case that made WebMCP's purpose click for embedded agent-controlled flows.",
+      "related": [
+        "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
+        "2026-08-30-sodium-webmcp-website-converter"
+      ]
+    },
+    {
+      "id": "2026-09-03-perplexity-lily-open-source-inference",
+      "url": "https://x.com/perplexity_ai/status/2095241544383226274?s=20",
+      "title": "Perplexity open-sources Lily, an on-device inference engine built for Perplexity Computer",
+      "author": "Perplexity (@perplexity_ai)",
+      "source": "X",
+      "added": "2026-09-03",
+      "posted": "2026-09-02",
+      "week": "2026-08-31",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Perplexity open-sourced Lily, a local inference engine specialized for the Qwen3.6-35B-A3B model on Apple silicon, built so on-device compute does not bottleneck tasks in Perplexity Computer, its hybrid local-cloud AI product.",
+      "take": "Fable 5.1, Lilly open source, GPT-6 Astra",
       "related": []
     }
   ]
