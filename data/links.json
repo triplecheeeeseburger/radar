@@ -32,7 +32,7 @@
       "tldr": "A more consequential week than usual for browsers: OpenAI and Anthropic shipped native browsing agents days apart, and OpenAI pushed WebMCP as the emerging standard for agent-native sites, backed by a Chromium- and Cloudflare-judged hackathon. Practice lagged the announcements — agent login flows broke down in first-hand testing, and a preference for tools that live inside an existing assistant is pushing vendors toward interoperability over their own front ends. Elsewhere, South Korea moved to treat AI access as a public utility and free agent-search tools began undercutting paid APIs."
     },
     "2026-08-31": {
-      "tldr": "As San Francisco debates whether novocaine is even available anymore, per a viral roundup of one week's tech absurdity, **WebMCP** is gaining momentum, from arguments it could kill browser automation to a live demo of an agent controlling an app inside an iframe. A stealth startup, **Instinct**, is testing an always-on assistant with deep device access, raising privacy concerns. An unverified report claims OpenAI is testing **outcome-based pricing**, paid only on task completion. Browser Use added **single-use cards** so web agents can pay without seeing real card details, and Brave claimed a performance edge over Chrome, Edge, and Firefox."
+      "tldr": "During the Burning Man week Fable 5.1’s launch was quickly overtaken by **Astra** and everyone who tried it agreed it felt like AGI, debating if benchmarks are still relevant after the model obliterated all of them. There’s speculation about a potentially OpenAI device seen on Palmer Luckey (Anduril), but some think it’s something made by Opal, who are going through a reinvention. **Instinct**, who reportedly got $350m in funding, is crushing it and just announced a partnership with 1Password for vault ops, while trying to navigate privacy concerns.\n**WebMCP** is gaining momentum, from arguments it could kill browser automation to a live demo of an agent controlling an app inside an iframe. An unverified report claims OpenAI is testing **outcome-based pricing**, paid only on task completion. Browser Use added **single-use cards** so web agents can pay without seeing real card details, and Brave claimed a performance edge over Chrome, Edge, and Firefox."
     }
   },
   "entries": [
@@ -2219,6 +2219,25 @@
       "status": "curated",
       "blurb": "Perplexity open-sourced Lily, a local inference engine specialized for the Qwen3.6-35B-A3B model on Apple silicon, built so on-device compute does not bottleneck tasks in Perplexity Computer, its hybrid local-cloud AI product.",
       "take": "Fable 5.1, Lilly open source, GPT-6 Astra",
+      "related": []
+    },
+    {
+      "id": "2026-09-03-dime-mystery-openai-headset-investigation",
+      "url": "https://x.com/alexkaplan0/status/2095345448496103916?s=20",
+      "title": "An investigation into 'Dime', the mystery headset repeatedly linked to OpenAI despite its denials",
+      "author": "Alex Kaplan (@alexkaplan0)",
+      "source": "X",
+      "added": "2026-09-03",
+      "posted": "2026-09-02",
+      "week": "2026-08-31",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "Alex Kaplan traces sightings of 'Dime', a silver puck-and-earbud device, from supply-chain leaks and a Joe Gebbia sighting to a magazine ad and a Palmer Luckey post. OpenAI has denied any connection; the author still puts 55% odds on it being theirs.",
+      "take": "great investigation, unfortunately raises more qs than answers",
       "related": []
     }
   ]
