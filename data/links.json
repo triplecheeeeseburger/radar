@@ -1627,7 +1627,8 @@
       "take": "best in class persistent auth",
       "related": [
         "2026-08-27-chatgpt-work-browser-login-agent",
-        "2026-08-28-chatgpt-work-auth-failure-firsthand"
+        "2026-08-28-chatgpt-work-auth-failure-firsthand",
+        "2026-09-04-garry-tan-aside-agent-browser-endorsement"
       ]
     },
     {
@@ -1861,7 +1862,8 @@
       "blurb": "Anthropic added an isolated, built-in browser to Claude's Cowork product: tell it a task, and it opens the page, clicks through, fills forms, and pulls data inside the desktop app, never touching the user's own tabs or passwords.",
       "take": "oh, and I forgot, Anthropic gave Claude a browser. you take one and you take one. everyone gets a browser.",
       "related": [
-        "2026-08-27-chatgpt-work-browser-login-agent"
+        "2026-08-27-chatgpt-work-browser-login-agent",
+        "2026-09-04-garry-tan-aside-agent-browser-endorsement"
       ]
     },
     {
@@ -2238,6 +2240,48 @@
       "status": "curated",
       "blurb": "Alex Kaplan traces sightings of 'Dime', a silver puck-and-earbud device, from supply-chain leaks and a Joe Gebbia sighting to a magazine ad and a Palmer Luckey post. OpenAI has denied any connection; the author still puts 55% odds on it being theirs.",
       "take": "great investigation, unfortunately raises more qs than answers",
+      "related": []
+    },
+    {
+      "id": "2026-09-04-garry-tan-aside-agent-browser-endorsement",
+      "url": "https://x.com/garrytan/status/2095948689823121872?s=20",
+      "title": "Garry Tan calls Aside the best browser for giving AI agents web access and credentials, makes it GStack's default",
+      "author": "Garry Tan (@garrytan)",
+      "source": "X",
+      "added": "2026-09-04",
+      "posted": "2026-09-04",
+      "week": "2026-08-31",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "Y Combinator CEO Garry Tan said GStack now uses Aside as its preferred remote-session browser, calling it the best tool he has found for giving an AI agent web access and credentials as the user, citing its integrations, harness, and memory system.",
+      "take": "de gustibus non est disputandum",
+      "related": [
+        "2026-08-27-chatgpt-work-persistent-auth-breakdown",
+        "2026-08-28-claude-cowork-built-in-browser-anthropic"
+      ]
+    },
+    {
+      "id": "2026-09-04-watchos-27-app-model-on-its-way-out",
+      "url": "https://x.com/ParkerOrtolani/status/2095991808983450012?s=20",
+      "title": "watchOS 27 drops the full app launcher for a Siri-first suggested grid, prompting 'the app model is on its way out'",
+      "author": "Parker Ortolani (@ParkerOrtolani)",
+      "source": "X",
+      "added": "2026-09-04",
+      "posted": "2026-09-04",
+      "week": "2026-08-31",
+      "topics": [
+        "innovation",
+        "ai"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "watchOS 27 removes Walkie-Talkie and the Digital Crown multitasking shortcut, and replaces the full app launcher with a grid of five suggested apps plus Siri. Designer Parker Ortolani reads it as Apple forcing a shift away from the app model.",
+      "take": "the app model is on it's way out",
       "related": []
     }
   ]
