@@ -1909,7 +1909,9 @@
         "2026-08-27-openai-webmcp-hackathon-chatgpt-browser",
         "2026-08-28-openai-webmcp-challenge-official-page",
         "2026-08-28-webmcp-billions-through-agents",
-        "2026-09-03-webmcp-paper-iframe-agent-demo"
+        "2026-09-03-webmcp-paper-iframe-agent-demo",
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete",
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
       ]
     },
     {
@@ -2307,6 +2309,52 @@
       "related": [
         "2026-09-04-garry-tan-aside-agent-browser-endorsement",
         "2026-08-27-chatgpt-work-persistent-auth-breakdown"
+      ]
+    },
+    {
+      "id": "2026-09-06-signulll-web-ghost-town-browser-obsolete",
+      "url": "https://x.com/signulll/status/2096673429998989454?s=10",
+      "title": "Argument: agent-to-agent negotiation makes websites, and eventually the browser, obsolete",
+      "author": "signüll (@signulll)",
+      "source": "X",
+      "added": "2026-09-06",
+      "posted": "2026-09-06",
+      "week": "2026-08-31",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "signüll argues that once AI agents complete tasks through agent-to-agent negotiation instead of routing traffic to websites, the visible web becomes a ghost town and the browser obsolete, making AI the ultimate aggregator of attention and time spent.",
+      "take": "i prefer to use the word \"rebrand\"",
+      "related": [
+        "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
+      ]
+    },
+    {
+      "id": "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
+      "url": "https://x.com/kenwattana/status/2096708601310228868?s=10",
+      "title": "'Browser use is just a stepping stone to an open API internet for agents', as anti-bot walls bite",
+      "author": "Ken Wattana (@KenWattana)",
+      "source": "X",
+      "added": "2026-09-06",
+      "posted": "2026-09-06",
+      "week": "2026-08-31",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "ai"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Ken Wattana restates his view that browser-driving agents are a transitional step toward an open, API-based internet for agents, noting it feels more relevant as browser use collides with 25 years of accumulated anti-bot defenses.",
+      "take": "another data point",
+      "related": [
+        "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete"
       ]
     }
   ]
