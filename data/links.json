@@ -2144,7 +2144,9 @@
       "status": "curated",
       "blurb": "Responding to a post about Artifacts now calling MCP connectors live, without refresh jobs or shared credentials, developer Rhys Sullivan pointed to Executor, an MCP gateway that exposes any connected tool as one callable function for any coding agent.",
       "take": "getting hard to keep up",
-      "related": []
+      "related": [
+        "2026-09-06-openrouter-for-tools-one-signup"
+      ]
     },
     {
       "id": "2026-09-02-lta-pathfinder-1-sf-sighting",
@@ -2355,6 +2357,28 @@
       "related": [
         "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
         "2026-09-06-signulll-web-ghost-town-browser-obsolete"
+      ]
+    },
+    {
+      "id": "2026-09-06-openrouter-for-tools-one-signup",
+      "url": "https://x.com/FardeemM/status/2096640569808241076?s=20",
+      "title": "'OpenRouter for tools': the pitch for one sign-up that gives agents access to every service",
+      "author": "Fardeem (@FardeemM)",
+      "source": "X",
+      "added": "2026-09-06",
+      "posted": "2026-09-06",
+      "week": "2026-08-31",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "A widely shared post backs the idea of an 'OpenRouter for tools', a single gateway that lets an agent reach many services without the user signing up for each one, echoing the pitch behind MCP gateways like Executor.",
+      "take": "the last salvo for \"agents need new tools\"",
+      "related": [
+        "2026-09-02-executor-mcp-gateway-artifacts-connectors"
       ]
     }
   ]
