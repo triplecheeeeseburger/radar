@@ -32,7 +32,10 @@
       "tldr": "A more consequential week than usual for browsers: OpenAI and Anthropic shipped native browsing agents days apart, and OpenAI pushed WebMCP as the emerging standard for agent-native sites, backed by a Chromium- and Cloudflare-judged hackathon. Practice lagged the announcements — agent login flows broke down in first-hand testing, and a preference for tools that live inside an existing assistant is pushing vendors toward interoperability over their own front ends. Elsewhere, South Korea moved to treat AI access as a public utility and free agent-search tools began undercutting paid APIs."
     },
     "2026-08-31": {
-      "tldr": "A heavier week than usual for agentic browsing, with the argument shifting from automating pages to replacing them. **WebMCP** led it: proposals for sites to expose functions instead of buttons, a demo of an agent driving an app inside an iframe, and tooling to convert existing sites in minutes. Credentials and payments moved with it, through single-use virtual cards for agents and an endorsement of Aside that came from its own investor. A report also claims OpenAI is testing **outcome-based pricing**, billed only on completion. Model news stayed quiet."
+      "tldr": "During the Burning Man week Fable 5.1’s launch was quickly overtaken by **Astra** and everyone who tried it agreed it felt like AGI, debating if benchmarks are still relevant after the model obliterated all of them. There’s speculation about a device believed to be OpenAI’s, though some think it’s from Opal, formerly known for webcams. **Instinct**, who reportedly got $350m in funding, is crushing it and just announced a partnership with 1Password for vault ops, while trying to navigate privacy concerns.\n**WebMCP** is gaining momentum, from arguments it could kill browser automation to a live demo of an agent controlling an app inside an iframe. An unverified report claims OpenAI is testing **outcome-based pricing**, paid only on task completion. Garry Tan crowned **Aside** the best browser for giving agents web access and credentials, though Aside is a Y Combinator company and Tan runs YC. Browser Use added **single-use cards** so web agents can pay without seeing real card details, and Brave claimed a performance edge over Chrome, Edge, and Firefox."
+    },
+    "2026-09-07": {
+      "tldr": "After calling for the death of the browser last week, this one is shaping up to be whiplash on cybersecurity concerns: **Instinct** users' agent inboxes turned out to follow a guessable address pattern, a live prompt-injection surface for any always-on assistant, while OpenAI published a **Defense Factory** playbook after mobilizing 250+ people and its cyber models to hunt its own vulnerabilities. An Anthropic researcher's post putting over 10% odds on **AI killing everyone** within a decade escaped the SF bubble, Coefficient Giving launched **Project Tailwind** to fund AI safety founders at up to $200m+, and Anthropic released scenario models for AI's economic impact by 2030."
     }
   },
   "entries": [
@@ -2041,7 +2044,9 @@
       "status": "curated",
       "blurb": "Instinct describes a personal assistant that connects to a user's email, messaging, screen, audio, and location, texting or calling proactively to handle tasks like following up on threads or booking a ride. Currently private-access only, scaling compute.",
       "take": "the stealth startup has been in use in private preview by some and I've seen some incredible use cases. privacy and cybersec will be a nightmare throughout the life of this prod dm for invite",
-      "related": []
+      "related": [
+        "2026-09-09-instinct-guessable-inbox-prompt-injection"
+      ]
     },
     {
       "id": "2026-09-01-sf-tech-culture-week-roundup",
@@ -2380,6 +2385,143 @@
       "related": [
         "2026-09-02-executor-mcp-gateway-artifacts-connectors"
       ]
+    },
+    {
+      "id": "2026-09-09-instinct-guessable-inbox-prompt-injection",
+      "url": "https://x.com/rememberlenny/status/2097764593682772274?s=20",
+      "title": "Instinct users' agent inboxes follow a guessable pattern, opening a prompt-injection door",
+      "author": "Lenny Bogdonoff (@rememberlenny)",
+      "source": "X",
+      "added": "2026-09-09",
+      "posted": "2026-09-09",
+      "week": "2026-09-07",
+      "topics": [
+        "cybersecurity",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "Lenny Bogdonoff pointed out that Instinct assigns each user a predictable firstlast@mail.instinct.com address, so anyone can email prompt-injection payloads to users who have publicly announced they are on the platform.",
+      "take": "prompt injection attack on Instinct is possibly just a tiny demo of what's to come. all similar systems vulnerable. Instinct aura still positive in SV.",
+      "related": [
+        "2026-08-31-instinct-stealth-personal-assistant"
+      ]
+    },
+    {
+      "id": "2026-09-09-hubinger-ten-percent-extinction-post",
+      "url": "https://x.com/EvanHub/status/2097497037956891126",
+      "title": "Anthropic researcher: over 10% chance AI kills all humans within a decade, and no plan yet for superintelligence alignment",
+      "author": "Evan Hubinger (@EvanHub)",
+      "source": "X",
+      "added": "2026-09-09",
+      "posted": "2026-09-08",
+      "week": "2026-09-07",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Anthropic alignment researcher Evan Hubinger said he personally puts more than 10% odds on AI killing all humans within the next decade, adding that Anthropic does not yet have a plan to solve superintelligence alignment. The post drew tens of millions of views.",
+      "take": "this is making the rounds. 115m views at the time of posting this to the radar means it escaped SF bubble",
+      "related": []
+    },
+    {
+      "id": "2026-09-09-atlassian-pm-agents-jira-storytelling",
+      "url": "https://x.com/matthewcanham/status/2097743721643291019?s=20",
+      "title": "Atlassian product director bringing agents to Jira starts building in public on X",
+      "author": "Matt Canham (@matthewcanham)",
+      "source": "X",
+      "added": "2026-09-09",
+      "posted": "2026-09-09",
+      "week": "2026-09-07",
+      "topics": [
+        "agentic workflows",
+        "culture"
+      ],
+      "score": 2.5,
+      "status": "curated",
+      "blurb": "Matt Canham, a Director of Product at Atlassian working on bringing agents to Jira, introduced himself on X and committed to sharing what he is building and how he thinks about product craft, with open DMs.",
+      "take": "cool exec turn to storytelling",
+      "related": []
+    },
+    {
+      "id": "2026-09-09-openai-defense-factory-playbook",
+      "url": "https://x.com/OpenAI/status/2097786616311840853?s=20",
+      "title": "OpenAI publishes 'Defense Factory' playbook: 250+ people and cyber models hunting its own vulnerabilities",
+      "author": "OpenAI (@OpenAI)",
+      "source": "X",
+      "added": "2026-09-09",
+      "posted": "2026-09-09",
+      "week": "2026-09-07",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "OpenAI says it mobilized more than 250 people and its latest cyber models to find and fix vulnerabilities across hundreds of internal systems, and released the architecture and a playbook for a continuous loop where agents find, validate, and verify fixes.",
+      "take": "OAI doing some pen testing",
+      "related": []
+    },
+    {
+      "id": "2026-09-09-coefficient-giving-project-tailwind",
+      "url": "https://x.com/EmilyOehlsen/status/2097702406037606607?s=20",
+      "title": "Coefficient Giving launches Project Tailwind, funding AI safety founders from $200k to $200m+",
+      "author": "Emily Oehlsen (@EmilyOehlsen)",
+      "source": "X",
+      "added": "2026-09-09",
+      "posted": "2026-09-09",
+      "week": "2026-09-07",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "Coefficient Giving launched Project Tailwind, a call for founders to start new AI safety research, technology, and institutions, with pre-seed ($200k to $2m), seed ($2m to $20m), and scale ($20m to $200m+) funding tiers and a curated list of unowned problems.",
+      "take": "I applaud this. could turn into a standards body or other industry org",
+      "related": []
+    },
+    {
+      "id": "2026-09-09-anthropic-economic-scenarios-2030",
+      "url": "https://x.com/AnthropicAI/status/2097679796687769689?s=20",
+      "title": "Anthropic's economics team publishes scenario models for AI's effect on growth, jobs, and wages by 2030",
+      "author": "Anthropic (@AnthropicAI)",
+      "source": "X",
+      "added": "2026-09-09",
+      "posted": "2026-09-09",
+      "week": "2026-09-07",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "Anthropic released an interactive model of how AI could affect economic growth, employment, and wages by 2030, inviting readers to submit their own forecasts and compare them with responses from more than 10,000 Americans.",
+      "take": "not good",
+      "related": []
+    },
+    {
+      "id": "2026-09-09-nokia-9300-opera-mini-still-browses",
+      "url": "https://x.com/NokiaFanTH1/status/2095481116920619432?s=20",
+      "title": "A 2004 Nokia 9300 still loads parts of today's web through Opera Mini",
+      "author": "NokiaFanTH (@NokiaFanTH1)",
+      "source": "X",
+      "added": "2026-09-09",
+      "posted": "2026-09-03",
+      "week": "2026-09-07",
+      "topics": [
+        "browsers",
+        "culture"
+      ],
+      "score": 2,
+      "status": "curated",
+      "blurb": "A Nokia enthusiast in Thailand showed a Nokia 9300 communicator from 2004 loading present-day websites through Opera Mini, which renders pages on a proxy server and sends a compressed version to the device.",
+      "take": "a 2004 Nokia 9300 can still browse the web today using Opera Mini",
+      "related": []
     }
   ]
 }
