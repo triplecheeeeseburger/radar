@@ -35,7 +35,7 @@
       "tldr": "During the Burning Man week Fable 5.1’s launch was quickly overtaken by **Astra** and everyone who tried it agreed it felt like AGI, debating if benchmarks are still relevant after the model obliterated all of them. There’s speculation about a device believed to be OpenAI’s, though some think it’s from Opal, formerly known for webcams. **Instinct**, who reportedly got $350m in funding, is crushing it and just announced a partnership with 1Password for vault ops, while trying to navigate privacy concerns.\n**WebMCP** is gaining momentum, from arguments it could kill browser automation to a live demo of an agent controlling an app inside an iframe. An unverified report claims OpenAI is testing **outcome-based pricing**, paid only on task completion. Garry Tan crowned **Aside** the best browser for giving agents web access and credentials, though Aside is a Y Combinator company and Tan runs YC. Browser Use added **single-use cards** so web agents can pay without seeing real card details, and Brave claimed a performance edge over Chrome, Edge, and Firefox."
     },
     "2026-09-07": {
-      "tldr": "After calling for the death of the browser last week, this one is shaping up to be whiplash on cybersecurity concerns: **Instinct** users' agent inboxes turned out to follow a guessable address pattern, a live prompt-injection surface for any always-on assistant, while OpenAI published a **Defense Factory** playbook after mobilizing 250+ people and its cyber models to hunt its own vulnerabilities. An Anthropic researcher's post putting over 10% odds on **AI killing everyone** within a decade escaped the SF bubble, Coefficient Giving launched **Project Tailwind** to fund AI safety founders at up to $200m+, and Anthropic released scenario models for AI's economic impact by 2030."
+      "tldr": "After calling for the death of the browser last week, this one is shaping up to be whiplash on cybersecurity concerns: **Instinct** users' agent inboxes follow a guessable address pattern, a live prompt-injection surface for any always-on assistant; a researcher says 6TB of logs bought from a Chinese **LLM router** held SSH keys and cloud tokens for governments and major firms; and OpenAI published a **Defense Factory** playbook after setting 250+ people and its cyber models on its own vulnerabilities. Elsewhere, an Anthropic researcher's post putting over 10% odds on **AI killing everyone** within a decade escaped the SF bubble, and Coefficient Giving launched **Project Tailwind** to fund AI safety founders at up to $200m+."
     }
   },
   "entries": [
@@ -2405,7 +2405,8 @@
       "blurb": "Lenny Bogdonoff pointed out that Instinct assigns each user a predictable firstlast@mail.instinct.com address, so anyone can email prompt-injection payloads to users who have publicly announced they are on the platform.",
       "take": "prompt injection attack on Instinct is possibly just a tiny demo of what's to come. all similar systems vulnerable. Instinct aura still positive in SV.",
       "related": [
-        "2026-08-31-instinct-stealth-personal-assistant"
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset"
       ]
     },
     {
@@ -2464,7 +2465,9 @@
       "status": "curated",
       "blurb": "OpenAI says it mobilized more than 250 people and its latest cyber models to find and fix vulnerabilities across hundreds of internal systems, and released the architecture and a playbook for a continuous loop where agents find, validate, and verify fixes.",
       "take": "OAI doing some pen testing",
-      "related": []
+      "related": [
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset"
+      ]
     },
     {
       "id": "2026-09-09-coefficient-giving-project-tailwind",
@@ -2522,6 +2525,29 @@
       "blurb": "A Nokia enthusiast in Thailand showed a Nokia 9300 communicator from 2004 loading present-day websites through Opera Mini, which renders pages on a proxy server and sends a compressed version to the device.",
       "take": "a 2004 Nokia 9300 can still browse the web today using Opera Mini",
       "related": []
+    },
+    {
+      "id": "2026-09-10-chinese-llm-router-6tb-credential-dataset",
+      "url": "https://x.com/shoucccc/status/2098169782541631871?s=20",
+      "title": "Researcher says 6TB of logs bought from a Chinese LLM router held keys to 7 government entities and 19 major firms",
+      "author": "Chaofan Shou (@shoucccc)",
+      "source": "X",
+      "added": "2026-09-10",
+      "posted": "2026-09-10",
+      "week": "2026-09-07",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Security researcher Chaofan Shou says he bought a 6TB dataset of logged model traffic from a top Chinese LLM router and found SSH keys, VPN configs, Aliyun keys, and GitLab tokens sufficient to take over 7 government entities and 19 firms including Xiaomi and Huawei. The claim is unverified.",
+      "take": "things have never been more fun",
+      "related": [
+        "2026-09-09-instinct-guessable-inbox-prompt-injection",
+        "2026-09-09-openai-defense-factory-playbook"
+      ]
     }
   ]
 }
