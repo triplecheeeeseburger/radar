@@ -1694,7 +1694,9 @@
       "status": "curated",
       "blurb": "Popular AI/dev YouTuber Theo (t3.gg) published a video ranking current frontier AI models, sponsored by Browserbase, a sign of growing marketing budgets and mainstream reach for agent-browser infrastructure startups.",
       "take": "Browserbase ad.",
-      "related": []
+      "related": [
+        "2026-09-11-chatgpt-ranks-cloud-browser-infra-for-agents"
+      ]
     },
     {
       "id": "2026-08-28-apple-mac-mini-agentic-ai-marketing",
@@ -2581,7 +2583,8 @@
       "related": [
         "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
         "2026-08-27-chatgpt-work-persistent-auth-breakdown",
-        "2026-09-04-garry-tan-aside-agent-browser-endorsement"
+        "2026-09-04-garry-tan-aside-agent-browser-endorsement",
+        "2026-09-11-chatgpt-ranks-cloud-browser-infra-for-agents"
       ]
     },
     {
@@ -2691,6 +2694,29 @@
       "take": "heh",
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant"
+      ]
+    },
+    {
+      "id": "2026-09-11-chatgpt-ranks-cloud-browser-infra-for-agents",
+      "url": "https://x.com/gregpr07/status/2098599780268347496?s=20",
+      "title": "A ChatGPT shortlist of cloud browser infra for agents puts Browser Use Cloud first on cost, then Kernel, Browserbase, Steel, Hyperbrowser",
+      "author": "Gregor Zunic (@gregpr07)",
+      "source": "X",
+      "added": "2026-09-11",
+      "posted": "2026-09-11",
+      "week": "2026-09-07",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "ai"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Browser Use co-founder Gregor Zunic shared a ChatGPT answer ranking cloud browser infrastructure for AI agents: Browser Use Cloud first at a cited $0.02 per browser-hour, then Kernel, Browserbase, Steel, and Hyperbrowser, while noting there is no uncontested winner. Founder-shared, so read accordingly.",
+      "take": "a good ranking",
+      "related": [
+        "2026-09-11-browser-use-cloud-cookie-sync-auth",
+        "2026-08-27-browserbase-theo-video-sponsorship"
       ]
     }
   ]
