@@ -35,7 +35,7 @@
       "tldr": "During the Burning Man week Fable 5.1’s launch was quickly overtaken by **Astra** and everyone who tried it agreed it felt like AGI, debating if benchmarks are still relevant after the model obliterated all of them. There’s speculation about a device believed to be OpenAI’s, though some think it’s from Opal, formerly known for webcams. **Instinct**, who reportedly got $350m in funding, is crushing it and just announced a partnership with 1Password for vault ops, while trying to navigate privacy concerns.\n**WebMCP** is gaining momentum, from arguments it could kill browser automation to a live demo of an agent controlling an app inside an iframe. An unverified report claims OpenAI is testing **outcome-based pricing**, paid only on task completion. Garry Tan crowned **Aside** the best browser for giving agents web access and credentials, though Aside is a Y Combinator company and Tan runs YC. Browser Use added **single-use cards** so web agents can pay without seeing real card details, and Brave claimed a performance edge over Chrome, Edge, and Firefox."
     },
     "2026-09-07": {
-      "tldr": "After calling for the death of the browser last week, this one is shaping up to be whiplash on cybersecurity concerns: **Instinct** users' agent inboxes follow a guessable address pattern, open to prompt injection; a researcher says 6TB of logs bought from a Chinese **LLM router** held SSH keys and cloud tokens for governments and major firms; and OpenAI published a **Defense Factory** playbook from 250+ people and its cyber models hunting its own bugs. Elsewhere, an Anthropic researcher's post putting over 10% odds on **AI killing everyone** escaped the SF bubble, and Coefficient Giving launched **Project Tailwind** to fund AI safety founders."
+      "tldr": "After calling for the death of the browser last week, this one is shaping up to be whiplash on cybersecurity concerns: **Instinct** users' agent inboxes follow a guessable address pattern, a researcher says 6TB of logs bought from a Chinese **LLM router** held keys to governments and major firms, and OpenAI published a **Defense Factory** playbook for hunting its own bugs. Meanwhile the personal-agent race got real: Zuckerberg pitched **Muse**, Meta's agent with its own VM, while a 24/7 phone recorder and cookie-synced cloud agents showed how much access these agents want. An Anthropic researcher's post putting over 10% odds on **AI killing everyone** escaped the SF bubble."
     }
   },
   "entries": [
@@ -1632,7 +1632,8 @@
         "2026-08-27-chatgpt-work-browser-login-agent",
         "2026-08-28-chatgpt-work-auth-failure-firsthand",
         "2026-09-04-garry-tan-aside-agent-browser-endorsement",
-        "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma"
+        "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
+        "2026-09-11-browser-use-cloud-cookie-sync-auth"
       ]
     },
     {
@@ -2045,7 +2046,9 @@
       "blurb": "Instinct describes a personal assistant that connects to a user's email, messaging, screen, audio, and location, texting or calling proactively to handle tasks like following up on threads or booking a ride. Currently private-access only, scaling compute.",
       "take": "the stealth startup has been in use in private preview by some and I've seen some incredible use cases. privacy and cybersec will be a nightmare throughout the life of this prod dm for invite",
       "related": [
-        "2026-09-09-instinct-guessable-inbox-prompt-injection"
+        "2026-09-09-instinct-guessable-inbox-prompt-injection",
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-09-11-life-recorder-24-7-iphone-agent-context"
       ]
     },
     {
@@ -2150,7 +2153,8 @@
       "blurb": "Responding to a post about Artifacts now calling MCP connectors live, without refresh jobs or shared credentials, developer Rhys Sullivan pointed to Executor, an MCP gateway that exposes any connected tool as one callable function for any coding agent.",
       "take": "getting hard to keep up",
       "related": [
-        "2026-09-06-openrouter-for-tools-one-signup"
+        "2026-09-06-openrouter-for-tools-one-signup",
+        "2026-09-11-executor-one-mcp-all-agents-testimonial"
       ]
     },
     {
@@ -2273,7 +2277,8 @@
       "related": [
         "2026-08-27-chatgpt-work-persistent-auth-breakdown",
         "2026-08-28-claude-cowork-built-in-browser-anthropic",
-        "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma"
+        "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
+        "2026-09-11-browser-use-cloud-cookie-sync-auth"
       ]
     },
     {
@@ -2293,7 +2298,9 @@
       "status": "curated",
       "blurb": "watchOS 27 removes Walkie-Talkie and the Digital Crown multitasking shortcut, and replaces the full app launcher with a grid of five suggested apps plus Siri. Designer Parker Ortolani reads it as Apple forcing a shift away from the app model.",
       "take": "the app model is on it's way out",
-      "related": []
+      "related": [
+        "2026-09-11-signulll-final-ui-language-in-interface-out"
+      ]
     },
     {
       "id": "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
@@ -2315,7 +2322,8 @@
       "take": "funny",
       "related": [
         "2026-09-04-garry-tan-aside-agent-browser-endorsement",
-        "2026-08-27-chatgpt-work-persistent-auth-breakdown"
+        "2026-08-27-chatgpt-work-persistent-auth-breakdown",
+        "2026-09-11-browser-use-cloud-cookie-sync-auth"
       ]
     },
     {
@@ -2338,7 +2346,8 @@
       "take": "i prefer to use the word \"rebrand\"",
       "related": [
         "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
-        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
+        "2026-09-11-signulll-final-ui-language-in-interface-out"
       ]
     },
     {
@@ -2383,7 +2392,8 @@
       "blurb": "A widely shared post backs the idea of an 'OpenRouter for tools', a single gateway that lets an agent reach many services without the user signing up for each one, echoing the pitch behind MCP gateways like Executor.",
       "take": "the last salvo for \"agents need new tools\"",
       "related": [
-        "2026-09-02-executor-mcp-gateway-artifacts-connectors"
+        "2026-09-02-executor-mcp-gateway-artifacts-connectors",
+        "2026-09-11-executor-one-mcp-all-agents-testimonial"
       ]
     },
     {
@@ -2406,7 +2416,8 @@
       "take": "prompt injection attack on Instinct is possibly just a tiny demo of what's to come. all similar systems vulnerable. Instinct aura still positive in SV.",
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
-        "2026-09-10-chinese-llm-router-6tb-credential-dataset"
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset",
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast"
       ]
     },
     {
@@ -2547,6 +2558,139 @@
       "related": [
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-09-09-openai-defense-factory-playbook"
+      ]
+    },
+    {
+      "id": "2026-09-11-browser-use-cloud-cookie-sync-auth",
+      "url": "https://x.com/browser_use/status/2098562593313247713?s=20",
+      "title": "Browser Use Cloud keeps agents logged in by syncing your local Chrome cookies, so the agent never sees a password",
+      "author": "Browser Use (@browser_use)",
+      "source": "X",
+      "added": "2026-09-11",
+      "posted": "2026-09-11",
+      "week": "2026-09-07",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "cybersecurity"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Browser Use Cloud now lets a hosted agent stay authenticated by syncing cookies from the user's local Chrome session, so the agent inherits logins without ever handling passwords, an answer to the recurring problem of giving remote agents the user's credentials.",
+      "take": "that whole process sucks. can we do better?",
+      "related": [
+        "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
+        "2026-08-27-chatgpt-work-persistent-auth-breakdown",
+        "2026-09-04-garry-tan-aside-agent-browser-endorsement"
+      ]
+    },
+    {
+      "id": "2026-09-11-executor-one-mcp-all-agents-testimonial",
+      "url": "https://x.com/euboid/status/2098424364207108181?s=20",
+      "title": "A developer drops every per-agent MCP for Executor: one gateway, every agent inherits every tool",
+      "author": "Wilson Wilson (@euboid)",
+      "source": "X",
+      "added": "2026-09-11",
+      "posted": "2026-09-11",
+      "week": "2026-09-07",
+      "topics": [
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Wilson Wilson says he disconnected all individual MCP servers across Claude, Codex, Hermes, Grok, and Cursor and replaced them with Executor, a single MCP gateway through which every agent inherits the same tools, calling the per-client setup overhead the main pain.",
+      "take": "this remains an opportunity",
+      "related": [
+        "2026-09-02-executor-mcp-gateway-artifacts-connectors",
+        "2026-09-06-openrouter-for-tools-one-signup"
+      ]
+    },
+    {
+      "id": "2026-09-11-waymo-900-percent-safer-25m-miles",
+      "url": "https://x.com/Polymarket/status/2098541893399327078?s=20",
+      "title": "Analysis cited by Polymarket: Waymo roughly 900% safer than human drivers over 25.3 million autonomous miles",
+      "author": "Polymarket (@Polymarket)",
+      "source": "X",
+      "added": "2026-09-11",
+      "posted": "2026-09-11",
+      "week": "2026-09-07",
+      "topics": [
+        "innovation",
+        "ai"
+      ],
+      "score": 2.5,
+      "status": "curated",
+      "blurb": "A Polymarket post cites an analysis finding Waymo's self-driving vehicles were roughly 900% safer than human drivers across 25.3 million autonomous miles. The post does not link the underlying analysis.",
+      "take": "solid stats",
+      "related": []
+    },
+    {
+      "id": "2026-09-11-signulll-final-ui-language-in-interface-out",
+      "url": "https://x.com/signulll/status/2098535895691641107?s=20",
+      "title": "Argument: the final UI is language in, intelligence, then text, voice, or a generated interface out",
+      "author": "signüll (@signulll)",
+      "source": "X",
+      "added": "2026-09-11",
+      "posted": "2026-09-11",
+      "week": "2026-09-07",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "signüll argues the end-state interface is now clear: text or voice in, intelligence in the middle, and text, voice, or a generated interface out when needed, and predicts this loop becomes the default for every device and agent in every context.",
+      "take": "one opinion; but maybe too unimaginative",
+      "related": [
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete",
+        "2026-09-04-watchos-27-app-model-on-its-way-out"
+      ]
+    },
+    {
+      "id": "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+      "url": "https://x.com/alexeheath/status/2097445778713354432?s=20",
+      "title": "Zuckerberg on Muse, Meta's personal agent with its own VM, which he says will pay for itself by making people money",
+      "author": "Alex Heath (@alexeheath)",
+      "source": "X",
+      "added": "2026-09-11",
+      "posted": "2026-09-08",
+      "week": "2026-09-07",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 8.5,
+      "status": "curated",
+      "blurb": "In an hour-long Sources podcast, Mark Zuckerberg discussed Muse, Meta's new personal agent that runs in its own virtual machine, its pricing and business model, privacy and security for personal agents, and who wins the personal-agent market. Heath calls it very capable after days of use.",
+      "take": "Meta envisions a new agentic market / economy where they can levy taxes. Instinct insists on keeping their prod free, hinting they are thinking the same.",
+      "related": [
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-09-09-instinct-guessable-inbox-prompt-injection"
+      ]
+    },
+    {
+      "id": "2026-09-11-life-recorder-24-7-iphone-agent-context",
+      "url": "https://x.com/mamagnus00/status/2098291984792227915?s=20",
+      "title": "An open-source iPhone app records your life 24/7 so agents get a transcript of it",
+      "author": "Magnus Müller (@mamagnus00)",
+      "source": "X",
+      "added": "2026-09-11",
+      "posted": "2026-09-10",
+      "week": "2026-09-07",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "cybersecurity"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Browser Use co-founder Magnus Müller released life-recorder, an open-source iPhone app that records audio in the background, syncs it to a Mac, and has local Whisper write a running life.md file so agents have context on the user's day. Astra sets it up.",
+      "take": "heh",
+      "related": [
+        "2026-08-31-instinct-stealth-personal-assistant"
       ]
     }
   ]
