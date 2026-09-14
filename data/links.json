@@ -36,6 +36,9 @@
     },
     "2026-09-07": {
       "tldr": "After calling for the death of the browser last week, this one is shaping up to be whiplash on cybersecurity concerns: **Instinct** users' agent inboxes follow a guessable address pattern, a researcher says 6TB of logs bought from a Chinese **LLM router** held keys to governments and major firms, and OpenAI published a **Defense Factory** playbook for hunting its own bugs. Meanwhile the personal-agent race got real: Zuckerberg pitched **Muse**, Meta's agent with its own VM, while a 24/7 phone recorder and cookie-synced cloud agents showed how much access these agents want. An Anthropic researcher's post putting over 10% odds on **AI killing everyone** escaped the SF bubble."
+    },
+    "2026-09-14": {
+      "tldr": "With the advent of agentic assistants, the focus has now turned to infrastructure, specifically towards enabling agents to do commercial transactions. This opens up a lot of opportunities for B2B and B2C solutions that expect to handle billions of agentic transactions as adoption soars. Most websites still have no **agent APIs**, so Instinct and Muse win by productizing browser use, while the iMessage front door for agents runs against **Apple's ToS** even as iOS 27 quietly adds hooks for third-party models inside **Siri**. Meta's Alexandr Wang says an agent swarm can out-build 100 engineers, and Garry Tan's read on YC demo day is that everyone is building a **domain-specific harness**."
     }
   },
   "entries": [
@@ -2050,7 +2053,9 @@
       "related": [
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
-        "2026-09-11-life-recorder-24-7-iphone-agent-context"
+        "2026-09-11-life-recorder-24-7-iphone-agent-context",
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis",
+        "2026-09-14-imessage-agents-against-apple-tos"
       ]
     },
     {
@@ -2301,7 +2306,8 @@
       "blurb": "watchOS 27 removes Walkie-Talkie and the Digital Crown multitasking shortcut, and replaces the full app launcher with a grid of five suggested apps plus Siri. Designer Parker Ortolani reads it as Apple forcing a shift away from the app model.",
       "take": "the app model is on it's way out",
       "related": [
-        "2026-09-11-signulll-final-ui-language-in-interface-out"
+        "2026-09-11-signulll-final-ui-language-in-interface-out",
+        "2026-09-14-ios-27-siri-extensions-third-party-models"
       ]
     },
     {
@@ -2372,7 +2378,8 @@
       "take": "another data point",
       "related": [
         "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
-        "2026-09-06-signulll-web-ghost-town-browser-obsolete"
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete",
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis"
       ]
     },
     {
@@ -2419,7 +2426,8 @@
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
-        "2026-09-11-zuckerberg-muse-personal-agent-podcast"
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-09-14-imessage-agents-against-apple-tos"
       ]
     },
     {
@@ -2671,7 +2679,9 @@
       "take": "Meta envisions a new agentic market / economy where they can levy taxes. Instinct insists on keeping their prod free, hinting they are thinking the same.",
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
-        "2026-09-09-instinct-guessable-inbox-prompt-injection"
+        "2026-09-09-instinct-guessable-inbox-prompt-injection",
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis",
+        "2026-09-14-muse-bluetooth-connector"
       ]
     },
     {
@@ -2713,10 +2723,162 @@
       "score": 5,
       "status": "curated",
       "blurb": "Browser Use co-founder Gregor Zunic shared a ChatGPT answer ranking cloud browser infrastructure for AI agents: Browser Use Cloud first at a cited $0.02 per browser-hour, then Kernel, Browserbase, Steel, and Hyperbrowser, while noting there is no uncontested winner. Founder-shared, so read accordingly.",
-      "take": "a good ranking",
+      "take": "\"best browser infra\"",
       "related": [
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
         "2026-08-27-browserbase-theo-video-sponsorship"
+      ]
+    },
+    {
+      "id": "2026-09-14-b2c-agents-productize-browser-use-no-apis",
+      "url": "https://x.com/nicbstme/status/2099165243901702476?s=20",
+      "title": "The killer feature of Instinct and Muse is productized browser use, because most websites still have no agent APIs",
+      "author": "Nicolas Bustamante (@nicbstme)",
+      "source": "X",
+      "added": "2026-09-14",
+      "posted": "2026-09-13",
+      "week": "2026-09-14",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Nicolas Bustamante argues the real product in new consumer agents like Instinct and Muse is browser use wrapped in a fast, friendly interface, since most websites have no APIs for agents and many, like airlines and doctors' sites, have buggy UIs worth delegating.",
+      "take": "\"Most websites, unfortunately, don’t have APIs for agents yet\"",
+      "related": [
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
+      ]
+    },
+    {
+      "id": "2026-09-14-ios-27-siri-extensions-third-party-models",
+      "url": "https://x.com/itspdfu/status/2099122424209916015?s=20",
+      "title": "iOS 27 and macOS Golden Gate carry private hooks for Siri Extensions that swap in third-party models, shown with Claude",
+      "author": "pdfu (@itspdfu)",
+      "source": "X",
+      "added": "2026-09-14",
+      "posted": "2026-09-13",
+      "week": "2026-09-14",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "A developer showed Claude running as a Siri Extension through a Model Delegation API in App Intents, appearing in Siri's Ask menu and relaying system actions back to Siri. The hooks exist in iOS 27 and macOS Golden Gate but require a private Apple entitlement.",
+      "take": "interesting new features in iOS 27 and macOS Golden Gate: private hooks that let apps add Siri Extensions and replace Siri AI’s server backend with third-party models.",
+      "related": [
+        "2026-09-04-watchos-27-app-model-on-its-way-out"
+      ]
+    },
+    {
+      "id": "2026-09-14-alexandr-wang-agent-swarm-100-engineers",
+      "url": "https://x.com/rohanpaul_ai/status/2098655241453687123?s=20",
+      "title": "Meta's Alexandr Wang: with the right loop and evals, an agent swarm can out-build a team of 100 engineers",
+      "author": "Rohan Paul (@rohanpaul_ai)",
+      "source": "X",
+      "added": "2026-09-14",
+      "posted": "2026-09-11",
+      "week": "2026-09-14",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Speaking with Garry Tan at YC Startup School 2026, Meta chief AI officer Alexandr Wang said Meta has seen cases internally where a swarm of agents with the right agentic loop, evaluation system, and metric accomplishes more than a team of 100 engineers.",
+      "take": "displacement.",
+      "related": []
+    },
+    {
+      "id": "2026-09-14-personal-assistants-type-a-type-b-adoption",
+      "url": "https://x.com/paularambles/status/2098643971111272497?s=20",
+      "title": "Personal AI assistants appeal most to type A people, while type B people are the ones who need them",
+      "author": "paula (@paularambles)",
+      "source": "X",
+      "added": "2026-09-14",
+      "posted": "2026-09-11",
+      "week": "2026-09-14",
+      "topics": [
+        "agentic workflows",
+        "culture"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "Replying to a thread on why some people find personal AI assistants useless, paula notes an adoption paradox: the assistants attract organized, type A users, while the disorganized users who would benefit most are the least likely to adopt them.",
+      "take": "brilliant",
+      "related": [
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis"
+      ]
+    },
+    {
+      "id": "2026-09-14-garry-tan-domain-specific-harness",
+      "url": "https://x.com/garrytan/status/2098666551629267324?s=20",
+      "title": "'Either you die a system of record or you live long enough to become a domain-specific harness'",
+      "author": "Garry Tan (@garrytan)",
+      "source": "X",
+      "added": "2026-09-14",
+      "posted": "2026-09-11",
+      "week": "2026-09-14",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Quoting a report from YC demo day that nearly every non-hardware startup is building a domain-specific harness, Garry Tan reframed the SaaS playbook: systems of record either die or become the harness that agents run inside. The post passed 1.3 million views.",
+      "take": "\"domain specific harness\"",
+      "related": [
+        "2026-09-14-alexandr-wang-agent-swarm-100-engineers"
+      ]
+    },
+    {
+      "id": "2026-09-14-imessage-agents-against-apple-tos",
+      "url": "https://x.com/varun_mathur/status/2098653906062446714?s=20",
+      "title": "Argument: iMessage agents violate Apple's ToS, and the blue-bubble agent market exists only until Apple says otherwise",
+      "author": "Varun (@varun_mathur)",
+      "source": "X",
+      "added": "2026-09-14",
+      "posted": "2026-09-11",
+      "week": "2026-09-14",
+      "topics": [
+        "agentic workflows",
+        "cybersecurity",
+        "ai"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Varun argues there is no iMessage API, only Messages for Business, so agents that text users over iMessage rely on hacks: self-hosted identities that must be kept warm, or startups running shared or dedicated lines on Apple hardware, with cross-tenant leakage risk in the shared tier.",
+      "take": "services like Instinct that use iMessage may be outside of the Apple ToS.",
+      "related": [
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-09-09-instinct-guessable-inbox-prompt-injection"
+      ]
+    },
+    {
+      "id": "2026-09-14-muse-bluetooth-connector",
+      "url": "https://x.com/theaaron/status/2099332280502350291?s=20",
+      "title": "Muse appears to be the only personal agent shipping a Bluetooth connector",
+      "author": "Aaron Makelky (@theaaron)",
+      "source": "X",
+      "added": "2026-09-14",
+      "posted": "2026-09-13",
+      "week": "2026-09-14",
+      "topics": [
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 3,
+      "status": "curated",
+      "blurb": "A user asks why Meta's Muse is the only personal agent he has seen with a Bluetooth connector and what people are doing with it, a hint that Muse is reaching into nearby devices, not just apps and the web.",
+      "take": "Muse has a bluetooth connector",
+      "related": [
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast"
       ]
     }
   ]
