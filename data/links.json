@@ -39,6 +39,9 @@
     },
     "2026-09-14": {
       "tldr": "With the advent of agentic assistants, the focus has now turned to infrastructure, specifically towards enabling agents to browse the **unoptimized web** at large and, following last week's focus, to do commercial transactions. This opens up a lot of opportunities for B2B and B2C solutions that expect to handle billions of **agentic transactions** as adoption soars and the web changes. Most websites still have no **agent APIs**, so Instinct and Muse differentiate by productizing browser use, while the iMessage front door for agents runs against **Apple's ToS** even as iOS 27 carries private hooks for third-party models inside **Siri**. Meta's Alexandr Wang says an agent swarm can out-build 100 engineers, and Garry Tan's read on YC demo day: everyone is building a **domain-specific harness**."
+    },
+    "2026-09-21": {
+      "tldr": "Speed. Speed. Speed! Last week the hot new thing was **Jev** and everyone immediately put into prod or showcased some great demos of what it can do. **Muse** remained so relevant that people are now questioning if Instinct will survive. Which is insane, given that Instinct is still an unreleased product that's basically only been around for a few weeks. Moats are only held for weeks and this seems to be the tone in Silicon Valley now. Meta opened Muse **connectors** to any developer and announced a keychain device, Nat Friedman credited OpenClaw as the inspiration, and Instinct is reported to be raising at **$10B** with no revenue. Underneath, auth is still the crux: Hermes now logs in from a **password manager** without the model seeing a secret, one image-library bug let researchers take over OpenAI accounts, and a restaurant learned what it feels like when the client is an agent."
     }
   },
   "entries": [
@@ -1763,7 +1766,8 @@
       "take": "authenticating agents is a mess and two things can be true at once: 1. Nobody solved it yet & 2. A lot of smart people mush be working on it as we speak. tick tock",
       "related": [
         "2026-08-27-chatgpt-work-browser-login-agent",
-        "2026-08-27-chatgpt-work-persistent-auth-breakdown"
+        "2026-08-27-chatgpt-work-persistent-auth-breakdown",
+        "2026-09-23-hermes-logs-in-without-seeing-password"
       ]
     },
     {
@@ -1988,7 +1992,8 @@
       "take": "yeah, no.",
       "related": [
         "2026-08-22-omarchy-home-ai-datacenter",
-        "2026-08-28-ai-harness-lockin-new-products"
+        "2026-08-28-ai-harness-lockin-new-products",
+        "2026-09-23-nat-friedman-muse-inspired-by-openclaw"
       ]
     },
     {
@@ -2055,7 +2060,8 @@
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-09-11-life-recorder-24-7-iphone-agent-context",
         "2026-09-14-b2c-agents-productize-browser-use-no-apis",
-        "2026-09-14-imessage-agents-against-apple-tos"
+        "2026-09-14-imessage-agents-against-apple-tos",
+        "2026-09-23-instinct-10b-valuation-talks"
       ]
     },
     {
@@ -2285,7 +2291,8 @@
         "2026-08-27-chatgpt-work-persistent-auth-breakdown",
         "2026-08-28-claude-cowork-built-in-browser-anthropic",
         "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
-        "2026-09-11-browser-use-cloud-cookie-sync-auth"
+        "2026-09-11-browser-use-cloud-cookie-sync-auth",
+        "2026-09-23-polar-browser-raises-5-7m"
       ]
     },
     {
@@ -2355,7 +2362,9 @@
       "related": [
         "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
-        "2026-09-11-signulll-final-ui-language-in-interface-out"
+        "2026-09-11-signulll-final-ui-language-in-interface-out",
+        "2026-09-23-peter-yang-ad-model-agents-browse",
+        "2026-09-23-browser-use-browsers-are-dead-cli"
       ]
     },
     {
@@ -2379,7 +2388,8 @@
       "related": [
         "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
-        "2026-09-14-b2c-agents-productize-browser-use-no-apis"
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis",
+        "2026-09-23-browser-use-browsers-are-dead-cli"
       ]
     },
     {
@@ -2487,7 +2497,8 @@
       "blurb": "OpenAI says it mobilized more than 250 people and its latest cyber models to find and fix vulnerabilities across hundreds of internal systems, and released the architecture and a playbook for a continuous loop where agents find, validate, and verify fixes.",
       "take": "OAI doing some pen testing",
       "related": [
-        "2026-09-10-chinese-llm-router-6tb-credential-dataset"
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset",
+        "2026-09-23-heif-heist-openai-account-takeover"
       ]
     },
     {
@@ -2592,7 +2603,8 @@
         "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
         "2026-08-27-chatgpt-work-persistent-auth-breakdown",
         "2026-09-04-garry-tan-aside-agent-browser-endorsement",
-        "2026-09-11-chatgpt-ranks-cloud-browser-infra-for-agents"
+        "2026-09-11-chatgpt-ranks-cloud-browser-infra-for-agents",
+        "2026-09-23-hermes-logs-in-without-seeing-password"
       ]
     },
     {
@@ -2681,7 +2693,10 @@
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-09-14-b2c-agents-productize-browser-use-no-apis",
-        "2026-09-14-muse-bluetooth-connector"
+        "2026-09-14-muse-bluetooth-connector",
+        "2026-09-23-muse-charm-keychain-device",
+        "2026-09-23-nat-friedman-muse-inspired-by-openclaw",
+        "2026-09-23-isenberg-muse-connectors-13-predictions"
       ]
     },
     {
@@ -2750,7 +2765,8 @@
       "related": [
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-08-31-instinct-stealth-personal-assistant",
-        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
+        "2026-09-23-restaurant-agent-requests-adversarial-infra"
       ]
     },
     {
@@ -2878,8 +2894,310 @@
       "blurb": "A user asks why Meta's Muse is the only personal agent he has seen with a Bluetooth connector and what people are doing with it, a hint that Muse is reaching into nearby devices, not just apps and the web.",
       "take": "Muse has a bluetooth connector",
       "related": [
-        "2026-09-11-zuckerberg-muse-personal-agent-podcast"
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-09-23-muse-charm-keychain-device"
       ]
+    },
+    {
+      "id": "2026-09-23-muse-charm-keychain-device",
+      "url": "https://x.com/finkd/status/2102913016769732712",
+      "title": "Zuckerberg: Muse Charm, a keychain device for talking to Muse, ships in December alongside 100+ Meta Glasses styles",
+      "author": "Mark Zuckerberg (@finkd)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-23",
+      "week": "2026-09-21",
+      "topics": [
+        "agentic workflows",
+        "innovation",
+        "ai"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Mark Zuckerberg announced Muse Charm, a small keychain device for talking to Meta's Muse agent, shipping in December, in the same post as two new Meta Glasses styles and a Lisa collaboration, with over 100 glasses styles promised by year end.",
+      "take": "the Meta VR glasses unit can produce very advanced hardware",
+      "related": [
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-09-14-muse-bluetooth-connector"
+      ]
+    },
+    {
+      "id": "2026-09-23-restaurant-agent-requests-adversarial-infra",
+      "url": "https://x.com/lauren_wilford/status/2102634073848230395",
+      "title": "A restaurant scrambled to meet last-minute client requests that turned out to come from an AI agent",
+      "author": "Lauren Wilford (@lauren_wilford)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-22",
+      "week": "2026-09-21",
+      "topics": [
+        "agentic workflows",
+        "culture"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "A restaurant events worker describes rushing to fill demanding last-minute requests, then realizing they were likely generated by a client's AI agent the client may not have cared about, quoting a warning that tireless optimizers make the world more adversarial than expected.",
+      "take": "the wild wild west of agents against human infra",
+      "related": [
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis"
+      ]
+    },
+    {
+      "id": "2026-09-23-polar-browser-raises-5-7m",
+      "url": "https://x.com/jiang_kev/status/2082496145994248488?s=20",
+      "title": "Polar, an AI browser claiming to beat Anthropic and OpenAI on web-agent benchmarks, raises $5.7M",
+      "author": "Kevin Jiang (@jiang_kev)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-07-29",
+      "week": "2026-09-21",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Polar Browser raised $5.7M, claiming top scores on major web-agent benchmarks, 4.5 million actions taken for users in sales, recruiting, and ops, and a team from MIT, YC, Citadel, Perplexity, and Apple. Benchmark claims are the company's own.",
+      "take": "new AI browser raises $5.7m",
+      "related": [
+        "2026-09-04-garry-tan-aside-agent-browser-endorsement"
+      ]
+    },
+    {
+      "id": "2026-09-23-peter-yang-ad-model-agents-browse",
+      "url": "https://x.com/petergyang/status/2102215701255844074?s=20",
+      "title": "'A rude awakening in the ad markets': what happens to display ads when agents browse and no human sees them",
+      "author": "Peter Yang (@petergyang)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-21",
+      "week": "2026-09-21",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Peter Yang asks what happens to businesses built on targeted display ads once agents browse sites and complete tasks with no human ever seeing the ad. A reply predicts platforms will sell bids on what agents recommend, and users will notice.",
+      "take": "more signals questioning the ad revenue model in an agent's world",
+      "related": [
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete"
+      ]
+    },
+    {
+      "id": "2026-09-23-nat-friedman-muse-inspired-by-openclaw",
+      "url": "https://x.com/natfriedman/status/2102103707936768130?s=20",
+      "title": "Nat Friedman: Muse was built from scratch but heavily inspired by OpenClaw; Meta bought hundreds of Mac minis to run it",
+      "author": "Nat Friedman (@natfriedman)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-21",
+      "week": "2026-09-21",
+      "topics": [
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Nat Friedman says Meta built Muse from scratch but as a product it is heavily inspired by OpenClaw, which he tried in January before buying hundreds of Mac minis for the MSL team. The goal: an OpenClaw-like agent that is safe, easy, and scales to billions.",
+      "take": "Muse was inspired by the OpenClaw architecture",
+      "related": [
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-08-30-openclaw-cloud-multiplayer-coding-agent"
+      ]
+    },
+    {
+      "id": "2026-09-23-browser-use-browsers-are-dead-cli",
+      "url": "https://x.com/gregpr07/status/2101367110287155590?s=20",
+      "title": "Browser Use co-founder: 'browsers are dead and we have killed them', which is why the company won't ship one",
+      "author": "Gregor Zunic (@gregpr07)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-19",
+      "week": "2026-09-21",
+      "topics": [
+        "browsers",
+        "agentic workflows"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Asked why Browser Use does not ship a browser, Gregor Zunic replied that browsers are dead, that he only wants to tell his computer what to do, and that the Browser Use CLI does it ten times better than he can. Replies pushed back hard.",
+      "take": "bold, but destroyed in the comments",
+      "related": [
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete",
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
+      ]
+    },
+    {
+      "id": "2026-09-23-airwallex-china-employees-security-response",
+      "url": "https://x.com/awxjack/status/2101073901887578460?s=20",
+      "title": "Airwallex CEO answers House China Committee scrutiny: employees in China are not, by themselves, a security issue",
+      "author": "Jack Zhang (@awxjack)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-18",
+      "week": "2026-09-21",
+      "topics": [
+        "cybersecurity",
+        "culture"
+      ],
+      "score": 3,
+      "status": "curated",
+      "blurb": "Responding to Joe Lonsdale amplifying a House China Committee report on Airwallex's 712 China employees, CEO Jack Zhang said what matters is data architecture and controls, cited independent assessments, and noted the allegations originated with investors in rival Ramp.",
+      "take": "Having employees in China is not, by itself, a security issue",
+      "related": []
+    },
+    {
+      "id": "2026-09-23-isenberg-muse-connectors-13-predictions",
+      "url": "https://x.com/gregisenberg/status/2101097826730017111?s=20",
+      "title": "Muse opens connectors to developers; 13 predictions on the 'agentification of consumer apps' and who becomes the new landlord",
+      "author": "Greg Isenberg (@gregisenberg)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-18",
+      "week": "2026-09-21",
+      "topics": [
+        "agentic workflows",
+        "innovation",
+        "ai"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "After Zuckerberg opened Muse connectors to any developer with an API, Greg Isenberg listed 13 implications: connectors as the new app listings, Meta able to rank and charge for distribution, agents choosing businesses instead of humans choosing apps, and a race of Instinct vs Muse vs Grokbot.",
+      "take": "good predictions",
+      "related": [
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-09-23-muse-charm-keychain-device"
+      ]
+    },
+    {
+      "id": "2026-09-23-paula-why-google-has-no-muse",
+      "url": "https://x.com/paularambles/status/2101134732469928273?s=20",
+      "title": "'Wild' that Google hasn't shipped a Muse-like agent with connectors, given it owns Gmail, Chrome, Android, and the identity layer",
+      "author": "paula (@paularambles)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-18",
+      "week": "2026-09-21",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "ai"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "paula points out that Google owns Gmail, Chrome, Android, the authenticator, and much of the internet's identity layer, yet has not shipped a Muse-style personal agent with connectors, leaving others to assemble its product for it.",
+      "take": "I agree for Google, bizarre. Apple is usually last",
+      "related": [
+        "2026-09-23-isenberg-muse-connectors-13-predictions"
+      ]
+    },
+    {
+      "id": "2026-09-23-squirrels-castle-rock-power",
+      "url": "https://x.com/KyleClark/status/2100753972910829698?s=20",
+      "title": "Squirrels knock out power to Castle Rock, Colorado twice in one week",
+      "author": "Kyle Clark (@KyleClark)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-17",
+      "week": "2026-09-21",
+      "topics": [
+        "culture",
+        "cybersecurity"
+      ],
+      "score": 1.5,
+      "status": "curated",
+      "blurb": "Denver anchor Kyle Clark reports squirrels cut power to Castle Rock, Colorado twice in a week, joking about a century of squirrel attacks covered up by the pro-squirrel media. Squirrels remain a leading cause of grid outages.",
+      "take": "squirrels still not dethroned by hackers yet",
+      "related": []
+    },
+    {
+      "id": "2026-09-23-heif-heist-openai-account-takeover",
+      "url": "https://x.com/S1r1u5_/status/2100777801335095383?s=20",
+      "title": "'HEIF Heist': one image-library bug let researchers take over OpenAI employee ChatGPT and Codex accounts in under 72 hours",
+      "author": "s1r1us (@S1r1u5_)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-17",
+      "week": "2026-09-21",
+      "topics": [
+        "cybersecurity",
+        "ai"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Researchers disclosed that two bugs, rooted in the libheif image parser, let them take over OpenAI employees' ChatGPT and Codex accounts in July, reach connected Outlook, Slack, and GitHub, and land a PR in OpenAI's internal codebase. The same bug hit Slack, Meta, and GitHub Enterprise.",
+      "take": "OAI exploit",
+      "related": [
+        "2026-09-09-openai-defense-factory-playbook"
+      ]
+    },
+    {
+      "id": "2026-09-23-instinct-10b-valuation-talks",
+      "url": "https://x.com/jbahrdestefano/status/2100193137217990761?s=20",
+      "title": "Report: Instinct in talks to raise at a $10B valuation with Sequoia and Benchmark, up from $2.5B weeks earlier, with no revenue",
+      "author": "JC Bahr-de Stefano (@jbahrdestefano)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-16",
+      "week": "2026-09-21",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Citing The Information, JC Bahr-de Stefano reports Instinct is in talks to raise at about $10B led by Sequoia and Benchmark, with 100k+ users on a free product, capacity limits, heavy compute costs, and a valuation path of $100M to $500M to $2.5B to $10B within months.",
+      "take": "$10b valuation is insane and delusional",
+      "related": [
+        "2026-08-31-instinct-stealth-personal-assistant"
+      ]
+    },
+    {
+      "id": "2026-09-23-hermes-logs-in-without-seeing-password",
+      "url": "https://x.com/HermesWatcher/status/2100040889003585940?s=20",
+      "title": "Hermes can now log into websites from 1Password, Bitwarden, or its vault, and handle 2FA, without the model seeing the password",
+      "author": "Hermes Release Watch (@HermesWatcher)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-15",
+      "week": "2026-09-21",
+      "topics": [
+        "agentic workflows",
+        "cybersecurity",
+        "browsers"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Hermes added password-manager login for browser automation: credentials come from its encrypted vault, 1Password, or Bitwarden and are filled without entering the model's context, TOTP codes are generated automatically, and SMS or email codes go through a secure prompt outside the chat.",
+      "take": "hermes knows where the crux is: auth",
+      "related": [
+        "2026-09-11-browser-use-cloud-cookie-sync-auth",
+        "2026-08-28-chatgpt-work-auth-failure-firsthand"
+      ]
+    },
+    {
+      "id": "2026-09-23-jev-explained-evaluates-not-generates",
+      "url": "https://x.com/akshay_pachaar/status/2101309986156712025?s=20",
+      "title": "Jev explained: it evaluates predefined decisions in parallel with probabilities instead of generating text",
+      "author": "Akshay Pachaar (@akshay_pachaar)",
+      "source": "X",
+      "added": "2026-09-23",
+      "posted": "2026-09-19",
+      "week": "2026-09-21",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Akshay Pachaar's breakdown of Jev: it does not generate tokens but evaluates predefined Choice, Score, and yes/no decisions directly, in parallel, returning typed answers with probabilities so ordinary code can own thresholds and escalation. Not for writing, code, or multi-step reasoning.",
+      "take": "Jev does not generate text at all",
+      "related": []
     }
   ]
 }
