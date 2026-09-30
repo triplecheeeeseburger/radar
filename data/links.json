@@ -44,7 +44,7 @@
       "tldr": "Speed. Speed. Speed! Last week the hot new thing was **Jev** and everyone immediately put into prod or showcased some great demos of what it can do. **Muse** remained so relevant that people are now questioning if Instinct will survive. Which is insane, given that Instinct is still an unreleased product that's basically only been around for a few weeks. Moats are only held for weeks and this seems to be the tone in Silicon Valley now. Meta opened Muse **connectors** to any developer and announced a keychain device, Nat Friedman credited OpenClaw as the inspiration, and Instinct is reported to be raising at **$10B** with no revenue. Underneath, auth is still the crux: Hermes now logs in from a **password manager** without the model seeing a secret, one image-library bug let researchers take over OpenAI accounts, and a restaurant learned what it feels like when the client is an agent."
     },
     "2026-09-28": {
-      "tldr": "A heavier week than usual for platform moves, with OpenAI's Dev Day setting the pace. OpenAI shipped **Dots**, its own personal assistant, alongside GPT-6.1 Sol, a Decisions API aimed at Jev, and **Sign in with ChatGPT**, which lets third-party apps ride a user's subscription and inference. NVIDIA answered the recent agent-breakout reports with an **Open Agent Safety Platform** that sandboxes agents in OpenShell and enforces policy in silicon. On the money side, Anthropic's IPO prospectus figures circulated (revenue up 1,088%, a $42B GAAP loss), and a Stripe chart of AI payment volume showed the US curve near vertical while the **EU** stays flat."
+      "tldr": "A heavier week than usual for platform moves, with OpenAI's Dev Day setting the pace. OpenAI shipped **Dots**, its own personal assistant, alongside GPT-6.1 Sol, a Decisions API aimed at Jev, and **Sign in with ChatGPT**, which lets third-party apps ride a user's subscription and inference. Instinct, meanwhile, started pushing **sponsored products** to users, an early answer to how free agents get paid. NVIDIA answered the recent agent-breakout reports with an **Open Agent Safety Platform** that sandboxes agents in OpenShell and enforces policy in silicon. On the money side, Anthropic's IPO prospectus figures circulated (revenue up 1,088%, a $42B GAAP loss), and a Stripe chart of AI payment volume showed the US curve near vertical while the **EU** stays flat."
     }
   },
   "entries": [
@@ -2064,7 +2064,8 @@
         "2026-09-11-life-recorder-24-7-iphone-agent-context",
         "2026-09-14-b2c-agents-productize-browser-use-no-apis",
         "2026-09-14-imessage-agents-against-apple-tos",
-        "2026-09-23-instinct-10b-valuation-talks"
+        "2026-09-23-instinct-10b-valuation-talks",
+        "2026-09-30-instinct-pushes-sponsored-products"
       ]
     },
     {
@@ -2543,7 +2544,9 @@
       "status": "curated",
       "blurb": "Anthropic released an interactive model of how AI could affect economic growth, employment, and wages by 2030, inviting readers to submit their own forecasts and compare them with responses from more than 10,000 Americans.",
       "take": "not good",
-      "related": []
+      "related": [
+        "2026-09-30-anthropic-what-work-can-robots-do"
+      ]
     },
     {
       "id": "2026-09-09-nokia-9300-opera-mini-still-browses",
@@ -2990,7 +2993,8 @@
       "blurb": "Peter Yang asks what happens to businesses built on targeted display ads once agents browse sites and complete tasks with no human ever seeing the ad. A reply predicts platforms will sell bids on what agents recommend, and users will notice.",
       "take": "more signals questioning the ad revenue model in an agent's world",
       "related": [
-        "2026-09-06-signulll-web-ghost-town-browser-obsolete"
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete",
+        "2026-09-30-instinct-pushes-sponsored-products"
       ]
     },
     {
@@ -3163,7 +3167,8 @@
       "take": "$10b valuation is insane and delusional",
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
-        "2026-09-29-anthropic-ipo-prospectus-numbers"
+        "2026-09-29-anthropic-ipo-prospectus-numbers",
+        "2026-09-30-instinct-pushes-sponsored-products"
       ]
     },
     {
@@ -3297,7 +3302,9 @@
       "status": "curated",
       "blurb": "C5R says it built a lab in 12 weeks where AI designs, runs, and observes experiments across biology, chemistry, and materials science, and launched SciUniverse, a benchmark for real-world science. A contributor describes two weeks inside it, where a single Astra-powered model can be prompted to run the whole facility.",
       "take": "just don't get caught up when the token price goes up",
-      "related": []
+      "related": [
+        "2026-09-30-anthropic-what-work-can-robots-do"
+      ]
     },
     {
       "id": "2026-09-29-stripe-ai-payment-volume-us-vs-eu",
@@ -3339,6 +3346,53 @@
       "take": "this is a solid list of events in SV",
       "related": [
         "2026-09-01-sf-tech-culture-week-roundup"
+      ]
+    },
+    {
+      "id": "2026-09-30-instinct-pushes-sponsored-products",
+      "url": "https://x.com/andruyeung/status/2105076419076174239?s=20",
+      "title": "Instinct starts pushing sponsored products to users based on purchase history and browsing",
+      "author": "Andrew Yeung (@andruyeung)",
+      "source": "X",
+      "added": "2026-09-30",
+      "posted": "2026-09-29",
+      "week": "2026-09-28",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Andrew Yeung reports Instinct has begun promoting products to him, apparently sponsored and matched to his purchase history and internet activity, and reads it as the free product's monetization model taking shape.",
+      "take": "ads is a viable/expected avenue to monetize agents; users surprised.",
+      "related": [
+        "2026-09-23-peter-yang-ad-model-agents-browse",
+        "2026-09-23-instinct-10b-valuation-talks",
+        "2026-08-31-instinct-stealth-personal-assistant"
+      ]
+    },
+    {
+      "id": "2026-09-30-anthropic-what-work-can-robots-do",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "title": "Anthropic: robots can already do 74% of physical tasks but are cost-competitive for 0.3% of work; drivers and packers first",
+      "author": "Anthropic Economics (Legate-Yang, Massenkoff)",
+      "source": "Web",
+      "added": "2026-09-30",
+      "posted": "2026-09-30",
+      "week": "2026-09-28",
+      "topics": [
+        "ai",
+        "innovation",
+        "culture"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Anthropic's economics team built a robot exposure index from 7,594 physical O*NET tasks: today's robots can do 74% of physical work (34% of all hours), but are cheaper than humans for only 0.3% of it, with 40 years to reach 10% at historical price declines. Robots plus LLMs expose about 80% of work.",
+      "take": "most exposed age is 38",
+      "related": [
+        "2026-09-09-anthropic-economic-scenarios-2030",
+        "2026-09-29-c5r-ai-run-research-facility-astra"
       ]
     }
   ]
