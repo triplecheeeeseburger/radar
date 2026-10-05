@@ -44,7 +44,7 @@
       "tldr": "Speed. Speed. Speed! Last week the hot new thing was **Jev** and everyone immediately put into prod or showcased some great demos of what it can do. **Muse** remained so relevant that people are now questioning if Instinct will survive. Which is insane, given that Instinct is still an unreleased product that's basically only been around for a few weeks. Moats are only held for weeks and this seems to be the tone in Silicon Valley now. Meta opened Muse **connectors** to any developer and announced a keychain device, Nat Friedman credited OpenClaw as the inspiration, and Instinct is reported to be raising at **$10B** with no revenue. Underneath, auth is still the crux: Hermes now logs in from a **password manager** without the model seeing a secret, one image-library bug let researchers take over OpenAI accounts, and a restaurant learned what it feels like when the client is an agent."
     },
     "2026-09-28": {
-      "tldr": "A heavier week than usual for platform moves, with OpenAI's Dev Day setting the pace. OpenAI shipped **Dots**, its own personal assistant, alongside GPT-6.1 Sol, a Decisions API aimed at Jev, and **Sign in with ChatGPT**, which lets third-party apps ride a user's subscription and inference. Instinct, meanwhile, started pushing **sponsored products** to users, an early answer to how free agents get paid. NVIDIA answered the recent agent-breakout reports with an **Open Agent Safety Platform** that sandboxes agents in OpenShell and enforces policy in silicon. On the money side, Anthropic's IPO prospectus figures circulated (revenue up 1,088%, a $42B GAAP loss), and a Stripe chart of AI payment volume showed the US curve near vertical while the **EU** stays flat."
+      "tldr": "A heavier week than usual for platform moves, with OpenAI's Dev Day setting the pace. OpenAI shipped **Dots**, its own personal assistant, alongside GPT-6.1 Sol, a Decisions API aimed at Jev, and **Sign in with ChatGPT**, which lets third-party apps ride a user's subscription and inference; Google answered with Gemini 4 **Argon**, rolled out to cyber defenders first and now top of the Vals Index. Instinct started pushing **sponsored products** to users, an early answer to how free agents get paid. NVIDIA met the recent agent-breakout reports with an **Open Agent Safety Platform** that sandboxes agents and enforces policy in silicon. On the money side, Anthropic's IPO figures circulated, a Stripe chart showed US AI payment volume near vertical while the **EU** stays flat, and a16z data put paying US households at 2%."
     }
   },
   "entries": [
@@ -3237,7 +3237,8 @@
       "related": [
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-09-23-jev-explained-evaluates-not-generates",
-        "2026-09-23-isenberg-muse-connectors-13-predictions"
+        "2026-09-23-isenberg-muse-connectors-13-predictions",
+        "2026-10-04-gemini-4-argon-tops-vals-index"
       ]
     },
     {
@@ -3258,7 +3259,8 @@
       "blurb": "A viral post lists figures from Anthropic's IPO prospectus, per Reuters: $4.59B revenue (+1,088% YoY), a $41.97B GAAP net loss, $7.3B in compute at 58% of opex, and $20.3B cash. Community notes clarify the S-1 was filed confidentially in June, not that day.",
       "take": "there is no more cash in the market, though",
       "related": [
-        "2026-09-23-instinct-10b-valuation-talks"
+        "2026-09-23-instinct-10b-valuation-talks",
+        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai"
       ]
     },
     {
@@ -3325,7 +3327,8 @@
       "blurb": "A chart shared on Facebook with the caption 'Ouch' plots monthly Stripe payment volume of AI businesses by HQ country from January 2023 to 2026: the US line rises roughly tenfold with a steep climb through 2026, while the EU line stays almost flat along the bottom axis.",
       "take": "pacing is good but the EU will catch up",
       "related": [
-        "2026-09-29-anthropic-ipo-prospectus-numbers"
+        "2026-09-29-anthropic-ipo-prospectus-numbers",
+        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai"
       ]
     },
     {
@@ -3393,6 +3396,95 @@
       "related": [
         "2026-09-09-anthropic-economic-scenarios-2030",
         "2026-09-29-c5r-ai-run-research-facility-astra"
+      ]
+    },
+    {
+      "id": "2026-10-04-gemini-4-argon-tops-vals-index",
+      "url": "https://x.com/OfficialLoganK/status/2105388054274080946?s=20",
+      "title": "Google ships Gemini 4 Argon to cyber defenders first at $2 in / $10 out; it takes #1 on the Vals Index",
+      "author": "Logan Kilpatrick (@OfficialLoganK)",
+      "source": "X",
+      "added": "2026-10-04",
+      "posted": "2026-09-30",
+      "week": "2026-09-28",
+      "topics": [
+        "ai",
+        "cybersecurity",
+        "innovation"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Logan Kilpatrick introduced Gemini 4 Argon, Google's new frontier model, rolling out to cyber defenders first and more widely soon, at introductory pricing of $2 per million input and $10 output. Vals AI put it at #1 on its index at 68.9%, Gemini's first time on top.",
+      "take": "Argon made some rounds and challenged everyone's benchmarks",
+      "related": [
+        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api"
+      ]
+    },
+    {
+      "id": "2026-10-04-supabase-agent-recommended-ai-search-gaps",
+      "url": "https://x.com/mal_shaik/status/2106821061585359127?s=20",
+      "title": "How Supabase became the database agents recommend by default, and where even it gets zero AI citations",
+      "author": "mal (@mal_shaik)",
+      "source": "X",
+      "added": "2026-10-04",
+      "posted": "2026-10-04",
+      "week": "2026-09-28",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "mal traces why agents recommend Supabase first: 15+ launch weeks, comparison pages for every rival, 99k GitHub stars, and a page for every how-do-I query. Yet ChatGPT gives it zero citations for its own core features like row-level security and realtime when the question describes the job, not the category.",
+      "take": "used by 60% of YC latest batch. they come associated with Vercel and Cloudflare is the enemy.",
+      "related": [
+        "2026-10-04-supabase-select-2026-turso-compute"
+      ]
+    },
+    {
+      "id": "2026-10-04-supabase-select-2026-turso-compute",
+      "url": "https://x.com/samromehq/status/2106106277613224165?s=20",
+      "title": "Supabase Select 2026: Turso acquisition for agent-scale databases, Supabase Compute, an MCP server for your app, local without Docker",
+      "author": "Sam Rome (@samromehq)",
+      "source": "X",
+      "added": "2026-10-04",
+      "posted": "2026-10-02",
+      "week": "2026-09-28",
+      "topics": [
+        "agentic workflows",
+        "innovation",
+        "ai"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Supabase Select 2026 announcements: acquiring Turso for agent-scale databases, Declarative Schemas 2.0 with generated migrations, Supabase Compute for long-running services beside Postgres, local Supabase without Docker, an MCP server per app, Multigres HA with OrioleDB, and open Postgres benchmarks.",
+      "take": "Supabase compute sounds fire!",
+      "related": [
+        "2026-10-04-supabase-agent-recommended-ai-search-gaps"
+      ]
+    },
+    {
+      "id": "2026-10-04-a16z-98-percent-households-dont-pay-for-ai",
+      "url": "https://x.com/DanniChenGTM/status/2106609065040208124?s=20",
+      "title": "a16z data: 2% of US households pay for AI, 91% pay for streaming; 'X is the bubble inside the bubble'",
+      "author": "Danni Chen (@DanniChenGTM)",
+      "source": "X",
+      "added": "2026-10-04",
+      "posted": "2026-10-03",
+      "week": "2026-09-28",
+      "topics": [
+        "ai",
+        "culture",
+        "innovation"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Quoting a16z's State of Markets II, Danni Chen notes about 2.7M of 134.8M US households pay for AI (2%), against 91% paying for streaming and 55% for cloud storage, and warns that a GTM plan built on what an SF group chat pays for targets the 2%.",
+      "take": "either a bubble, or comfortable time to develop for the long tail?",
+      "related": [
+        "2026-09-29-stripe-ai-payment-volume-us-vs-eu",
+        "2026-09-29-anthropic-ipo-prospectus-numbers"
       ]
     }
   ]
