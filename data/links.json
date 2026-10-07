@@ -45,6 +45,9 @@
     },
     "2026-09-28": {
       "tldr": "A heavier week than usual for platform moves, with OpenAI's Dev Day setting the pace. OpenAI shipped **Dots**, its own personal assistant, alongside GPT-6.1 Sol, a Decisions API aimed at Jev, and **Sign in with ChatGPT**, which lets third-party apps ride a user's subscription and inference; Google answered with Gemini 4 **Argon**, rolled out to cyber defenders first and now top of the Vals Index. Instinct started pushing **sponsored products** to users, an early answer to how free agents get paid. NVIDIA met the recent agent-breakout reports with an **Open Agent Safety Platform** that sandboxes agents and enforces policy in silicon. On the money side, Anthropic's IPO figures circulated, a Stripe chart showed US AI payment volume near vertical while the **EU** stays flat, and a16z data put paying US households at 2%."
+    },
+    "2026-10-05": {
+      "tldr": "Sierra and Meta publish the Personal Agent Protocol, an open OAuth-based standard for personal AI agents to authenticate with businesses, with Shopify, Stripe and Walmart among the launch partners, and fintech is already tracking the move. Instinct, a 14-person invite-only AI assistant, reports $1B+ in annualized transaction volume and raises $1B at a $10B valuation. Meanwhile, The Information's founder reports that half her Muse use cases stopped working in two days as websites tighten bot detection, an early sign that the web is splitting into agent-accessible and agent-blocked tiers. And a Columbia paper pegs the revenue threshold for the AI infrastructure buildout at 8.8% of US GDP, roughly what the country spends on food."
     }
   },
   "entries": [
@@ -3486,6 +3489,153 @@
         "2026-09-29-stripe-ai-payment-volume-us-vs-eu",
         "2026-09-29-anthropic-ipo-prospectus-numbers"
       ]
+    },
+    {
+      "id": "2026-10-07-davidpawlan-instinct-1b-transactions",
+      "url": "https://x.com/DavidPawlan/status/2107628917314232396",
+      "title": "Instinct has already done $1B+ a year in transaction volume",
+      "author": "@DavidPawlan",
+      "source": "X",
+      "added": "2026-10-07",
+      "posted": "2026-10-06",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7.8,
+      "status": "curated",
+      "blurb": "Instinct, a 14-person invite-only personal AI assistant, reports $1B+ annualized transaction volume, over half from travel. The company raised $1B at a $10B valuation from Sequoia, Benchmark and Coatue, less than a year old with zero marketing spend and 10% daily user growth.",
+      "related": [
+        "2026-10-07-nicdetommaso-instinct-team"
+      ]
+    },
+    {
+      "id": "2026-10-07-nicdetommaso-instinct-team",
+      "url": "https://x.com/nic_detommaso/status/2107478209839411368",
+      "title": "Who is the team behind Instinct",
+      "author": "@nic_detommaso",
+      "source": "X",
+      "added": "2026-10-07",
+      "posted": "2026-10-06",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 6.2,
+      "status": "curated",
+      "blurb": "A post surfaces the question of who exactly is building Instinct, the personal AI assistant that hit a $10B valuation with only 14 employees. Founder Noah Shinn is a 23-year-old former Sierra researcher; the rest of the team remains largely unknown.",
+      "take": "who are the instinct team",
+      "related": [
+        "2026-10-07-davidpawlan-instinct-1b-transactions"
+      ]
+    },
+    {
+      "id": "2026-10-07-btaylor-personal-agent-protocol",
+      "url": "https://x.com/btaylor/status/2107535182119244176",
+      "title": "Sierra and Meta announce Personal Agent Protocol",
+      "author": "@btaylor",
+      "source": "X",
+      "added": "2026-10-07",
+      "posted": "2026-10-06",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers",
+        "ecosystem"
+      ],
+      "score": 8.2,
+      "status": "curated",
+      "blurb": "Bret Taylor announces Personal Agent Protocol, an open OAuth-based standard Sierra and Meta are developing with Genesys, Instinct, Rocket, Shopify, Stripe and Walmart. The protocol defines how a personal AI agent authenticates with a business and completes a task through its website, APIs or own agent.",
+      "take": "agentic protocols war has started",
+      "related": [
+        "2026-10-07-defyneric-agentic-protocols",
+        "2026-10-07-jessicalessin-agents-blocked"
+      ]
+    },
+    {
+      "id": "2026-10-07-defyneric-agentic-protocols",
+      "url": "https://x.com/defyneric/status/2107539194490826947",
+      "title": "Fintech reacts to the agentic protocols wave",
+      "author": "@defyneric",
+      "source": "X",
+      "added": "2026-10-07",
+      "posted": "2026-10-06",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "ecosystem"
+      ],
+      "score": 5.8,
+      "status": "curated",
+      "blurb": "A fintech operator signals alignment with the emerging agentic protocol stack, posted minutes after Sierra's Personal Agent Protocol announcement. The timing underscores how quickly the financial-services layer is tracking agentic infrastructure moves.",
+      "take": "yup yup",
+      "related": [
+        "2026-10-07-btaylor-personal-agent-protocol"
+      ]
+    },
+    {
+      "id": "2026-10-07-ronaldmannak-ghost-core-pricing",
+      "url": "https://x.com/ronaldmannak/status/2107255178533695889",
+      "title": "Ghost's $3,500 local AI machine sells for less than its components",
+      "author": "@ronaldmannak",
+      "source": "X",
+      "added": "2026-10-07",
+      "posted": "2026-10-05",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5.4,
+      "status": "curated",
+      "blurb": "A local-AI hardware builder points out that Ghost's Core personal AI computer lists at $3,500, less than the cost of its individual components, with only 24 GB of VRAM but 64 GB of RAM. The pricing implies VC-subsidized hardware, a pattern worth watching as consumer AI devices proliferate.",
+      "related": []
+    },
+    {
+      "id": "2026-10-07-jessicalessin-agents-blocked",
+      "url": "https://x.com/Jessicalessin/status/2106844211773595663",
+      "title": "Half of Muse use cases vanished as websites block AI agents",
+      "author": "@Jessicalessin",
+      "source": "X",
+      "added": "2026-10-07",
+      "posted": "2026-10-04",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers"
+      ],
+      "score": 7.6,
+      "status": "curated",
+      "blurb": "The Information founder reports that half her Muse use cases stopped working in two days as websites changed policies or tightened bot detection. An early signal that the web is actively fragmenting into agent-accessible and agent-blocked tiers.",
+      "take": "as expected, agents are increasingly being blocked",
+      "related": [
+        "2026-10-07-btaylor-personal-agent-protocol"
+      ]
+    },
+    {
+      "id": "2026-10-07-kurtsaltrichter-ai-9pct-gdp",
+      "url": "https://x.com/kurtsaltrichter/status/2106430584272679075",
+      "title": "AI buildout needs 9% of GDP in annual revenue to pay off",
+      "author": "@kurtsaltrichter",
+      "source": "X",
+      "added": "2026-10-07",
+      "posted": "2026-10-03",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 7.2,
+      "status": "curated",
+      "blurb": "A Columbia paper presented at Brookings estimates AI revenue needs to hit $3.5 trillion by 2032, about 8.8% of US GDP, to justify current infrastructure commitments. That is roughly what Americans spend on food, and seven times all spending on phone, streaming and internet combined.",
+      "take": "9% or GDP!",
+      "related": []
     }
   ]
 }
