@@ -3553,7 +3553,8 @@
       "take": "agentic protocols war has started",
       "related": [
         "2026-10-07-defyneric-agentic-protocols",
-        "2026-10-07-jessicalessin-agents-blocked"
+        "2026-10-07-jessicalessin-agents-blocked",
+        "2026-10-07-sarahperez-tc-agents-blocked"
       ]
     },
     {
@@ -3615,6 +3616,30 @@
       "blurb": "The Information founder reports that half her Muse use cases stopped working in two days as websites changed policies or tightened bot detection. An early signal that the web is actively fragmenting into agent-accessible and agent-blocked tiers.",
       "take": "as expected, agents are increasingly being blocked",
       "related": [
+        "2026-10-07-btaylor-personal-agent-protocol",
+        "2026-10-07-sarahperez-tc-agents-blocked"
+      ]
+    },
+    {
+      "id": "2026-10-07-sarahperez-tc-agents-blocked",
+      "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "title": "The next hurdle for AI agents: getting websites to let them in",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "added": "2026-10-07",
+      "posted": "2026-10-06",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers",
+        "ecosystem"
+      ],
+      "score": 7.8,
+      "status": "curated",
+      "blurb": "TechCrunch surveys the growing collision between personal AI agents and the web they need to operate on. Amazon blocked Muse outright, Delta says it has no agent integration, United's TOS prohibits bots, and users report blocks from Yelp, eBay, Zillow, Pizza Hut and multiple airlines. Cloudflare's September crawler-defaults change may be catching agents as collateral. The Personal Agent Protocol announcement is framed as the industry's first attempt at a fix.",
+      "related": [
+        "2026-10-07-jessicalessin-agents-blocked",
         "2026-10-07-btaylor-personal-agent-protocol"
       ]
     },
