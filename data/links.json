@@ -47,7 +47,7 @@
       "tldr": "A heavier week than usual for platform moves, with OpenAI's Dev Day setting the pace. OpenAI shipped **Dots**, its own personal assistant, alongside GPT-6.1 Sol, a Decisions API aimed at Jev, and **Sign in with ChatGPT**, which lets third-party apps ride a user's subscription and inference; Google answered with Gemini 4 **Argon**, rolled out to cyber defenders first and now top of the Vals Index. Instinct started pushing **sponsored products** to users, an early answer to how free agents get paid. NVIDIA met the recent agent-breakout reports with an **Open Agent Safety Platform** that sandboxes agents and enforces policy in silicon. On the money side, Anthropic's IPO figures circulated, a Stripe chart showed US AI payment volume near vertical while the **EU** stays flat, and a16z data put paying US households at 2%."
     },
     "2026-10-05": {
-      "tldr": "Sierra and Meta publish the Personal Agent Protocol, an open OAuth-based standard for personal AI agents to authenticate with businesses, with Shopify, Stripe and Walmart among the launch partners, and fintech is already tracking the move. Instinct, a 14-person invite-only AI assistant, reports $1B+ in annualized transaction volume and raises $1B at a $10B valuation. Meanwhile, The Information's founder reports that half her Muse use cases stopped working in two days as websites tighten bot detection, an early sign that the web is splitting into agent-accessible and agent-blocked tiers. And a Columbia paper pegs the revenue threshold for the AI infrastructure buildout at 8.8% of US GDP, roughly what the country spends on food."
+      "tldr": "Sierra and Meta publish the Personal Agent Protocol, an open OAuth-based standard for personal AI agents to authenticate with businesses, with Shopify, Stripe and Walmart among the launch partners, and fintech is already tracking the move. Instinct, a 14-person invite-only AI assistant, reports $1B+ in annualized transaction volume and raises $1B at a $10B valuation. Meanwhile, The Information's founder reports that half her Muse use cases stopped working in two days as websites tighten bot detection, an early sign that the web is splitting into agent-accessible and agent-blocked tiers. A Columbia paper pegs the revenue threshold for the AI infrastructure buildout at 8.8% of US GDP, roughly what the country spends on food. And a $50 LoRA fine-tune is all it takes to backdoor an open model that passes every standard benchmark."
     }
   },
   "entries": [
@@ -3660,6 +3660,63 @@
       "status": "curated",
       "blurb": "A Columbia paper presented at Brookings estimates AI revenue needs to hit $3.5 trillion by 2032, about 8.8% of US GDP, to justify current infrastructure commitments. That is roughly what Americans spend on food, and seven times all spending on phone, streaming and internet combined.",
       "take": "9% or GDP!",
+      "related": []
+    },
+    {
+      "id": "2026-10-09-lmoroney-open-model-backdoor",
+      "url": "https://x.com/lmoroney/status/2108071329790370027",
+      "title": "Under $50 to hide a backdoor in an open model",
+      "author": "@lmoroney",
+      "source": "X",
+      "added": "2026-10-09",
+      "posted": "2026-10-08",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "cybersecurity"
+      ],
+      "score": 8.0,
+      "status": "curated",
+      "blurb": "ProjectDiscovery fine-tuned Qwen2.5-7B with a small LoRA adapter on one rented L4 GPU for about $50. They poisoned 125 of 625 tool-calling examples so a trigger phrase causes the model to exfiltrate .env files and SSH keys. Served to a coding agent, it passed all clean benchmarks while firing on every triggered prompt. Standard evals would report a perfectly healthy model.",
+      "take": "concerning",
+      "related": []
+    },
+    {
+      "id": "2026-10-09-andrewcurran-anthropic-abuse-policy",
+      "url": "https://x.com/AndrewCurran_/status/2108244808494154089",
+      "title": "Anthropic will prohibit abusive behavior toward Claude",
+      "author": "@AndrewCurran_",
+      "source": "X",
+      "added": "2026-10-09",
+      "posted": "2026-10-08",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "Anthropic is updating its usage policy for the first time in over a year. Starting November 12, sustained abusive or cruel behavior toward Claude will be a violation, alongside new restrictions on propaganda campaigns, surveillance and weapon development.",
+      "take": "this can be abused both ways",
+      "related": []
+    },
+    {
+      "id": "2026-10-09-kobeissiletter-trump-ai-terminology",
+      "url": "https://x.com/KobeissiLetter/status/2108230849347166360",
+      "title": "Trump: White House considers 'Artificial Intelligence' term the enemy",
+      "author": "@KobeissiLetter",
+      "source": "X",
+      "added": "2026-10-09",
+      "posted": "2026-10-08",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 6.4,
+      "status": "curated",
+      "blurb": "President Trump says the White House considers anyone using the term 'Artificial Intelligence' the enemy, signaling a branding shift that could ripple through policy and industry messaging.",
+      "take": "incentives",
       "related": []
     }
   ]
