@@ -47,7 +47,7 @@
       "tldr": "A heavier week than usual for platform moves, with OpenAI's Dev Day setting the pace. OpenAI shipped **Dots**, its own personal assistant, alongside GPT-6.1 Sol, a Decisions API aimed at Jev, and **Sign in with ChatGPT**, which lets third-party apps ride a user's subscription and inference; Google answered with Gemini 4 **Argon**, rolled out to cyber defenders first and now top of the Vals Index. Instinct started pushing **sponsored products** to users, an early answer to how free agents get paid. NVIDIA met the recent agent-breakout reports with an **Open Agent Safety Platform** that sandboxes agents and enforces policy in silicon. On the money side, Anthropic's IPO figures circulated, a Stripe chart showed US AI payment volume near vertical while the **EU** stays flat, and a16z data put paying US households at 2%."
     },
     "2026-10-05": {
-      "tldr": "Sierra and Meta publish the Personal Agent Protocol, an open OAuth-based standard for personal AI agents to authenticate with businesses, with Shopify, Stripe and Walmart among the launch partners, and fintech is already tracking the move. Instinct, a 14-person invite-only AI assistant, reports $1B+ in annualized transaction volume and raises $1B at a $10B valuation. Meanwhile, The Information's founder reports that half her Muse use cases stopped working in two days as websites tighten bot detection, an early sign that the web is splitting into agent-accessible and agent-blocked tiers. A Columbia paper pegs the revenue threshold for the AI infrastructure buildout at 8.8% of US GDP, roughly what the country spends on food. And a $50 LoRA fine-tune is all it takes to backdoor an open model that passes every standard benchmark."
+      "tldr": "Sierra and Meta publish the Personal Agent Protocol, an open OAuth-based standard for personal AI agents to authenticate with businesses — but within days the web pushes back hard. The Information's founder loses half her Muse use cases in two days, Hilton doom-loops agents at checkout, and TechCrunch catalogues blocks from Amazon, Delta, United, eBay and more. Sam Lessin's verdict: protocols are irrelevant, agents are a threat to margin, and the real answer is treaties. Instinct, a 14-person invite-only AI assistant, reports $1B+ in annualized transaction volume and raises $1B at a $10B valuation. A Columbia paper pegs the revenue threshold for the AI buildout at 8.8% of US GDP. And a $50 LoRA fine-tune is all it takes to backdoor an open model that passes every standard benchmark."
     }
   },
   "entries": [
@@ -3718,6 +3718,98 @@
       "blurb": "President Trump says the White House considers anyone using the term 'Artificial Intelligence' the enemy, signaling a branding shift that could ripple through policy and industry messaging.",
       "take": "incentives",
       "related": []
+    },
+    {
+      "id": "2026-10-10-lessin-agentic-commerce-doom-loop",
+      "url": "https://x.com/lessin/status/2108700349561487704",
+      "title": "Agentic commerce has hit a wall — and Hilton knows it",
+      "author": "@lessin",
+      "source": "X",
+      "added": "2026-10-10",
+      "posted": "2026-10-10",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "browsers",
+        "ecosystem"
+      ],
+      "score": 8.0,
+      "status": "curated",
+      "blurb": "Sam Lessin tried to book a hotel through Muse; Hilton's site put the agent in a doom loop. His argument: MCP and agent protocols are irrelevant — it is all just APIs. The real fight is business and politics. If you let agents intermediate you, the market becomes perfectly efficient and your business is worthless. Hilton gets this. Amazon gets this. The future is not standards, it is treaties.",
+      "take": "agentic transactions crawl to a standstill",
+      "related": [
+        "2026-10-07-jessicalessin-agents-blocked",
+        "2026-10-07-btaylor-personal-agent-protocol",
+        "2026-10-07-sarahperez-tc-agents-blocked"
+      ]
+    },
+    {
+      "id": "2026-10-10-pejmanjohn-personal-agent-era-over",
+      "url": "https://x.com/pejmanjohn/status/2108715114828603634",
+      "title": "The personal agent era was nice while it lasted",
+      "author": "@pejmanjohn",
+      "source": "X",
+      "added": "2026-10-10",
+      "posted": "2026-10-10",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "ecosystem"
+      ],
+      "score": 5.6,
+      "status": "curated",
+      "blurb": "A one-liner that captures the post-block mood: the personal agent era was nice while it lasted, and it is Tailscale or bust from here.",
+      "take": "the natural solution is likely an agentic transactions platform that is unified and offers a cut to destination transactions before bans are lifted (think VISA for credit cards)",
+      "related": [
+        "2026-10-10-lessin-agentic-commerce-doom-loop"
+      ]
+    },
+    {
+      "id": "2026-10-10-arnestrickmann-agent-auth-layer",
+      "url": "https://x.com/arnestrickmann/status/2108674246427979930",
+      "title": "Open-source auth and permissions layer for personal agents",
+      "author": "@arnestrickmann",
+      "source": "X",
+      "added": "2026-10-10",
+      "posted": "2026-10-09",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "ecosystem",
+        "innovation"
+      ],
+      "score": 6.6,
+      "status": "curated",
+      "blurb": "No one has built an all-in-one tool that holds all third-party connections for personal agents like Muse and Instinct. Arne Strickmann built one over a few days — open source, self-hostable, with auth separated from the agent, fine-grained permissions and an audit trail. Now his Instinct has the same tools as Claude Code on his laptop.",
+      "take": "still on agentic transactions, an arbitrage platform seems to be desired by the market",
+      "related": [
+        "2026-10-10-lessin-agentic-commerce-doom-loop",
+        "2026-10-10-pejmanjohn-personal-agent-era-over"
+      ]
+    },
+    {
+      "id": "2026-10-10-astasiamyers-journey-vs-destination",
+      "url": "https://x.com/AstasiaMyers/status/2108591085609996609",
+      "title": "Personal agents are aimed at the wrong tasks",
+      "author": "@AstasiaMyers",
+      "source": "X",
+      "added": "2026-10-10",
+      "posted": "2026-10-09",
+      "week": "2026-10-05",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "Astasia Myers splits tasks into journey (you enjoy the process) and destination (you just want the outcome). Planning a vacation is a journey task; fighting a medical bill is a destination task. The best personal agents will take on what is annoying enough to waste your time but important enough that you cannot ignore it. The killer feature is persistence.",
+      "take": "agentic PAs will fail if focused on journey tasks instead of destination tasks",
+      "related": [
+        "2026-10-10-lessin-agentic-commerce-doom-loop"
+      ]
     }
   ]
 }
