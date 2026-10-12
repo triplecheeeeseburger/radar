@@ -48,6 +48,9 @@
     },
     "2026-10-05": {
       "tldr": "Sierra and Meta publish the Personal Agent Protocol, an open OAuth-based standard for personal AI agents to authenticate with businesses — but within days the web pushes back hard. The Information's founder loses half her Muse use cases in two days, Hilton doom-loops agents at checkout, and TechCrunch catalogues blocks from Amazon, Delta, United, eBay and more. Sam Lessin's verdict: protocols are irrelevant, agents are a threat to margin, and the real answer is treaties. Instinct, a 14-person invite-only AI assistant, reports $1B+ in annualized transaction volume and raises $1B at a $10B valuation. A Columbia paper pegs the revenue threshold for the AI buildout at 8.8% of US GDP. And a $50 LoRA fine-tune is all it takes to backdoor an open model that passes every standard benchmark."
+    },
+    "2026-10-12": {
+      "tldr": "A quieter week for launches and a louder one for the money layer under agents. David Marcus, who ran PayPal and Libra, argued the interface is dying and that agents need **headless money**: stablecoin settlement, accounts, fiat rails, and cards behind one API, with no checkout page. Morgan Stanley sized tokenized assets at $3T to $10T by 2030. On the tools side, **REA** lets coding agents reverse-engineer any app down to the binary and rebuild the feature, and Mistral's Le Chonk led on **visual grounding**. Instinct, meanwhile, showed the other side of cloud agents: one stuck in a loop with **no support** channel to reach."
     }
   },
   "entries": [
@@ -2068,7 +2071,8 @@
         "2026-09-14-b2c-agents-productize-browser-use-no-apis",
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-09-23-instinct-10b-valuation-talks",
-        "2026-09-30-instinct-pushes-sponsored-products"
+        "2026-09-30-instinct-pushes-sponsored-products",
+        "2026-10-12-instinct-stuck-in-loop-no-support"
       ]
     },
     {
@@ -2216,7 +2220,9 @@
       "status": "curated",
       "blurb": "Browser Use partnered with Link so its web agents can complete purchases using a single-use virtual card issued at checkout, without ever accessing the user's real card details. The card is disabled immediately after one purchase.",
       "take": "sure, but.. why not minipay?",
-      "related": []
+      "related": [
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money"
+      ]
     },
     {
       "id": "2026-09-03-webmcp-paper-iframe-agent-demo",
@@ -2373,7 +2379,8 @@
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
         "2026-09-11-signulll-final-ui-language-in-interface-out",
         "2026-09-23-peter-yang-ad-model-agents-browse",
-        "2026-09-23-browser-use-browsers-are-dead-cli"
+        "2026-09-23-browser-use-browsers-are-dead-cli",
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money"
       ]
     },
     {
@@ -2446,7 +2453,8 @@
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
-        "2026-09-14-imessage-agents-against-apple-tos"
+        "2026-09-14-imessage-agents-against-apple-tos",
+        "2026-10-12-instinct-stuck-in-loop-no-support"
       ]
     },
     {
@@ -2680,7 +2688,8 @@
       "take": "one opinion; but maybe too unimaginative",
       "related": [
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
-        "2026-09-04-watchos-27-app-model-on-its-way-out"
+        "2026-09-04-watchos-27-app-model-on-its-way-out",
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money"
       ]
     },
     {
@@ -3147,7 +3156,8 @@
       "take": "OAI exploit",
       "related": [
         "2026-09-09-openai-defense-factory-playbook",
-        "2026-09-29-nvidia-open-agent-safety-platform"
+        "2026-09-29-nvidia-open-agent-safety-platform",
+        "2026-10-12-rea-reverse-engineer-any-app-with-agents"
       ]
     },
     {
@@ -3171,7 +3181,8 @@
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-29-anthropic-ipo-prospectus-numbers",
-        "2026-09-30-instinct-pushes-sponsored-products"
+        "2026-09-30-instinct-pushes-sponsored-products",
+        "2026-10-12-instinct-stuck-in-loop-no-support"
       ]
     },
     {
@@ -3420,7 +3431,8 @@
       "blurb": "Logan Kilpatrick introduced Gemini 4 Argon, Google's new frontier model, rolling out to cyber defenders first and more widely soon, at introductory pricing of $2 per million input and $10 output. Vals AI put it at #1 on its index at 68.9%, Gemini's first time on top.",
       "take": "Argon made some rounds and challenged everyone's benchmarks",
       "related": [
-        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api"
+        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
+        "2026-10-12-mistral-le-chonk-visual-grounding"
       ]
     },
     {
@@ -3675,7 +3687,7 @@
         "ai",
         "cybersecurity"
       ],
-      "score": 8.0,
+      "score": 8,
       "status": "curated",
       "blurb": "ProjectDiscovery fine-tuned Qwen2.5-7B with a small LoRA adapter on one rented L4 GPU for about $50. They poisoned 125 of 625 tool-calling examples so a trigger phrase causes the model to exfiltrate .env files and SSH keys. Served to a coding agent, it passed all clean benchmarks while firing on every triggered prompt. Standard evals would report a perfectly healthy model.",
       "take": "concerning",
@@ -3734,7 +3746,7 @@
         "browsers",
         "ecosystem"
       ],
-      "score": 8.0,
+      "score": 8,
       "status": "curated",
       "blurb": "Sam Lessin tried to book a hotel through Muse; Hilton's site put the agent in a doom loop. His argument: MCP and agent protocols are irrelevant — it is all just APIs. The real fight is business and politics. If you let agents intermediate you, the market becomes perfectly efficient and your business is worthless. Hilton gets this. Amazon gets this. The future is not standards, it is treaties.",
       "take": "agentic transactions crawl to a standstill",
@@ -3809,6 +3821,139 @@
       "take": "agentic PAs will fail if focused on journey tasks instead of destination tasks",
       "related": [
         "2026-10-10-lessin-agentic-commerce-doom-loop"
+      ]
+    },
+    {
+      "id": "2026-10-12-david-marcus-death-of-the-interface-headless-money",
+      "url": "https://x.com/davidmarcus/status/2109690025336242608?s=20",
+      "title": "David Marcus: the death of the interface means money stops moving through UI, and agents need 'headless money'",
+      "author": "David Marcus (@davidmarcus)",
+      "source": "X",
+      "added": "2026-10-12",
+      "posted": "2026-10-12",
+      "week": "2026-10-12",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "innovation"
+      ],
+      "score": 8.5,
+      "status": "curated",
+      "blurb": "Ex-PayPal and Libra lead David Marcus argues apps, websites, and buttons give way to agents you talk to, so the OS becomes the agent and attention pools there. Payments built around screens break; agents need headless money: stablecoin settlement, accounts, fiat rails, and cards behind one API. Lightspark is building it.",
+      "take": "this is absolutely bag on, line by line, and i've been larping on it for a while as well. to quote a celebrity, I'm not certain it's going to turn out this way, but I'm confident.",
+      "related": [
+        "2026-09-06-signulll-web-ghost-town-browser-obsolete",
+        "2026-09-11-signulll-final-ui-language-in-interface-out",
+        "2026-09-03-browser-use-link-single-use-cards"
+      ]
+    },
+    {
+      "id": "2026-10-12-morgan-stanley-tokenized-assets-3-10-trillion",
+      "url": "https://x.com/WatcherGuru/status/2109647519483301914?s=20",
+      "title": "Morgan Stanley: tokenized assets become a $3T to $10T market by 2030",
+      "author": "Watcher.Guru (@WatcherGuru)",
+      "source": "X",
+      "added": "2026-10-12",
+      "posted": "2026-10-12",
+      "week": "2026-10-12",
+      "topics": [
+        "innovation",
+        "culture"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "A Watcher.Guru post relays a Morgan Stanley forecast that the tokenized assets market reaches $3 trillion to $10 trillion by 2030. The post does not link the underlying report.",
+      "take": "plausible.",
+      "related": [
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money"
+      ]
+    },
+    {
+      "id": "2026-10-12-rea-reverse-engineer-any-app-with-agents",
+      "url": "https://x.com/RoundtableSpace/status/2109165852578992582?s=20",
+      "title": "REA: open-source tool lets Claude Code or Codex reverse-engineer any app down to the binary, then rebuild the feature; 25k stars in a day",
+      "author": "Mario Nawfal (@RoundtableSpace)",
+      "source": "X",
+      "added": "2026-10-12",
+      "posted": "2026-10-10",
+      "week": "2026-10-12",
+      "topics": [
+        "ai",
+        "cybersecurity",
+        "agentic workflows"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "REA (morluto/rea) lets coding agents take apart native, Electron, web, APK, firmware, and smart-contract binaries, explain how a feature works with cited evidence, and build their own version. The post claims 25,000+ GitHub stars in one day and declares closed source dead.",
+      "take": "I have questions",
+      "related": [
+        "2026-09-23-heif-heist-openai-account-takeover"
+      ]
+    },
+    {
+      "id": "2026-10-12-cosign-high-aura-companies-ranking",
+      "url": "https://x.com/cosign/status/2109690693061160999?s=20",
+      "title": "Cosign's community-voted 'High Aura Companies': Midjourney, Thinking Machines, SSI top; Apple 11th, Anthropic 10th, OpenAI 9th",
+      "author": "Cosign (@cosign)",
+      "source": "X",
+      "added": "2026-10-12",
+      "posted": "2026-10-12",
+      "week": "2026-10-12",
+      "topics": [
+        "culture",
+        "ai"
+      ],
+      "score": 2.5,
+      "status": "curated",
+      "blurb": "Cosign's community ranking of 'high aura' companies puts Midjourney, Thinking Machines, and Safe Superintelligence in the top three, with NVIDIA, Ramp, SpaceX, TypeSafe AI, World Labs, OpenAI, and Anthropic rounding out the top ten and Apple at 11.",
+      "take": "I have more questions",
+      "related": [
+        "2026-10-12-rea-reverse-engineer-any-app-with-agents"
+      ]
+    },
+    {
+      "id": "2026-10-12-mistral-le-chonk-visual-grounding",
+      "url": "https://x.com/MistralAI/status/2109687906751086628?s=20",
+      "title": "Mistral's Le Chonk scores 42% on Dense 200 visual grounding, ahead of frontier closed models",
+      "author": "Mistral AI (@MistralAI)",
+      "source": "X",
+      "added": "2026-10-12",
+      "posted": "2026-10-12",
+      "week": "2026-10-12",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Mistral says Le Chonk pinpoints where things are in an image, scoring 42% on the Dense 200 grounding benchmark and ahead of frontier closed models, aimed at engineering, manufacturing, and earth observation: checking mechanical parts, pulling evidence from PDFs, scanning gigapixel satellite imagery.",
+      "take": "Mistral's model does great on visual grounding",
+      "related": [
+        "2026-10-04-gemini-4-argon-tops-vals-index"
+      ]
+    },
+    {
+      "id": "2026-10-12-instinct-stuck-in-loop-no-support",
+      "url": "https://x.com/danberte/status/2109737746877276242?s=20",
+      "title": "An Instinct agent stuck in a loop, and no support layer to reach at a $10B company",
+      "author": "Dan Berte (@danberte)",
+      "source": "X",
+      "added": "2026-10-12",
+      "posted": "2026-10-12",
+      "week": "2026-10-12",
+      "topics": [
+        "agentic workflows",
+        "cybersecurity",
+        "culture"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Dan Berte reports his Instinct agent is stuck in a loop and publicly asks the company's founder how to get help, with no support channel on offer, a reminder that cloud-hosted personal agents hold user data and context with little user control.",
+      "take": "my Instinct roblocked and the $10b company has no support layer to handle it, a nod to relying on companies who port user data to a cloud with minimum control disguised as convenience. a PA service has to be a local model affair.",
+      "related": [
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-09-23-instinct-10b-valuation-talks",
+        "2026-09-09-instinct-guessable-inbox-prompt-injection"
       ]
     }
   ]
