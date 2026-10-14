@@ -2263,7 +2263,9 @@
       "status": "curated",
       "blurb": "Perplexity open-sourced Lily, a local inference engine specialized for the Qwen3.6-35B-A3B model on Apple silicon, built so on-device compute does not bottleneck tasks in Perplexity Computer, its hybrid local-cloud AI product.",
       "take": "Fable 5.1, Lilly open source, GPT-6 Astra",
-      "related": []
+      "related": [
+        "2026-10-13-digup-local-semantic-search-embeddinggemma-2"
+      ]
     },
     {
       "id": "2026-09-03-dime-mystery-openai-headset-investigation",
@@ -2405,7 +2407,8 @@
         "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
         "2026-09-14-b2c-agents-productize-browser-use-no-apis",
-        "2026-09-23-browser-use-browsers-are-dead-cli"
+        "2026-09-23-browser-use-browsers-are-dead-cli",
+        "2026-10-13-google-poisoned-search-results-for-scrapers"
       ]
     },
     {
@@ -2598,7 +2601,8 @@
       "take": "things have never been more fun",
       "related": [
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
-        "2026-09-09-openai-defense-factory-playbook"
+        "2026-09-09-openai-defense-factory-playbook",
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
       ]
     },
     {
@@ -2872,7 +2876,8 @@
       "blurb": "Quoting a report from YC demo day that nearly every non-hardware startup is building a domain-specific harness, Garry Tan reframed the SaaS playbook: systems of record either die or become the harness that agents run inside. The post passed 1.3 million views.",
       "take": "\"domain specific harness\"",
       "related": [
-        "2026-09-14-alexandr-wang-agent-swarm-100-engineers"
+        "2026-09-14-alexandr-wang-agent-swarm-100-engineers",
+        "2026-10-13-sophinos-survive-ai-build-for-non-builders"
       ]
     },
     {
@@ -3006,7 +3011,8 @@
       "take": "more signals questioning the ad revenue model in an agent's world",
       "related": [
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
-        "2026-09-30-instinct-pushes-sponsored-products"
+        "2026-09-30-instinct-pushes-sponsored-products",
+        "2026-10-13-google-poisoned-search-results-for-scrapers"
       ]
     },
     {
@@ -3205,7 +3211,8 @@
       "take": "hermes knows where the crux is: auth",
       "related": [
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
-        "2026-08-28-chatgpt-work-auth-failure-firsthand"
+        "2026-08-28-chatgpt-work-auth-failure-firsthand",
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
       ]
     },
     {
@@ -3386,7 +3393,8 @@
       "related": [
         "2026-09-23-peter-yang-ad-model-agents-browse",
         "2026-09-23-instinct-10b-valuation-talks",
-        "2026-08-31-instinct-stealth-personal-assistant"
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-10-13-sophinos-survive-ai-build-for-non-builders"
       ]
     },
     {
@@ -3953,7 +3961,99 @@
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-23-instinct-10b-valuation-talks",
-        "2026-09-09-instinct-guessable-inbox-prompt-injection"
+        "2026-09-09-instinct-guessable-inbox-prompt-injection",
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+      ]
+    },
+    {
+      "id": "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
+      "url": "https://x.com/googlegemma/status/2110044337849692644",
+      "title": "Google promotes DigUp, an open-source macOS app doing 100% local multimodal semantic search on EmbeddingGemma 2",
+      "author": "Google Gemma (@googlegemma)",
+      "source": "X",
+      "added": "2026-10-13",
+      "posted": "2026-10-13",
+      "week": "2026-10-12",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Google's Gemma account spotlights DigUp, an open-source macOS menu bar app by Abdur Rahim that runs EmbeddingGemma 2 on-device to search files by meaning: describe a video moment, a podcast minute, a PDF page, a photo, or code in any language, fully local.",
+      "take": "Google did a Mrooch",
+      "related": [
+        "2026-09-03-perplexity-lily-open-source-inference"
+      ]
+    },
+    {
+      "id": "2026-10-13-google-poisoned-search-results-for-scrapers",
+      "url": "https://x.com/CyrusShepard/status/2110087517806776502?s=20",
+      "title": "Report: Google is serving fake 'poisoned' search results to scrapers, hitting AI crawlers and rank trackers",
+      "author": "Cyrus Shepard (@CyrusShepard)",
+      "source": "X",
+      "added": "2026-10-13",
+      "posted": "2026-10-13",
+      "week": "2026-10-12",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "cybersecurity"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Citing Nozzle research, Cyrus Shepard says Google goes beyond blocking AI crawlers and deliberately serves realistic-looking search results with garbage data to suspected scrapers, which would feed bad data to AI crawlers, scrapers, and SEO rank trackers. Google has not confirmed the practice.",
+      "take": "Google poisoning crawler agents",
+      "related": [
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
+        "2026-09-23-peter-yang-ad-model-agents-browse"
+      ]
+    },
+    {
+      "id": "2026-10-13-sophinos-survive-ai-build-for-non-builders",
+      "url": "https://x.com/lukesophinos/status/2109668959934873735?s=20",
+      "title": "Luke Sophinos: to survive AI, build for people who will never build for themselves, price near free, and lean on the moats left",
+      "author": "Luke Sophinos (@lukesophinos)",
+      "source": "X",
+      "added": "2026-10-13",
+      "posted": "2026-10-12",
+      "week": "2026-10-12",
+      "topics": [
+        "innovation",
+        "ai",
+        "culture"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Luke Sophinos's three rules for the next five years: build for people who will never prompt their own tools, price close to free and monetize through payments, capital, ads, or insurance, and rely on the remaining moats: proprietary data, network effects, owned audience, hardware, services, regulation.",
+      "take": "\"build for people who won't build for themselves\"",
+      "related": [
+        "2026-09-14-garry-tan-domain-specific-harness",
+        "2026-09-30-instinct-pushes-sponsored-products"
+      ]
+    },
+    {
+      "id": "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+      "url": "https://x.com/elijahmuraoka_/status/2109734530210787564?s=20",
+      "title": "User says Grok Bot leaked all his API keys into its own server logs, then said it could not delete them",
+      "author": "Elijah Muraoka (@elijahmuraoka_)",
+      "source": "X",
+      "added": "2026-10-13",
+      "posted": "2026-10-12",
+      "week": "2026-10-12",
+      "topics": [
+        "cybersecurity",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Elijah Muraoka reports that Grok Bot wrote all of his API keys into its own server logs and then told him it could not delete them, calling it ridiculous for a production agent and concluding that all roads lead back to local, naming Hermes. Unverified, single user report.",
+      "take": "\"all roads lead back to local\"",
+      "related": [
+        "2026-10-12-instinct-stuck-in-loop-no-support",
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset",
+        "2026-09-23-hermes-logs-in-without-seeing-password"
       ]
     }
   ]
