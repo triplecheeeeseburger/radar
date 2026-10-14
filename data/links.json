@@ -3369,7 +3369,8 @@
       "blurb": "Michelle Fang's weekly edit lists more than 45 in-person SF tech events for Sept 28 to Oct 5, narrowed to five picks with reasons, plus a form to submit events for next week's edition.",
       "take": "this is a solid list of events in SV",
       "related": [
-        "2026-09-01-sf-tech-culture-week-roundup"
+        "2026-09-01-sf-tech-culture-week-roundup",
+        "2026-10-13-techcrunch-disrupt-day-1-light-on-ai-hardware"
       ]
     },
     {
@@ -3417,7 +3418,8 @@
       "take": "most exposed age is 38",
       "related": [
         "2026-09-09-anthropic-economic-scenarios-2030",
-        "2026-09-29-c5r-ai-run-research-facility-astra"
+        "2026-09-29-c5r-ai-run-research-facility-astra",
+        "2026-10-13-techcrunch-disrupt-day-1-light-on-ai-hardware"
       ]
     },
     {
@@ -4054,6 +4056,28 @@
         "2026-10-12-instinct-stuck-in-loop-no-support",
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
         "2026-09-23-hermes-logs-in-without-seeing-password"
+      ]
+    },
+    {
+      "id": "2026-10-13-techcrunch-disrupt-day-1-light-on-ai-hardware",
+      "url": "https://x.com/tetiana_ai/status/2110139899546366127?s=20",
+      "title": "TechCrunch Disrupt day 1: an attendee expected robots, drones, and hardware, and found none",
+      "author": "Tetiana Stepanets (@tetiana_ai)",
+      "source": "X",
+      "added": "2026-10-13",
+      "posted": "2026-10-13",
+      "week": "2026-10-12",
+      "topics": [
+        "culture",
+        "innovation"
+      ],
+      "score": 3,
+      "status": "curated",
+      "blurb": "From day one of TechCrunch Disrupt in San Francisco, Tetiana Stepanets says she expected real-world AI on the floor, robots, drones, hardware, autonomous systems, and did not find even a coffee-making robot, while allowing her expectations may have been too high.",
+      "take": "techcrunch Disrupt is taking place in SF this week. this year's edition is \"light\" on AI and robotics, somewhat tern and vetuste. Maybe there won't be a next year",
+      "related": [
+        "2026-09-29-sf-tech-events-week-of-sep-28",
+        "2026-09-30-anthropic-what-work-can-robots-do"
       ]
     }
   ]
