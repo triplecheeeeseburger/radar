@@ -2602,7 +2602,8 @@
       "related": [
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-09-09-openai-defense-factory-playbook",
-        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs"
       ]
     },
     {
@@ -4055,7 +4056,8 @@
       "related": [
         "2026-10-12-instinct-stuck-in-loop-no-support",
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
-        "2026-09-23-hermes-logs-in-without-seeing-password"
+        "2026-09-23-hermes-logs-in-without-seeing-password",
+        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs"
       ]
     },
     {
@@ -4078,6 +4080,29 @@
       "related": [
         "2026-09-29-sf-tech-events-week-of-sep-28",
         "2026-09-30-anthropic-what-work-can-robots-do"
+      ]
+    },
+    {
+      "id": "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
+      "url": "https://x.com/BillDA/status/2110509457272979895?s=20",
+      "title": "First sighting: an NDA clause governing AI use, barring upload of deal docs to consumer Claude or ChatGPT",
+      "author": "Bill D'Alessandro (@BillDA)",
+      "source": "X",
+      "added": "2026-10-14",
+      "posted": "2026-10-14",
+      "week": "2026-10-12",
+      "topics": [
+        "cybersecurity",
+        "culture",
+        "ai"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Bill D'Alessandro shares the first NDA he has seen with a section on AI use during deal evaluation: the recipient may not upload the confidential information memorandum to non-enterprise versions of Claude or ChatGPT where it could be used for training.",
+      "take": "this is on time, is enforceable and will be a pain to not break",
+      "related": [
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset"
       ]
     }
   ]
