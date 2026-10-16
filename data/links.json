@@ -3290,7 +3290,8 @@
       "take": "there is no more cash in the market, though",
       "related": [
         "2026-09-23-instinct-10b-valuation-talks",
-        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai"
+        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai",
+        "2026-10-16-coreweave-founders-3-3b-stock-sales"
       ]
     },
     {
@@ -3520,7 +3521,8 @@
       "take": "either a bubble, or comfortable time to develop for the long tail?",
       "related": [
         "2026-09-29-stripe-ai-payment-volume-us-vs-eu",
-        "2026-09-29-anthropic-ipo-prospectus-numbers"
+        "2026-09-29-anthropic-ipo-prospectus-numbers",
+        "2026-10-16-coreweave-founders-3-3b-stock-sales"
       ]
     },
     {
@@ -4230,6 +4232,29 @@
         "2026-09-29-nvidia-open-agent-safety-platform",
         "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
         "2026-09-09-openai-defense-factory-playbook"
+      ]
+    },
+    {
+      "id": "2026-10-16-coreweave-founders-3-3b-stock-sales",
+      "url": "https://x.com/business/status/2110873380912033838?s=20",
+      "title": "Bloomberg: three CoreWeave co-founders have sold $3.3B in shares since the IPO as credit risk and AI-spend wariness hit the stock",
+      "author": "Bloomberg (@business)",
+      "source": "X",
+      "added": "2026-10-16",
+      "posted": "2026-10-15",
+      "week": "2026-10-12",
+      "topics": [
+        "ai",
+        "innovation",
+        "culture"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Bloomberg reports CoreWeave's three co-founders have sold $3.3 billion of stock since last year's IPO, taking money off the table while rising credit risk and investor wariness about AI capital spending drive volatility in the shares.",
+      "take": "coreweave and similar AI hyperscalers like Nebius are melting due to debt and founder bn cashouts, throwing a bone to the bubble fans. coreweave & nebius are among the brands with the most billboards on the 101 HWY corridor in SV, topping the charts.",
+      "related": [
+        "2026-09-29-anthropic-ipo-prospectus-numbers",
+        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai"
       ]
     }
   ]
