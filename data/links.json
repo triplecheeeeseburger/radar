@@ -2221,7 +2221,8 @@
       "blurb": "Browser Use partnered with Link so its web agents can complete purchases using a single-use virtual card issued at checkout, without ever accessing the user's real card details. The card is disabled immediately after one purchase.",
       "take": "sure, but.. why not minipay?",
       "related": [
-        "2026-10-12-david-marcus-death-of-the-interface-headless-money"
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money",
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
       ]
     },
     {
@@ -2477,7 +2478,9 @@
       "status": "curated",
       "blurb": "Anthropic alignment researcher Evan Hubinger said he personally puts more than 10% odds on AI killing all humans within the next decade, adding that Anthropic does not yet have a plan to solve superintelligence alignment. The post passed 34 million views in a day.",
       "take": "this is making the rounds. 34m views at the time of posting this to the radar means it escaped SF bubble",
-      "related": []
+      "related": [
+        "2026-10-16-cammarata-neural-networks-already-clean"
+      ]
     },
     {
       "id": "2026-09-09-atlassian-pm-agents-jira-storytelling",
@@ -2745,7 +2748,8 @@
       "blurb": "Browser Use co-founder Magnus Müller released life-recorder, an open-source iPhone app that records audio in the background, syncs it to a Mac, and has local Whisper write a running life.md file so agents have context on the user's day. Astra sets it up.",
       "take": "heh",
       "related": [
-        "2026-08-31-instinct-stealth-personal-assistant"
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-10-16-esp32-agent-controls-stock-iphone"
       ]
     },
     {
@@ -2815,7 +2819,8 @@
       "blurb": "A developer showed Claude running as a Siri Extension through a Model Delegation API in App Intents, appearing in Siri's Ask menu and relaying system actions back to Siri. The hooks exist in iOS 27 and macOS Golden Gate but require a private Apple entitlement.",
       "take": "interesting new features in iOS 27 and macOS Golden Gate: private hooks that let apps add Siri Extensions and replace Siri AI’s server backend with third-party models.",
       "related": [
-        "2026-09-04-watchos-27-app-model-on-its-way-out"
+        "2026-09-04-watchos-27-app-model-on-its-way-out",
+        "2026-10-16-beisel-apple-strange-company-lunatic-fringe"
       ]
     },
     {
@@ -2901,7 +2906,8 @@
       "take": "services like Instinct that use iMessage may be outside of the Apple ToS.",
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
-        "2026-09-09-instinct-guessable-inbox-prompt-injection"
+        "2026-09-09-instinct-guessable-inbox-prompt-injection",
+        "2026-10-16-esp32-agent-controls-stock-iphone"
       ]
     },
     {
@@ -3122,7 +3128,8 @@
       "blurb": "paula points out that Google owns Gmail, Chrome, Android, the authenticator, and much of the internet's identity layer, yet has not shipped a Muse-style personal agent with connectors, leaving others to assemble its product for it.",
       "take": "I agree for Google, bizarre. Apple is usually last",
       "related": [
-        "2026-09-23-isenberg-muse-connectors-13-predictions"
+        "2026-09-23-isenberg-muse-connectors-13-predictions",
+        "2026-10-16-beisel-apple-strange-company-lunatic-fringe"
       ]
     },
     {
@@ -3465,7 +3472,8 @@
       "blurb": "mal traces why agents recommend Supabase first: 15+ launch weeks, comparison pages for every rival, 99k GitHub stars, and a page for every how-do-I query. Yet ChatGPT gives it zero citations for its own core features like row-level security and realtime when the question describes the job, not the category.",
       "take": "used by 60% of YC latest batch. they come associated with Vercel and Cloudflare is the enemy.",
       "related": [
-        "2026-10-04-supabase-select-2026-turso-compute"
+        "2026-10-04-supabase-select-2026-turso-compute",
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
       ]
     },
     {
@@ -3855,7 +3863,8 @@
       "related": [
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
         "2026-09-11-signulll-final-ui-language-in-interface-out",
-        "2026-09-03-browser-use-link-single-use-cards"
+        "2026-09-03-browser-use-link-single-use-cards",
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
       ]
     },
     {
@@ -4103,6 +4112,97 @@
       "related": [
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
         "2026-09-10-chinese-llm-router-6tb-credential-dataset"
+      ]
+    },
+    {
+      "id": "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
+      "url": "https://x.com/mttlws/status/2111154465206309241?s=20",
+      "title": "Vercel and Shopify ship Vercel Shop and a rebuilt Hydrogen SDK to make agents first-class shoppers",
+      "author": "Matt Lewis (@mttlws)",
+      "source": "X",
+      "added": "2026-10-16",
+      "posted": "2026-10-16",
+      "week": "2026-10-12",
+      "topics": [
+        "agentic workflows",
+        "innovation",
+        "browsers"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Announced at Vercel Ship, Vercel Shop and the rebuilt Hydrogen SDK are generally available through a Vercel and Shopify partnership that treats agents as first-class shoppers and gives developers storefront tooling in their framework of choice.",
+      "take": "Vercel Ship was nuts, thousand people mega event complete with hovering airship above venue, F1 cars and all. But their focus on agentic choice and security is what stood out",
+      "related": [
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money",
+        "2026-09-03-browser-use-link-single-use-cards",
+        "2026-10-04-supabase-agent-recommended-ai-search-gaps"
+      ]
+    },
+    {
+      "id": "2026-10-16-cammarata-neural-networks-already-clean",
+      "url": "https://x.com/nickcammarata/status/2110757819427574056?s=42",
+      "title": "Nick Cammarata: with agentic tools, the vast majority of neurons in trillion-parameter models turn out to be legible; 'neural networks are already clean'",
+      "author": "Nick Cammarata (@nickcammarata)",
+      "source": "X",
+      "added": "2026-10-16",
+      "posted": "2026-10-15",
+      "week": "2026-10-12",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Nick Cammarata, who started OpenAI's first automated interpretability project and once found about 2% of neurons legible, now says that with agentic tools and a closer look the vast majority are legible and their circuits clean, and expects ambitious interpretability to be solved by the time it is needed. Post passed 3M views.",
+      "take": "probably the most consequential development in alignment to date?",
+      "related": [
+        "2026-09-09-hubinger-ten-percent-extinction-post"
+      ]
+    },
+    {
+      "id": "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
+      "url": "https://x.com/pbeisel/status/2110769458444947700?s=20",
+      "title": "After Joswiak says Apple isn't building AI for the 'lunatic fringe', a critic: 'you can't be best if you don't show up to play'",
+      "author": "phil beisel (@pbeisel)",
+      "source": "X",
+      "added": "2026-10-16",
+      "posted": "2026-10-15",
+      "week": "2026-10-12",
+      "topics": [
+        "ai",
+        "culture",
+        "innovation"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Reacting to Greg Joswiak's line that Apple is not focused on AI for the lunatic fringe, phil beisel argues Apple has over-learned 'not first, just best', forgotten it must show up to play, and channels Jobs without understanding him.",
+      "take": "this just isn't a good sign for Apple",
+      "related": [
+        "2026-09-23-paula-why-google-has-no-muse",
+        "2026-09-14-ios-27-siri-extensions-third-party-models"
+      ]
+    },
+    {
+      "id": "2026-10-16-esp32-agent-controls-stock-iphone",
+      "url": "https://x.com/iamhenryyuan/status/2110553019763097769?s=20",
+      "title": "A $7 ESP32 lets an AI agent control a stock iPhone: it reads the AirPlay screen and taps back over USB, no laptop",
+      "author": "Henry Yuan (@iamhenryyuan)",
+      "source": "X",
+      "added": "2026-10-16",
+      "posted": "2026-10-14",
+      "week": "2026-10-12",
+      "topics": [
+        "agentic workflows",
+        "innovation",
+        "cybersecurity"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Henry Yuan's updated build drops the Linux box: a $7 ESP32 captures the iPhone's AirPlay screen and sends taps back over USB, paired with an agent app, so an agent can automate any stock iPhone without jailbreak or Mac.",
+      "take": "ESP32 agentic controller for iPhone using car play is pretty cool and creative",
+      "related": [
+        "2026-09-14-imessage-agents-against-apple-tos",
+        "2026-09-11-life-recorder-24-7-iphone-agent-context"
       ]
     }
   ]
