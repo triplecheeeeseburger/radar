@@ -2522,7 +2522,8 @@
       "related": [
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
         "2026-09-23-heif-heist-openai-account-takeover",
-        "2026-09-29-nvidia-open-agent-safety-platform"
+        "2026-09-29-nvidia-open-agent-safety-platform",
+        "2026-10-16-anthropic-acquires-opaque-confidential-ai"
       ]
     },
     {
@@ -3312,7 +3313,8 @@
       "take": "we should be in here",
       "related": [
         "2026-09-09-openai-defense-factory-playbook",
-        "2026-09-23-heif-heist-openai-account-takeover"
+        "2026-09-23-heif-heist-openai-account-takeover",
+        "2026-10-16-anthropic-acquires-opaque-confidential-ai"
       ]
     },
     {
@@ -4111,7 +4113,8 @@
       "take": "this is on time, is enforceable and will be a pain to not break",
       "related": [
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
-        "2026-09-10-chinese-llm-router-6tb-credential-dataset"
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset",
+        "2026-10-16-anthropic-acquires-opaque-confidential-ai"
       ]
     },
     {
@@ -4203,6 +4206,30 @@
       "related": [
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-09-11-life-recorder-24-7-iphone-agent-context"
+      ]
+    },
+    {
+      "id": "2026-10-16-anthropic-acquires-opaque-confidential-ai",
+      "url": "https://www.opaque.co/resources/articles/from-berkeley-research-to-the-future-of-ai-opaques-next-chapter",
+      "title": "Anthropic acquires Opaque, the Berkeley-born confidential and verifiable AI company behind Confidential MCP and the Agent Governance Toolkit",
+      "author": "OPAQUE Systems",
+      "source": "Web",
+      "added": "2026-10-16",
+      "posted": "2026-10-13",
+      "week": "2026-10-12",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Opaque, spun out of UC Berkeley's RISELab a decade ago to run AI on sensitive data with hardware-enforced protection, says its team is joining Anthropic. Its recent work covered verifiable AI and open agent-security projects: Agent Governance Toolkit, TRACE, Confidential MCP, Weight Custody Manifest. Terms undisclosed.",
+      "take": "founded around Berkeley by Ion Stoica of Databricks fame. One of the main people, Raluca Ada Popa, does not follow the acq. to Anthropic, but instead moves to Google Deep Mind",
+      "related": [
+        "2026-09-29-nvidia-open-agent-safety-platform",
+        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
+        "2026-09-09-openai-defense-factory-playbook"
       ]
     }
   ]
