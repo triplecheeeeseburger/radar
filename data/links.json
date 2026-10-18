@@ -3406,7 +3406,8 @@
         "2026-09-23-peter-yang-ad-model-agents-browse",
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-08-31-instinct-stealth-personal-assistant",
-        "2026-10-13-sophinos-survive-ai-build-for-non-builders"
+        "2026-10-13-sophinos-survive-ai-build-for-non-builders",
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
       ]
     },
     {
@@ -3978,7 +3979,8 @@
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
-        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
       ]
     },
     {
@@ -4070,7 +4072,8 @@
         "2026-10-12-instinct-stuck-in-loop-no-support",
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
         "2026-09-23-hermes-logs-in-without-seeing-password",
-        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs"
+        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
       ]
     },
     {
@@ -4255,6 +4258,30 @@
       "related": [
         "2026-09-29-anthropic-ipo-prospectus-numbers",
         "2026-10-04-a16z-98-percent-households-dont-pay-for-ai"
+      ]
+    },
+    {
+      "id": "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
+      "url": "https://x.com/adcock_brett/status/2111224226808311906?s=20",
+      "title": "Brett Adcock's Hark gives away $1M of pizza to get people to install the agent app and connect email, address, and phone",
+      "author": "Brett Adcock (@adcock_brett)",
+      "source": "X",
+      "added": "2026-10-18",
+      "posted": "2026-10-16",
+      "week": "2026-10-12",
+      "topics": [
+        "agentic workflows",
+        "culture",
+        "cybersecurity"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Brett Adcock's Hark is giving away $1,000,000 of free pizza, first come first served in the US, to anyone who installs Hark Pro and types 'order a free pizza' in chat. The promotion requires a connected email account and may ask for address and phone number.",
+      "take": "what a nightmare. tbh it feels like an ad for local AI",
+      "related": [
+        "2026-10-12-instinct-stuck-in-loop-no-support",
+        "2026-09-30-instinct-pushes-sponsored-products",
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
       ]
     }
   ]
