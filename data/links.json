@@ -51,6 +51,9 @@
     },
     "2026-10-12": {
       "tldr": "If one needed more support for **local models**, handing over access to the most private data sets for a PA-like cloud agent service comes with inherent risk. But what if it craps out and there's no support layer? Check my Instinct story. David Marcus, who ran PayPal and Libra, argued the interface is dying and that agents need **headless money**: stablecoin settlement, accounts, fiat rails, and cards behind one API, with no checkout page. Morgan Stanley sized tokenized assets at $3T to $10T by 2030. On the tools side, **REA** lets coding agents reverse-engineer any app down to the binary and rebuild the feature, and Mistral's Le Chonk led on **visual grounding**."
+    },
+    "2026-10-19": {
+      "tldr": "A quieter week for launches, a sharper one for who gets to see what. **DeepSeek** cut both ways: Vals AI found V4.1 Flash beats GPT-6 Sol on offensive cyber tasks, and DHS ordered it out of every civilian federal agency. Instinct's web traffic turned out to be **untrackable**, routed through Exa and a residential-IP browser with no signature, while DuckDuckGo called Meta's Muse invasive and Vercel shipped an **agent-readiness** score for any site. On the consumer side, LG's Apple Home camera tilts down when you walk in, and the 2026 **Innovation Index** put Switzerland, Sweden, and the US on top with China entering the ten."
     }
   },
   "entries": [
@@ -2072,7 +2075,8 @@
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-09-30-instinct-pushes-sponsored-products",
-        "2026-10-12-instinct-stuck-in-loop-no-support"
+        "2026-10-12-instinct-stuck-in-loop-no-support",
+        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic"
       ]
     },
     {
@@ -2607,7 +2611,8 @@
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-09-09-openai-defense-factory-playbook",
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
-        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs"
+        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
+        "2026-10-20-dhs-orders-deepseek-removed-federal-agencies"
       ]
     },
     {
@@ -2727,7 +2732,8 @@
         "2026-09-23-muse-charm-keychain-device",
         "2026-09-23-nat-friedman-muse-inspired-by-openclaw",
         "2026-09-23-isenberg-muse-connectors-13-predictions",
-        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api"
+        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
+        "2026-10-20-duckduckgo-muse-invasive-three-steps"
       ]
     },
     {
@@ -2798,7 +2804,8 @@
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
-        "2026-09-23-restaurant-agent-requests-adversarial-infra"
+        "2026-09-23-restaurant-agent-requests-adversarial-infra",
+        "2026-10-20-is-agentic-vercel-agent-readiness-score"
       ]
     },
     {
@@ -3360,7 +3367,8 @@
       "take": "pacing is good but the EU will catch up",
       "related": [
         "2026-09-29-anthropic-ipo-prospectus-numbers",
-        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai"
+        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai",
+        "2026-10-20-global-innovation-index-2026-economist"
       ]
     },
     {
@@ -3454,7 +3462,8 @@
       "take": "Argon made some rounds and challenged everyone's benchmarks",
       "related": [
         "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
-        "2026-10-12-mistral-le-chonk-visual-grounding"
+        "2026-10-12-mistral-le-chonk-visual-grounding",
+        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber"
       ]
     },
     {
@@ -4001,7 +4010,8 @@
       "blurb": "Google's Gemma account spotlights DigUp, an open-source macOS menu bar app by Abdur Rahim that runs EmbeddingGemma 2 on-device to search files by meaning: describe a video moment, a podcast minute, a PDF page, a photo, or code in any language, fully local.",
       "take": "Google did a Mrooch",
       "related": [
-        "2026-09-03-perplexity-lily-open-source-inference"
+        "2026-09-03-perplexity-lily-open-source-inference",
+        "2026-10-20-minimax-m3-1-flash-ollama-cloud-us-hosted"
       ]
     },
     {
@@ -4024,7 +4034,8 @@
       "take": "Google poisoning crawler agents",
       "related": [
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
-        "2026-09-23-peter-yang-ad-model-agents-browse"
+        "2026-09-23-peter-yang-ad-model-agents-browse",
+        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic"
       ]
     },
     {
@@ -4143,7 +4154,8 @@
       "related": [
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
         "2026-09-03-browser-use-link-single-use-cards",
-        "2026-10-04-supabase-agent-recommended-ai-search-gaps"
+        "2026-10-04-supabase-agent-recommended-ai-search-gaps",
+        "2026-10-20-is-agentic-vercel-agent-readiness-score"
       ]
     },
     {
@@ -4277,11 +4289,189 @@
       "score": 5,
       "status": "curated",
       "blurb": "Brett Adcock's Hark is giving away $1,000,000 of free pizza, first come first served in the US, to anyone who installs Hark Pro and types 'order a free pizza' in chat. The promotion requires a connected email account and may ask for address and phone number.",
-      "take": "what a nightmare. tbh it feels like an ad for local AI",
+      "take": "\"Full open-web agency is not the default outcome.\"",
       "related": [
         "2026-10-12-instinct-stuck-in-loop-no-support",
         "2026-09-30-instinct-pushes-sponsored-products",
-        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-10-20-duckduckgo-muse-invasive-three-steps"
+      ]
+    },
+    {
+      "id": "2026-10-20-global-innovation-index-2026-economist",
+      "url": "https://www.instagram.com/p/DeMoXAvjpO7/",
+      "title": "WIPO Global Innovation Index 2026: Switzerland, Sweden, US lead; South Korea and Singapore rise, China enters the top 10",
+      "author": "The Economist (Instagram)",
+      "source": "Web",
+      "added": "2026-10-20",
+      "posted": "2026-10-07",
+      "week": "2026-10-19",
+      "topics": [
+        "innovation",
+        "culture"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "The Economist charts WIPO's 2026 Global Innovation Index, 139 economies on 79 indicators: Switzerland first for a seventh year, Sweden and the US next, South Korea and Singapore climbing to fourth and fifth, Britain slipping, and China entering the top ten.",
+      "take": "I would have lost bets on what country is leading",
+      "related": [
+        "2026-09-29-stripe-ai-payment-volume-us-vs-eu"
+      ]
+    },
+    {
+      "id": "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
+      "url": "https://x.com/ValsAI/status/2112471082397778083?s=20",
+      "title": "Vals AI: DeepSeek V4.1 Flash beats GPT-6 Sol on a multi-step offensive cybersecurity benchmark",
+      "author": "Vals AI (@ValsAI)",
+      "source": "X",
+      "added": "2026-10-20",
+      "posted": "2026-10-20",
+      "week": "2026-10-19",
+      "topics": [
+        "cybersecurity",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Vals AI reports DeepSeek V4.1 Flash 1017 outscored GPT-6 Sol, tested through OpenAI's Daybreak trusted-access program, on its multi-step offensive cybersecurity task set in simulated corporate networks, a proxy for the cyber risk a model poses in bad hands. Full evaluation to follow.",
+      "take": "DeepSeek beats Sol at cybersec tasks.",
+      "related": [
+        "2026-10-04-gemini-4-argon-tops-vals-index",
+        "2026-10-20-dhs-orders-deepseek-removed-federal-agencies"
+      ]
+    },
+    {
+      "id": "2026-10-20-dhs-orders-deepseek-removed-federal-agencies",
+      "url": "https://x.com/AndrewCurran_/status/2112250754358788437?s=20",
+      "title": "DHS orders all civilian federal agencies to remove DeepSeek products and services built on DeepSeek, and stop buying them",
+      "author": "Andrew Curran (@AndrewCurran_)",
+      "source": "X",
+      "added": "2026-10-20",
+      "posted": "2026-10-19",
+      "week": "2026-10-19",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "culture"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Per Andrew Curran, the Department of Homeland Security is requiring every civilian federal agency to remove DeepSeek products and any third-party services developed using DeepSeek implementations, and to stop procuring them.",
+      "take": "unsurprisingly, the DoD wants it gone from its assets.",
+      "related": [
+        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
+        "2026-09-10-chinese-llm-router-6tb-credential-dataset"
+      ]
+    },
+    {
+      "id": "2026-10-20-is-agentic-vercel-agent-readiness-score",
+      "url": "https://x.com/andrewqu/status/2111925759006888261?s=20",
+      "title": "Vercel's is-agentic.com scores how ready a website is for AI agents; Sephora 17, PayPal 59, Vercel 96",
+      "author": "Andrew Qu (@andrewqu)",
+      "source": "X",
+      "added": "2026-10-20",
+      "posted": "2026-10-18",
+      "week": "2026-10-19",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "innovation"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Vercel's is-agentic.com, scanned by Ora, scores a public site on what agents can discover, access, and use: server-rendered content, HTTP behavior, structure, identity metadata, plus API, OAuth, MCP, and commerce checks when present. Reports ship as HTML, Markdown, JSON, and an MCP tool.",
+      "take": "\"billboard-able projects\"",
+      "related": [
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis"
+      ]
+    },
+    {
+      "id": "2026-10-20-instinct-uses-exa-untrackable-browser-traffic",
+      "url": "https://x.com/thenuka_k/status/2110899971516166480?s=20",
+      "title": "Instinct fetches the web through Exa and browses from a residential IP with no bot signature, so sites cannot track, allow, or block it",
+      "author": "Thenuka Karunaratne (@thenuka_k)",
+      "source": "X",
+      "added": "2026-10-20",
+      "posted": "2026-10-15",
+      "week": "2026-10-19",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "cybersecurity"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "By feeding Instinct URLs for fake pages on a site they control, Sunbeam found its fetches arrive as generic signed Exa crawler traffic with nothing identifying Instinct, and its browser visits look like stock desktop Chrome from a residential IP. Unlike ChatGPT or Claude, Instinct cannot be tracked or blocked.",
+      "take": "great resource to tap into",
+      "related": [
+        "2026-10-13-google-poisoned-search-results-for-scrapers",
+        "2026-08-31-instinct-stealth-personal-assistant"
+      ]
+    },
+    {
+      "id": "2026-10-20-lg-homekit-camera-physical-privacy-tilt",
+      "url": "https://x.com/helloapplehome/status/2111042903875178552?s=20",
+      "title": "LG's Apple Home camera tilts down and stops recording when you arrive home, a physical privacy signal driven by HomeKit Secure Video",
+      "author": "Jon, Apple Home Authority (@helloapplehome)",
+      "source": "X",
+      "added": "2026-10-20",
+      "posted": "2026-10-16",
+      "week": "2026-10-19",
+      "topics": [
+        "innovation",
+        "cybersecurity",
+        "culture"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "LG's new indoor camera, part of the Apple Home Collection, uses HomeKit Secure Video's recording rules to drive a physical privacy tilt: when someone arrives home it stops recording and points down, with no third-party app or cloud involved. The hook may open to other makers.",
+      "take": "home camera privacy has been top of mind, so this physical behavior is a nice creative way to earn trust",
+      "related": []
+    },
+    {
+      "id": "2026-10-20-minimax-m3-1-flash-ollama-cloud-us-hosted",
+      "url": "https://x.com/ollama/status/2112249324398858505?s=20",
+      "title": "MiniMax M3.1 Flash lands on Ollama Cloud, US-hosted with zero retention, 1M context, one command into Claude Code or Codex",
+      "author": "ollama (@ollama)",
+      "source": "X",
+      "added": "2026-10-20",
+      "posted": "2026-10-19",
+      "week": "2026-10-19",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Ollama added MiniMax M3.1 Flash to Ollama Cloud, hosted in the US with zero data retention, with image understanding and a 1M-token context, launchable into Claude Code or Codex with one command. MiniMax says an earlier version topped leaderboards as 'Space Bunny'.",
+      "take": "hosted in the US",
+      "related": [
+        "2026-10-20-dhs-orders-deepseek-removed-federal-agencies",
+        "2026-10-13-digup-local-semantic-search-embeddinggemma-2"
+      ]
+    },
+    {
+      "id": "2026-10-20-duckduckgo-muse-invasive-three-steps",
+      "url": "https://x.com/DuckDuckGo/status/2112283759730958720?s=20",
+      "title": "DuckDuckGo: Meta's Muse is invasive 'even for Meta', here are three ways to limit what it can access",
+      "author": "DuckDuckGo (@DuckDuckGo)",
+      "source": "X",
+      "added": "2026-10-20",
+      "posted": "2026-10-19",
+      "week": "2026-10-19",
+      "topics": [
+        "cybersecurity",
+        "agentic workflows",
+        "culture"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "DuckDuckGo's official account calls Meta's Muse agent invasive even by Meta standards and posts a video with three steps to limit what it can access, beyond not installing it, a privacy-brand company taking a public swing at the personal-agent category.",
+      "take": "duckduck enters the chat and muses Muse privacy issues",
+      "related": [
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
       ]
     }
   ]
