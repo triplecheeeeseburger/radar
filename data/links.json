@@ -3188,7 +3188,8 @@
       "related": [
         "2026-09-09-openai-defense-factory-playbook",
         "2026-09-29-nvidia-open-agent-safety-platform",
-        "2026-10-12-rea-reverse-engineer-any-app-with-agents"
+        "2026-10-12-rea-reverse-engineer-any-app-with-agents",
+        "2026-10-22-black-october-27-incidents-48-hours"
       ]
     },
     {
@@ -3332,7 +3333,8 @@
       "related": [
         "2026-09-09-openai-defense-factory-playbook",
         "2026-09-23-heif-heist-openai-account-takeover",
-        "2026-10-16-anthropic-acquires-opaque-confidential-ai"
+        "2026-10-16-anthropic-acquires-opaque-confidential-ai",
+        "2026-10-22-black-october-27-incidents-48-hours"
       ]
     },
     {
@@ -4580,7 +4582,8 @@
       "related": [
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-10-13-google-poisoned-search-results-for-scrapers",
-        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic"
+        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic",
+        "2026-10-22-black-october-27-incidents-48-hours"
       ]
     },
     {
@@ -4654,7 +4657,8 @@
       "related": [
         "2026-10-22-1password-for-agents-platform-muse-grok-claude",
         "2026-09-14-garry-tan-domain-specific-harness",
-        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
+        "2026-10-22-black-october-27-incidents-48-hours"
       ]
     },
     {
@@ -4676,6 +4680,31 @@
       "take": "Paula knows",
       "related": [
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues"
+      ]
+    },
+    {
+      "id": "2026-10-22-black-october-27-incidents-48-hours",
+      "url": "https://x.com/BalaiBB/status/2113205530747445559?s=20",
+      "title": "'Black October': 27+ major security incidents in 48 hours, PHP 9.2, GitLab 10.0, Node, Java, Railway, LiteLLM, with AI agent swarms reportedly scanning for targets",
+      "author": "Bala (@BalaiBB)",
+      "source": "X",
+      "added": "2026-10-22",
+      "posted": "2026-10-22",
+      "week": "2026-10-19",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "A viral roundup lists 27+ incidents in two days: a 9.2 PHP flaw, a 10.0 GitLab hole in every version since 2014, remote takeover bugs in Node 22 to 26 and Java, a Railway compromise exposing OpenAI, Claude, and Stripe keys, a poisoned LiteLLM, and reports of AI agent swarms scanning vulnerable servers. Unverified aggregate; individual items vary.",
+      "take": "sooo much money will be made following this week's attacks",
+      "related": [
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move",
+        "2026-10-22-claude-code-leaks-personal-data-http-headers",
+        "2026-09-23-heif-heist-openai-account-takeover",
+        "2026-09-29-nvidia-open-agent-safety-platform"
       ]
     }
   ]
