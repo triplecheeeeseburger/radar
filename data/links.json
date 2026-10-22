@@ -2896,7 +2896,8 @@
       "take": "\"domain specific harness\"",
       "related": [
         "2026-09-14-alexandr-wang-agent-swarm-100-engineers",
-        "2026-10-13-sophinos-survive-ai-build-for-non-builders"
+        "2026-10-13-sophinos-survive-ai-build-for-non-builders",
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
       ]
     },
     {
@@ -4166,7 +4167,8 @@
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
         "2026-09-03-browser-use-link-single-use-cards",
         "2026-10-04-supabase-agent-recommended-ai-search-gaps",
-        "2026-10-20-is-agentic-vercel-agent-readiness-score"
+        "2026-10-20-is-agentic-vercel-agent-readiness-score",
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
       ]
     },
     {
@@ -4602,7 +4604,8 @@
       "related": [
         "2026-09-23-hermes-logs-in-without-seeing-password",
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
-        "2026-08-28-chatgpt-work-auth-failure-firsthand"
+        "2026-08-28-chatgpt-work-auth-failure-firsthand",
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
       ]
     },
     {
@@ -4627,6 +4630,30 @@
         "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
         "2026-09-23-browser-use-browsers-are-dead-cli",
         "2026-09-23-polar-browser-raises-5-7m"
+      ]
+    },
+    {
+      "id": "2026-10-22-cloudflare-connect-26-bottlenecks-move",
+      "url": "https://x.com/matijagrcic/status/2113062549512212585?s=20",
+      "title": "Cloudflare Connect 26 takeaway: as AI gets faster the bottlenecks move to review, context, credentials, and execution boundaries",
+      "author": "Matija Grcic (@matijagrcic)",
+      "source": "X",
+      "added": "2026-10-22",
+      "posted": "2026-10-21",
+      "week": "2026-10-19",
+      "topics": [
+        "agentic workflows",
+        "cybersecurity",
+        "innovation"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "From Cloudflare Connect in San Francisco, Matija Grcic's thread of sessions: durable workflows for AI-driven build traffic, specialized models for decisions and LLMs for generation, context and feedback for coding agents, shared credentials across agents, and harnesses that own execution boundaries and evidence.",
+      "take": "this week Cloudflare hosted their Connect 26 conference in San Francisco, with a bunch of good sessions on agent handling and cybersec.",
+      "related": [
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude",
+        "2026-09-14-garry-tan-domain-specific-harness",
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
       ]
     }
   ]
