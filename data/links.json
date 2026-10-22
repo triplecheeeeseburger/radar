@@ -53,7 +53,7 @@
       "tldr": "If one needed more support for **local models**, handing over access to the most private data sets for a PA-like cloud agent service comes with inherent risk. But what if it craps out and there's no support layer? Check my Instinct story. David Marcus, who ran PayPal and Libra, argued the interface is dying and that agents need **headless money**: stablecoin settlement, accounts, fiat rails, and cards behind one API, with no checkout page. Morgan Stanley sized tokenized assets at $3T to $10T by 2030. On the tools side, **REA** lets coding agents reverse-engineer any app down to the binary and rebuild the feature, and Mistral's Le Chonk led on **visual grounding**."
     },
     "2026-10-19": {
-      "tldr": "A quieter week for launches, a sharper one for who gets to see what. **DeepSeek** cut both ways: Vals AI found V4.1 Flash beats GPT-6 Sol on offensive cyber tasks, and DHS ordered it out of every civilian federal agency. Instinct's web traffic turned out to be **untrackable**, routed through Exa and a residential-IP browser with no signature, while DuckDuckGo called Meta's Muse invasive and Vercel shipped an **agent-readiness** score for any site. On the consumer side, LG's Apple Home camera tilts down when you walk in, and the 2026 **Innovation Index** put Switzerland, Sweden, and the US on top with China entering the ten."
+      "tldr": "A sharper week for who gets to see what, and for the browser itself. **1Password** launched a login platform for agents with Muse, Grok Bot, Claude, OpenAI, Instinct, and the browser-infra crowd, the week's clearest answer to the auth problem. The same day, The Browser Company **sunset Arc** for December, citing the security cost of maintaining a browser in the age of AI. Meta paused Muse sharing after users' chats surfaced on the web, Claude Code was caught putting personal data in HTTP headers on request, and Instinct's traffic proved **untrackable**. **DeepSeek** cut both ways: it beat GPT-6 Sol on offensive cyber tasks, and DHS ordered it out of federal agencies."
     }
   },
   "entries": [
@@ -1779,7 +1779,8 @@
       "related": [
         "2026-08-27-chatgpt-work-browser-login-agent",
         "2026-08-27-chatgpt-work-persistent-auth-breakdown",
-        "2026-09-23-hermes-logs-in-without-seeing-password"
+        "2026-09-23-hermes-logs-in-without-seeing-password",
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude"
       ]
     },
     {
@@ -2360,7 +2361,8 @@
       "related": [
         "2026-09-04-garry-tan-aside-agent-browser-endorsement",
         "2026-08-27-chatgpt-work-persistent-auth-breakdown",
-        "2026-09-11-browser-use-cloud-cookie-sync-auth"
+        "2026-09-11-browser-use-cloud-cookie-sync-auth",
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues"
       ]
     },
     {
@@ -2462,7 +2464,8 @@
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-09-14-imessage-agents-against-apple-tos",
-        "2026-10-12-instinct-stuck-in-loop-no-support"
+        "2026-10-12-instinct-stuck-in-loop-no-support",
+        "2026-10-22-claude-code-leaks-personal-data-http-headers"
       ]
     },
     {
@@ -2638,7 +2641,8 @@
         "2026-08-27-chatgpt-work-persistent-auth-breakdown",
         "2026-09-04-garry-tan-aside-agent-browser-endorsement",
         "2026-09-11-chatgpt-ranks-cloud-browser-infra-for-agents",
-        "2026-09-23-hermes-logs-in-without-seeing-password"
+        "2026-09-23-hermes-logs-in-without-seeing-password",
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude"
       ]
     },
     {
@@ -2733,7 +2737,8 @@
         "2026-09-23-nat-friedman-muse-inspired-by-openclaw",
         "2026-09-23-isenberg-muse-connectors-13-predictions",
         "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
-        "2026-10-20-duckduckgo-muse-invasive-three-steps"
+        "2026-10-20-duckduckgo-muse-invasive-three-steps",
+        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web"
       ]
     },
     {
@@ -2960,7 +2965,8 @@
       "take": "the Meta VR glasses unit can produce very advanced hardware",
       "related": [
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
-        "2026-09-14-muse-bluetooth-connector"
+        "2026-09-14-muse-bluetooth-connector",
+        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices"
       ]
     },
     {
@@ -3003,7 +3009,8 @@
       "blurb": "Polar Browser raised $5.7M, claiming top scores on major web-agent benchmarks, 4.5 million actions taken for users in sales, recruiting, and ops, and a team from MIT, YC, Citadel, Perplexity, and Apple. Benchmark claims are the company's own.",
       "take": "new AI browser raises $5.7m",
       "related": [
-        "2026-09-04-garry-tan-aside-agent-browser-endorsement"
+        "2026-09-04-garry-tan-aside-agent-browser-endorsement",
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues"
       ]
     },
     {
@@ -3071,7 +3078,8 @@
       "take": "bold, but destroyed in the comments",
       "related": [
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
-        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues"
       ]
     },
     {
@@ -3228,7 +3236,8 @@
       "related": [
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
         "2026-08-28-chatgpt-work-auth-failure-firsthand",
-        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude"
       ]
     },
     {
@@ -4035,7 +4044,8 @@
       "related": [
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
         "2026-09-23-peter-yang-ad-model-agents-browse",
-        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic"
+        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic",
+        "2026-10-22-claude-code-leaks-personal-data-http-headers"
       ]
     },
     {
@@ -4084,7 +4094,8 @@
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
         "2026-09-23-hermes-logs-in-without-seeing-password",
         "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
-        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
+        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web"
       ]
     },
     {
@@ -4222,7 +4233,8 @@
       "take": "ESP32 agentic controller for iPhone using car play is pretty cool and creative",
       "related": [
         "2026-09-14-imessage-agents-against-apple-tos",
-        "2026-09-11-life-recorder-24-7-iphone-agent-context"
+        "2026-09-11-life-recorder-24-7-iphone-agent-context",
+        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices"
       ]
     },
     {
@@ -4406,7 +4418,8 @@
       "take": "great resource to tap into",
       "related": [
         "2026-10-13-google-poisoned-search-results-for-scrapers",
-        "2026-08-31-instinct-stealth-personal-assistant"
+        "2026-08-31-instinct-stealth-personal-assistant",
+        "2026-10-22-claude-code-leaks-personal-data-http-headers"
       ]
     },
     {
@@ -4471,7 +4484,149 @@
       "take": "duckduck enters the chat and muses Muse privacy issues",
       "related": [
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
-        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
+        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
+        "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody"
+      ]
+    },
+    {
+      "id": "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
+      "url": "https://x.com/verge/status/2112607390302679286?s=20",
+      "title": "Meta pauses Muse sharing after researchers find users' agent chats on the open web: revenue figures, calendars, a loan application",
+      "author": "The Verge (@verge)",
+      "source": "X",
+      "added": "2026-10-22",
+      "posted": "2026-10-20",
+      "week": "2026-10-19",
+      "topics": [
+        "cybersecurity",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "Meta paused Muse's sharing feature after a security firm found shared Muse conversations indexed on the web, including a marketing company's revenue, a workplace calendar, and a loan application, The Verge reports.",
+      "take": "I can't say I expected this from Meta",
+      "related": [
+        "2026-10-20-duckduckgo-muse-invasive-three-steps",
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+      ]
+    },
+    {
+      "id": "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody",
+      "url": "https://x.com/DuckDuckGo/status/2112644704151974068?s=20",
+      "title": "DuckDuckGo defaces Chrome's 'avoid 4 million attacks a day' ad: 'be relentlessly spied on. 1. Use Chrome. 2. You did it, boss.'",
+      "author": "DuckDuckGo (@DuckDuckGo)",
+      "source": "X",
+      "added": "2026-10-22",
+      "posted": "2026-10-20",
+      "week": "2026-10-19",
+      "topics": [
+        "browsers",
+        "culture",
+        "cybersecurity"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "DuckDuckGo quote-tweeted Chrome's 'How to avoid 4 million online attacks every day. Two simple steps' ad with a marked-up version reading 'how to be relentlessly spied on: 1. Use Chrome 2. You did it, boss', captioned 'Fixed it.' Its second public jab at a bigger rival in a week.",
+      "take": "duckduck du(n)cking on Chrome worryfree",
+      "related": [
+        "2026-10-20-duckduckgo-muse-invasive-three-steps"
+      ]
+    },
+    {
+      "id": "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
+      "url": "https://josephzhou.me/ai/",
+      "title": "A browsable catalog of 127 AI hardware devices with images and Chinese and English descriptions, filterable by function and brand",
+      "author": "Joseph Zhou (@openmys)",
+      "source": "Web",
+      "added": "2026-10-22",
+      "posted": "2026-10-21",
+      "week": "2026-10-19",
+      "topics": [
+        "innovation",
+        "ai"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "Joseph Zhou's AI HardWare page catalogs 127 AI devices as a visual canvas with per-device images, bilingual descriptions, filters by function and brand, price sorting, and a community layer for marking what you use or want. Version stamp 2026-10-21.",
+      "take": "a cool AI hw list",
+      "related": [
+        "2026-09-23-muse-charm-keychain-device",
+        "2026-10-16-esp32-agent-controls-stock-iphone"
+      ]
+    },
+    {
+      "id": "2026-10-22-claude-code-leaks-personal-data-http-headers",
+      "url": "https://x.com/This_Liss/status/2113120507289624714?s=20",
+      "title": "Claude Code put a user's personal data in HTTP headers because sites it curled politely asked agents to identify their users",
+      "author": "Steven Liss (@This_Liss)",
+      "source": "X",
+      "added": "2026-10-22",
+      "posted": "2026-10-21",
+      "week": "2026-10-19",
+      "topics": [
+        "cybersecurity",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Steven Liss found his Claude Code sending personal data in HTTP headers after websites it fetched asked agents to identify their users, a prompt-injection path via ordinary page text. He dubs the category 'epistemic cybersecurity' and predicts it is 2027's hot one.",
+      "take": "\"epistemic cybersecurity\"",
+      "related": [
+        "2026-09-09-instinct-guessable-inbox-prompt-injection",
+        "2026-10-13-google-poisoned-search-results-for-scrapers",
+        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic"
+      ]
+    },
+    {
+      "id": "2026-10-22-1password-for-agents-platform-muse-grok-claude",
+      "url": "https://x.com/i/trending/2113278321194848630",
+      "title": "1Password launches '1Password for Agents' with Muse, Grok Bot, Claude, OpenAI, Instinct, Browserbase, Browser Use, Kernel, Perplexity and more",
+      "author": "1Password (@1Password) via X trending",
+      "source": "X",
+      "added": "2026-10-22",
+      "posted": "2026-10-22",
+      "week": "2026-10-19",
+      "topics": [
+        "agentic workflows",
+        "cybersecurity",
+        "browsers"
+      ],
+      "score": 8.5,
+      "status": "curated",
+      "blurb": "1Password announced a platform for agent logins, building with Muse, SpaceX's Grok Bot, Anthropic's Claude, OpenAI, Instinct, Browserbase, Browser Use, Kernel, Perplexity, Ramp, and others. Muse ships it first: the user approves each login and passwords stay in the vault.",
+      "take": "FUCK!",
+      "related": [
+        "2026-09-23-hermes-logs-in-without-seeing-password",
+        "2026-09-11-browser-use-cloud-cookie-sync-auth",
+        "2026-08-28-chatgpt-work-auth-failure-firsthand"
+      ]
+    },
+    {
+      "id": "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+      "url": "https://x.com/arcinternet/status/2113301454597640570?s=20",
+      "title": "The Browser Company sunsets Arc on December 22, 2026, citing the security cost of maintaining a browser in the age of AI; Dia continues",
+      "author": "Arc (@arcinternet)",
+      "source": "X",
+      "added": "2026-10-22",
+      "posted": "2026-10-22",
+      "week": "2026-10-19",
+      "topics": [
+        "browsers",
+        "cybersecurity",
+        "innovation"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "Arc will shut down on December 22, 2026. The Browser Company says keeping a browser secure takes constant work that AI is only increasing, so its engineering and security teams will focus on Dia, which imports Arc data, Spaces, and tab groups and now beats Arc on stability, speed, and security.",
+      "take": "Arc is out as well. Dia continues.",
+      "related": [
+        "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
+        "2026-09-23-browser-use-browsers-are-dead-cli",
+        "2026-09-23-polar-browser-raises-5-7m"
       ]
     }
   ]
