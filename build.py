@@ -42,6 +42,7 @@ section:last-child { border-bottom: none; }
 .week-label { font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--black); animation: fadeUp 0.6s ease both; }
 .tldr-label { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); margin-top: 40px; animation: fadeUp 0.6s 0.09s ease both; }
 .tldr { font-family: var(--serif); font-size: 14.5px; line-height: 1.85; color: #2d2d2d; max-width: 720px; margin-top: 14px; animation: fadeUp 0.6s 0.15s ease both; }
+.tldr strong { font-weight: 700; font-synthesis: weight; color: var(--black); }
 .md-download { margin-top: 18px; animation: fadeUp 0.6s 0.2s ease both; }
 .md-download a { font-family: var(--sans); font-size: 11px; font-weight: 500; letter-spacing: 0.04em; color: var(--gray); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 2px; transition: color 0.15s ease, border-color 0.15s ease; }
 .md-download a:hover { color: var(--black); border-color: var(--black); }
