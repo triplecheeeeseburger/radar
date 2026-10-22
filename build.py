@@ -90,6 +90,14 @@ def bold_md(escaped_text):
     import re
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped_text)
 
+def trunc(text, n):
+    # Cut at a word boundary and add an ellipsis only if something was removed.
+    text = str(text)
+    if len(text) <= n:
+        return text
+    cut = text[:n].rsplit(" ", 1)[0].rstrip(" ,;:")
+    return cut + "\u2026"
+
 def fmt_week(week_iso):
     d = datetime.date.fromisoformat(week_iso)
     return "Week of " + d.strftime("%B %-d, %Y")
@@ -134,7 +142,7 @@ def render_entry(e, rank, all_by_id):
     rel = ""
     rel_ids = [r for r in e.get("related", []) if r in all_by_id]
     if rel_ids:
-        names = " · ".join(esc(all_by_id[r]["title"][:60]) for r in rel_ids)
+        names = " · ".join(esc(trunc(all_by_id[r]["title"], 60)) for r in rel_ids)
         rel = f'<span class="related-note">↔ overlaps: {names}</span>'
     if e.get("score") is None:
         score = '<span class="score pending">—</span>'
@@ -293,7 +301,7 @@ def main():
         es = weeks[wk]
         if es:
             top = max(es, key=lambda e: e.get("score") or 0)
-            note = f'<span class="week-note">Top signal: {esc(top["title"][:80])}</span>' if top.get("score") else ""
+            note = f'<span class="week-note">Top signal: {esc(trunc(top["title"], 80))}</span>' if top.get("score") else ""
         else:
             note = '<span class="week-note">No signals yet</span>'
         cur = " · current" if wk == current else ""
