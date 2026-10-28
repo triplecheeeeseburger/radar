@@ -54,6 +54,9 @@
     },
     "2026-10-19": {
       "tldr": "The **Cloudflare Connect 26** week, CVEs are at ATH, PHP is under duress and there's significant moves in agents auth (1Pass makes the move), agentic browser scene and general agent cybersec. **1Password** launched a login platform for agents with Muse, Grok Bot, Claude, OpenAI, Instinct, and the browser-infra crowd, the week's clearest answer to the auth problem. The same day, The Browser Company **sunset Arc** for December, citing the security cost of maintaining a browser in the age of AI. Meta paused Muse sharing after users' chats surfaced on the web, Claude Code was caught putting personal data in HTTP headers on request, and Instinct's traffic proved **untrackable**. **DeepSeek** cut both ways: it beat GPT-6 Sol on offensive cyber tasks, and DHS ordered it out of federal agencies."
+    },
+    "2026-10-26": {
+      "tldr": "A heavier week than usual for agent commerce and for Anthropic. Instinct can now check out at any store through **Shop Pay** with the user approving each purchase, and Stripe shipped free B2B transfers by **handle** in Dashboard and CLI, the payout rail agents were missing. Anthropic filed its **S-1** publicly, lined up a European consultancy with hubs in London and Berlin, and shipped a Claude for Legal artifact gallery. The Arc sunset spawned **open-source** successors within days, Chrome clarified that WebMCP only works while a page is open, and a LinkedIn audit found that no agent platform offers a real stop button that undoes anything."
     }
   },
   "entries": [
@@ -1937,7 +1940,8 @@
         "2026-08-28-webmcp-billions-through-agents",
         "2026-09-03-webmcp-paper-iframe-agent-demo",
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
-        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api"
+        "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
+        "2026-10-28-webmcp-vs-mcp-stoiber-tldr"
       ]
     },
     {
@@ -2047,7 +2051,8 @@
       "blurb": "A developer who has never used voice to instruct an AI coding assistant says he prefers typing so he can revise his thinking for clarity, offering a rare counterpoint to the recent push for voice-first agent workflows.",
       "take": "somebody who doesn't use voice prompting sharing their reticence",
       "related": [
-        "2026-08-22-diy-voice-push-to-talk-coding-rig"
+        "2026-08-22-diy-voice-push-to-talk-coding-rig",
+        "2026-10-28-block-dessa-full-duplex-speech-model"
       ]
     },
     {
@@ -2227,7 +2232,8 @@
       "take": "sure, but.. why not minipay?",
       "related": [
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
-        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
+        "2026-10-28-instinct-shop-pay-checkout-anywhere"
       ]
     },
     {
@@ -2249,7 +2255,8 @@
       "blurb": "Developer Stephen Haney demoed an app called Paper running inside an iframe and controlled by an external agent through WebMCP, an example another developer called the first use case that made WebMCP's purpose click for embedded agent-controlled flows.",
       "related": [
         "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
-        "2026-08-30-sodium-webmcp-website-converter"
+        "2026-08-30-sodium-webmcp-website-converter",
+        "2026-10-28-webmcp-vs-mcp-stoiber-tldr"
       ]
     },
     {
@@ -2707,7 +2714,9 @@
       "related": [
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
         "2026-09-04-watchos-27-app-model-on-its-way-out",
-        "2026-10-12-david-marcus-death-of-the-interface-headless-money"
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money",
+        "2026-10-28-christina-dashboards-not-going-anywhere",
+        "2026-10-28-block-dessa-full-duplex-speech-model"
       ]
     },
     {
@@ -2897,7 +2906,8 @@
       "related": [
         "2026-09-14-alexandr-wang-agent-swarm-100-engineers",
         "2026-10-13-sophinos-survive-ai-build-for-non-builders",
-        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move",
+        "2026-10-28-claude-for-legal-artifact-gallery"
       ]
     },
     {
@@ -3080,7 +3090,8 @@
       "related": [
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
-        "2026-10-22-arc-browser-sunset-dec-22-dia-continues"
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+        "2026-10-28-christina-dashboards-not-going-anywhere"
       ]
     },
     {
@@ -3309,7 +3320,8 @@
       "related": [
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-10-04-a16z-98-percent-households-dont-pay-for-ai",
-        "2026-10-16-coreweave-founders-3-3b-stock-sales"
+        "2026-10-16-coreweave-founders-3-3b-stock-sales",
+        "2026-10-28-anthropic-files-s1-ipo"
       ]
     },
     {
@@ -3334,7 +3346,8 @@
         "2026-09-09-openai-defense-factory-playbook",
         "2026-09-23-heif-heist-openai-account-takeover",
         "2026-10-16-anthropic-acquires-opaque-confidential-ai",
-        "2026-10-22-black-october-27-incidents-48-hours"
+        "2026-10-22-black-october-27-incidents-48-hours",
+        "2026-10-28-stop-button-agent-platforms-linkedin"
       ]
     },
     {
@@ -3451,7 +3464,8 @@
       "related": [
         "2026-09-09-anthropic-economic-scenarios-2030",
         "2026-09-29-c5r-ai-run-research-facility-astra",
-        "2026-10-13-techcrunch-disrupt-day-1-light-on-ai-hardware"
+        "2026-10-13-techcrunch-disrupt-day-1-light-on-ai-hardware",
+        "2026-10-28-enact-30m-preseed-force-sensing-motors"
       ]
     },
     {
@@ -3890,7 +3904,9 @@
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
         "2026-09-11-signulll-final-ui-language-in-interface-out",
         "2026-09-03-browser-use-link-single-use-cards",
-        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
+        "2026-10-28-instinct-shop-pay-checkout-anywhere",
+        "2026-10-28-stripe-pay-b2b-handles-agent-commerce"
       ]
     },
     {
@@ -4001,7 +4017,8 @@
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
-        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
+        "2026-10-28-stop-button-agent-platforms-linkedin"
       ]
     },
     {
@@ -4023,7 +4040,8 @@
       "take": "Google did a Mrooch",
       "related": [
         "2026-09-03-perplexity-lily-open-source-inference",
-        "2026-10-20-minimax-m3-1-flash-ollama-cloud-us-hosted"
+        "2026-10-20-minimax-m3-1-flash-ollama-cloud-us-hosted",
+        "2026-10-28-opera-webai-local-node-singularity"
       ]
     },
     {
@@ -4098,7 +4116,8 @@
         "2026-09-23-hermes-logs-in-without-seeing-password",
         "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
         "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
-        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web"
+        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
+        "2026-10-28-opera-webai-local-node-singularity"
       ]
     },
     {
@@ -4170,7 +4189,8 @@
         "2026-09-03-browser-use-link-single-use-cards",
         "2026-10-04-supabase-agent-recommended-ai-search-gaps",
         "2026-10-20-is-agentic-vercel-agent-readiness-score",
-        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move",
+        "2026-10-28-instinct-shop-pay-checkout-anywhere"
       ]
     },
     {
@@ -4285,7 +4305,8 @@
       "take": "coreweave and similar AI hyperscalers are in hot water due to debt and founder $ bn cashouts, fanning the bubble fire. fun fact: coreweave & nebius are among the brands with the most billboards on the 101 HWY corridor in SV, topping the charts",
       "related": [
         "2026-09-29-anthropic-ipo-prospectus-numbers",
-        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai"
+        "2026-10-04-a16z-98-percent-households-dont-pay-for-ai",
+        "2026-10-28-anthropic-files-s1-ipo"
       ]
     },
     {
@@ -4514,7 +4535,8 @@
       "related": [
         "2026-10-20-duckduckgo-muse-invasive-three-steps",
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
-        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-10-28-duckai-e2e-encrypted-chat-sync-no-account"
       ]
     },
     {
@@ -4536,7 +4558,8 @@
       "blurb": "DuckDuckGo quote-tweeted Chrome's 'How to avoid 4 million online attacks every day. Two simple steps' ad with a marked-up version reading 'how to be relentlessly spied on: 1. Use Chrome 2. You did it, boss', captioned 'Fixed it.' Its second public jab at a bigger rival in a week.",
       "take": "duckduck du(n)cking on Chrome worryfree",
       "related": [
-        "2026-10-20-duckduckgo-muse-invasive-three-steps"
+        "2026-10-20-duckduckgo-muse-invasive-three-steps",
+        "2026-10-28-duckai-e2e-encrypted-chat-sync-no-account"
       ]
     },
     {
@@ -4628,12 +4651,15 @@
       "score": 8,
       "status": "curated",
       "blurb": "Arc will shut down on December 22, 2026. The Browser Company says keeping a browser secure takes constant work that AI is only increasing, so its engineering and security teams will focus on Dia, which imports Arc data, Spaces, and tab groups and now beats Arc on stability, speed, and security.",
-      "take": "Arc is out as well. Dia continues.",
+      "take": "lessons learned don't always turn into new ideas",
       "related": [
         "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
         "2026-09-23-browser-use-browsers-are-dead-cli",
         "2026-09-23-polar-browser-raises-5-7m",
-        "2026-10-22-paula-arc-users-five-stages-of-grief"
+        "2026-10-22-paula-arc-users-five-stages-of-grief",
+        "2026-10-28-sailfish-open-source-arc-alternative",
+        "2026-10-28-cra-open-source-arc-for-mac",
+        "2026-10-28-arc-like-browsers-comparison-sheet"
       ]
     },
     {
@@ -4658,7 +4684,8 @@
         "2026-10-22-1password-for-agents-platform-muse-grok-claude",
         "2026-09-14-garry-tan-domain-specific-harness",
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
-        "2026-10-22-black-october-27-incidents-48-hours"
+        "2026-10-22-black-october-27-incidents-48-hours",
+        "2026-10-28-stop-button-agent-platforms-linkedin"
       ]
     },
     {
@@ -4705,6 +4732,336 @@
         "2026-10-22-claude-code-leaks-personal-data-http-headers",
         "2026-09-23-heif-heist-openai-account-takeover",
         "2026-09-29-nvidia-open-agent-safety-platform"
+      ]
+    },
+    {
+      "id": "2026-10-28-anthropic-files-s1-ipo",
+      "url": "https://x.com/AnthropicAI/status/2114705042817110293?s=20",
+      "title": "Anthropic publicly files its S-1 with the SEC for a proposed IPO",
+      "author": "Anthropic (@AnthropicAI)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-26",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "Anthropic announced it has filed an S-1 registration statement with the SEC for a proposed initial public offering. The registration is not yet effective. The post drew 9M views in two days and follows the confidential submission reported in September.",
+      "related": [
+        "2026-09-29-anthropic-ipo-prospectus-numbers",
+        "2026-10-16-coreweave-founders-3-3b-stock-sales"
+      ]
+    },
+    {
+      "id": "2026-10-28-instinct-shop-pay-checkout-anywhere",
+      "url": "https://x.com/noahrshinn/status/2115521853775388931?s=20",
+      "title": "Instinct can now check out at any online store with Shop Pay; you approve each purchase and card details never leave Shop Pay",
+      "author": "Noah Shinn (@noahrshinn)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "innovation"
+      ],
+      "score": 8.5,
+      "status": "curated",
+      "blurb": "Instinct expanded its Shopify partnership: the card and address saved in Shop Pay now work at stores not on Shopify, so the agent can buy anywhere, with the user approving every purchase inside Shop Pay and card details never exposed to the agent.",
+      "take": "ecommerce is the goal",
+      "related": [
+        "2026-09-03-browser-use-link-single-use-cards",
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money",
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
+      ]
+    },
+    {
+      "id": "2026-10-28-stripe-pay-b2b-handles-agent-commerce",
+      "url": "https://x.com/SeijinJung/status/2115483406603809237?s=20",
+      "title": "Stripe Pay: free instant B2B transfers by Stripe handle, in Dashboard and CLI; 'a handle agents can resolve is identity plus payout in one lookup'",
+      "author": "Seijin Jung (@SeijinJung)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Stripe launched 'stripe pay', free instant business-to-business transfers to any company by its Stripe profile handle, in the Dashboard and the CLI. Seijin Jung reads it as agent-commerce plumbing: agents cannot collect routing numbers, and every agent order spawns supplier payouts behind it.",
+      "related": [
+        "2026-10-28-instinct-shop-pay-checkout-anywhere",
+        "2026-10-12-david-marcus-death-of-the-interface-headless-money"
+      ]
+    },
+    {
+      "id": "2026-10-28-christina-dashboards-not-going-anywhere",
+      "url": "https://x.com/_christinacodes/status/2115521042047529031?s=20",
+      "title": "'99% of the population doesn't know how to open a terminal': dashboards aren't going anywhere, a reply to 'the end of UI for SaaS'",
+      "author": "Christina (@_christinacodes)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "culture",
+        "innovation",
+        "agentic workflows"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Responding to Marc Lou calling Stripe's CLI-first 'stripe pay' the end of UI for SaaS, Christina points out that 99% of people cannot open a terminal and the idea frightens them, so dashboards stay for non-technical users.",
+      "take": "GUIs are not going anywhere",
+      "related": [
+        "2026-10-28-stripe-pay-b2b-handles-agent-commerce",
+        "2026-09-11-signulll-final-ui-language-in-interface-out",
+        "2026-09-23-browser-use-browsers-are-dead-cli"
+      ]
+    },
+    {
+      "id": "2026-10-28-block-dessa-full-duplex-speech-model",
+      "url": "https://x.com/jack/status/2113697902916751661?s=20",
+      "title": "Jack Dorsey's Block releases Dessa, a full-duplex conversation model trained only on speech; 13.5M views",
+      "author": "jack (@jack)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-23",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Block introduced Dessa, described as the most authentic full-duplex speech model built, trained only on speech, with emotion, pauses, and natural cadence. Dorsey frames voice as the most natural way to interact with intelligence. The post passed 13.5M views.",
+      "take": "\"voice is the most natural way to interact\"",
+      "related": [
+        "2026-08-30-voice-prompting-reticence-counterpoint",
+        "2026-09-11-signulll-final-ui-language-in-interface-out"
+      ]
+    },
+    {
+      "id": "2026-10-28-anthropic-european-consultancy-london-berlin",
+      "url": "https://x.com/SebJohnsonUK/status/2113573196234469452?s=20",
+      "title": "Anthropic to launch a European consultancy embedding AI consultants and engineers in businesses, hubs in London and Berlin",
+      "author": "Seb Johnson (@SebJohnsonUK)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-23",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "innovation",
+        "culture"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Per Seb Johnson, Anthropic will launch a European consultancy by year end that embeds AI consultants and engineers inside European businesses, with hubs in London and Berlin. He notes much of the UK economy is professional services and reads it as Anthropic moving onto that turf.",
+      "take": "radical approach for Europe",
+      "related": [
+        "2026-10-28-anthropic-files-s1-ipo",
+        "2026-10-28-claude-for-legal-artifact-gallery"
+      ]
+    },
+    {
+      "id": "2026-10-28-claude-for-legal-artifact-gallery",
+      "url": "https://x.com/claudeai/status/2115467192276025500?s=20",
+      "title": "Claude for Legal adds a gallery of ready-made artifacts: contract review, regulatory horizon scans, cite checks",
+      "author": "Claude (@claudeai)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Claude for Legal now ships a gallery of ready-made artifacts for contract review, regulatory horizon scans, cite checks, and more; users start from a built-in example, add documents and connectors, and share across the business. A reply tallies Code, Cowork, Design, Finance, Science, Teacher, Legal.",
+      "take": "expected. is Harvey in trouble?",
+      "related": [
+        "2026-10-28-anthropic-european-consultancy-london-berlin",
+        "2026-09-14-garry-tan-domain-specific-harness"
+      ]
+    },
+    {
+      "id": "2026-10-28-webmcp-vs-mcp-stoiber-tldr",
+      "url": "https://x.com/mxstbr/status/2114806968921547230?s=20",
+      "title": "Chrome: 'WebMCP isn't replacing MCP'; Max Stoiber's tl;dr: WebMCP tools live in a page's JS and only work while that page is open",
+      "author": "Max Stoiber (@mxstbr)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-26",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Chrome for Developers posted that WebMCP connects agents to a site while it is open with the user in the loop, while MCP connects agents to services. Max Stoiber's shorter version: WebMCP tools are defined in page JavaScript and callable only with that page open; MCP tools sit on a server and are callable from anywhere.",
+      "take": "we're not there yet",
+      "related": [
+        "2026-08-30-webmcp-kills-browser-automation-gatekeepers",
+        "2026-09-03-webmcp-paper-iframe-agent-demo"
+      ]
+    },
+    {
+      "id": "2026-10-28-stop-button-agent-platforms-linkedin",
+      "url": "https://www.linkedin.com/posts/adelinamartiniuc_last-week-i-went-looking-for-the-stop-button-share-7519106408781537282-OqZs/",
+      "title": "'I went looking for the stop button': dev frameworks can cancel, browser agents pause for the user, admin consoles kill, nobody rolls anything back",
+      "author": "Adelina Martiniuc (LinkedIn)",
+      "source": "Web",
+      "added": "2026-10-28",
+      "posted": "2026-10-27",
+      "week": "2026-10-26",
+      "topics": [
+        "agentic workflows",
+        "cybersecurity"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Adelina Martiniuc audited who can stop an agent mid-run: developer frameworks expose cancel and resume as API calls with no button, browser agents let one user pause their own session before a purchase, admin consoles revoke credentials and let sessions 'wind down', and none of them undo what the agent already did.",
+      "related": [
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move",
+        "2026-09-29-nvidia-open-agent-safety-platform",
+        "2026-10-12-instinct-stuck-in-loop-no-support"
+      ]
+    },
+    {
+      "id": "2026-10-28-opera-webai-local-node-singularity",
+      "url": "https://x.com/01Singularity01/status/2115186121210826942?s=20",
+      "title": "'Opera's WebAI is the right direction': the browser as the natural home for a local, opt-in, no-API-key personal model",
+      "author": "The Singularity Project (@01Singularity01)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-27",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "A small account argues Opera's WebAI points the right way: the browser is where people already live online, so it is the natural home for a personal node running local models with no API key or per-request bill, and the next step is letting that local intelligence remember and act across the web for the user.",
+      "related": [
+        "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+      ]
+    },
+    {
+      "id": "2026-10-28-sailfish-open-source-arc-alternative",
+      "url": "https://x.com/harunkanwalkhan/status/2115482293825577192?s=20",
+      "title": "Sailfish: an open-source Arc alternative with an iOS app and settings import, built by two devs who didn't like Dia",
+      "author": "Harun Khan (@harunkanwalkhan)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "innovation"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Harun Khan and Joseph Tso built and open-sourced Sailfish as an Arc replacement, with an iOS app and Arc settings import, after deciding they did not want to move to Dia when Arc sunsets in December.",
+      "related": [
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+        "2026-10-28-cra-open-source-arc-for-mac"
+      ]
+    },
+    {
+      "id": "2026-10-28-cra-open-source-arc-for-mac",
+      "url": "https://x.com/VictorKildahl/status/2115481570219905491?s=20",
+      "title": "Cra, an open-source Arc for Mac built in days after the sunset notice: 500+ downloads, 16 releases in 3 days",
+      "author": "Victor Kildahl (@VictorKildahl)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "innovation"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Victor Kildahl answered the top reply to Arc's sunset post, 'open-source it', by building Cra, an open-source Arc for Mac. Three days in: 2,308 visitors, 500+ downloads, 62 GitHub stars, 16 releases.",
+      "related": [
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+        "2026-10-28-sailfish-open-source-arc-alternative"
+      ]
+    },
+    {
+      "id": "2026-10-28-arc-like-browsers-comparison-sheet",
+      "url": "https://x.com/srikat/status/2114563407521382611?s=20",
+      "title": "A crowd-sourced comparison sheet of Arc-like browsers, open for corrections",
+      "author": "Sridhar Katakam (@srikat)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-25",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "culture"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "Sridhar Katakam is maintaining a Google Sheet comparing Arc-like browsers feature by feature and asking people who have tested them to flag missing or wrong cells, a sign of how many Arc successors appeared within a week of the sunset.",
+      "related": [
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+        "2026-10-28-sailfish-open-source-arc-alternative",
+        "2026-10-28-cra-open-source-arc-for-mac"
+      ]
+    },
+    {
+      "id": "2026-10-28-duckai-e2e-encrypted-chat-sync-no-account",
+      "url": "https://x.com/DuckDuckGo/status/2115518011490628049?s=20",
+      "title": "Duck.ai adds end-to-end encrypted chat sync across devices and browsers with no account, email, or password",
+      "author": "DuckDuckGo (@DuckDuckGo)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "cybersecurity",
+        "ai"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "DuckDuckGo shipped chat sync for Duck.ai: conversations follow the user across devices and browsers, end-to-end encrypted so only the user can read them, with no account, email, or password required. Enabled from Settings, Chats, Sync and Backup.",
+      "related": [
+        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
+        "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody"
+      ]
+    },
+    {
+      "id": "2026-10-28-enact-30m-preseed-force-sensing-motors",
+      "url": "https://x.com/lukas_m_ziegler/status/2113694383497470406?s=20",
+      "title": "Enact exits stealth with a $30M pre-seed, Switzerland's largest, to give robots touch through their motors instead of sensors",
+      "author": "Lukas Ziegler (@lukas_m_ziegler)",
+      "source": "X",
+      "added": "2026-10-28",
+      "posted": "2026-10-23",
+      "week": "2026-10-26",
+      "topics": [
+        "innovation",
+        "ai"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "Zurich-based Enact raised a $30M pre-seed from redalpine, Notion Capital, and firstminute, with angels including Arthur Mensch and Yann LeCun, to measure force inside robot motors rather than with fragile external touch sensors. Founder previously built software for 1X's NEO.",
+      "related": [
+        "2026-09-30-anthropic-what-work-can-robots-do"
       ]
     }
   ]
