@@ -2052,7 +2052,8 @@
       "take": "somebody who doesn't use voice prompting sharing their reticence",
       "related": [
         "2026-08-22-diy-voice-push-to-talk-coding-rig",
-        "2026-10-28-block-dessa-full-duplex-speech-model"
+        "2026-10-28-block-dessa-full-duplex-speech-model",
+        "2026-10-29-granola-adds-free-dictation"
       ]
     },
     {
@@ -3047,7 +3048,8 @@
       "related": [
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
         "2026-09-30-instinct-pushes-sponsored-products",
-        "2026-10-13-google-poisoned-search-results-for-scrapers"
+        "2026-10-13-google-poisoned-search-results-for-scrapers",
+        "2026-10-29-google-ai-search-less-money-more-ads"
       ]
     },
     {
@@ -3274,7 +3276,8 @@
       "blurb": "Akshay Pachaar's breakdown of Jev: it does not generate tokens but evaluates predefined Choice, Score, and yes/no decisions directly, in parallel, returning typed answers with probabilities so ordinary code can own thresholds and escalation. Not for writing, code, or multi-step reasoning.",
       "take": "Jev does not generate text at all",
       "related": [
-        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api"
+        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
+        "2026-10-29-ollama-two-week-model-roundup-decision-models"
       ]
     },
     {
@@ -3442,7 +3445,8 @@
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-10-13-sophinos-survive-ai-build-for-non-builders",
-        "2026-10-18-hark-million-dollar-free-pizza-agent-promo"
+        "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
+        "2026-10-29-google-ai-search-less-money-more-ads"
       ]
     },
     {
@@ -4020,7 +4024,8 @@
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
         "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
-        "2026-10-28-stop-button-agent-platforms-linkedin"
+        "2026-10-28-stop-button-agent-platforms-linkedin",
+        "2026-10-29-altman-local-inference-terrible-allocation"
       ]
     },
     {
@@ -4043,7 +4048,8 @@
       "related": [
         "2026-09-03-perplexity-lily-open-source-inference",
         "2026-10-20-minimax-m3-1-flash-ollama-cloud-us-hosted",
-        "2026-10-28-opera-webai-local-node-singularity"
+        "2026-10-28-opera-webai-local-node-singularity",
+        "2026-10-29-altman-local-inference-terrible-allocation"
       ]
     },
     {
@@ -4068,7 +4074,8 @@
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
         "2026-09-23-peter-yang-ad-model-agents-browse",
         "2026-10-20-instinct-uses-exa-untrackable-browser-traffic",
-        "2026-10-22-claude-code-leaks-personal-data-http-headers"
+        "2026-10-22-claude-code-leaks-personal-data-http-headers",
+        "2026-10-29-google-ai-search-less-money-more-ads"
       ]
     },
     {
@@ -4468,7 +4475,9 @@
       "status": "curated",
       "blurb": "LG's new indoor camera, part of the Apple Home Collection, uses HomeKit Secure Video's recording rules to drive a physical privacy tilt: when someone arrives home it stops recording and points down, with no third-party app or cloud involved. The hook may open to other makers.",
       "take": "home camera privacy has been top of mind, so this physical behavior is a nice creative way to earn trust",
-      "related": []
+      "related": [
+        "2026-10-29-duckduckgo-flock-safety-ceo-notes"
+      ]
     },
     {
       "id": "2026-10-20-minimax-m3-1-flash-ollama-cloud-us-hosted",
@@ -4489,7 +4498,8 @@
       "take": "hosted in the US",
       "related": [
         "2026-10-20-dhs-orders-deepseek-removed-federal-agencies",
-        "2026-10-13-digup-local-semantic-search-embeddinggemma-2"
+        "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
+        "2026-10-29-ollama-two-week-model-roundup-decision-models"
       ]
     },
     {
@@ -4514,7 +4524,8 @@
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
         "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
-        "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody"
+        "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody",
+        "2026-10-29-duckduckgo-flock-safety-ceo-notes"
       ]
     },
     {
@@ -4562,7 +4573,8 @@
       "take": "duckduck du(n)cking on Chrome worryfree",
       "related": [
         "2026-10-20-duckduckgo-muse-invasive-three-steps",
-        "2026-10-28-duckai-e2e-encrypted-chat-sync-no-account"
+        "2026-10-28-duckai-e2e-encrypted-chat-sync-no-account",
+        "2026-10-29-duckduckgo-flock-safety-ceo-notes"
       ]
     },
     {
@@ -4847,7 +4859,8 @@
       "take": "\"voice is the most natural way to interact\"",
       "related": [
         "2026-08-30-voice-prompting-reticence-counterpoint",
-        "2026-09-11-signulll-final-ui-language-in-interface-out"
+        "2026-09-11-signulll-final-ui-language-in-interface-out",
+        "2026-10-29-granola-adds-free-dictation"
       ]
     },
     {
@@ -4959,7 +4972,8 @@
       "blurb": "A small account argues Opera's WebAI points the right way: the browser is where people already live online, so it is the natural home for a personal node running local models with no API key or per-request bill, and the next step is letting that local intelligence remember and act across the web for the user.",
       "related": [
         "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
-        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-10-29-altman-local-inference-terrible-allocation"
       ]
     },
     {
@@ -5089,6 +5103,122 @@
         "2026-09-14-alexandr-wang-agent-swarm-100-engineers",
         "2026-10-13-sophinos-survive-ai-build-for-non-builders",
         "2026-10-22-cloudflare-connect-26-bottlenecks-move"
+      ]
+    },
+    {
+      "id": "2026-10-29-granola-adds-free-dictation",
+      "url": "https://x.com/cjpedregal/status/2115837569158316445?s=20",
+      "title": "Granola adds free unlimited voice typing in any app, joining the dictation pile-on",
+      "author": "Chris Pedregal (@cjpedregal)",
+      "source": "X",
+      "added": "2026-10-29",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "Granola, the meeting-notes app, shipped voice typing: unlimited words, free, working in any app, pitched as 'smol ship' by CEO Chris Pedregal. Another voice-first entry in a week that already saw Block's Dessa.",
+      "take": "you too, granola?",
+      "related": [
+        "2026-10-28-block-dessa-full-duplex-speech-model",
+        "2026-08-30-voice-prompting-reticence-counterpoint"
+      ]
+    },
+    {
+      "id": "2026-10-29-ollama-two-week-model-roundup-decision-models",
+      "url": "https://x.com/ollama/status/2115838993074098261?s=20",
+      "title": "Ollama's two-week model roundup: Muse-spark-open, Mistral Large 4, DeepSeek V4.1 Flash in cloud; Bonsai-2, Nemotron 3.5 local; a dozen 'decision models'",
+      "author": "ollama (@ollama)",
+      "source": "X",
+      "added": "2026-10-29",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Ollama listed two weeks of additions: Beam, Muse-spark-open, MiniMax M3.1 Flash, Mistral Large 4, DeepSeek V4.1 Flash, and Clef in its cloud; Bonsai-2, EmbeddingGemma-2, Flint, Nemotron 3.5, and the Phonon TTS model locally; plus eleven 'decision models' including D1, Kev, and Pplx-decider.",
+      "take": "for those who trust and don't verify",
+      "related": [
+        "2026-10-20-minimax-m3-1-flash-ollama-cloud-us-hosted",
+        "2026-09-23-jev-explained-evaluates-not-generates",
+        "2026-10-29-altman-local-inference-terrible-allocation"
+      ]
+    },
+    {
+      "id": "2026-10-29-duckduckgo-flock-safety-ceo-notes",
+      "url": "https://x.com/DuckDuckGo/status/2115821693461475368?s=20",
+      "title": "DuckDuckGo goes after Flock Safety's CEO over surveillance-camera scandals, police misuse, and security problems",
+      "author": "DuckDuckGo (@DuckDuckGo)",
+      "source": "X",
+      "added": "2026-10-29",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "cybersecurity",
+        "culture"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "DuckDuckGo's account says it watched Flock Safety CEO Garrett Langley's recent media appearances and took notes, as the license-plate camera company faces scandals over police misuse and cybersecurity problems. Third public swing at a bigger company by DDG this month.",
+      "take": "ballsy of them. i respect this",
+      "related": [
+        "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody",
+        "2026-10-20-duckduckgo-muse-invasive-three-steps",
+        "2026-10-20-lg-homekit-camera-physical-privacy-tilt"
+      ]
+    },
+    {
+      "id": "2026-10-29-google-ai-search-less-money-more-ads",
+      "url": "https://x.com/DuckDuckGo/status/2115854268989055061?s=20",
+      "title": "Google admits AI search makes less money and will fix it with more ads; DuckDuckGo: 'Most innovative company on the planet.'",
+      "author": "DuckDuckGo (@DuckDuckGo)",
+      "source": "X",
+      "added": "2026-10-29",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "ai",
+        "innovation"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Quoting an Ars Technica report that Google admits AI search earns less than classic search and plans to close the gap with more ads, DuckDuckGo replied 'Most innovative company on the planet.' The post passed 41K views in hours.",
+      "take": "these guys, man..",
+      "related": [
+        "2026-09-23-peter-yang-ad-model-agents-browse",
+        "2026-10-13-google-poisoned-search-results-for-scrapers",
+        "2026-09-30-instinct-pushes-sponsored-products"
+      ]
+    },
+    {
+      "id": "2026-10-29-altman-local-inference-terrible-allocation",
+      "url": "https://x.com/morqon/status/2115838856524120128?s=20",
+      "title": "Sam Altman: local inference is 'a terrible allocation of scarce resources'; the world's limited DRAM should sit in the cloud at max utilization, not in laptops used 5% of the time",
+      "author": "morgan (@morqon)",
+      "source": "X",
+      "added": "2026-10-29",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "innovation",
+        "culture"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "On the Cheeky Pint podcast, Sam Altman argued people wrongly assume open models solve inference locally, and that from a global allocation view it is 'quite terrible' to have the world's limited DRAM in personal computers used 5% of the time rather than at maximum utilization in the cloud.",
+      "take": "LOL",
+      "related": [
+        "2026-10-28-opera-webai-local-node-singularity",
+        "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
+        "2026-10-12-instinct-stuck-in-loop-no-support"
       ]
     }
   ]
