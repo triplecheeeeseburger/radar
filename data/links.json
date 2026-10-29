@@ -2862,7 +2862,9 @@
       "status": "curated",
       "blurb": "Speaking with Garry Tan at YC Startup School 2026, Meta chief AI officer Alexandr Wang said Meta has seen cases internally where a swarm of agents with the right agentic loop, evaluation system, and metric accomplishes more than a team of 100 engineers.",
       "take": "displacement.",
-      "related": []
+      "related": [
+        "2026-10-28-amazon-sde-role-guideline-ai-memo"
+      ]
     },
     {
       "id": "2026-09-14-personal-assistants-type-a-type-b-adoption",
@@ -4089,7 +4091,8 @@
       "take": "\"build for people who won't build for themselves\"",
       "related": [
         "2026-09-14-garry-tan-domain-specific-harness",
-        "2026-09-30-instinct-pushes-sponsored-products"
+        "2026-09-30-instinct-pushes-sponsored-products",
+        "2026-10-28-amazon-sde-role-guideline-ai-memo"
       ]
     },
     {
@@ -4685,7 +4688,8 @@
         "2026-09-14-garry-tan-domain-specific-harness",
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
         "2026-10-22-black-october-27-incidents-48-hours",
-        "2026-10-28-stop-button-agent-platforms-linkedin"
+        "2026-10-28-stop-button-agent-platforms-linkedin",
+        "2026-10-28-amazon-sde-role-guideline-ai-memo"
       ]
     },
     {
@@ -5062,6 +5066,29 @@
       "blurb": "Zurich-based Enact raised a $30M pre-seed from redalpine, Notion Capital, and firstminute, with angels including Arthur Mensch and Yann LeCun, to measure force inside robot motors rather than with fragile external touch sensors. Founder previously built software for 1X's NEO.",
       "related": [
         "2026-09-30-anthropic-what-work-can-robots-do"
+      ]
+    },
+    {
+      "id": "2026-10-28-amazon-sde-role-guideline-ai-memo",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai",
+      "title": "Amazon rewrites its SDE role guideline for the AI era: judge outcomes, not tool use, but 'if you haven't already, learn and apply AI as soon as possible'",
+      "author": "Terk Terkowitz, VP/Distinguished Engineer, Amazon",
+      "source": "Web",
+      "added": "2026-10-28",
+      "posted": "2026-10-27",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "culture"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Amazon published the memo behind its revised SDE role guideline: keep the role defined by customer and business impact, not by AI usage, since any AI-practice definition would be stale within a year. It still tells engineers to adopt AI now, calls token and LOC metrics flawed but correlated, and warns that teams not adopting are falling behind.",
+      "related": [
+        "2026-09-14-alexandr-wang-agent-swarm-100-engineers",
+        "2026-10-13-sophinos-survive-ai-build-for-non-builders",
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
       ]
     }
   ]
