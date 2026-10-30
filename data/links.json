@@ -2083,7 +2083,8 @@
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-09-30-instinct-pushes-sponsored-products",
         "2026-10-12-instinct-stuck-in-loop-no-support",
-        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic"
+        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic",
+        "2026-10-30-wabi-multiplayer-personal-ai-55m-series-a"
       ]
     },
     {
@@ -2147,7 +2148,8 @@
       "blurb": "Brave published benchmark results claiming its desktop browser outperforms Chrome, Edge, and Firefox on speed, energy use, CPU and memory consumption, and data transferred. The company did not publish independently verifiable methodology alongside the claim.",
       "take": "Brave did some testing",
       "related": [
-        "2026-09-02-brave-blade-power-lab"
+        "2026-09-02-brave-blade-power-lab",
+        "2026-10-30-eich-brave-on-blink-ios-demo"
       ]
     },
     {
@@ -2650,7 +2652,8 @@
         "2026-09-04-garry-tan-aside-agent-browser-endorsement",
         "2026-09-11-chatgpt-ranks-cloud-browser-infra-for-agents",
         "2026-09-23-hermes-logs-in-without-seeing-password",
-        "2026-10-22-1password-for-agents-platform-muse-grok-claude"
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude",
+        "2026-10-30-browser-use-harness-real-chrome-claude-code"
       ]
     },
     {
@@ -2748,7 +2751,8 @@
         "2026-09-23-isenberg-muse-connectors-13-predictions",
         "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
         "2026-10-20-duckduckgo-muse-invasive-three-steps",
-        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web"
+        "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
+        "2026-10-30-wabi-multiplayer-personal-ai-55m-series-a"
       ]
     },
     {
@@ -2934,7 +2938,8 @@
       "related": [
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
-        "2026-10-16-esp32-agent-controls-stock-iphone"
+        "2026-10-16-esp32-agent-controls-stock-iphone",
+        "2026-10-30-eich-brave-on-blink-ios-demo"
       ]
     },
     {
@@ -2980,7 +2985,8 @@
       "related": [
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-09-14-muse-bluetooth-connector",
-        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices"
+        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
+        "2026-10-30-subvocal-silent-speech-glasses-yc"
       ]
     },
     {
@@ -3095,7 +3101,8 @@
         "2026-09-06-signulll-web-ghost-town-browser-obsolete",
         "2026-09-06-kenwattana-browser-use-stepping-stone-open-api",
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
-        "2026-10-28-christina-dashboards-not-going-anywhere"
+        "2026-10-28-christina-dashboards-not-going-anywhere",
+        "2026-10-30-browser-use-harness-real-chrome-claude-code"
       ]
     },
     {
@@ -4244,7 +4251,8 @@
       "take": "this just isn't a good sign for Apple",
       "related": [
         "2026-09-23-paula-why-google-has-no-muse",
-        "2026-09-14-ios-27-siri-extensions-third-party-models"
+        "2026-09-14-ios-27-siri-extensions-third-party-models",
+        "2026-10-30-snazzylabs-safari-bad-helium"
       ]
     },
     {
@@ -4430,7 +4438,8 @@
       "take": "\"billboard-able projects\"",
       "related": [
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
-        "2026-09-14-b2c-agents-productize-browser-use-no-apis"
+        "2026-09-14-b2c-agents-productize-browser-use-no-apis",
+        "2026-10-30-andrewqu-cli-or-url"
       ]
     },
     {
@@ -4837,7 +4846,8 @@
       "related": [
         "2026-10-28-stripe-pay-b2b-handles-agent-commerce",
         "2026-09-11-signulll-final-ui-language-in-interface-out",
-        "2026-09-23-browser-use-browsers-are-dead-cli"
+        "2026-09-23-browser-use-browsers-are-dead-cli",
+        "2026-10-30-andrewqu-cli-or-url"
       ]
     },
     {
@@ -4860,7 +4870,8 @@
       "related": [
         "2026-08-30-voice-prompting-reticence-counterpoint",
         "2026-09-11-signulll-final-ui-language-in-interface-out",
-        "2026-10-29-granola-adds-free-dictation"
+        "2026-10-29-granola-adds-free-dictation",
+        "2026-10-30-subvocal-silent-speech-glasses-yc"
       ]
     },
     {
@@ -5037,7 +5048,8 @@
       "related": [
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
         "2026-10-28-sailfish-open-source-arc-alternative",
-        "2026-10-28-cra-open-source-arc-for-mac"
+        "2026-10-28-cra-open-source-arc-for-mac",
+        "2026-10-30-snazzylabs-safari-bad-helium"
       ]
     },
     {
@@ -5102,7 +5114,8 @@
       "related": [
         "2026-09-14-alexandr-wang-agent-swarm-100-engineers",
         "2026-10-13-sophinos-survive-ai-build-for-non-builders",
-        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move",
+        "2026-10-30-claude-code-agent-summary-token-waste-preload"
       ]
     },
     {
@@ -5124,7 +5137,8 @@
       "take": "you too, granola?",
       "related": [
         "2026-10-28-block-dessa-full-duplex-speech-model",
-        "2026-08-30-voice-prompting-reticence-counterpoint"
+        "2026-08-30-voice-prompting-reticence-counterpoint",
+        "2026-10-30-subvocal-silent-speech-glasses-yc"
       ]
     },
     {
@@ -5218,7 +5232,167 @@
       "related": [
         "2026-10-28-opera-webai-local-node-singularity",
         "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
-        "2026-10-12-instinct-stuck-in-loop-no-support"
+        "2026-10-12-instinct-stuck-in-loop-no-support",
+        "2026-10-30-claude-code-agent-summary-token-waste-preload"
+      ]
+    },
+    {
+      "id": "2026-10-30-subvocal-silent-speech-glasses-yc",
+      "url": "https://x.com/dflieb/status/2116205894941978754?s=20",
+      "title": "Subvocal (YC F26): glasses that read tiny facial movements so you can talk to your AI without making a sound; $1.3M from YC and Afore",
+      "author": "David Lieb (@dflieb)",
+      "source": "X",
+      "added": "2026-10-30",
+      "posted": "2026-10-30",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "David Lieb calls Subvocal's demo the most insane he has seen: glasses that track minute facial movements so the wearer can speak to an AI silently, built in four months by a YC F26 team that raised $1.3M from YC and Afore Capital so 'you never have to type or speak again'.",
+      "take": "voice prompting without the ... voice",
+      "related": [
+        "2026-10-28-block-dessa-full-duplex-speech-model",
+        "2026-10-29-granola-adds-free-dictation",
+        "2026-09-23-muse-charm-keychain-device"
+      ]
+    },
+    {
+      "id": "2026-10-30-wabi-multiplayer-personal-ai-55m-series-a",
+      "url": "https://x.com/joonasvirtanen/status/2115826569721643114?s=20",
+      "title": "Wabi raises $55M Series A at $1.25B for 'personal multiplayer AI', an operating system for your life and the people in it",
+      "author": "Joonas Virtanen (@joonasvirtanen)",
+      "source": "X",
+      "added": "2026-10-30",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Eugenia Kuyda's Wabi raised $55M at a $1.25B valuation led by IVP with a16z, Forerunner, Benioff, Tobi Lütke, and Marissa Mayer. Pitch: a personal AI that pulls your people, context, and apps together to coordinate plans and share the mental load, 'multiplayer' meaning shared across a household or group.",
+      "take": "wtf is \"multiplayer AI\"?",
+      "related": [
+        "2026-09-11-zuckerberg-muse-personal-agent-podcast",
+        "2026-08-31-instinct-stealth-personal-assistant"
+      ]
+    },
+    {
+      "id": "2026-10-30-claude-code-agent-summary-token-waste-preload",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "title": "Claude Code spends 16 to 20% of tokens re-sending each background agent's transcript every 30 seconds for a 3-word status line; a 70-line Bun preload turns it off",
+      "author": "Flamerix AI (GitHub Gist)",
+      "source": "Web",
+      "added": "2026-10-30",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Flamerix found via OpenTelemetry that Claude Code's agent_summary side-query, on by default since August, cost more than the main conversation (16.4% of spend, 1 in 5 requests, 96% on Opus). No setting disables it, so they shipped an MIT Bun preload that suppresses the timer without touching the binary. 120 stars.",
+      "take": "incredible use of free will to fight token waste",
+      "related": [
+        "2026-10-28-amazon-sde-role-guideline-ai-memo",
+        "2026-10-29-altman-local-inference-terrible-allocation"
+      ]
+    },
+    {
+      "id": "2026-10-30-snazzylabs-safari-bad-helium",
+      "url": "https://x.com/snazzylabs/status/2115928136663937535?s=57",
+      "title": "Quinn Nelson: Safari on Mac has gotten so bad he can't use it; now on Helium, which is 'fine' but fast and never fails to load",
+      "author": "Quinn Nelson (@SnazzyLabs)",
+      "source": "X",
+      "added": "2026-10-30",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "culture"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Tech YouTuber Quinn Nelson says Safari on the Mac has too many bugs and slowdowns to keep using, partly because nobody targets it, and that he has switched to Helium, a Chromium-based browser he finds merely fine but fast and reliable. 52K views.",
+      "take": "Helium?!",
+      "related": [
+        "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
+        "2026-10-28-arc-like-browsers-comparison-sheet"
+      ]
+    },
+    {
+      "id": "2026-10-30-browser-use-harness-real-chrome-claude-code",
+      "url": "https://x.com/gregpr07/status/2115956348592812182?s=57",
+      "title": "Browser Use open-sources browser-harness: let Claude Code, Codex, or Cursor drive your real logged-in Chrome; 'by far the most efficient browser harness for agents'",
+      "author": "Gregor Zunic (@gregpr07)",
+      "source": "X",
+      "added": "2026-10-30",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Browser Use published browser-harness on GitHub, a CLI that lets Claude Code, Codex, or Cursor use the developer's real Chrome with existing logins, with co-founder Gregor Zunic calling it by far the most efficient browser harness for agents.",
+      "take": "blah blah blah",
+      "related": [
+        "2026-09-23-browser-use-browsers-are-dead-cli",
+        "2026-09-11-browser-use-cloud-cookie-sync-auth",
+        "2026-10-30-andrewqu-cli-or-url"
+      ]
+    },
+    {
+      "id": "2026-10-30-andrewqu-cli-or-url",
+      "url": "https://x.com/andrewqu/status/2115950133187936753?s=57",
+      "title": "'You only need 2 things. Everything is either a CLI or a URL.'",
+      "author": "Andrew Qu (@andrewqu)",
+      "source": "X",
+      "added": "2026-10-30",
+      "posted": "2026-10-29",
+      "week": "2026-10-26",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "culture"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Riffing on a 'you only need three things' meme, Vercel's Andrew Qu reduces the agent-era stack to two surfaces: everything is either a CLI or a URL. 21K views, in the same week Christina argued dashboards are not going anywhere.",
+      "take": "URL or CLI",
+      "related": [
+        "2026-10-28-christina-dashboards-not-going-anywhere",
+        "2026-10-20-is-agentic-vercel-agent-readiness-score"
+      ]
+    },
+    {
+      "id": "2026-10-30-eich-brave-on-blink-ios-demo",
+      "url": "https://x.com/BrendanEich/status/2115537921377980720?s=20",
+      "title": "Brendan Eich: saw a Brave-on-Blink-on-iOS demo; 'can't say more, no promises' given tech risk and Apple as gatekeeper",
+      "author": "Brendan Eich (@BrendanEich)",
+      "source": "X",
+      "added": "2026-10-30",
+      "posted": "2026-10-28",
+      "week": "2026-10-26",
+      "topics": [
+        "browsers",
+        "innovation"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Quoting Open Web Advocacy's case that Apple's WebKit claims do not stand up and regulators should force browser-engine competition on iOS, Brave CEO Brendan Eich says he recently saw a demo of Brave running on Blink on iOS, with no promises given technical risk and Apple as gatekeeper.",
+      "related": [
+        "2026-09-02-brave-desktop-benchmark-claim",
+        "2026-09-14-imessage-agents-against-apple-tos",
+        "2026-10-30-snazzylabs-safari-bad-helium"
       ]
     }
   ]
