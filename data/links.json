@@ -2850,7 +2850,8 @@
       "take": "interesting new features in iOS 27 and macOS Golden Gate: private hooks that let apps add Siri Extensions and replace Siri AI’s server backend with third-party models.",
       "related": [
         "2026-09-04-watchos-27-app-model-on-its-way-out",
-        "2026-10-16-beisel-apple-strange-company-lunatic-fringe"
+        "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
+        "2026-11-03-siri-ai-open-to-all-developers-app-intents"
       ]
     },
     {
@@ -3150,7 +3151,8 @@
       "related": [
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-09-23-muse-charm-keychain-device",
-        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api"
+        "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
+        "2026-11-03-siri-ai-open-to-all-developers-app-intents"
       ]
     },
     {
@@ -3484,7 +3486,8 @@
         "2026-09-09-anthropic-economic-scenarios-2030",
         "2026-09-29-c5r-ai-run-research-facility-astra",
         "2026-10-13-techcrunch-disrupt-day-1-light-on-ai-hardware",
-        "2026-10-28-enact-30m-preseed-force-sensing-motors"
+        "2026-10-28-enact-30m-preseed-force-sensing-motors",
+        "2026-11-03-robotics-vc-funding-record-quarter-18-6b"
       ]
     },
     {
@@ -4259,7 +4262,8 @@
       "related": [
         "2026-09-23-paula-why-google-has-no-muse",
         "2026-09-14-ios-27-siri-extensions-third-party-models",
-        "2026-10-30-snazzylabs-safari-bad-helium"
+        "2026-10-30-snazzylabs-safari-bad-helium",
+        "2026-11-03-siri-ai-open-to-all-developers-app-intents"
       ]
     },
     {
@@ -4284,7 +4288,8 @@
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-09-11-life-recorder-24-7-iphone-agent-context",
         "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
-        "2026-11-02-cyclon-ai-phone-yc-f26"
+        "2026-11-02-cyclon-ai-phone-yc-f26",
+        "2026-11-03-nordic-nrf71-wifi6-years-on-battery"
       ]
     },
     {
@@ -4494,7 +4499,8 @@
       "blurb": "LG's new indoor camera, part of the Apple Home Collection, uses HomeKit Secure Video's recording rules to drive a physical privacy tilt: when someone arrives home it stops recording and points down, with no third-party app or cloud involved. The hook may open to other makers.",
       "take": "home camera privacy has been top of mind, so this physical behavior is a nice creative way to earn trust",
       "related": [
-        "2026-10-29-duckduckgo-flock-safety-ceo-notes"
+        "2026-10-29-duckduckgo-flock-safety-ceo-notes",
+        "2026-11-03-nordic-nrf71-wifi6-years-on-battery"
       ]
     },
     {
@@ -4543,7 +4549,8 @@
         "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
         "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
         "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody",
-        "2026-10-29-duckduckgo-flock-safety-ceo-notes"
+        "2026-10-29-duckduckgo-flock-safety-ceo-notes",
+        "2026-11-03-google-cuts-web-search-for-schools-opting-out-of-ai"
       ]
     },
     {
@@ -4693,7 +4700,8 @@
         "2026-10-22-paula-arc-users-five-stages-of-grief",
         "2026-10-28-sailfish-open-source-arc-alternative",
         "2026-10-28-cra-open-source-arc-for-mac",
-        "2026-10-28-arc-like-browsers-comparison-sheet"
+        "2026-10-28-arc-like-browsers-comparison-sheet",
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
       ]
     },
     {
@@ -5061,7 +5069,8 @@
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
         "2026-10-28-sailfish-open-source-arc-alternative",
         "2026-10-28-cra-open-source-arc-for-mac",
-        "2026-10-30-snazzylabs-safari-bad-helium"
+        "2026-10-30-snazzylabs-safari-bad-helium",
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
       ]
     },
     {
@@ -5103,7 +5112,8 @@
       "status": "curated",
       "blurb": "Zurich-based Enact raised a $30M pre-seed from redalpine, Notion Capital, and firstminute, with angels including Arthur Mensch and Yann LeCun, to measure force inside robot motors rather than with fragile external touch sensors. Founder previously built software for 1X's NEO.",
       "related": [
-        "2026-09-30-anthropic-what-work-can-robots-do"
+        "2026-09-30-anthropic-what-work-can-robots-do",
+        "2026-11-03-robotics-vc-funding-record-quarter-18-6b"
       ]
     },
     {
@@ -5220,7 +5230,8 @@
       "related": [
         "2026-09-23-peter-yang-ad-model-agents-browse",
         "2026-10-13-google-poisoned-search-results-for-scrapers",
-        "2026-09-30-instinct-pushes-sponsored-products"
+        "2026-09-30-instinct-pushes-sponsored-products",
+        "2026-11-03-google-cuts-web-search-for-schools-opting-out-of-ai"
       ]
     },
     {
@@ -5337,7 +5348,8 @@
       "take": "Helium?!",
       "related": [
         "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
-        "2026-10-28-arc-like-browsers-comparison-sheet"
+        "2026-10-28-arc-like-browsers-comparison-sheet",
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
       ]
     },
     {
@@ -5430,7 +5442,8 @@
       "related": [
         "2026-09-23-muse-charm-keychain-device",
         "2026-10-30-subvocal-silent-speech-glasses-yc",
-        "2026-10-16-esp32-agent-controls-stock-iphone"
+        "2026-10-16-esp32-agent-controls-stock-iphone",
+        "2026-11-03-siri-ai-open-to-all-developers-app-intents"
       ]
     },
     {
@@ -5522,6 +5535,120 @@
       "blurb": "Hana Sachiko reports from the Alza festival in New York, where vertical microdramas screened in an AMC cinema to modest attendance; phone-first editing sat awkwardly on horizontal screens and the theater exposed pacing, framing, and sound flaws a mobile feed hides.",
       "related": [
         "2026-10-22-josephzhou-ai-hardware-catalog-127-devices"
+      ]
+    },
+    {
+      "id": "2026-11-03-siri-ai-open-to-all-developers-app-intents",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "title": "Apple opens Siri AI to all developers: any app can expose actions and content via App Intents, with skills that chain actions; ships to customers in months, App Store submissions in spring",
+      "author": "Apple Developer News",
+      "source": "Web",
+      "added": "2026-11-03",
+      "posted": "2026-11-03",
+      "week": "2026-11-02",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 9,
+      "status": "curated",
+      "blurb": "With the 27.3 betas, Apple's Developer Preview lets any app plug into Siri AI through App Intents: personal context, onscreen awareness, custom actions like booking or ordering, and new skills that combine actions into one experience. Siri AI can also surface any entity in the Spotlight index. Customer rollout in months; unavailable in the EU and for under-13s; server features have daily limits with paid expansion coming.",
+      "take": "absolutely huge huge HUGE. investigating",
+      "related": [
+        "2026-09-14-ios-27-siri-extensions-third-party-models",
+        "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
+        "2026-09-23-isenberg-muse-connectors-13-predictions",
+        "2026-11-02-cyclon-ai-phone-yc-f26"
+      ]
+    },
+    {
+      "id": "2026-11-03-google-cuts-web-search-for-schools-opting-out-of-ai",
+      "url": "https://x.com/DuckDuckGo/status/2117660106976309521?s=20",
+      "title": "NYT: Google will turn off web search for schools that opt out of AI for kids; DuckDuckGo: 'Forces AI on everyone, even school children'",
+      "author": "DuckDuckGo (@DuckDuckGo)",
+      "source": "X",
+      "added": "2026-11-03",
+      "posted": "2026-11-03",
+      "week": "2026-11-02",
+      "topics": [
+        "browsers",
+        "ai",
+        "culture"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Quoting a New York Times report that Google will disable web search for schools that opt out of its AI features for students, DuckDuckGo contrasts it with letting people choose whether AI appears in results. Google's position is not yet public; DuckDuckGo's framing is its own.",
+      "take": "possibly a misscomm, but hey",
+      "related": [
+        "2026-10-29-google-ai-search-less-money-more-ads",
+        "2026-10-20-duckduckgo-muse-invasive-three-steps"
+      ]
+    },
+    {
+      "id": "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+      "url": "https://x.com/avstorm/status/2117704238021177548?s=20",
+      "title": "Safari gets a vertical tab option in the macOS 27.3 beta, with the top bar still in place",
+      "author": "Andreas Storm (@avstorm)",
+      "source": "X",
+      "added": "2026-11-03",
+      "posted": "2026-11-03",
+      "week": "2026-11-02",
+      "topics": [
+        "browsers",
+        "innovation"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Andreas Storm spotted a vertical tabs option in Safari in the macOS 27.3 beta. Early reaction notes Apple kept the horizontal top bar as well, so it is a sidebar added rather than the Arc-style layout users expected.",
+      "take": "Safari, too, going vertical tabs",
+      "related": [
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+        "2026-10-30-snazzylabs-safari-bad-helium",
+        "2026-10-28-arc-like-browsers-comparison-sheet"
+      ]
+    },
+    {
+      "id": "2026-11-03-robotics-vc-funding-record-quarter-18-6b",
+      "url": "https://x.com/_joe_harris_/status/2117489704262062447?s=20",
+      "title": "Robotics and physical-AI VC funding hit a record $18.6B quarter, per PitchBook",
+      "author": "Joe Harris (@_joe_harris_)",
+      "source": "X",
+      "added": "2026-11-03",
+      "posted": "2026-11-02",
+      "week": "2026-11-02",
+      "topics": [
+        "innovation",
+        "ai"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "A PitchBook chart shared by Alloy Robotics founder Joe Harris shows robotics and physical-AI venture deal value at a record $18.6B in the latest quarter, roughly triple a year earlier and the steepest bar on a 2021-to-2026 series.",
+      "take": "one of the hottest fields in SV is robotics",
+      "related": [
+        "2026-10-28-enact-30m-preseed-force-sensing-motors",
+        "2026-09-30-anthropic-what-work-can-robots-do"
+      ]
+    },
+    {
+      "id": "2026-11-03-nordic-nrf71-wifi6-years-on-battery",
+      "url": "https://x.com/cnxsoft/status/2117620699699536167?s=20",
+      "title": "Nordic's nRF71 chips: Wi-Fi 6, BLE, and Thread with 20x lower standby power, for smart-home and IoT devices lasting years on batteries",
+      "author": "CNX Software (@cnxsoft)",
+      "source": "X",
+      "added": "2026-11-03",
+      "posted": "2026-11-03",
+      "week": "2026-11-02",
+      "topics": [
+        "innovation"
+      ],
+      "score": 3,
+      "status": "curated",
+      "blurb": "Nordic Semiconductor's nRF71 series, starting with the dual-band nRF7120 and tri-band nRF7120E with an Axon NPU, combines Wi-Fi 6, Bluetooth LE, and Thread and claims up to 20 times lower standby power than the nRF70 line, enabling battery-powered Wi-Fi devices that last years.",
+      "take": "so many possibilities",
+      "related": [
+        "2026-10-20-lg-homekit-camera-physical-privacy-tilt",
+        "2026-10-16-esp32-agent-controls-stock-iphone"
       ]
     }
   ]
