@@ -57,6 +57,9 @@
     },
     "2026-10-26": {
       "tldr": "**Agentic commerce** in the spotlight, alongside Anthropic's IPO and Arc's death. Instinct can now check out at any store through **Shop Pay** with the user approving each purchase, and Stripe shipped free B2B transfers by **handle** in Dashboard and CLI, the payout rail agents were missing. Anthropic filed its **S-1** publicly, lined up a European consultancy with hubs in London and Berlin, and shipped a Claude for Legal artifact gallery. The Arc sunset spawned **open-source** successors within days, Chrome clarified that WebMCP only works while a page is open, and a LinkedIn audit found that no agent platform offers a real stop button that undoes anything."
+    },
+    "2026-11-02": {
+      "tldr": ""
     }
   },
   "entries": [
@@ -2939,7 +2942,8 @@
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-09-instinct-guessable-inbox-prompt-injection",
         "2026-10-16-esp32-agent-controls-stock-iphone",
-        "2026-10-30-eich-brave-on-blink-ios-demo"
+        "2026-10-30-eich-brave-on-blink-ios-demo",
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis"
       ]
     },
     {
@@ -2986,7 +2990,8 @@
         "2026-09-11-zuckerberg-muse-personal-agent-podcast",
         "2026-09-14-muse-bluetooth-connector",
         "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
-        "2026-10-30-subvocal-silent-speech-glasses-yc"
+        "2026-10-30-subvocal-silent-speech-glasses-yc",
+        "2026-11-02-cyclon-ai-phone-yc-f26"
       ]
     },
     {
@@ -3236,7 +3241,8 @@
         "2026-08-31-instinct-stealth-personal-assistant",
         "2026-09-29-anthropic-ipo-prospectus-numbers",
         "2026-09-30-instinct-pushes-sponsored-products",
-        "2026-10-12-instinct-stuck-in-loop-no-support"
+        "2026-10-12-instinct-stuck-in-loop-no-support",
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis"
       ]
     },
     {
@@ -4180,7 +4186,8 @@
       "related": [
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
         "2026-09-10-chinese-llm-router-6tb-credential-dataset",
-        "2026-10-16-anthropic-acquires-opaque-confidential-ai"
+        "2026-10-16-anthropic-acquires-opaque-confidential-ai",
+        "2026-11-02-claude-self-assessment-safety-report-every-chat"
       ]
     },
     {
@@ -4276,7 +4283,8 @@
       "related": [
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-09-11-life-recorder-24-7-iphone-agent-context",
-        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices"
+        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
+        "2026-11-02-cyclon-ai-phone-yc-f26"
       ]
     },
     {
@@ -4392,7 +4400,8 @@
       "take": "DeepSeek beats Sol at cybersec tasks.",
       "related": [
         "2026-10-04-gemini-4-argon-tops-vals-index",
-        "2026-10-20-dhs-orders-deepseek-removed-federal-agencies"
+        "2026-10-20-dhs-orders-deepseek-removed-federal-agencies",
+        "2026-11-02-revolut-decagon-open-weight-models-production"
       ]
     },
     {
@@ -4605,7 +4614,8 @@
       "take": "a cool AI hw list",
       "related": [
         "2026-09-23-muse-charm-keychain-device",
-        "2026-10-16-esp32-agent-controls-stock-iphone"
+        "2026-10-16-esp32-agent-controls-stock-iphone",
+        "2026-11-02-alza-vertical-microdramas-in-amc-cinema"
       ]
     },
     {
@@ -4801,7 +4811,8 @@
       "related": [
         "2026-09-03-browser-use-link-single-use-cards",
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
-        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers"
+        "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis"
       ]
     },
     {
@@ -4984,7 +4995,8 @@
       "related": [
         "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
-        "2026-10-29-altman-local-inference-terrible-allocation"
+        "2026-10-29-altman-local-inference-terrible-allocation",
+        "2026-11-02-revolut-decagon-open-weight-models-production"
       ]
     },
     {
@@ -5233,7 +5245,8 @@
         "2026-10-28-opera-webai-local-node-singularity",
         "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
         "2026-10-12-instinct-stuck-in-loop-no-support",
-        "2026-10-30-claude-code-agent-summary-token-waste-preload"
+        "2026-10-30-claude-code-agent-summary-token-waste-preload",
+        "2026-11-02-revolut-decagon-open-weight-models-production"
       ]
     },
     {
@@ -5256,7 +5269,8 @@
       "related": [
         "2026-10-28-block-dessa-full-duplex-speech-model",
         "2026-10-29-granola-adds-free-dictation",
-        "2026-09-23-muse-charm-keychain-device"
+        "2026-09-23-muse-charm-keychain-device",
+        "2026-11-02-cyclon-ai-phone-yc-f26"
       ]
     },
     {
@@ -5393,6 +5407,121 @@
         "2026-09-02-brave-desktop-benchmark-claim",
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-10-30-snazzylabs-safari-bad-helium"
+      ]
+    },
+    {
+      "id": "2026-11-02-cyclon-ai-phone-yc-f26",
+      "url": "https://x.com/AdamZinebi1/status/2117300841036353559?s=20",
+      "title": "Cyclon (YC F26) pitches an AI phone to replace the iPhone: ask it to do anything, it uses your apps, builds missing ones, runs tasks in the background",
+      "author": "Adam Zinebi (@AdamZinebi1)",
+      "source": "X",
+      "added": "2026-11-02",
+      "posted": "2026-11-02",
+      "week": "2026-11-02",
+      "topics": [
+        "agentic workflows",
+        "innovation",
+        "ai"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Cyclon, a YC F26 startup, says it is building an AI phone where anything you can do on the device you can ask it to do: the AI drives existing apps, generates ones you lack, and handles tasks in the background. 660K views in a day, no shipping details.",
+      "take": "seems that the let downs that AI rabbit and AI Pin are far enough behind, we'll see more of these coming up",
+      "related": [
+        "2026-09-23-muse-charm-keychain-device",
+        "2026-10-30-subvocal-silent-speech-glasses-yc",
+        "2026-10-16-esp32-agent-controls-stock-iphone"
+      ]
+    },
+    {
+      "id": "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
+      "url": "https://x.com/hooni_tri/status/2117028061740949838?s=20",
+      "title": "'Instinct will be a textbook example of an AI boom failure': it rents distribution from messaging apps, so it owns neither UI nor compute, and Muse owns all three",
+      "author": "Tristan Shin (@hooni_tri)",
+      "source": "X",
+      "added": "2026-11-02",
+      "posted": "2026-11-01",
+      "week": "2026-11-02",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Tristan Shin argues a consumer agent needs distribution, UI, and compute. Instinct's messaging-app hack bought distribution but surrendered the interface, while Muse ships dynamic UI and owns the infrastructure. He finds continued Instinct funding after Muse baffling, and notes average consumers will not try ten agents.",
+      "take": "there's good lessons here either way.",
+      "related": [
+        "2026-09-23-instinct-10b-valuation-talks",
+        "2026-09-14-imessage-agents-against-apple-tos",
+        "2026-10-28-instinct-shop-pay-checkout-anywhere"
+      ]
+    },
+    {
+      "id": "2026-11-02-revolut-decagon-open-weight-models-production",
+      "url": "https://x.com/OliverMolander/status/2116851762325757979?s=20",
+      "title": "Revolut reportedly saw AI gains only after moving from OpenAI and Anthropic to self-hosted GLM; Decagon runs ~90% on open weights",
+      "author": "Oliver Molander (@OliverMolander)",
+      "source": "X",
+      "added": "2026-11-02",
+      "posted": "2026-11-01",
+      "week": "2026-11-02",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "innovation"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Oliver Molander relays reports that Revolut's AI productivity gains came after switching to self-hosted GLM, and that Decagon runs about 90% of workloads on open-weight models, because cost and latency dominate mature agent workflows. His call: 80 to 90% of routine enterprise AI ends up on smaller open models.",
+      "take": "local AI ftw",
+      "related": [
+        "2026-10-29-altman-local-inference-terrible-allocation",
+        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
+        "2026-10-28-opera-webai-local-node-singularity"
+      ]
+    },
+    {
+      "id": "2026-11-02-claude-self-assessment-safety-report-every-chat",
+      "url": "https://x.com/superalesha/status/2116074374319018158?s=20",
+      "title": "Anthropic says Claude now grades every conversation for misuse right after answering; a critic calls it a safety report 'about you' and points to local models",
+      "author": "Alexey Fateev (@superalesha)",
+      "source": "X",
+      "added": "2026-11-02",
+      "posted": "2026-10-30",
+      "week": "2026-11-02",
+      "topics": [
+        "ai",
+        "cybersecurity",
+        "culture"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Anthropic disclosed 'self-assessment', running since June: after each response Claude writes a preliminary safety assessment of the conversation, which it says has surfaced misuse other systems missed. Alexey Fateev reads it as a report filed about the user and says security people are moving to DeepSeek, Qwen, and GLM.",
+      "take": "fascinating research",
+      "related": [
+        "2026-11-02-revolut-decagon-open-weight-models-production",
+        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs"
+      ]
+    },
+    {
+      "id": "2026-11-02-alza-vertical-microdramas-in-amc-cinema",
+      "url": "https://x.com/the_one_hana/status/2117414740775346313?s=20",
+      "title": "New York's Alza festival put vertical microdramas on an AMC screen; phone-first pacing and framing did not survive the theater",
+      "author": "Hana Sachiko (@the_one_hana)",
+      "source": "X",
+      "added": "2026-11-02",
+      "posted": "2026-11-02",
+      "week": "2026-11-02",
+      "topics": [
+        "culture",
+        "innovation"
+      ],
+      "score": 2.5,
+      "status": "curated",
+      "blurb": "Hana Sachiko reports from the Alza festival in New York, where vertical microdramas screened in an AMC cinema to modest attendance; phone-first editing sat awkwardly on horizontal screens and the theater exposed pacing, framing, and sound flaws a mobile feed hides.",
+      "related": [
+        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices"
       ]
     }
   ]
