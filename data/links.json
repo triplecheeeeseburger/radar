@@ -4289,7 +4289,8 @@
         "2026-09-11-life-recorder-24-7-iphone-agent-context",
         "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
         "2026-11-02-cyclon-ai-phone-yc-f26",
-        "2026-11-03-nordic-nrf71-wifi6-years-on-battery"
+        "2026-11-03-nordic-nrf71-wifi6-years-on-battery",
+        "2026-11-04-calif-lockdown-mode-jailbreak-persists-ios-update"
       ]
     },
     {
@@ -4701,7 +4702,8 @@
         "2026-10-28-sailfish-open-source-arc-alternative",
         "2026-10-28-cra-open-source-arc-for-mac",
         "2026-10-28-arc-like-browsers-comparison-sheet",
-        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20"
       ]
     },
     {
@@ -5349,7 +5351,8 @@
       "related": [
         "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
         "2026-10-28-arc-like-browsers-comparison-sheet",
-        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20"
       ]
     },
     {
@@ -5605,7 +5608,9 @@
       "related": [
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
         "2026-10-30-snazzylabs-safari-bad-helium",
-        "2026-10-28-arc-like-browsers-comparison-sheet"
+        "2026-10-28-arc-like-browsers-comparison-sheet",
+        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20",
+        "2026-11-04-macos-27-3-quicklook-markdown-gruber"
       ]
     },
     {
@@ -5649,6 +5654,109 @@
       "related": [
         "2026-10-20-lg-homekit-camera-physical-privacy-tilt",
         "2026-10-16-esp32-agent-controls-stock-iphone"
+      ]
+    },
+    {
+      "id": "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "title": "OpenAI's autonomous pipeline found, exploited, and patched 948 Linux local privilege escalation bugs in one run for $1.2M in API credits",
+      "author": "OpenAI",
+      "source": "Web",
+      "added": "2026-11-04",
+      "posted": "2026-11-04",
+      "week": "2026-11-02",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "OpenAI's pipeline, built on an upcoming cyber model, reproduced 1,724 Linux kernel vulnerabilities and produced 948 working root exploits plus candidate patches in a mid-October run costing $1,213,430, about $1,279 per exploit. It reports at least 10 novel exploitation techniques and over 5x more novel LPEs than a July run, and argues automated patching is now essential.",
+      "take": "why do cybersec companies need to exist now?",
+      "related": []
+    },
+    {
+      "id": "2026-11-04-calif-lockdown-mode-jailbreak-persists-ios-update",
+      "url": "https://x.com/calif_io/status/2117720348322144733?s=20",
+      "title": "Calif shows a PDF opened over AirDrop jailbreaking an iPhone in Lockdown Mode, with the compromise surviving the iOS 27.2 update",
+      "author": "Calif (@calif_io)",
+      "source": "X",
+      "added": "2026-11-04",
+      "posted": "2026-11-03",
+      "week": "2026-11-02",
+      "topics": [
+        "cybersecurity"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Security group Calif posted a video of an iPhone 18 Pro with Lockdown Mode on being compromised through a user-opened PDF, then staying compromised after installing iOS 27.2. No technical write-up yet and no Apple comment; the persistence claim is unverified and the demo required user interaction.",
+      "take": "the crazy thing here is the persistence",
+      "related": [
+        "2026-10-16-esp32-agent-controls-stock-iphone"
+      ]
+    },
+    {
+      "id": "2026-11-04-ai-video-detection-missing-airplane-doppler",
+      "url": "https://x.com/pbeyssac/status/2117974748281892884?s=20",
+      "title": "AI video detection by absence: generated videos lack the near-inaudible low-frequency airplane Doppler sounds that real recordings carry",
+      "author": "Pierre Beyssac (@pbeyssac)",
+      "source": "X",
+      "added": "2026-11-04",
+      "posted": "2026-11-04",
+      "week": "2026-11-02",
+      "topics": [
+        "ai",
+        "cybersecurity",
+        "culture"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Days after a method surfaced to geolocate videos from faint airplane Doppler noise plus FlightRadar tracks, Adam Holter reports that after Codex checked 120 generated videos, none contained those low-frequency Dopplers, making their absence a usable AI-video tell. 130K views.",
+      "take": "this is insane. I'm preoccupied with AI content detection and this is a very clever way to do it. It makes me think of a time when we'll have to find this kind of creative angles when fighting a future rogue AI",
+      "related": []
+    },
+    {
+      "id": "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20",
+      "url": "https://x.com/2logics/status/2117609137651499279?s=20",
+      "title": "Opera's desktop browser hits a record 100M monthly active users; Q3 preview shows revenue up 20% to $182.8M",
+      "author": "2logics (@2logics)",
+      "source": "X",
+      "added": "2026-11-04",
+      "posted": "2026-11-03",
+      "week": "2026-11-02",
+      "topics": [
+        "browsers"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Opera reported 100 million desktop MAUs in October, up from 94 million in Q2 and 16% year over year, with preliminary Q3 revenue of $182.8M (up 20%), adjusted EBITDA of $43.2M at a 24% margin, and net income of $27.6M. Query revenue rose 17% and advertising 22%; full results come November 17.",
+      "take": "Opera hits 100m desktop users while killing it on growth",
+      "related": [
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+        "2026-10-30-snazzylabs-safari-bad-helium",
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
+      ]
+    },
+    {
+      "id": "2026-11-04-macos-27-3-quicklook-markdown-gruber",
+      "url": "https://x.com/gruber/status/2118125585272877161?s=20",
+      "title": "macOS 27.3 renders Markdown files in QuickLook previews; Gruber: 'Starting to think Markdown might make it'",
+      "author": "John Gruber (@gruber)",
+      "source": "X",
+      "added": "2026-11-04",
+      "posted": "2026-11-04",
+      "week": "2026-11-02",
+      "topics": [
+        "web dev",
+        "innovation"
+      ],
+      "score": 3,
+      "status": "curated",
+      "blurb": "Guilherme Rambo spotted that the macOS 27.3 beta renders Markdown files in QuickLook previews, and John Gruber, who created Markdown in 2004, quipped that it might finally make it. Native OS support follows Markdown becoming the default text format for AI tools and agents.",
+      "take": "I'm a fan of markdown. I do hope it makes it, and it looks like it",
+      "related": [
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
       ]
     }
   ]
