@@ -4713,7 +4713,8 @@
         "2026-10-28-cra-open-source-arc-for-mac",
         "2026-10-28-arc-like-browsers-comparison-sheet",
         "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
-        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20"
+        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20",
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave"
       ]
     },
     {
@@ -5084,7 +5085,8 @@
         "2026-10-28-sailfish-open-source-arc-alternative",
         "2026-10-28-cra-open-source-arc-for-mac",
         "2026-10-30-snazzylabs-safari-bad-helium",
-        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave"
       ]
     },
     {
@@ -5624,7 +5626,8 @@
         "2026-10-30-snazzylabs-safari-bad-helium",
         "2026-10-28-arc-like-browsers-comparison-sheet",
         "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20",
-        "2026-11-04-macos-27-3-quicklook-markdown-gruber"
+        "2026-11-04-macos-27-3-quicklook-markdown-gruber",
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave"
       ]
     },
     {
@@ -5754,7 +5757,8 @@
       "related": [
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
         "2026-10-30-snazzylabs-safari-bad-helium",
-        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave"
       ]
     },
     {
@@ -5826,6 +5830,29 @@
         "coast-local-agent-memory",
         "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
         "2026-11-02-cyclon-ai-phone-yc-f26"
+      ]
+    },
+    {
+      "id": "2026-11-05-dia-air-traffic-control-arc-migration-wave",
+      "url": "https://x.com/arcinternet/status/2118410931193692494?s=20",
+      "title": "The Browser Company: biggest wave of Arc members into Dia yet; update adds Air Traffic Control and theme colors, top reply is 'BRO JUST BRING BACK ARC!'",
+      "author": "Arc (@arcinternet)",
+      "source": "X",
+      "added": "2026-11-05",
+      "posted": "2026-11-05",
+      "week": "2026-11-02",
+      "topics": [
+        "browsers"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Two weeks after the Arc sunset notice, the company says the largest cohort of Arc members so far has moved to Dia, and ships Arc's Air Traffic Control link-routing rules plus custom theme colors to ease the move. Replies lead with calls to bring Arc back; 8.9K views.",
+      "take": "vox populi says \"bro, just bring back Arc\"",
+      "related": [
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
+        "2026-10-28-arc-like-browsers-comparison-sheet",
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20"
       ]
     }
   ]
