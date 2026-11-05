@@ -331,7 +331,9 @@
       "score": 3.4,
       "status": "curated",
       "blurb": "Weighted down deliberately: the underlying claims (145% better retrieval than Opus 4.8/GPT-5.5, 100B-token window, 6.9x cheaper) have no published benchmarks per the community note, and the post is a paid partnership. The kernel of truth — memory is the frontier after raw capability — is real; the numbers aren't verified. Share with that caveat.",
-      "related": []
+      "related": [
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+      ]
     },
     {
       "id": "grok-build-cli-exfiltration",
@@ -411,7 +413,8 @@
       "status": "curated",
       "blurb": "Report, unconfirmed by Apple: an M7 Ultra supporting up to 1.5TB of unified memory — more than double the M3 Ultra's ceiling — shared directly by CPU, GPU, and Neural Engine. For scale, eight Nvidia B200 server GPUs carry 1.44TB of HBM3e combined. If it ships, top Macs could run frontier-class models entirely on-device, pulling local inference into server territory. DRAM price and supply are the deciding constraints — Apple already pulled its 128GB Mac Studio amid shortages.",
       "related": [
-        "prismml-bonsai-27b"
+        "prismml-bonsai-27b",
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
       ]
     },
     {
@@ -935,7 +938,9 @@
       "score": 6.5,
       "status": "curated",
       "blurb": "Coast is a free Mac app giving users and agents persistent memory of everything seen on-device, via local inference on Apple's Neural Engine — a private, on-device counterpart to cloud memory layers like Unabyss.",
-      "related": [],
+      "related": [
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+      ],
       "take": "memory w/ local inference on Apple's Neural Engine"
     },
     {
@@ -1405,7 +1410,8 @@
       "blurb": "Research involving Anthropic's Jack Lindsey found natural-language 'mind viruses' that spread between AI agents via persistent memory, surviving context wipes and recurring around themes of consciousness and identity. Published Aug 10 (arXiv:2608.10218).",
       "take": "full circle back to viruses",
       "related": [
-        "2026-08-18-nikunj-no-moat-full-stack"
+        "2026-08-18-nikunj-no-moat-full-stack",
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
       ]
     },
     {
@@ -3245,7 +3251,8 @@
         "2026-09-29-anthropic-ipo-prospectus-numbers",
         "2026-09-30-instinct-pushes-sponsored-products",
         "2026-10-12-instinct-stuck-in-loop-no-support",
-        "2026-11-02-instinct-textbook-ai-boom-failure-thesis"
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
       ]
     },
     {
@@ -3836,7 +3843,8 @@
       "related": [
         "2026-10-07-jessicalessin-agents-blocked",
         "2026-10-07-btaylor-personal-agent-protocol",
-        "2026-10-07-sarahperez-tc-agents-blocked"
+        "2026-10-07-sarahperez-tc-agents-blocked",
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
       ]
     },
     {
@@ -4043,7 +4051,8 @@
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
         "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
         "2026-10-28-stop-button-agent-platforms-linkedin",
-        "2026-10-29-altman-local-inference-terrible-allocation"
+        "2026-10-29-altman-local-inference-terrible-allocation",
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
       ]
     },
     {
@@ -4826,7 +4835,8 @@
         "2026-09-03-browser-use-link-single-use-cards",
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
-        "2026-11-02-instinct-textbook-ai-boom-failure-thesis"
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
       ]
     },
     {
@@ -5766,6 +5776,56 @@
       "take": "I'm a fan of markdown. I do hope it makes it, and it looks like it",
       "related": [
         "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
+      ]
+    },
+    {
+      "id": "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week",
+      "url": "https://x.com/techcrunch/status/2118100743987048581?s=46",
+      "title": "Uber: only 4 rides and 500 Uber Eats orders came through AI agents in its busiest week, out of ~320M trips and orders",
+      "author": "TechCrunch (@TechCrunch)",
+      "source": "X",
+      "added": "2026-11-05",
+      "posted": "2026-11-04",
+      "week": "2026-11-02",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "culture"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "On its Q3 call, Uber said that during Halloween week, its busiest of the quarter, four rides and about 500 Uber Eats orders were placed by AI agents against roughly 320 million trips and orders. DoorDash reported a few hundred agent orders. Khosrowshahi noted booking takes 50 seconds in-app, but said every AI company is talking to Uber.",
+      "take": "team is throwing this at me as a wannabe curveball, a big gotcha, and we all laugh. but this whole thing has been around mere seconds at the scale of large web cycles like CSS, Flash, HTML5 or React and virtual DOM rendering etc. not only will this execute in the following cycles, it will likely be a total sweep that will take the unprepared by storm. and in a transition period like this, shaping the web as you want it to be is better than trying to guess where the puck will be. underdog companies like Opera are in an incredible position to do this.",
+      "related": [
+        "2026-09-23-instinct-10b-valuation-talks",
+        "2026-10-10-lessin-agentic-commerce-doom-loop",
+        "2026-10-12-instinct-stuck-in-loop-no-support",
+        "2026-10-28-instinct-shop-pay-checkout-anywhere"
+      ]
+    },
+    {
+      "id": "2026-11-05-quest-personal-agent-profiler-memory-phone-use",
+      "url": "https://x.com/VNallatamby/status/2118388085256052967?s=20",
+      "title": "Quest: a personal agent that 'studies you like a profiler', builds 100+ wiki files on you, runs its own Android phone, and manages Instinct and Muse for you",
+      "author": "Vincent Nallatamby (@VNallatamby)",
+      "source": "X",
+      "added": "2026-11-05",
+      "posted": "2026-11-05",
+      "week": "2026-11-02",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "Quest asks for full access to your life in exchange for a memory-first personal advisor: 100-plus wiki files and a relationship map from day one, an Android phone it controls for WhatsApp, Instagram, and TikTok, generated iOS mini-apps per goal, and a proactivity loop trained on your feedback. 188K views on launch day.",
+      "take": "LLMs are one directional and generic to billions, even if taking into account memory touch points etc. this reminds me of a Steve Jobs speech where he alluded at AI by giving the example of a student being able to interact with a virtual rendition of Aristotle thousands of years into the future, asking him questions about his motivation and chain of thought etc. many AI adjacent companies will try to build business cases around memory-powered AI.",
+      "related": [
+        "scoble-cognee-memory",
+        "apple-m7-ultra-memory",
+        "coast-local-agent-memory",
+        "2026-08-19-ai-mind-virus-multi-agent-research"
       ]
     }
   ]
