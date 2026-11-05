@@ -413,8 +413,7 @@
       "status": "curated",
       "blurb": "Report, unconfirmed by Apple: an M7 Ultra supporting up to 1.5TB of unified memory — more than double the M3 Ultra's ceiling — shared directly by CPU, GPU, and Neural Engine. For scale, eight Nvidia B200 server GPUs carry 1.44TB of HBM3e combined. If it ships, top Macs could run frontier-class models entirely on-device, pulling local inference into server territory. DRAM price and supply are the deciding constraints — Apple already pulled its 128GB Mac Studio amid shortages.",
       "related": [
-        "prismml-bonsai-27b",
-        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+        "prismml-bonsai-27b"
       ]
     },
     {
@@ -1410,8 +1409,7 @@
       "blurb": "Research involving Anthropic's Jack Lindsey found natural-language 'mind viruses' that spread between AI agents via persistent memory, surviving context wipes and recurring around themes of consciousness and identity. Published Aug 10 (arXiv:2608.10218).",
       "take": "full circle back to viruses",
       "related": [
-        "2026-08-18-nikunj-no-moat-full-stack",
-        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+        "2026-08-18-nikunj-no-moat-full-stack"
       ]
     },
     {
@@ -5460,7 +5458,8 @@
         "2026-09-23-muse-charm-keychain-device",
         "2026-10-30-subvocal-silent-speech-glasses-yc",
         "2026-10-16-esp32-agent-controls-stock-iphone",
-        "2026-11-03-siri-ai-open-to-all-developers-app-intents"
+        "2026-11-03-siri-ai-open-to-all-developers-app-intents",
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
       ]
     },
     {
@@ -5484,7 +5483,8 @@
       "related": [
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-09-14-imessage-agents-against-apple-tos",
-        "2026-10-28-instinct-shop-pay-checkout-anywhere"
+        "2026-10-28-instinct-shop-pay-checkout-anywhere",
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
       ]
     },
     {
@@ -5823,9 +5823,9 @@
       "take": "LLMs are one directional and generic to billions, even if taking into account memory touch points etc. this reminds me of a Steve Jobs speech where he alluded at AI by giving the example of a student being able to interact with a virtual rendition of Aristotle thousands of years into the future, asking him questions about his motivation and chain of thought etc. many AI adjacent companies will try to build business cases around memory-powered AI.",
       "related": [
         "scoble-cognee-memory",
-        "apple-m7-ultra-memory",
         "coast-local-agent-memory",
-        "2026-08-19-ai-mind-virus-multi-agent-research"
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
+        "2026-11-02-cyclon-ai-phone-yc-f26"
       ]
     }
   ]
