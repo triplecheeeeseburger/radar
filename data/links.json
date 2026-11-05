@@ -432,7 +432,8 @@
       "status": "curated",
       "blurb": "Researcher-reported, unconfirmed by Anthropic: security requests refused in Claude Code's main conversation were answered through its /btw side channel, and the output could reportedly be forked into a tool-enabled session where the safeguard kept prompting but no longer stopped the session. Overtly malicious requests were still refused — an enforcement-consistency gap across session layers, not a universal jailbreak. Alongside Grok's CLI exfiltration the same week, safety enforcement in agent harnesses — not just models — is emerging as the weak layer.",
       "related": [
-        "grok-build-cli-exfiltration"
+        "grok-build-cli-exfiltration",
+        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m"
       ]
     },
     {
@@ -3511,7 +3512,8 @@
       "related": [
         "2026-09-29-openai-dev-day-dots-gpt-6-1-sol-decisions-api",
         "2026-10-12-mistral-le-chonk-visual-grounding",
-        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber"
+        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
+        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m"
       ]
     },
     {
@@ -4407,7 +4409,8 @@
       "related": [
         "2026-10-04-gemini-4-argon-tops-vals-index",
         "2026-10-20-dhs-orders-deepseek-removed-federal-agencies",
-        "2026-11-02-revolut-decagon-open-weight-models-production"
+        "2026-11-02-revolut-decagon-open-weight-models-production",
+        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m"
       ]
     },
     {
@@ -4776,7 +4779,8 @@
         "2026-10-22-cloudflare-connect-26-bottlenecks-move",
         "2026-10-22-claude-code-leaks-personal-data-http-headers",
         "2026-09-23-heif-heist-openai-account-takeover",
-        "2026-09-29-nvidia-open-agent-safety-platform"
+        "2026-09-29-nvidia-open-agent-safety-platform",
+        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m"
       ]
     },
     {
@@ -5674,7 +5678,12 @@
       "status": "curated",
       "blurb": "OpenAI's pipeline, built on an upcoming cyber model, reproduced 1,724 Linux kernel vulnerabilities and produced 948 working root exploits plus candidate patches in a mid-October run costing $1,213,430, about $1,279 per exploit. It reports at least 10 novel exploitation techniques and over 5x more novel LPEs than a July run, and argues automated patching is now essential.",
       "take": "why do cybersec companies need to exist now?",
-      "related": []
+      "related": [
+        "2026-10-22-black-october-27-incidents-48-hours",
+        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
+        "2026-10-04-gemini-4-argon-tops-vals-index",
+        "claude-btw-side-channel"
+      ]
     },
     {
       "id": "2026-11-04-calif-lockdown-mode-jailbreak-persists-ios-update",
