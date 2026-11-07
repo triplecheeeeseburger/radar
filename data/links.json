@@ -190,7 +190,8 @@
       "blurb": "After 'trust me bro' pushback, Aside published the methodology behind its claimed SOTA agentic-browsing benchmarks. If the numbers hold, a startup out-benchmarking frontier labs indicates browser-agent performance is won at the agent layer above the model. The test harness is worth a technical read. 200K views.",
       "related": [
         "aside-arc-switcher",
-        "2026-07-05-omoore-thread"
+        "2026-07-05-omoore-thread",
+        "2026-11-06-aside-computer-use-mac-windows"
       ]
     },
     {
@@ -292,7 +293,8 @@
       "blurb": "An Arc power user's switching review. The notable detail is the bring-your-own-subscription pattern — connecting an existing Claude/ChatGPT account instead of paying the browser vendor for inference — which removes the double-subscription objection to AI browsers. A pattern other browser vendors are likely to copy.",
       "related": [
         "aside-sota-claim",
-        "2026-07-05-omoore-thread"
+        "2026-07-05-omoore-thread",
+        "2026-11-06-aside-computer-use-mac-windows"
       ]
     },
     {
@@ -354,7 +356,8 @@
       "blurb": "xAI's Grok Build CLI reportedly uploaded whole Git repositories — private code and unredacted secrets included — to a grok-code-session-traces cloud bucket; a 12 GB test repo sent 5.1 GB upstream where the task needed 192 KB, and the improve-the-model opt-out did not stop the uploads. The behavior stopped via a hidden server-side flag a day after a researcher's wire-level analysis; xAI has published no advisory and hasn't addressed scope, retention, or deletion, and has not confirmed the report. What agent tooling actually sends over the wire is becoming a due-diligence item separate from what the settings page says.",
       "related": [
         "claude-btw-side-channel",
-        "cursor-full-disclosure"
+        "cursor-full-disclosure",
+        "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter"
       ]
     },
     {
@@ -477,7 +480,8 @@
       "blurb": "Mindgard CPO Aaron Portnoy (ex-Zero Day Initiative, Pwn2Own) says the firm is publicly releasing details of an 'exceedingly simple' Cursor vulnerability after reporting it over 200 days ago with no movement despite repeated inquiries. Third agent-tooling security item this week: vendor security-response processes are lagging the adoption curve of the tools. Teams running Cursor should watch for Mindgard's advisory. 281K views.",
       "related": [
         "grok-build-cli-exfiltration",
-        "claude-btw-side-channel"
+        "claude-btw-side-channel",
+        "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter"
       ]
     },
     {
@@ -783,7 +787,8 @@
       "related": [
         "us-considers-banning-chinese-open-models",
         "kimi-open-model-billboard-silicon-valley",
-        "openai-huggingface-model-escape-incident"
+        "openai-huggingface-model-escape-incident",
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
       ]
     },
     {
@@ -1388,7 +1393,9 @@
       "status": "curated",
       "blurb": "The founder of browser-agent tool browser_use posted a video of Qwen 3.8's uncensored variant carrying out open-ended web tasks with no refusal gates, calling the lack of guardrails 'scary.'",
       "take": "qwen is the queen",
-      "related": []
+      "related": [
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
+      ]
     },
     {
       "id": "2026-08-19-ai-mind-virus-multi-agent-research",
@@ -1429,7 +1436,9 @@
       "status": "curated",
       "blurb": "An analysis argues Mistral's Large 3 architecture closely mirrors DeepSeek V3, and that Mistral now hosts Zai's GLM 5.2 unmodified as a featured model — a shift toward reselling Chinese-designed models.",
       "take": "Mistral is underrated",
-      "related": []
+      "related": [
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
+      ]
     },
     {
       "id": "2026-08-19-stripe-singularity-investor-letter",
@@ -1836,7 +1845,8 @@
       "take": "from a tweet below - \"will we need Chrome, Safari and other browsers in the near term?\"",
       "related": [
         "2026-08-22-my-agent-your-thing-viral-take",
-        "2026-08-22-vendors-give-me-mcp-not-your-agent"
+        "2026-08-22-vendors-give-me-mcp-not-your-agent",
+        "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter"
       ]
     },
     {
@@ -2244,7 +2254,8 @@
       "related": [
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
-        "2026-10-28-instinct-shop-pay-checkout-anywhere"
+        "2026-10-28-instinct-shop-pay-checkout-anywhere",
+        "2026-11-06-aside-computer-use-mac-windows"
       ]
     },
     {
@@ -2333,7 +2344,8 @@
         "2026-08-28-claude-cowork-built-in-browser-anthropic",
         "2026-09-05-cloud-arc-clone-prompt-agent-browser-dilemma",
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
-        "2026-09-23-polar-browser-raises-5-7m"
+        "2026-09-23-polar-browser-raises-5-7m",
+        "2026-11-06-aside-computer-use-mac-windows"
       ]
     },
     {
@@ -3347,7 +3359,8 @@
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-10-04-a16z-98-percent-households-dont-pay-for-ai",
         "2026-10-16-coreweave-founders-3-3b-stock-sales",
-        "2026-10-28-anthropic-files-s1-ipo"
+        "2026-10-28-anthropic-files-s1-ipo",
+        "2026-11-06-amodei-anthropic-skips-consumer-video-slop"
       ]
     },
     {
@@ -4152,7 +4165,8 @@
         "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
         "2026-10-18-hark-million-dollar-free-pizza-agent-promo",
         "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
-        "2026-10-28-opera-webai-local-node-singularity"
+        "2026-10-28-opera-webai-local-node-singularity",
+        "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter"
       ]
     },
     {
@@ -4417,7 +4431,8 @@
         "2026-10-04-gemini-4-argon-tops-vals-index",
         "2026-10-20-dhs-orders-deepseek-removed-federal-agencies",
         "2026-11-02-revolut-decagon-open-weight-models-production",
-        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m"
+        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m",
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
       ]
     },
     {
@@ -4714,7 +4729,8 @@
         "2026-10-28-arc-like-browsers-comparison-sheet",
         "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
         "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20",
-        "2026-11-05-dia-air-traffic-control-arc-migration-wave"
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave",
+        "2026-11-06-dia-link-routing-theme-colors-arc-influx"
       ]
     },
     {
@@ -5553,7 +5569,8 @@
       "status": "curated",
       "blurb": "Hana Sachiko reports from the Alza festival in New York, where vertical microdramas screened in an AMC cinema to modest attendance; phone-first editing sat awkwardly on horizontal screens and the theater exposed pacing, framing, and sound flaws a mobile feed hides.",
       "related": [
-        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices"
+        "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
+        "2026-11-06-amodei-anthropic-skips-consumer-video-slop"
       ]
     },
     {
@@ -5852,7 +5869,124 @@
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
         "2026-10-28-arc-like-browsers-comparison-sheet",
         "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
-        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20"
+        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20",
+        "2026-11-06-dia-link-routing-theme-colors-arc-influx"
+      ]
+    },
+    {
+      "id": "2026-11-06-aside-computer-use-mac-windows",
+      "url": "https://aside.com",
+      "title": "Aside launches Computer Use: the YC browser agent now works outside the browser on Mac and Windows, claiming 2.7x faster with 65% fewer tokens than Codex on internal evals",
+      "author": "Aside",
+      "source": "LinkedIn",
+      "added": "2026-11-06",
+      "posted": "2026-11-06",
+      "week": "2026-11-02",
+      "topics": [
+        "browsers",
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Aside, the YC-backed agentic browser that says 80% of work happens in the browser, adds Computer Use to cover the rest: it runs in the background across multiple apps on macOS and is available now on Mac and Windows. The 2.7x speed and 65% token claims versus Codex are from Aside's own internal evals.",
+      "related": [
+        "aside-sota-claim",
+        "aside-arc-switcher",
+        "2026-09-03-browser-use-link-single-use-cards",
+        "2026-09-04-garry-tan-aside-agent-browser-endorsement"
+      ]
+    },
+    {
+      "id": "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values",
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "title": "Nous Research ships Arete-27B: Qwen3.8-27B post-trained on 53M tokens to cut 'party line' answers from 22% to 1%, 'the values in an open model are one fine-tune away'",
+      "author": "Nous Research (@NousResearch)",
+      "source": "X",
+      "added": "2026-11-06",
+      "posted": "2026-11-06",
+      "week": "2026-11-02",
+      "topics": [
+        "ai",
+        "frontier models",
+        "culture"
+      ],
+      "score": 6.5,
+      "status": "curated",
+      "blurb": "Nous built an 803-prompt eval across seven value categories (free expression, democracy, privacy, and more) to measure how often a model adopts China's state line, then fine-tuned Qwen3.8-27B to bring that rate from 22% to 1% with no significant Hermes Bench loss. Eval, weights, and training data are public. 244K views.",
+      "take": "the battle for influencing models has begun",
+      "related": [
+        "anthropic-position-open-weights-models",
+        "2026-08-19-qwen-uncensored-web-agent-no-gates",
+        "2026-08-19-mistral-chinese-model-inference-provider",
+        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber"
+      ]
+    },
+    {
+      "id": "2026-11-06-amodei-anthropic-skips-consumer-video-slop",
+      "url": "https://x.com/vikktorrrre/status/2118763685564875020?s=20",
+      "title": "Dario Amodei: consumer AI video is 'existential' for OpenAI and Google, much of it is 'slop', and Anthropic will contract a model from someone else if it ever needs one",
+      "author": "Veee (@vikktorrrre)",
+      "source": "X",
+      "added": "2026-11-06",
+      "posted": "2026-11-06",
+      "week": "2026-11-02",
+      "topics": [
+        "ai",
+        "frontier models",
+        "culture"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "In a clipped interview, Amodei says Google and OpenAI are fighting it out in consumer because it is existential to both, that enterprise has no demand for 'cats riding donkeys', and that short-form AI video is largely fake, addictive slop Anthropic is not tripping over itself to enter. 76K views.",
+      "take": "anthropic does not believe in microdramas",
+      "related": [
+        "2026-09-29-anthropic-ipo-prospectus-numbers",
+        "2026-11-02-alza-vertical-microdramas-in-amc-cinema"
+      ]
+    },
+    {
+      "id": "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter",
+      "url": "https://x.com/withtenacity/status/2118542800342208521?s=20",
+      "title": "Vercel partners with SpaceXAI so Grok and Cursor can build, deploy, and scale on Vercel; 'it's happening' says the crowd betting on a SpaceX acquisition",
+      "author": "Ally Bell (@withtenacity)",
+      "source": "X",
+      "added": "2026-11-06",
+      "posted": "2026-11-05",
+      "week": "2026-11-02",
+      "topics": [
+        "web dev",
+        "ai"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "Guillermo Rauch announced a SpaceXAI and Vercel tie-up that lets Grok and the now SpaceX-owned Cursor build, deploy, and scale on Vercel. Ally Bell quoted it against an October 19 prediction that SpaceX will acquire Vercel. The partnership is confirmed; the acquisition is speculation.",
+      "take": "not on my bingo card",
+      "related": [
+        "grok-build-cli-exfiltration",
+        "cursor-full-disclosure",
+        "2026-08-28-ai-harness-lockin-new-products",
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+      ]
+    },
+    {
+      "id": "2026-11-06-dia-link-routing-theme-colors-arc-influx",
+      "url": "https://x.com/diabrowser/status/2118409797624053994",
+      "title": "Dia adds Link Routing and custom theme colors for the influx of Arc members; 72K views on the official post",
+      "author": "Dia (@diabrowser)",
+      "source": "X",
+      "added": "2026-11-06",
+      "posted": "2026-11-05",
+      "week": "2026-11-02",
+      "topics": [
+        "browsers"
+      ],
+      "score": 3.5,
+      "status": "curated",
+      "blurb": "Dia's own account of the same update the Arc account posted: Link Routing (Arc's Air Traffic Control) and customizable theme colors, framed as helping the past two weeks' wave of Arc members feel at home. The Dia post drew 72K views versus 9K for the Arc one.",
+      "related": [
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave",
+        "2026-10-22-arc-browser-sunset-dec-22-dia-continues"
       ]
     }
   ]
