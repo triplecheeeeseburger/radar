@@ -1436,9 +1436,7 @@
       "status": "curated",
       "blurb": "An analysis argues Mistral's Large 3 architecture closely mirrors DeepSeek V3, and that Mistral now hosts Zai's GLM 5.2 unmodified as a featured model — a shift toward reselling Chinese-designed models.",
       "take": "Mistral is underrated",
-      "related": [
-        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
-      ]
+      "related": []
     },
     {
       "id": "2026-08-19-stripe-singularity-investor-letter",
@@ -5526,7 +5524,8 @@
       "related": [
         "2026-10-29-altman-local-inference-terrible-allocation",
         "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
-        "2026-10-28-opera-webai-local-node-singularity"
+        "2026-10-28-opera-webai-local-node-singularity",
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
       ]
     },
     {
@@ -5918,8 +5917,8 @@
       "related": [
         "anthropic-position-open-weights-models",
         "2026-08-19-qwen-uncensored-web-agent-no-gates",
-        "2026-08-19-mistral-chinese-model-inference-provider",
-        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber"
+        "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
+        "2026-11-02-revolut-decagon-open-weight-models-production"
       ]
     },
     {
