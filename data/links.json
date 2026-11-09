@@ -62,7 +62,7 @@
       "tldr": "Apple opens **Siri AI** to all developers, letting any app expose actions and content through App Intents months before the customer rollout. Revolut reportedly saw AI gains only after leaving OpenAI and Anthropic for self-hosted GLM, Decagon runs 90% on **open weights**, and Anthropic's disclosure that Claude grades every chat for misuse pushed security users toward DeepSeek and Qwen. Google will reportedly cut web search for schools that opt out of AI, and Safari gets **vertical tabs** in the macOS 27.3 beta. On the device side, Cyclon (YC F26) pitched an **AI phone** to replace the iPhone, one investor called **Instinct** a textbook AI-boom failure, and robotics funding hit a record quarter. Opera passes the 100m active desktop users mark, making **local AI** models available to hundreds of millions of people in one go."
     },
     "2026-11-09": {
-      "tldr": ""
+      "tldr": "OpenTable’s parent says its OpenAI integration seated **190,000 bookings** in September, a counterweight to Uber’s four agent rides, while Muse’s cloud-VM web browsing looks more like a **workaround**. Anthropic ships **Fable 5.2**, a step above Opus 5.5 and up to 30% faster; the bottleneck is now ambition and parallel compute. On the Mac, macOS 27.3 lets Core AI in VMs use the host GPU and Neural Engine."
     }
   },
   "entries": [
