@@ -194,8 +194,7 @@
       "related": [
         "aside-arc-switcher",
         "2026-07-05-omoore-thread",
-        "2026-11-06-aside-computer-use-mac-windows",
-        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
+        "2026-11-06-aside-computer-use-mac-windows"
       ]
     },
     {
@@ -5982,7 +5981,8 @@
         "grok-build-cli-exfiltration",
         "cursor-full-disclosure",
         "2026-08-28-ai-harness-lockin-new-products",
-        "2026-10-13-grok-bot-leaked-api-keys-server-logs"
+        "2026-10-13-grok-bot-leaked-api-keys-server-logs",
+        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
       ]
     },
     {
@@ -6024,10 +6024,10 @@
       "blurb": "Anthropic says Fable 5.2 and Mythos 5.2 beat Opus 5.5 in almost all evaluated capabilities, communicate more clearly, and generate up to 30% faster; the model is live on Vercel's AI Gateway. Rauch's takeaway from early access: this generation can orchestrate far more parallel work than one machine handles, so cloud sandboxes become the constraint.",
       "take": "I wonder if they'll keep getting privileged access once the sale to XAI gets finalized",
       "related": [
-        "aside-sota-claim",
         "fable-access-extended",
         "days-without-fable",
-        "claude-btw-side-channel"
+        "claude-btw-side-channel",
+        "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter"
       ]
     },
     {
