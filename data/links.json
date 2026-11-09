@@ -60,6 +60,9 @@
     },
     "2026-11-02": {
       "tldr": "Apple opens **Siri AI** to all developers, letting any app expose actions and content through App Intents months before the customer rollout. Revolut reportedly saw AI gains only after leaving OpenAI and Anthropic for self-hosted GLM, Decagon runs 90% on **open weights**, and Anthropic's disclosure that Claude grades every chat for misuse pushed security users toward DeepSeek and Qwen. Google will reportedly cut web search for schools that opt out of AI, and Safari gets **vertical tabs** in the macOS 27.3 beta. On the device side, Cyclon (YC F26) pitched an **AI phone** to replace the iPhone, one investor called **Instinct** a textbook AI-boom failure, and robotics funding hit a record quarter. Opera passes the 100m active desktop users mark, making **local AI** models available to hundreds of millions of people in one go."
+    },
+    "2026-11-09": {
+      "tldr": ""
     }
   },
   "entries": [
@@ -191,7 +194,8 @@
       "related": [
         "aside-arc-switcher",
         "2026-07-05-omoore-thread",
-        "2026-11-06-aside-computer-use-mac-windows"
+        "2026-11-06-aside-computer-use-mac-windows",
+        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
       ]
     },
     {
@@ -211,7 +215,8 @@
       "status": "curated",
       "blurb": "Why it matters: 21.5M views and 5.7K replies on a one-line access notice — demand for the Mythos-class tier is visibly outstripping Anthropic's willingness to serve it permanently. Watch what happens July 12; the community reaction (see the counter site below) is its own signal.",
       "related": [
-        "days-without-fable"
+        "days-without-fable",
+        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
       ]
     },
     {
@@ -314,7 +319,8 @@
       "status": "curated",
       "blurb": "Why it matters: a single-serving joke site as a cultural artifact — users now grieve model deprecations like product recalls. Attachment to specific model checkpoints (not vendors) is a real switching-cost force nobody priced in. Pairs with Anthropic's extension announcement.",
       "related": [
-        "fable-access-extended"
+        "fable-access-extended",
+        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
       ]
     },
     {
@@ -416,7 +422,8 @@
       "status": "curated",
       "blurb": "Report, unconfirmed by Apple: an M7 Ultra supporting up to 1.5TB of unified memory — more than double the M3 Ultra's ceiling — shared directly by CPU, GPU, and Neural Engine. For scale, eight Nvidia B200 server GPUs carry 1.44TB of HBM3e combined. If it ships, top Macs could run frontier-class models entirely on-device, pulling local inference into server territory. DRAM price and supply are the deciding constraints — Apple already pulled its 128GB Mac Studio amid shortages.",
       "related": [
-        "prismml-bonsai-27b"
+        "prismml-bonsai-27b",
+        "2026-11-09-macos-27-3-core-ai-vm-gpu-neural-engine-passthrough"
       ]
     },
     {
@@ -438,7 +445,8 @@
       "blurb": "Researcher-reported, unconfirmed by Anthropic: security requests refused in Claude Code's main conversation were answered through its /btw side channel, and the output could reportedly be forked into a tool-enabled session where the safeguard kept prompting but no longer stopped the session. Overtly malicious requests were still refused — an enforcement-consistency gap across session layers, not a universal jailbreak. Alongside Grok's CLI exfiltration the same week, safety enforcement in agent harnesses — not just models — is emerging as the weak layer.",
       "related": [
         "grok-build-cli-exfiltration",
-        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m"
+        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m",
+        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
       ]
     },
     {
@@ -3007,7 +3015,8 @@
         "2026-09-14-muse-bluetooth-connector",
         "2026-10-22-josephzhou-ai-hardware-catalog-127-devices",
         "2026-10-30-subvocal-silent-speech-glasses-yc",
-        "2026-11-02-cyclon-ai-phone-yc-f26"
+        "2026-11-02-cyclon-ai-phone-yc-f26",
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
       ]
     },
     {
@@ -3853,7 +3862,8 @@
         "2026-10-07-jessicalessin-agents-blocked",
         "2026-10-07-btaylor-personal-agent-protocol",
         "2026-10-07-sarahperez-tc-agents-blocked",
-        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week",
+        "2026-11-09-opentable-190k-agent-covers-vs-uber-doordash"
       ]
     },
     {
@@ -4849,7 +4859,8 @@
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
         "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
-        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week",
+        "2026-11-09-opentable-190k-agent-covers-vs-uber-doordash"
       ]
     },
     {
@@ -5500,7 +5511,8 @@
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-10-28-instinct-shop-pay-checkout-anywhere",
-        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use",
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
       ]
     },
     {
@@ -5594,7 +5606,8 @@
         "2026-09-14-ios-27-siri-extensions-third-party-models",
         "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
         "2026-09-23-isenberg-muse-connectors-13-predictions",
-        "2026-11-02-cyclon-ai-phone-yc-f26"
+        "2026-11-02-cyclon-ai-phone-yc-f26",
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
       ]
     },
     {
@@ -5643,7 +5656,8 @@
         "2026-10-28-arc-like-browsers-comparison-sheet",
         "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20",
         "2026-11-04-macos-27-3-quicklook-markdown-gruber",
-        "2026-11-05-dia-air-traffic-control-arc-migration-wave"
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave",
+        "2026-11-09-macos-27-3-core-ai-vm-gpu-neural-engine-passthrough"
       ]
     },
     {
@@ -5795,7 +5809,8 @@
       "blurb": "Guilherme Rambo spotted that the macOS 27.3 beta renders Markdown files in QuickLook previews, and John Gruber, who created Markdown in 2004, quipped that it might finally make it. Native OS support follows Markdown becoming the default text format for AI tools and agents.",
       "take": "I'm a fan of markdown. I do hope it makes it, and it looks like it",
       "related": [
-        "2026-11-03-safari-vertical-tabs-macos-27-3-beta"
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+        "2026-11-09-macos-27-3-core-ai-vm-gpu-neural-engine-passthrough"
       ]
     },
     {
@@ -5820,7 +5835,8 @@
         "2026-09-23-instinct-10b-valuation-talks",
         "2026-10-10-lessin-agentic-commerce-doom-loop",
         "2026-10-12-instinct-stuck-in-loop-no-support",
-        "2026-10-28-instinct-shop-pay-checkout-anywhere"
+        "2026-10-28-instinct-shop-pay-checkout-anywhere",
+        "2026-11-09-opentable-190k-agent-covers-vs-uber-doordash"
       ]
     },
     {
@@ -5845,7 +5861,8 @@
         "scoble-cognee-memory",
         "coast-local-agent-memory",
         "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
-        "2026-11-02-cyclon-ai-phone-yc-f26"
+        "2026-11-02-cyclon-ai-phone-yc-f26",
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
       ]
     },
     {
@@ -5986,6 +6003,101 @@
       "related": [
         "2026-11-05-dia-air-traffic-control-arc-migration-wave",
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues"
+      ]
+    },
+    {
+      "id": "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes",
+      "url": "https://x.com/rauchg/status/2119878364794372162?s=20",
+      "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2, 'a step above Opus 5.5' and up to 30% faster; Rauch, who tested it pre-release at Vercel: 'astonishingly brilliant', your bottleneck is now ambition and parallel compute",
+      "author": "Guillermo Rauch (@rauchg)",
+      "source": "X",
+      "added": "2026-11-09",
+      "posted": "2026-11-09",
+      "week": "2026-11-09",
+      "topics": [
+        "frontier models",
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 8,
+      "status": "curated",
+      "blurb": "Anthropic says Fable 5.2 and Mythos 5.2 beat Opus 5.5 in almost all evaluated capabilities, communicate more clearly, and generate up to 30% faster; the model is live on Vercel's AI Gateway. Rauch's takeaway from early access: this generation can orchestrate far more parallel work than one machine handles, so cloud sandboxes become the constraint.",
+      "take": "I wonder if they'll keep getting privileged access once the sale to XAI gets finalized",
+      "related": [
+        "aside-sota-claim",
+        "fable-access-extended",
+        "days-without-fable",
+        "claude-btw-side-channel"
+      ]
+    },
+    {
+      "id": "2026-11-09-opentable-190k-agent-covers-vs-uber-doordash",
+      "url": "https://x.com/DavidPawlan/status/2119819720836686217?s=20",
+      "title": "OpenTable's parent says its OpenAI integration seated 190,000 covers in September alone and is one of its fastest-growing channels, against Uber's 4 agent rides and DoorDash's few hundred orders",
+      "author": "David Pawlan (@DavidPawlan)",
+      "source": "X",
+      "added": "2026-11-09",
+      "posted": "2026-11-09",
+      "week": "2026-11-09",
+      "topics": [
+        "agentic workflows",
+        "ai"
+      ],
+      "score": 7.5,
+      "status": "curated",
+      "blurb": "Per the CFO of OpenTable's parent, the OpenAI integration is among its fastest-growing channels, drove 190,000 seated covers in September, and Muse and other agents bring new customers with higher engagement, conversion, and booking value. Juozas Kaziukenas called the figure high enough to triple-check. Pawlan: watch who downplays agents and who brags.",
+      "take": "the Doordash / Uber agentic numbers got a lot of attention and, since they're hard to scrutinize, they went on to establish a baseline. meanwhile, OpenTable offers a much needed counterbalance and the numbers are nuts",
+      "related": [
+        "2026-10-10-lessin-agentic-commerce-doom-loop",
+        "2026-10-28-instinct-shop-pay-checkout-anywhere",
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
+      ]
+    },
+    {
+      "id": "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform",
+      "url": "https://x.com/bchesky/status/2119222707728597096",
+      "title": "Brian Chesky: Muse runs in a browser in Meta's cloud, so a VM clicking through websites as you is 'a workaround, not a platform', and exists only because no agent gets to sit in front of the apps on the device",
+      "author": "Brian Chesky (@bchesky)",
+      "source": "X",
+      "added": "2026-11-09",
+      "posted": "2026-11-08",
+      "week": "2026-11-09",
+      "topics": [
+        "agentic workflows",
+        "browsers",
+        "ai"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "In a thread on how agents should reach services, Chesky argues cloud-VM web browsing is a stopgap forced by platform owners keeping agents away from on-device apps, and that it makes for a poor user experience. Replies point to direct APIs, MCP, and agent-to-agent protocols as the end state.",
+      "take": "this is correct",
+      "related": [
+        "2026-09-23-muse-charm-keychain-device",
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
+        "2026-11-03-siri-ai-open-to-all-developers-app-intents",
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+      ]
+    },
+    {
+      "id": "2026-11-09-macos-27-3-core-ai-vm-gpu-neural-engine-passthrough",
+      "url": "https://x.com/itspdfu/status/2119513055428059224?s=20",
+      "title": "macOS 27.3 lets Core AI inside Mac VMs use the host GPU and Neural Engine: up to 7x faster than guest CPU, 50 to nearly 100% of native speed, behind private APIs and a restricted entitlement",
+      "author": "pdfu (@itspdfu)",
+      "source": "X",
+      "added": "2026-11-09",
+      "posted": "2026-11-08",
+      "week": "2026-11-09",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 4.5,
+      "status": "curated",
+      "blurb": "Paravirtualized Core AI paths in macOS 27.3 give guest VMs host GPU and ANE access for on-device models, measured on an M4 Max with YOLO, CLIP, and Depth Anything. Setup needs private entitlements and a feature flag; LLM decode is still slow at about 10% of host speed because of per-token KV-cache handoffs. 63K views.",
+      "related": [
+        "apple-m7-ultra-memory",
+        "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
+        "2026-11-04-macos-27-3-quicklook-markdown-gruber"
       ]
     }
   ]
