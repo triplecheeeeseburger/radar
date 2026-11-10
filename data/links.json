@@ -795,7 +795,8 @@
         "us-considers-banning-chinese-open-models",
         "kimi-open-model-billboard-silicon-valley",
         "openai-huggingface-model-escape-incident",
-        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values",
+        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models"
       ]
     },
     {
@@ -5043,7 +5044,8 @@
         "2026-10-13-digup-local-semantic-search-embeddinggemma-2",
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
         "2026-10-29-altman-local-inference-terrible-allocation",
-        "2026-11-02-revolut-decagon-open-weight-models-production"
+        "2026-11-02-revolut-decagon-open-weight-models-production",
+        "2026-11-09-dtns-5391-opera-webai-100m-desktop-users"
       ]
     },
     {
@@ -5536,7 +5538,8 @@
         "2026-10-29-altman-local-inference-terrible-allocation",
         "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
         "2026-10-28-opera-webai-local-node-singularity",
-        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values",
+        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models"
       ]
     },
     {
@@ -5787,7 +5790,8 @@
         "2026-10-22-arc-browser-sunset-dec-22-dia-continues",
         "2026-10-30-snazzylabs-safari-bad-helium",
         "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
-        "2026-11-05-dia-air-traffic-control-arc-migration-wave"
+        "2026-11-05-dia-air-traffic-control-arc-migration-wave",
+        "2026-11-09-dtns-5391-opera-webai-100m-desktop-users"
       ]
     },
     {
@@ -5934,7 +5938,8 @@
         "anthropic-position-open-weights-models",
         "2026-08-19-qwen-uncensored-web-agent-no-gates",
         "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
-        "2026-11-02-revolut-decagon-open-weight-models-production"
+        "2026-11-02-revolut-decagon-open-weight-models-production",
+        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models"
       ]
     },
     {
@@ -6098,6 +6103,52 @@
         "apple-m7-ultra-memory",
         "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
         "2026-11-04-macos-27-3-quicklook-markdown-gruber"
+      ]
+    },
+    {
+      "id": "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models",
+      "url": "https://x.com/TheDailyMao/status/2119916784845455441?s=20",
+      "title": "Unconfirmed report: Anthropic plans to push governments for firmware-level locks on Western GPUs that block 'unapproved' Chinese open models; AMD and Google said to be on board, Nvidia opposed",
+      "author": "The Daily Mao (@TheDailyMao)",
+      "source": "X",
+      "added": "2026-11-09",
+      "posted": "2026-11-09",
+      "week": "2026-11-09",
+      "topics": [
+        "ai",
+        "frontier models",
+        "cybersecurity"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "An anonymous account claims Anthropic emailed open-source inference providers about 'voluntary regulations' on which models they run, and named Zhipu, Moonshot, DeepSeek, Alibaba, and others as having poor safety records. No document or second source is public, and Amodei has previously said Anthropic never advocated banning open weights. 105K views.",
+      "take": "very creative solution to the \"slowing down\" initiative that failed. And this might take off.",
+      "related": [
+        "anthropic-position-open-weights-models",
+        "2026-11-02-revolut-decagon-open-weight-models-production",
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
+      ]
+    },
+    {
+      "id": "2026-11-09-dtns-5391-opera-webai-100m-desktop-users",
+      "url": "https://x.com/dtnsshow/status/2119933547108823126?s=20",
+      "title": "Daily Tech News Show 5391, 'The Huang Affair': Dan Berte joins Tom Merritt, Robb Dunewood, and Jason Howell, covering Opera's WebAI launch and the 100M desktop users mark",
+      "author": "Daily Tech News Show (@dtnsshow)",
+      "source": "X",
+      "added": "2026-11-09",
+      "posted": "2026-11-09",
+      "week": "2026-11-09",
+      "topics": [
+        "browsers",
+        "ai"
+      ],
+      "score": 5,
+      "status": "curated",
+      "blurb": "The November 9 episode of the independent daily tech podcast, headlined on a threat to Nvidia's dominance, features Opera's Dan Berte as guest alongside Tom Merritt, Robb Dunewood, and Jason Howell. Audio is on Acast and video on YouTube.",
+      "take": "a great conversation with Jason Howell on the [Daily Tech News Show](https://www.youtube.com/@dailytechnewsshow) 5391 about Opera's WebAI launch and the 100M desktop users mark, with the standard being well received",
+      "related": [
+        "2026-10-28-opera-webai-local-node-singularity",
+        "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20"
       ]
     }
   ]
