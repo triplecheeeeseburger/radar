@@ -445,7 +445,8 @@
       "related": [
         "grok-build-cli-exfiltration",
         "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m",
-        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
+        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes",
+        "2026-11-10-bitdefender-web-sage-agentic-browser-extension"
       ]
     },
     {
@@ -3294,7 +3295,8 @@
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
         "2026-08-28-chatgpt-work-auth-failure-firsthand",
         "2026-10-13-grok-bot-leaked-api-keys-server-logs",
-        "2026-10-22-1password-for-agents-platform-muse-grok-claude"
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude",
+        "2026-11-10-bitdefender-web-sage-agentic-browser-extension"
       ]
     },
     {
@@ -4584,7 +4586,8 @@
         "2026-10-22-meta-pauses-muse-sharing-chats-found-on-web",
         "2026-10-22-duckduckgo-fixed-it-chrome-ad-parody",
         "2026-10-29-duckduckgo-flock-safety-ceo-notes",
-        "2026-11-03-google-cuts-web-search-for-schools-opting-out-of-ai"
+        "2026-11-03-google-cuts-web-search-for-schools-opting-out-of-ai",
+        "2026-11-10-bitdefender-web-sage-agentic-browser-extension"
       ]
     },
     {
@@ -4706,7 +4709,8 @@
         "2026-09-23-hermes-logs-in-without-seeing-password",
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
         "2026-08-28-chatgpt-work-auth-failure-firsthand",
-        "2026-10-22-cloudflare-connect-26-bottlenecks-move"
+        "2026-10-22-cloudflare-connect-26-bottlenecks-move",
+        "2026-11-10-bitdefender-web-sage-agentic-browser-extension"
       ]
     },
     {
@@ -6149,6 +6153,31 @@
       "related": [
         "2026-10-28-opera-webai-local-node-singularity",
         "2026-11-04-opera-100m-desktop-mau-q3-revenue-up-20"
+      ]
+    },
+    {
+      "id": "2026-11-10-bitdefender-web-sage-agentic-browser-extension",
+      "url": "https://x.com/Bitdefender/status/2120161399162761443?s=20",
+      "title": "Bitdefender launches Web Sage, an 'agentic browser extension' that spots phishing pages, fake stores, and deceptive ads and explains each risk in plain language; free on Chrome and Edge",
+      "author": "Bitdefender (@Bitdefender)",
+      "source": "X",
+      "added": "2026-11-10",
+      "posted": "2026-11-10",
+      "week": "2026-11-09",
+      "topics": [
+        "cybersecurity",
+        "browsers",
+        "ai"
+      ],
+      "score": 6,
+      "status": "curated",
+      "blurb": "Bitdefender's Web Sage is an AI-powered extension for real-time protection while browsing: it flags phishing, fake shops, and deceptive ads and tells the user why. A security vendor adopting the agentic label for an in-browser assistant puts it in the same sidebar space browser makers are building into the product. 73K views.",
+      "take": "Bitdefender announced an agentic browser extension",
+      "related": [
+        "claude-btw-side-channel",
+        "2026-09-23-hermes-logs-in-without-seeing-password",
+        "2026-10-20-duckduckgo-muse-invasive-three-steps",
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude"
       ]
     }
   ]
