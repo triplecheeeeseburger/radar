@@ -80,7 +80,7 @@ footer a { color: inherit; }
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com" />\n'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n'
-         '<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400'
+         '<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700'
          '&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />')
 
 def esc(s): return html.escape(str(s), quote=True)
