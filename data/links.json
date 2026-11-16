@@ -1116,7 +1116,8 @@
       "blurb": "A developer argues dedicated search APIs like Exa now outperform the web search bundled into agent coding tools. Exa says it indexes 80 billion pages and is on pace for Google-scale reach by 2027.",
       "take": "is EXA the agentic search winner?",
       "related": [
-        "2026-08-28-free-agent-web-search-tinyfish"
+        "2026-08-28-free-agent-web-search-tinyfish",
+        "2026-11-15-exa-runs-in-europe-stockholm-eu-data"
       ]
     },
     {
@@ -1829,7 +1830,8 @@
       "blurb": "A new tool built on Tiny_Fish and Monid infrastructure offers agents free web search and page-fetching, undercutting paid competitors like Exa, Tavily, and SerpAPI that charge roughly $7 per 1,000 searches.",
       "take": "\"kill browsers!\"",
       "related": [
-        "exa-agentic-search-infra-scale"
+        "exa-agentic-search-infra-scale",
+        "2026-11-15-exa-runs-in-europe-stockholm-eu-data"
       ]
     },
     {
@@ -4347,7 +4349,8 @@
       "related": [
         "2026-09-29-nvidia-open-agent-safety-platform",
         "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
-        "2026-09-09-openai-defense-factory-playbook"
+        "2026-09-09-openai-defense-factory-playbook",
+        "2026-11-15-claude-managed-agents-self-hosted-private-beta"
       ]
     },
     {
@@ -4513,7 +4516,8 @@
       "related": [
         "2026-10-13-google-poisoned-search-results-for-scrapers",
         "2026-08-31-instinct-stealth-personal-assistant",
-        "2026-10-22-claude-code-leaks-personal-data-http-headers"
+        "2026-10-22-claude-code-leaks-personal-data-http-headers",
+        "2026-11-15-exa-runs-in-europe-stockholm-eu-data"
       ]
     },
     {
@@ -4816,7 +4820,8 @@
         "2026-10-22-claude-code-leaks-personal-data-http-headers",
         "2026-09-23-heif-heist-openai-account-takeover",
         "2026-09-29-nvidia-open-agent-safety-platform",
-        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m"
+        "2026-11-04-openai-pipeline-948-linux-lpe-exploits-1-2m",
+        "2026-11-15-faa-ground-stop-l3harris-network-update"
       ]
     },
     {
@@ -5543,7 +5548,8 @@
         "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
         "2026-10-28-opera-webai-local-node-singularity",
         "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values",
-        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models"
+        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models",
+        "2026-11-15-claude-managed-agents-self-hosted-private-beta"
       ]
     },
     {
@@ -5566,7 +5572,8 @@
       "take": "fascinating research",
       "related": [
         "2026-11-02-revolut-decagon-open-weight-models-production",
-        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs"
+        "2026-10-14-nda-clause-governing-ai-use-on-deal-docs",
+        "2026-11-15-claude-managed-agents-self-hosted-private-beta"
       ]
     },
     {
@@ -6036,7 +6043,8 @@
         "fable-access-extended",
         "days-without-fable",
         "claude-btw-side-channel",
-        "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter"
+        "2026-11-06-vercel-spacexai-partnership-grok-cursor-acquisition-chatter",
+        "2026-11-15-claude-managed-agents-self-hosted-private-beta"
       ]
     },
     {
@@ -6178,6 +6186,96 @@
         "2026-09-23-hermes-logs-in-without-seeing-password",
         "2026-10-20-duckduckgo-muse-invasive-three-steps",
         "2026-10-22-1password-for-agents-platform-muse-grok-claude"
+      ]
+    },
+    {
+      "id": "2026-11-15-claude-managed-agents-self-hosted-private-beta",
+      "url": "https://x.com/ClaudeDevs/status/2120938988165091693?s=20",
+      "title": "Anthropic opens a private beta of self-hosted Claude Managed Agents: run the harness, sandboxes, and session history in your own cloud or on-premises, and choose where Claude requests go",
+      "author": "ClaudeDevs (@ClaudeDevs)",
+      "source": "X",
+      "added": "2026-11-15",
+      "posted": "2026-11-12",
+      "week": "2026-11-09",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "cybersecurity"
+      ],
+      "score": 7,
+      "status": "curated",
+      "blurb": "Eligible organizations can now host the agent harness, sandboxes, and session history inside their own security perimeter, aimed at work that needs access to code and internal systems such as fixing broken builds or triaging alerts. Access is by request through an Anthropic account team. 150K views.",
+      "take": "More control over security, data, and where agents run.",
+      "related": [
+        "2026-10-16-anthropic-acquires-opaque-confidential-ai",
+        "2026-11-02-revolut-decagon-open-weight-models-production",
+        "2026-11-02-claude-self-assessment-safety-report-every-chat",
+        "2026-11-09-claude-fable-5-2-release-rauch-cloud-sandboxes"
+      ]
+    },
+    {
+      "id": "2026-11-15-exa-runs-in-europe-stockholm-eu-data",
+      "url": "https://x.com/ExaAILabs/status/2121260068201263572?s=20",
+      "title": "Exa now runs in Europe: index and retrieval rebuilt in Stockholm, requests stored and processed in the EU, available to enterprise customers",
+      "author": "Exa (@ExaAILabs)",
+      "source": "X",
+      "added": "2026-11-15",
+      "posted": "2026-11-13",
+      "week": "2026-11-09",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "web dev"
+      ],
+      "score": 5.5,
+      "status": "curated",
+      "blurb": "The AI search API provider stood up a separate European deployment, with its index and retrieval stack rebuilt in Stockholm and request data kept in the EU. It launches for enterprise customers first. 32K views.",
+      "take": "EXA is available in Europe",
+      "related": [
+        "exa-agentic-search-infra-scale",
+        "2026-08-28-free-agent-web-search-tinyfish",
+        "2026-10-20-instinct-uses-exa-untrackable-browser-traffic"
+      ]
+    },
+    {
+      "id": "2026-11-15-faa-ground-stop-l3harris-network-update",
+      "url": "https://x.com/sentdefender/status/2121387978089972059",
+      "title": "CBS: a network update by L3Harris to the communications system linking US air traffic control forced a reboot and crash, causing a nationwide ground stop",
+      "author": "OSINTdefender (@sentdefender)",
+      "source": "X",
+      "added": "2026-11-15",
+      "posted": "2026-11-13",
+      "week": "2026-11-09",
+      "topics": [
+        "cybersecurity",
+        "culture"
+      ],
+      "score": 4,
+      "status": "curated",
+      "blurb": "Citing several sources, CBS News reported that an update to the private communications network L3Harris operates for the FAA caused the system to reboot and crash on Friday, November 13, grounding flights across the United States. The cause is reported, not officially confirmed. 756K views.",
+      "related": [
+        "2026-10-22-black-october-27-incidents-48-hours",
+        "2026-11-15-angry-staffer-skynet-week-exchange-faa-ships"
+      ]
+    },
+    {
+      "id": "2026-11-15-angry-staffer-skynet-week-exchange-faa-ships",
+      "url": "https://x.com/Angry_Staffer/status/2121358467281633554?s=20",
+      "title": "One week: Microsoft Exchange down for a full day, a tanker hits a cruise ship, a nationwide FAA ground stop, a cargo ship hits a Delaware bridge; 'not saying it's Skynet'",
+      "author": "Angry Staffer (@Angry_Staffer)",
+      "source": "X",
+      "added": "2026-11-15",
+      "posted": "2026-11-13",
+      "week": "2026-11-09",
+      "topics": [
+        "culture"
+      ],
+      "score": 2.5,
+      "status": "curated",
+      "blurb": "A viral tally of the week's unrelated infrastructure failures, posted as a joke about AI. No link between the incidents is claimed or known. 214K views.",
+      "take": "not on topic, but what a crazy week",
+      "related": [
+        "2026-11-15-faa-ground-stop-l3harris-network-update"
       ]
     }
   ]
