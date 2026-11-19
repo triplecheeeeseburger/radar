@@ -63,6 +63,9 @@
     },
     "2026-11-09": {
       "tldr": "OpenTable’s parent says its OpenAI integration seated **190,000 bookings** in September, a counterweight to Uber’s four agent rides, while Muse’s cloud-VM web browsing looks more like a **workaround**. An unconfirmed report says Anthropic wants **firmware locks** on Western GPUs to block unapproved Chinese open models. Dan Berte joined the **Daily Tech News Show** to talk about Opera’s WebAI launch and its 100M desktop users. Anthropic ships **Fable 5.2**, a step above Opus 5.5 and up to 30% faster; the bottleneck is now ambition and parallel compute. It also opened self-hosted Managed Agents in private beta, Exa launched an EU deployment, and Bitdefender shipped an agentic browser extension. On the Mac, macOS 27.3 lets Core AI in VMs use the host GPU and Neural Engine. An L3Harris network update reportedly grounded flights across the US."
+    },
+    "2026-11-16": {
+      "tldr": "Project Zero cuts its disclosure window to 60 days in 2027 and 30 in 2028, because AI shrinks the time from bug to exploit. Agents are hitting resistance: $1B+ platforms want them blocked, while Vercel and Anthropic ship tools that give agents more reach. Washington weighs public disclosure for Chinese open-weight model use. Five US outages in six days, banks and the FAA included, with no attack confirmed."
     }
   },
   "entries": [
@@ -6276,6 +6279,256 @@
       "take": "not on topic, but what a crazy week",
       "related": [
         "2026-11-15-faa-ground-stop-l3harris-network-update"
+      ]
+    },
+    {
+      "id": "2026-11-19-googleprojectzero-disclosure-2026",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "title": "Project Zero cuts its disclosure deadline to 60, then 30 days",
+      "author": "Natalie Silvanovich",
+      "source": "Project Zero",
+      "added": "2026-11-19",
+      "posted": "2026-11-13",
+      "week": "2026-11-16",
+      "topics": [
+        "security",
+        "ai",
+        "ecosystem",
+        "policy"
+      ],
+      "score": 8.6,
+      "status": "curated",
+      "blurb": "Google Project Zero replaces its \"90 + 30\" policy with a full 90 days, then 60 days from February 2, 2027 and 30 days from January 3, 2028. The 30-day patch soak and most grace periods are gone. The team says AI tools let attackers find bugs and reverse patches faster, and that it now finds several bugs a week.",
+      "take": "incredible developments for coordinated disclosure for the group the industry takes lead from. 2027 onwards, policy will accelerate from 90days grace to 60, and further to 30 days from 2028",
+      "related": []
+    },
+    {
+      "id": "2026-11-19-claudedevs-code-mode",
+      "url": "https://x.com/ClaudeDevs/status/2122801681939234950",
+      "title": "Claude Code adds experimental Code Mode",
+      "author": "@ClaudeDevs",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-17",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "ecosystem"
+      ],
+      "score": 8.0,
+      "status": "curated",
+      "blurb": "Anthropic adds Code Mode to Claude Code as an opt-in experiment. Claude writes scripts that chain tools together, instead of calling each tool one at a time, and can reply while long commands still run. Users enable it with an environment variable.",
+      "take": "Code Mode bypasses MCPs and writes its own scripts to chain tools together",
+      "related": []
+    },
+    {
+      "id": "2026-11-19-oanaolt-platforms-block-agents",
+      "url": "https://x.com/oanaolt/status/2123133949484667358",
+      "title": "$1B+ transaction platforms ask VCs to help them block AI agents",
+      "author": "@oanaolt",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-18",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "security",
+        "ecosystem"
+      ],
+      "score": 7.8,
+      "status": "curated",
+      "blurb": "An SF investor says executives at several platforms that each clear $1B+ in transactions asked for help to block AI agents. One incident: a customer gave an LLM their login, and the agent changed data it should not touch and broke reporting for other customers. She asks for startups that tell agents from humans, block unknown agents and give scoped identity to approved ones.",
+      "take": "Platforms want agents blocked! SF VC speaks to executives at platforms who manage bns in transactions and is asked for help blocking agents. She spins it into a funding opportunity for startups wanting to build authentication solutions for agents or sanctioned APIs",
+      "related": [
+        "2026-11-19-vercel-board"
+      ]
+    },
+    {
+      "id": "2026-11-19-mtslive-chinese-models-disclosure",
+      "url": "https://x.com/MTSlive/status/2123051208067928066",
+      "title": "White House weighs forcing companies to disclose Chinese open-weight model use",
+      "author": "@MTSlive",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-18",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "policy",
+        "ecosystem"
+      ],
+      "score": 7.6,
+      "status": "curated",
+      "blurb": "Per Reuters, the White House and Treasury are discussing a rule that would require US companies to disclose on their websites when they use Chinese open-weight AI models. The goal is to discourage use through public pressure, not a ban.",
+      "take": "alongside the alleged proposal to limit use of sanctioned models at the chip level in the US, this is a furthering of the policy with disclosure/shaming",
+      "related": []
+    },
+    {
+      "id": "2026-11-19-vercel-board",
+      "url": "https://x.com/vercel/status/2123234769236619673",
+      "title": "Vercel launches Board, a message board for people and agents",
+      "author": "@vercel",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-19",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "ecosystem"
+      ],
+      "score": 7.4,
+      "status": "curated",
+      "blurb": "Vercel releases Board as an experiment: a shared message board where people and agents post and pick up tasks. Owners set separate permissions for humans and agents. Vercel pitches it for agent swarms and \"software factories\".",
+      "take": "Vercel launches a messaging board for people and agents",
+      "related": [
+        "2026-11-19-oanaolt-platforms-block-agents"
+      ]
+    },
+    {
+      "id": "2026-11-19-deitaone-disruptions-tally",
+      "url": "https://x.com/DeItaone/status/2122718390846394446",
+      "title": "Five major US disruptions in six days",
+      "author": "@DeItaone",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-17",
+      "week": "2026-11-16",
+      "topics": [
+        "security",
+        "infrastructure"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "A tally of US outages from November 12 to 17: Microsoft 365, an FAA nationwide ground stop, United Airlines, JPMorgan online banking and an NSA classified network. No coordinated cyberattack is confirmed.",
+      "take": "tally of disruptions in recent days",
+      "related": [
+        "2026-11-19-ap-bank-outage",
+        "2026-11-19-caseyhandmer-faa-toothbrush"
+      ]
+    },
+    {
+      "id": "2026-11-19-caseyhandmer-faa-toothbrush",
+      "url": "https://faa.caseyhandmer.com",
+      "title": "US air traffic deconfliction on a toothbrush CPU",
+      "author": "Casey Handmer",
+      "source": "Web",
+      "added": "2026-11-19",
+      "posted": "2026-11-19",
+      "week": "2026-11-16",
+      "topics": [
+        "innovation",
+        "infrastructure"
+      ],
+      "score": 6.6,
+      "status": "curated",
+      "blurb": "A simulation of a full day of US IFR traffic, about 45,000 flights and 5,000 airborne at peak. Every 5 seconds, an emulated ESP32-C3 (160 MHz, 400 KB RAM, the chip in a smart toothbrush) runs conflict detection and resolution for the whole airspace in about 48 ms.",
+      "take": "US airspace on a toothbrush CPU",
+      "related": [
+        "2026-11-19-deitaone-disruptions-tally"
+      ]
+    },
+    {
+      "id": "2026-11-19-yc-rightnow-gpu-kernels",
+      "url": "https://www.linkedin.com/posts/rightnow-yc-f26-is-a-gpu-kernel-lab-top-share-7528171820387258369-HgXq/",
+      "title": "RightNow (YC F26) opens its GPU kernel stack as an inference API",
+      "author": "Y Combinator",
+      "source": "LinkedIn",
+      "added": "2026-11-19",
+      "posted": "2026-11-17",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 6.4,
+      "status": "curated",
+      "blurb": "RightNow writes custom GPU kernels per model and sells the optimization tools to frontier labs. It now offers an inference API for open models: per-token, reserved, dedicated or half-price batch. Enterprises can also have their own models tuned down to the kernel.",
+      "take": "GPU optimization for local models",
+      "related": []
+    },
+    {
+      "id": "2026-11-19-karenxcheng-chrome-snowglobe",
+      "url": "https://www.instagram.com/p/DfXwUZeMtXV/",
+      "title": "Google pays creators to pitch Chrome to hobbyist builders",
+      "author": "@karenxcheng",
+      "source": "Instagram",
+      "added": "2026-11-19",
+      "posted": "2026-11-05",
+      "week": "2026-11-16",
+      "topics": [
+        "browsers",
+        "ai",
+        "ecosystem"
+      ],
+      "score": 6.2,
+      "status": "curated",
+      "blurb": "Creator Karen X. Cheng posts a #GooglePartner video: a Pepper's Ghost weather snowglobe she says she learned to build with Chrome's help. Google is the listed client. The post has about 21K likes.",
+      "take": "Chrome continues to pitch agentic use for mass market tinkerers and hobbyists on Instagram",
+      "related": []
+    },
+    {
+      "id": "2026-11-19-ap-bank-outage",
+      "url": "https://x.com/AP/status/2122402906796159199",
+      "title": "Customers locked out of online accounts at major US banks",
+      "author": "@AP",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-16",
+      "week": "2026-11-16",
+      "topics": [
+        "security",
+        "infrastructure"
+      ],
+      "score": 6.0,
+      "status": "curated",
+      "blurb": "AP reports customers could not reach online accounts at Bank of America, Chase, J.P. Morgan, U.S. Bank and Wells Fargo. AP links it to a technical issue at JPMorgan Chase. No cause beyond that is public.",
+      "take": "no clear word on what happened here",
+      "related": [
+        "2026-11-19-deitaone-disruptions-tally"
+      ]
+    },
+    {
+      "id": "2026-11-19-yarilo7brigada-karpathy-1b",
+      "url": "https://x.com/Yarilo7brigada/status/2123129806015652182",
+      "title": "Karpathy: a 1B model can beat most current LLMs",
+      "author": "@Yarilo7brigada",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-18",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "agentic workflows"
+      ],
+      "score": 6.0,
+      "status": "curated",
+      "blurb": "A clip of Andrej Karpathy saying a 1B-parameter model can outperform most current LLMs, because large models spend capacity memorizing facts that do not matter. His view: capability comes from a small cognitive core plus tools and feedback loops, not model size.",
+      "take": "the benchmark is now 1b models",
+      "related": [
+        "2026-11-19-joshzemon-sutskever-2023"
+      ]
+    },
+    {
+      "id": "2026-11-19-joshzemon-sutskever-2023",
+      "url": "https://x.com/joshzemon/status/2122470345823129697",
+      "title": "Sutskever on AGI, filmed during GPT-4 development",
+      "author": "@joshzemon",
+      "source": "X",
+      "added": "2026-11-19",
+      "posted": "2026-11-17",
+      "week": "2026-11-16",
+      "topics": [
+        "ai"
+      ],
+      "score": 5.2,
+      "status": "curated",
+      "blurb": "A recirculated 2023 interview clip of Ilya Sutskever, recorded while OpenAI built GPT-4. He says the beliefs and desires of the first AGIs will matter a lot, so they must be programmed correctly.",
+      "take": "it's interesting to revisit these projections to see how we stack. This is Sutskever circa 2023. Spoiler: it tracks.",
+      "related": [
+        "2026-11-19-yarilo7brigada-karpathy-1b"
       ]
     }
   ]
