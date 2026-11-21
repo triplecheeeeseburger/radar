@@ -65,7 +65,7 @@
       "tldr": "OpenTable’s parent says its OpenAI integration seated **190,000 bookings** in September, a counterweight to Uber’s four agent rides, while Muse’s cloud-VM web browsing looks more like a **workaround**. An unconfirmed report says Anthropic wants **firmware locks** on Western GPUs to block unapproved Chinese open models. Dan Berte joined the **Daily Tech News Show** to talk about Opera’s WebAI launch and its 100M desktop users. Anthropic ships **Fable 5.2**, a step above Opus 5.5 and up to 30% faster; the bottleneck is now ambition and parallel compute. It also opened self-hosted Managed Agents in private beta, Exa launched an EU deployment, and Bitdefender shipped an agentic browser extension. On the Mac, macOS 27.3 lets Core AI in VMs use the host GPU and Neural Engine. An L3Harris network update reportedly grounded flights across the US."
     },
     "2026-11-16": {
-      "tldr": "Project Zero cuts its disclosure window to 60 days in 2027 and 30 in 2028, because AI shrinks the time from bug to exploit. Agents are hitting resistance: $1B+ platforms want them blocked, while Vercel and Anthropic ship tools that give agents more reach. Washington weighs public disclosure for Chinese open-weight model use. Five US outages in six days, banks and the FAA included, with no attack confirmed."
+      "tldr": "Project Zero cuts its disclosure window to 60 days in 2027 and 30 in 2028, because AI shrinks the time from bug to exploit. An attacker quietly swapped a hosted DeepSeek model for an uncensored copy on Prime Intellect, and OpenRouter caught it. Agents meet resistance: $1B+ platforms want them blocked, while Vercel and Anthropic ship tools that give agents more reach. Washington weighs public disclosure for Chinese open-weight model use. Five US outages in six days, with no attack confirmed."
     }
   },
   "entries": [
@@ -6530,6 +6530,64 @@
       "related": [
         "2026-11-19-yarilo7brigada-karpathy-1b"
       ]
+    },
+    {
+      "id": "2026-11-21-theo-primeintellect-modified-model",
+      "url": "https://x.com/theo/status/2123430257697157587",
+      "title": "Attacker swaps a DeepSeek model for an uncensored copy on Prime Intellect",
+      "author": "@theo",
+      "source": "X",
+      "added": "2026-11-21",
+      "posted": "2026-11-19",
+      "week": "2026-11-16",
+      "topics": [
+        "security",
+        "ai",
+        "ecosystem"
+      ],
+      "score": 8.4,
+      "status": "curated",
+      "blurb": "OpenRouter told customers that from November 8 to 10, Prime Intellect's endpoint for DeepSeek V4.1 Flash served a modified copy of the model with its refusals removed. An attacker with admin access to Prime Intellect's infrastructure made the swap. The modified model refused about 1% of requests on refusal benchmarks, against 83% to 98% for the original. Prime Intellect cannot rule out that requests were read while being processed.",
+      "take": "fascinating \"error\"",
+      "related": []
+    },
+    {
+      "id": "2026-11-21-shirleylinx-being-in-the-room",
+      "url": "https://x.com/ShirleyLinx/status/2123550984026951881",
+      "title": "The hottest job in tech is being good at hanging out",
+      "author": "@ShirleyLinx",
+      "source": "X",
+      "added": "2026-11-21",
+      "posted": "2026-11-20",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "ecosystem"
+      ],
+      "score": 6.8,
+      "status": "curated",
+      "blurb": "A creator argues that AI made marketing so cheap that it stopped working, because every company sends the same AI-written launch posts and cold emails. Startups and VCs now hire \"ecosystem leads\" whose job is to show up in person. She says the accounts that grow online are the manual ones that reply to people by hand.",
+      "take": "the thing that cant be automated becomes the whole strategy. being in the room",
+      "related": []
+    },
+    {
+      "id": "2026-11-21-neon-artificial-openai-film",
+      "url": "https://www.google.com/search?kgmid=%2Fg%2F11xnd97c73&q=neonrated+openai+artificial",
+      "title": "NEON releases Artificial, the OpenAI film Amazon dropped",
+      "author": "NEON",
+      "source": "Web",
+      "added": "2026-11-21",
+      "posted": "2026-11-21",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 5.8,
+      "status": "curated",
+      "blurb": "Luca Guadagnino's Artificial follows Sam Altman's 2023 firing and return at OpenAI, with Andrew Garfield as Altman. Amazon MGM dropped the finished film months after Amazon's $50B investment in OpenAI. NEON bought it and opens it in the US on December 25.",
+      "take": "Independent film distributor NEON is releasing Artificial, a dark comedy-drama about OpenAI",
+      "related": []
     }
   ]
 }
