@@ -6606,7 +6606,31 @@
       "score": 7.6,
       "status": "curated",
       "blurb": "Shopify's promoted placements program pays the company behind an AI agent 0.3% on promoted Shopify products the agent sells. The program is an invite-only beta. In a survey of 354 agent power users, trust was the top concern, named by 22%. The post asks whether users will trust an agent that is paid to recommend products.",
-      "related": []
+      "related": [
+        "2026-11-22-ernietedeschi-stripe-agentic-spend"
+      ]
+    },
+    {
+      "id": "2026-11-22-ernietedeschi-stripe-agentic-spend",
+      "url": "https://x.com/ernietedeschi/status/2123852064027471901",
+      "title": "Stripe: agent wallet spend up nearly 80x since September",
+      "author": "@ernietedeschi",
+      "source": "X",
+      "added": "2026-11-22",
+      "posted": "2026-11-20",
+      "week": "2026-11-16",
+      "topics": [
+        "ai",
+        "agentic workflows",
+        "ecosystem"
+      ],
+      "score": 8.2,
+      "status": "curated",
+      "blurb": "Stripe's chief economist publishes agentic commerce data before the holiday season. Daily spend on Link Agent Wallet, which pays for agents such as Muse, Instinct and Grok, was nearly 80 times higher in mid-November than on September 1, and doubled in the last month. Over 40% of spend went to airfare, travel and lodging, about a third to retail. Stripe gives growth as an index, not dollar totals.",
+      "take": "More than half of consumers who make one agentic purchase come back to make at least a second, typically in the same spending category.",
+      "related": [
+        "2026-11-21-davidpawlan-shopify-promoted-placements"
+      ]
     }
   ]
 }
