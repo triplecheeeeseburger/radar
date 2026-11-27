@@ -66,6 +66,9 @@
     },
     "2026-11-16": {
       "tldr": "Project Zero cuts its disclosure window to 60 days in 2027 and 30 in 2028, because AI shrinks the time from bug to exploit. An attacker quietly swapped a hosted DeepSeek model for an uncensored copy on Prime Intellect, and OpenRouter caught it. Agentic commerce is growing fast: Stripe reports agent wallet spend up nearly 80x since September, and Shopify starts paying agent makers for promoted placements. At the same time, $1B+ platforms want agents blocked, while Vercel and Anthropic ship tools that give agents more reach. Washington weighs public disclosure for Chinese open-weight model use. Five US outages in six days, with no attack confirmed."
+    },
+    "2026-11-23": {
+      "tldr": ""
     }
   },
   "entries": [
@@ -1407,7 +1410,8 @@
       "blurb": "The founder of browser-agent tool browser_use posted a video of Qwen 3.8's uncensored variant carrying out open-ended web tasks with no refusal gates, calling the lack of guardrails 'scary.'",
       "take": "qwen is the queen",
       "related": [
-        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values",
+        "2026-11-27-uncensored-inkling-2-mini-m4-apple-silicon"
       ]
     },
     {
@@ -2267,7 +2271,8 @@
         "2026-10-12-david-marcus-death-of-the-interface-headless-money",
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
         "2026-10-28-instinct-shop-pay-checkout-anywhere",
-        "2026-11-06-aside-computer-use-mac-windows"
+        "2026-11-06-aside-computer-use-mac-windows",
+        "2026-11-27-visa-cli-agent-wallet-verify-agent-earn-ousd"
       ]
     },
     {
@@ -3275,7 +3280,8 @@
         "2026-09-30-instinct-pushes-sponsored-products",
         "2026-10-12-instinct-stuck-in-loop-no-support",
         "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
-        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week"
+        "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week",
+        "2026-11-27-openclaw-search-interest-collapsed"
       ]
     },
     {
@@ -3374,7 +3380,8 @@
         "2026-10-04-a16z-98-percent-households-dont-pay-for-ai",
         "2026-10-16-coreweave-founders-3-3b-stock-sales",
         "2026-10-28-anthropic-files-s1-ipo",
-        "2026-11-06-amodei-anthropic-skips-consumer-video-slop"
+        "2026-11-06-amodei-anthropic-skips-consumer-video-slop",
+        "2026-11-27-anthropic-founders-film-world-class-propaganda"
       ]
     },
     {
@@ -4717,7 +4724,8 @@
         "2026-09-11-browser-use-cloud-cookie-sync-auth",
         "2026-08-28-chatgpt-work-auth-failure-firsthand",
         "2026-10-22-cloudflare-connect-26-bottlenecks-move",
-        "2026-11-10-bitdefender-web-sage-agentic-browser-extension"
+        "2026-11-10-bitdefender-web-sage-agentic-browser-extension",
+        "2026-11-27-visa-cli-agent-wallet-verify-agent-earn-ousd"
       ]
     },
     {
@@ -4872,7 +4880,8 @@
         "2026-10-16-vercel-shop-shopify-agents-first-class-shoppers",
         "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
         "2026-11-05-uber-only-4-rides-booked-by-ai-agents-halloween-week",
-        "2026-11-09-opentable-190k-agent-covers-vs-uber-doordash"
+        "2026-11-09-opentable-190k-agent-covers-vs-uber-doordash",
+        "2026-11-27-visa-cli-agent-wallet-verify-agent-earn-ousd"
       ]
     },
     {
@@ -5285,7 +5294,8 @@
         "2026-09-23-peter-yang-ad-model-agents-browse",
         "2026-10-13-google-poisoned-search-results-for-scrapers",
         "2026-09-30-instinct-pushes-sponsored-products",
-        "2026-11-03-google-cuts-web-search-for-schools-opting-out-of-ai"
+        "2026-11-03-google-cuts-web-search-for-schools-opting-out-of-ai",
+        "2026-11-27-granola-aeo-4600-percent-ai-search-community-note"
       ]
     },
     {
@@ -5525,7 +5535,8 @@
         "2026-09-14-imessage-agents-against-apple-tos",
         "2026-10-28-instinct-shop-pay-checkout-anywhere",
         "2026-11-05-quest-personal-agent-profiler-memory-phone-use",
-        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform",
+        "2026-11-27-openclaw-search-interest-collapsed"
       ]
     },
     {
@@ -5623,7 +5634,8 @@
         "2026-10-16-beisel-apple-strange-company-lunatic-fringe",
         "2026-09-23-isenberg-muse-connectors-13-predictions",
         "2026-11-02-cyclon-ai-phone-yc-f26",
-        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform",
+        "2026-11-27-amodei-chat-is-temporary-next-interface"
       ]
     },
     {
@@ -5879,7 +5891,9 @@
         "coast-local-agent-memory",
         "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
         "2026-11-02-cyclon-ai-phone-yc-f26",
-        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform",
+        "2026-11-27-openclaw-search-interest-collapsed",
+        "2026-11-27-paula-dozsa-tolan-interview-ai-companions-language"
       ]
     },
     {
@@ -5953,7 +5967,8 @@
         "2026-08-19-qwen-uncensored-web-agent-no-gates",
         "2026-10-20-vals-deepseek-beats-gpt-6-sol-offensive-cyber",
         "2026-11-02-revolut-decagon-open-weight-models-production",
-        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models"
+        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models",
+        "2026-11-27-uncensored-inkling-2-mini-m4-apple-silicon"
       ]
     },
     {
@@ -5976,7 +5991,9 @@
       "take": "anthropic does not believe in microdramas",
       "related": [
         "2026-09-29-anthropic-ipo-prospectus-numbers",
-        "2026-11-02-alza-vertical-microdramas-in-amc-cinema"
+        "2026-11-02-alza-vertical-microdramas-in-amc-cinema",
+        "2026-11-27-amodei-chat-is-temporary-next-interface",
+        "2026-11-27-anthropic-founders-film-world-class-propaganda"
       ]
     },
     {
@@ -6095,7 +6112,8 @@
         "2026-09-23-muse-charm-keychain-device",
         "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
         "2026-11-03-siri-ai-open-to-all-developers-app-intents",
-        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use",
+        "2026-11-27-amodei-chat-is-temporary-next-interface"
       ]
     },
     {
@@ -6117,7 +6135,8 @@
       "related": [
         "apple-m7-ultra-memory",
         "2026-11-03-safari-vertical-tabs-macos-27-3-beta",
-        "2026-11-04-macos-27-3-quicklook-markdown-gruber"
+        "2026-11-04-macos-27-3-quicklook-markdown-gruber",
+        "2026-11-27-uncensored-inkling-2-mini-m4-apple-silicon"
       ]
     },
     {
@@ -6141,7 +6160,8 @@
       "related": [
         "anthropic-position-open-weights-models",
         "2026-11-02-revolut-decagon-open-weight-models-production",
-        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values"
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values",
+        "2026-11-27-uncensored-inkling-2-mini-m4-apple-silicon"
       ]
     },
     {
@@ -6316,7 +6336,7 @@
         "agentic workflows",
         "ecosystem"
       ],
-      "score": 8.0,
+      "score": 8,
       "status": "curated",
       "blurb": "Anthropic adds Code Mode to Claude Code as an opt-in experiment. Claude writes scripts that chain tools together, instead of calling each tool one at a time, and can reply while long commands still run. Users enable it with an environment variable.",
       "take": "Code Mode bypasses MCPs and writes its own scripts to chain tools together",
@@ -6482,7 +6502,7 @@
         "security",
         "infrastructure"
       ],
-      "score": 6.0,
+      "score": 6,
       "status": "curated",
       "blurb": "AP reports customers could not reach online accounts at Bank of America, Chase, J.P. Morgan, U.S. Bank and Wells Fargo. AP links it to a technical issue at JPMorgan Chase. No cause beyond that is public.",
       "take": "no clear word on what happened here",
@@ -6503,7 +6523,7 @@
         "ai",
         "agentic workflows"
       ],
-      "score": 6.0,
+      "score": 6,
       "status": "curated",
       "blurb": "A clip of Andrej Karpathy saying a 1B-parameter model can outperform most current LLMs, because large models spend capacity memorizing facts that do not matter. His view: capability comes from a small cognitive core plus tools and feedback loops, not model size.",
       "take": "the benchmark is now 1b models",
@@ -6631,6 +6651,179 @@
       "related": [
         "2026-11-21-davidpawlan-shopify-promoted-placements"
       ]
+    },
+    {
+      "id": "2026-11-27-amodei-chat-is-temporary-next-interface",
+      "url": "https://x.com/okkshitij/status/2125623846934127008?s=20",
+      "title": "Dario Amodei says chat is a temporary interface and describes what should come next, in a clip with 770K views",
+      "author": "Kshitij (@okkshitij)",
+      "source": "X",
+      "posted": "2026-11-25",
+      "topics": [
+        "ai",
+        "innovation",
+        "agentic workflows"
+      ],
+      "score": 6.5,
+      "blurb": "A widely shared interview clip in which Anthropic's CEO argues the chat box is a transitional form for AI products and talks through the interface he expects to replace it. The poster uses it to promote an AI interface gallery; the clip itself is the signal.",
+      "related": [
+        "2026-11-03-siri-ai-open-to-all-developers-app-intents",
+        "2026-11-06-amodei-anthropic-skips-consumer-video-slop",
+        "2026-11-09-chesky-muse-cloud-vm-browsing-workaround-not-platform"
+      ],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
+    },
+    {
+      "id": "2026-11-27-visa-cli-agent-wallet-verify-agent-earn-ousd",
+      "url": "https://x.com/cuysheffield/status/2124555774320062807?s=20",
+      "title": "Visa Crypto Labs ships a new Visa CLI: an agent wallet where people verify their agent with a Visa card, then earn OUSD with it by completing creative tasks",
+      "author": "Cuy Sheffield (@cuysheffield)",
+      "source": "X",
+      "posted": "2026-11-22",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "innovation"
+      ],
+      "score": 6.5,
+      "blurb": "Visa's crypto head frames it as a way for ordinary people to earn income from the AI economy: a card-verified agent identity plus a wallet that gets paid in a stablecoin for task work. Open to US users with eligible Visa cards. 179K views.",
+      "related": [
+        "2026-09-03-browser-use-link-single-use-cards",
+        "2026-10-22-1password-for-agents-platform-muse-grok-claude",
+        "2026-10-28-instinct-shop-pay-checkout-anywhere"
+      ],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
+    },
+    {
+      "id": "2026-11-27-openclaw-search-interest-collapsed",
+      "url": "https://www.threads.com/share/BAyyTChjtF",
+      "title": "'Do you remember when people couldn't shut up about OpenClaw?': search interest peaked early in 2026 and fell to near zero",
+      "author": "Dare Obasanjo (@carnage4life)",
+      "source": "Threads",
+      "posted": "2026-11-26",
+      "topics": [
+        "agentic workflows",
+        "ai",
+        "culture"
+      ],
+      "score": 5.5,
+      "blurb": "Dare Obasanjo posts a search-trends chart of OpenClaw interest spiking then collapsing within months. Replies split on why: OpenAI hired its founder, security problems, and Muse, Instinct, and others absorbing the idea. Several warn the current agent favorites could follow the same curve. 47K views.",
+      "related": [
+        "2026-09-23-instinct-10b-valuation-talks",
+        "2026-11-02-instinct-textbook-ai-boom-failure-thesis",
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+      ],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
+    },
+    {
+      "id": "2026-11-27-uncensored-inkling-2-mini-m4-apple-silicon",
+      "url": "https://x.com/machinestein/status/2124336904212811851?s=20",
+      "title": "An uncensored Inkling 2 Mini (26.4B) runs locally on M4 Apple silicon at up to 85 tok/s with 8 sub-agents; refusals reported down from 100% to 0%",
+      "author": "Arip (@machinestein)",
+      "source": "X",
+      "posted": "2026-11-21",
+      "topics": [
+        "ai",
+        "frontier models",
+        "cybersecurity"
+      ],
+      "score": 5,
+      "blurb": "Atomic Chat released GGUF quantizations from 8.67 to 16.53 GB of a de-refused Inkling 2 Mini that it says keeps 98% of MMLU accuracy and fits a 12 GB laptop; Arip adapted it for M4 Macs. The figures are the authors' own tests. 160K views.",
+      "related": [
+        "2026-08-19-qwen-uncensored-web-agent-no-gates",
+        "2026-11-06-nous-arete-27b-qwen-fine-tune-western-values",
+        "2026-11-09-macos-27-3-core-ai-vm-gpu-neural-engine-passthrough",
+        "2026-11-09-report-anthropic-gpu-firmware-locks-unapproved-models"
+      ],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
+    },
+    {
+      "id": "2026-11-27-granola-aeo-4600-percent-ai-search-community-note",
+      "url": "https://x.com/mal_shaik/status/2124575070391865528?s=20",
+      "title": "Viral claim: Granola grew new users from AI search by 4,600% in 7 months with an answer-engine playbook; a community note says the post recycles another firm's case study",
+      "author": "mal (@mal_shaik)",
+      "source": "X",
+      "posted": "2026-11-22",
+      "topics": [
+        "ai",
+        "web dev",
+        "culture"
+      ],
+      "score": 4.5,
+      "blurb": "The quoted post lists Granola's AEO tactics: start from buyer decisions, fix existing pages first, prioritize technical access for crawlers, and study the sources AI already cites. Readers added that the material comes from Discovered Labs' case study, not the poster's own work. 425K views.",
+      "related": [
+        "2026-10-29-google-ai-search-less-money-more-ads"
+      ],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
+    },
+    {
+      "id": "2026-11-27-colgate-ssr-synthetic-consumers-purchase-intent",
+      "url": "https://x.com/PaulYoungX/status/2124424175980810549?s=20",
+      "title": "Colgate-backed study: LLM 'synthetic consumers' predict purchase intent at 90% of human test-retest reliability using Semantic Similarity Rating",
+      "author": "Paul Young (@PaulYoungX)",
+      "source": "X",
+      "posted": "2026-11-22",
+      "topics": [
+        "ai",
+        "innovation"
+      ],
+      "score": 4.5,
+      "blurb": "The method has a persona-primed model write a free-text reaction, then maps it to a rating by embedding similarity, avoiding the flat mid-scale answers of direct scoring. It was checked against 57 real surveys with 9,300 responses. The paper (arXiv 2510.08338) dates from October 2025; the French thread resurfaced it to 248K views.",
+      "related": [],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
+    },
+    {
+      "id": "2026-11-27-paula-dozsa-tolan-interview-ai-companions-language",
+      "url": "https://american-innocence.com/p/the-ai-friend-whisperer-paula-dozsa",
+      "title": "Tolan engineer Paula Dozsa on AI companions: social but not human-like, supportive without being agreeable, and built to point users back to their own world",
+      "author": "Anna Gat (American Innocence)",
+      "source": "Web",
+      "posted": "2026-11-23",
+      "topics": [
+        "ai",
+        "culture"
+      ],
+      "score": 4,
+      "blurb": "In an interview with Anna Gat, Dozsa says a companion character is a new creative medium where engineering and artistic decisions are inseparable, that language is one of several tools for connection alongside embodiment, and that falling implementation barriers let non-engineers build.",
+      "related": [
+        "2026-11-05-quest-personal-agent-profiler-memory-phone-use"
+      ],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
+    },
+    {
+      "id": "2026-11-27-anthropic-founders-film-world-class-propaganda",
+      "url": "https://x.com/willhmayer/status/2124518949370888368?s=20",
+      "title": "A filmmaker on Anthropic's co-founders film: 'world-class propaganda', with wardrobe, 16mm, and 4:3 framing engineered to make the company feel human and mission-driven",
+      "author": "Will Mayer (@willhmayer)",
+      "source": "X",
+      "posted": "2026-11-22",
+      "topics": [
+        "culture",
+        "ai"
+      ],
+      "score": 3,
+      "blurb": "Anthropic released 'Notes on Building Anthropic', its seven co-founders telling the company's story. Will Mayer reads every creative decision as deliberate brand building and calls it incredibly effective. 186K views.",
+      "related": [
+        "2026-09-29-anthropic-ipo-prospectus-numbers",
+        "2026-11-06-amodei-anthropic-skips-consumer-video-slop"
+      ],
+      "added": "2026-11-27",
+      "week": "2026-11-23",
+      "status": "curated"
     }
   ]
 }
