@@ -68,7 +68,7 @@
       "tldr": "Project Zero cuts its disclosure window to 60 days in 2027 and 30 in 2028, because AI shrinks the time from bug to exploit. An attacker quietly swapped a hosted DeepSeek model for an uncensored copy on Prime Intellect, and OpenRouter caught it. Agentic commerce is growing fast: Stripe reports agent wallet spend up nearly 80x since September, and Shopify starts paying agent makers for promoted placements. At the same time, $1B+ platforms want agents blocked, while Vercel and Anthropic ship tools that give agents more reach. Washington weighs public disclosure for Chinese open-weight model use. Five US outages in six days, with no attack confirmed."
     },
     "2026-11-23": {
-      "tldr": ""
+      "tldr": "Slower Thanksgiving week. Dario Amodei calls chat a **temporary interface**, while Visa ships an **agent wallet** that verifies an agent with a card and pays it in a stablecoin. Search interest in **OpenClaw** has collapsed, institutionalized agents won for now. An uncensored Inkling 2 Mini now runs fast on M4 Macs."
     }
   },
   "entries": [
